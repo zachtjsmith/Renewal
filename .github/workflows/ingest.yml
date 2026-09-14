@@ -1,0 +1,64 @@
+name: Refresh job board
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to run"
+        type: choice
+        default: ingest
+        options:
+          - ingest
+          - verify
+          - ingest-strict
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install
+        run: npm install --no-audit --no-fund
+
+      - name: Check which company boards are alive
+        if: inputs.mode == 'verify'
+        run: npm run verify
+
+      - name: Run the test suite
+        if: inputs.mode != 'verify'
+        run: npm test
+
+      - name: Pull jobs from every ATS board
+        if: inputs.mode == 'ingest' || github.event_name == 'schedule'
+        run: npm run ingest
+
+      - name: Pull jobs (salary required)
+        if: inputs.mode == 'ingest-strict'
+        run: npm run ingest -- --strict
+
+      - name: Check the site still builds
+        if: inputs.mode != 'verify'
+        run: npm run build
+
+      - name: Publish the new board
+        if: inputs.mode != 'verify'
+        run: |
+          git config user.name  "renewal-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add public/jobs.json
+          if git diff --staged --quiet; then
+            echo "No change in listings today."
+          else
+            COUNT=$(node -p "require('./public/jobs.json').count")
+            git commit -m "Board refresh: $COUNT live roles"
+            git push
+          fi
