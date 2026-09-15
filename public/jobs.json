@@ -1,11 +1,82 @@
 {
-  "generatedAt": "2026-09-14T23:11:20.606Z",
-  "count": 68,
+  "generatedAt": "2026-09-15T11:20:29.078Z",
+  "count": 69,
   "sources": [
-    "Greenhouse",
-    "Ashby"
+    "Ashby",
+    "Greenhouse"
   ],
   "jobs": [
+    {
+      "id": "ashby:ramp:40f43993-21e8-4db1-a9f4-7a3e6098a9ba",
+      "title": "Customer Experience Associate (Evening Shift)",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Customer Success",
+      "seniority": "Entry",
+      "segment": null,
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 60000,
+      "max": 70000,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Zendesk",
+        "Notion"
+      ],
+      "posted": 0,
+      "postedAt": "2026-09-14T23:22:19.531+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/40f43993-21e8-4db1-a9f4-7a3e6098a9ba/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/40f43993-21e8-4db1-a9f4-7a3e6098a9ba",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "Ramp builds software that moves real money, from bill payments and corporate cards to reimbursements, accounting integrations, and travel. Our customers rely on us to keep their operations running: invoices get paid, books get closed, and finance leaders can trust the data behind every decision.",
+            "In this role, you will be the person who spots where customers are getting stuck and drives issues to a clear resolution. You will learn a complex product deeply enough to troubleshoot across payments, bank linking, accounting syncs, and card programs, then partner with teams across Engineering, Risk, Product, and Partnerships to get problems solved. This is not script-based support. You will triage, investigate, and make high-signal judgment calls throughout the day.",
+            "You will thrive in this role if you are a systems thinker and deeply customer obsessed. Support is the baseline. How you think about improving processes, tools, and outcomes is what sets you apart."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Be the voice of Ramp's Customer Support. You'll spend your day engaging with customers, primarily via live calls, email, and chat.",
+            "Diagnose across a broad product surface. Ramp isn't one product — it's payments, cards, travel, accounting integrations, and more. You'll need to understand how they connect and where they break.",
+            "Build and shape AI tools, not just use them. Ramp is building AI into CX operations. You'll use AI-powered research tools and proprietary tools like Glass daily, provide direct feedback on what's working, and play an active role in how these tools evolve. You're not just a user — you're a builder. We are all builders at Ramp.",
+            "Communicate with precision and empathy. Our customers are financially sophisticated. You need to explain what's happening, what you're doing about it, and what they should expect — clearly and without filler."
+          ]
+        },
+        {
+          "title": "What You Need",
+          "paras": [],
+          "bullets": [
+            "You're a systems thinker: you don't just solve the ticket in front of you, you ask why the problem exists and how to prevent it from happening again.",
+            "You actively use AI tools — Claude, Notion AI, research and workflow tools — and can demonstrate how you've applied them to get real work done. This is a hard requirement.",
+            "You're fast-moving while holding yourself to a high bar for execution: you balance speed, accuracy, and thoroughness in every interaction.",
+            "You can hold a technical conversation about how systems connect (APIs, bank integrations, accounting software) even if you're not writing code.",
+            "You manage competing priorities without dropping things. When you have 15 open issues across 4 internal teams, nothing falls through.",
+            "You write clearly and concisely. You can explain a payment reconciliation issue to a CFO without jargon.",
+            "You're comfortable on the phone. Many interactions start there.",
+            "You have a demonstrated track record of exceeding key performance standards, including CSAT, QA, and speed-of-service metrics."
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:flexport:8160593",
       "title": "Global Aid Account Manager",
@@ -205,79 +276,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8172873",
-      "title": "Senior Revenue Operations Support Manager, Singapore",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "CS Operations",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Salesforce"
-      ],
-      "posted": 5,
-      "postedAt": "2026-09-09T00:29:31-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8172873?gh_jid=8172873",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8172873?gh_jid=8172873",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "What we’re looking for:",
-          "paras": [
-            "We are seeking a skilled and experienced Senior Revenue Operations Support Manager to join our Revenue Operations Support team. This position will be based out of Singapore and assist our APAC region. You will play a crucial role in managing our background operations utilizing our Salesforce and CLM systems in support of internal stakeholders. You will be engaged in projects to enhance current processes as well as suggest improvements to existing processes. You’ll drive operational excellence and ensure that actions are aligned with company policies and processes."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities:",
-          "paras": [],
-          "bullets": [
-            "Directly support sales and customer success by resolving tickets related to sales process and systems",
-            "Independently review requests and troubleshoot to understand technical challenges, define root causes, and resolve problems.",
-            "Verifying data accuracy of sales orders",
-            "Effectively liaise between Sales, Customer Success, Contracts, Pricing and Finance to resolve issues for the sales team",
-            "Follow documentation to complete ongoing tasks, identify areas for process improvement, create documentation for new tasks, and train new team members to complete ongoing tasks",
-            "Execute existing tests and write new test scenarios to complete user acceptance testing of changes related to salesforce",
-            "Own projects to roll out operational support for new initiatives - generate documentation, train operations teammates, and work cross functionally to make post-launch improvements",
-            "Able to lead and develop operational projects which enhance processing speed and efficiency"
-          ]
-        },
-        {
-          "title": "Qualifications:",
-          "paras": [],
-          "bullets": [
-            "5-10 years of relevant experience in a sales operations role",
-            "Experience as a user of Salesforce within quote to cash business processes",
-            "Proficient in Salesforce skills needed to complete daily troubleshooting, ticket resolution and projects.",
-            "You enjoy taking initiative and making suggestions for improvements",
-            "Detail oriented with high capability for detecting inconsistencies.",
-            "Proficient with Excel/Google Sheets",
-            "Strong time management skills, as well as excellent verbal and written communication skills",
-            "Strong work ethic and organizational skills"
-          ]
-        },
-        {
-          "title": "What Makes Cloudflare Special?",
-          "paras": [
-            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
-            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
-            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:gusto:8189814",
       "title": "Partner Manager, Gusto Pro",
       "company": "Gusto",
@@ -410,6 +408,79 @@
             "You're comfortable on the phone. Many interactions start there.",
             "You have a demonstrated track record of exceeding key performance standards, including CSAT, QA, and speed-of-service metrics."
           ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:cloudflare:8172873",
+      "title": "Senior Revenue Operations Support Manager, Singapore",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "CS Operations",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce"
+      ],
+      "posted": 6,
+      "postedAt": "2026-09-09T00:29:31-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8172873?gh_jid=8172873",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8172873?gh_jid=8172873",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "What we’re looking for:",
+          "paras": [
+            "We are seeking a skilled and experienced Senior Revenue Operations Support Manager to join our Revenue Operations Support team. This position will be based out of Singapore and assist our APAC region. You will play a crucial role in managing our background operations utilizing our Salesforce and CLM systems in support of internal stakeholders. You will be engaged in projects to enhance current processes as well as suggest improvements to existing processes. You’ll drive operational excellence and ensure that actions are aligned with company policies and processes."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities:",
+          "paras": [],
+          "bullets": [
+            "Directly support sales and customer success by resolving tickets related to sales process and systems",
+            "Independently review requests and troubleshoot to understand technical challenges, define root causes, and resolve problems.",
+            "Verifying data accuracy of sales orders",
+            "Effectively liaise between Sales, Customer Success, Contracts, Pricing and Finance to resolve issues for the sales team",
+            "Follow documentation to complete ongoing tasks, identify areas for process improvement, create documentation for new tasks, and train new team members to complete ongoing tasks",
+            "Execute existing tests and write new test scenarios to complete user acceptance testing of changes related to salesforce",
+            "Own projects to roll out operational support for new initiatives - generate documentation, train operations teammates, and work cross functionally to make post-launch improvements",
+            "Able to lead and develop operational projects which enhance processing speed and efficiency"
+          ]
+        },
+        {
+          "title": "Qualifications:",
+          "paras": [],
+          "bullets": [
+            "5-10 years of relevant experience in a sales operations role",
+            "Experience as a user of Salesforce within quote to cash business processes",
+            "Proficient in Salesforce skills needed to complete daily troubleshooting, ticket resolution and projects.",
+            "You enjoy taking initiative and making suggestions for improvements",
+            "Detail oriented with high capability for detecting inconsistencies.",
+            "Proficient with Excel/Google Sheets",
+            "Strong time management skills, as well as excellent verbal and written communication skills",
+            "Strong work ethic and organizational skills"
+          ]
+        },
+        {
+          "title": "What Makes Cloudflare Special?",
+          "paras": [
+            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
+            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
+            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
+          ],
+          "bullets": []
         }
       ]
     },
@@ -1950,73 +2021,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8140643",
-      "title": "Customer Engineer, Korea",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": "Enterprise",
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Python"
-      ],
-      "posted": 20,
-      "postedAt": "2026-08-24T20:39:41-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "What you will do as a Customer Engineer",
-          "paras": [
-            "The Customer Engineer (CE) is the core driver of our technical go-to-market strategy: a trusted technical advisor and primary architect of the customer journey. You will bridge the gap between technical strategy and business value—guiding enterprise clients from initial pre-sales technical validation through onboarding, deployment architecture, and full lifecycle expansion. Sitting within the GTM organization and reporting to a Customer Engineering Leader, you will not hand off your customers once an initial agreement is reached. Instead, you will operate as a quota-carrying technologist, leveraging AI-augmented workflows to eliminate administrative toil so you can focus on high-value architectural design and driving measurable business outcomes across the entire customer journey."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Key Responsibilities",
-          "paras": [],
-          "bullets": [
-            "AI Orchestration & Workflow Automation: Leverage AI agents, Large Language Models (LLMs), and internal platforms to automate routine tasks such as RFP/Security Questionnaire responses, sandbox provisioning, basic telemetry monitoring, and internal/external documentation, reclaiming your time for strategic customer advisory."
-          ]
-        },
-        {
-          "title": "Minimum Qualifications",
-          "paras": [],
-          "bullets": [
-            "Experience: Experience in a customer-facing technical role, such as Solutions Engineering, Customer Engineering, Professional Services, Sales Engineering, Technical Account Management, or as a Forward Deployed Engineer (years of experience required will vary based on Associate, Senior, Staff, or Principal leveling).",
-            "Architectural Mindset: Ability to white-board, design, and articulate complex enterprise network and security architectures clearly.",
-            "Consultative & Advisory Skills: Excellent communication skills with the ability to translate deeply technical concepts into business outcomes for both hands-on engineers and C-level executives.",
-            "Commercial Mindset: Proven track record of operating in a quota-carrying or revenue-aligned environment, with a strong understanding of SaaS metrics, business value translation, and enterprise sales cycles.",
-            "Communication: Exceptional presentation and stakeholder management skills, capable of bridging the gap between deep technical implementation details and high-level C-suite business strategy.",
-            "Technical Breadth: We do not expect every candidate to be an expert in every domain. Qualified candidates will demonstrate depth in at least four of the technical areas below:",
-            "Internet fundamentals: Deep understanding of how the Internet works, including OSI Model layers 1–7, BGP, GRE, TCP/UDP, DNS (authoritative and recursive), HTTP(S), and SSL/TLS.",
-            "Security: Expertise in the security of Internet properties, including WAF, Bot Management, Firewalls, Rate Limiting, (M)TLS, Zero Trust, and SASE concepts."
-          ]
-        },
-        {
-          "title": "Strongly Preferred Qualifications (The \"Good-to-Haves\")",
-          "paras": [],
-          "bullets": [
-            "Technical Enablement: Track record of creating and delivering technical enablement - workshops, code samples, documentation, or developer onboarding - that accelerates customer adoption of complex platforms.",
-            "Applied AI Knowledge: Experience with LLM orchestration, Retrieval-Augmented Generation (RAG) architectures, and model-access controls.",
-            "Regulatory Knowledge: Understanding of regulatory requirements such as PCI DSS, HIPAA, and SOC 2.",
-            "Hyperscaler / Digital Native Background: Talent coming out of hyperscalers, digital natives, distributed systems environments, or startups is strongly valued for its deeper cloud fluency and advanced architecture depth."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:instacart:8157774",
       "title": "Bilingual Customer Experience Specialist",
       "company": "Instacart",
@@ -2158,6 +2162,73 @@
             "We work in an all-remote, asynchronous way, coordinating across time zones to support a focused set of strategic accounts and ensure long-term customer success."
           ],
           "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:cloudflare:8140643",
+      "title": "Customer Engineer, Korea",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Python"
+      ],
+      "posted": 21,
+      "postedAt": "2026-08-24T20:39:41-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "What you will do as a Customer Engineer",
+          "paras": [
+            "The Customer Engineer (CE) is the core driver of our technical go-to-market strategy: a trusted technical advisor and primary architect of the customer journey. You will bridge the gap between technical strategy and business value—guiding enterprise clients from initial pre-sales technical validation through onboarding, deployment architecture, and full lifecycle expansion. Sitting within the GTM organization and reporting to a Customer Engineering Leader, you will not hand off your customers once an initial agreement is reached. Instead, you will operate as a quota-carrying technologist, leveraging AI-augmented workflows to eliminate administrative toil so you can focus on high-value architectural design and driving measurable business outcomes across the entire customer journey."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Key Responsibilities",
+          "paras": [],
+          "bullets": [
+            "AI Orchestration & Workflow Automation: Leverage AI agents, Large Language Models (LLMs), and internal platforms to automate routine tasks such as RFP/Security Questionnaire responses, sandbox provisioning, basic telemetry monitoring, and internal/external documentation, reclaiming your time for strategic customer advisory."
+          ]
+        },
+        {
+          "title": "Minimum Qualifications",
+          "paras": [],
+          "bullets": [
+            "Experience: Experience in a customer-facing technical role, such as Solutions Engineering, Customer Engineering, Professional Services, Sales Engineering, Technical Account Management, or as a Forward Deployed Engineer (years of experience required will vary based on Associate, Senior, Staff, or Principal leveling).",
+            "Architectural Mindset: Ability to white-board, design, and articulate complex enterprise network and security architectures clearly.",
+            "Consultative & Advisory Skills: Excellent communication skills with the ability to translate deeply technical concepts into business outcomes for both hands-on engineers and C-level executives.",
+            "Commercial Mindset: Proven track record of operating in a quota-carrying or revenue-aligned environment, with a strong understanding of SaaS metrics, business value translation, and enterprise sales cycles.",
+            "Communication: Exceptional presentation and stakeholder management skills, capable of bridging the gap between deep technical implementation details and high-level C-suite business strategy.",
+            "Technical Breadth: We do not expect every candidate to be an expert in every domain. Qualified candidates will demonstrate depth in at least four of the technical areas below:",
+            "Internet fundamentals: Deep understanding of how the Internet works, including OSI Model layers 1–7, BGP, GRE, TCP/UDP, DNS (authoritative and recursive), HTTP(S), and SSL/TLS.",
+            "Security: Expertise in the security of Internet properties, including WAF, Bot Management, Firewalls, Rate Limiting, (M)TLS, Zero Trust, and SASE concepts."
+          ]
+        },
+        {
+          "title": "Strongly Preferred Qualifications (The \"Good-to-Haves\")",
+          "paras": [],
+          "bullets": [
+            "Technical Enablement: Track record of creating and delivering technical enablement - workshops, code samples, documentation, or developer onboarding - that accelerates customer adoption of complex platforms.",
+            "Applied AI Knowledge: Experience with LLM orchestration, Retrieval-Augmented Generation (RAG) architectures, and model-access controls.",
+            "Regulatory Knowledge: Understanding of regulatory requirements such as PCI DSS, HIPAA, and SOC 2.",
+            "Hyperscaler / Digital Native Background: Talent coming out of hyperscalers, digital natives, distributed systems environments, or startups is strongly valued for its deeper cloud fluency and advanced architecture depth."
+          ]
         }
       ]
     },
@@ -2348,130 +2419,70 @@
       ]
     },
     {
-      "id": "greenhouse:gusto:8128426",
-      "title": "401(k) Onboarding Advocate",
-      "company": "Gusto",
-      "companySite": "https://gusto.com",
-      "industry": "Payroll / HR",
-      "family": "Onboarding",
+      "id": "greenhouse:mixpanel:8144760",
+      "title": "Renewals Manager",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Renewals",
       "seniority": "Mid",
       "segment": null,
-      "location": "Denver, CO",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 25,
-      "postedAt": "2026-08-20T01:58:09-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8128426",
-      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8128426",
-      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
-      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
-      "sections": [
-        {
-          "title": "About Gusto",
-          "paras": [
-            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role:",
-          "paras": [
-            "We are seeking a dedicated 401(k) Onboarding Advocate to join our team as we expand our 401(k) automation program, which transitioned from pilot to full launch in 2024. Your role will be pivotal in helping employers seamlessly integrate their existing 401(k) plans onto the Gusto Platform. As a key team member, you will enhance the onboarding experience by guiding customers through a complex process, ensuring timely communication, and maintaining smooth operations. Your expertise will help alleviate concerns, answer questions, and provide exceptional service to all onboarded customers."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team:",
-          "paras": [
-            "The 401(k) onboarding team is committed to improving the 401(k) experience for small business owners, their employees, and our 401(k) partners through innovative technology and outstanding service.",
-            "As an AI-native company, we don't just use technology—it’s the backbone of how we work. We expect all team members to demonstrate digital fluency and a proactive approach to leveraging AI tooling to enhance accuracy, speed, and communication. At Gusto, every team member contributes to a significant daily impact on the lives of those we serve. If you take pride in getting the details right and helping customers get the coverage they deserve, this role is for you."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Here’s what you’ll do day-to-day:",
-          "paras": [],
-          "bullets": [
-            "Drive consultative outreach to keep customer onboarding on track: Guide customers through the 401(k) automation onboarding process, ensuring clear communication with 401(k) providers and serving as their advocate post-launch.",
-            "Be a real partner to your customers. You're not afraid to pick up the phone, and whether it's a call, an email, or a screen share, you're accessible, responsive, and clear. Customers should feel like they have someone in their corner.",
-            "Eligibility & Compliance: Qualify interested customers to ensure they are a good fit for the 401(k) automation feature.",
-            "End to end process: You own the entire onboarding journey: confirm plan eligibility and requirements, gather the necessary provider and plan details, build and test the plan in Pay(k)onnect, and confirm accuracy before go-live — all while keeping customers informed and engaged every step of the way."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:gusto:8143038",
-      "title": "Account Coordinator (Retirement Sponsor Support)",
-      "company": "Gusto",
-      "companySite": "https://gusto.com",
-      "industry": "Payroll / HR",
-      "family": "Customer Success",
-      "seniority": "Entry",
-      "segment": null,
-      "location": "Scottsdale, AZ",
-      "mode": "Onsite",
-      "min": null,
-      "max": null,
-      "variable": "",
+      "location": "Remote — New York City ()",
+      "mode": "Remote",
+      "min": 93500,
+      "max": 126500,
+      "variable": "+ equity + bonus",
       "book": "",
       "stack": [
         "Salesforce",
-        "Zendesk",
-        "Intercom",
-        "Freshdesk",
-        "Jira",
-        "Confluence"
+        "Gong"
       ],
       "posted": 25,
-      "postedAt": "2026-08-20T01:23:51-04:00",
+      "postedAt": "2026-08-20T13:45:14-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8143038",
-      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8143038",
-      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
-      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
         {
-          "title": "About Gusto",
+          "title": "About the Team",
           "paras": [
-            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
           ],
           "bullets": []
         },
         {
-          "title": "About the Role:",
+          "title": "About the Role",
           "paras": [
-            "We're looking for someone who genuinely enjoys connecting with people, navigating complexity, and solving problems in real time. In this role, you'll be the first point of contact for plan sponsors and employers reaching out by phone and email bringing warmth, clarity, and solutions to every interaction. You'll also work closely with Product, Engineering, and Sales to flag trends, improve the customer experience, and help shape the product from the front lines.",
-            "If you're calm under pressure, quick on your feet, and motivated by making a real difference in people's financial futures, this role is for you."
+            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
           ],
           "bullets": []
         },
         {
-          "title": "About the Team:",
-          "paras": [
-            "At Gusto 401(k), customer care isn't a support function - it's a competitive advantage. Our Account Coordinator team goes beyond traditional service, acting as true advocates for our customers and the businesses that rely on us."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Here’s what you’ll do day-to-day:",
+          "title": "Responsibilities",
           "paras": [],
           "bullets": [
-            "Deliver exceptional service. Be the first voice and face of Gusto 401(k) for B2B customers, going above and beyond via phone and email to resolve issues and build trust.",
-            "Manage your queue with intention. Balance inbound phone support and email, prioritizing based on urgency while consistently hitting benchmarks for quality CSAT scores, average response time, and time to first response.",
-            "Collaborate cross-functionally. Partner with Product, Engineering, and Sales to troubleshoot issues and deliver the best possible outcomes for customers.",
-            "Identify and surface trends. Spot patterns early and share actionable insights with internal teams to drive product and process improvements.",
-            "Navigate tools with confidence. Manage multiple platforms simultaneously — Talkdesk, Salesforce, Slack, Google Suite, Confluence, and Jira — while handling sensitive information with care.",
-            "Escalate strategically. Know when to escalate complex issues, and see them through to resolution without losing sight of the customer experience.",
-            "Handle sensitive conversations with care. Bring empathy and active listening to emotionally charged situations, finding paths to resolution that reflect Gusto's values.",
-            "Leverage AI. Use AI tools to work more efficiently and deliver smarter, faster solutions for customers and teammates alik"
+            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
+            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
+            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
+            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
+            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
+            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
+            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
+            "Contribute to renewal process improvements and help build scalable playbooks for the team."
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Has",
+          "paras": [],
+          "bullets": [
+            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
+            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
+            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
+            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
+            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
           ]
         }
       ]
@@ -2570,75 +2581,6 @@
       "featured": false,
       "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8143229",
       "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8143229",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Team",
-          "paras": [
-            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
-            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
-            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
-            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
-            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
-            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
-            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
-            "Contribute to renewal process improvements and help build scalable playbooks for the team."
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Has",
-          "paras": [],
-          "bullets": [
-            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
-            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
-            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
-            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
-            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:mixpanel:8144760",
-      "title": "Renewals Manager",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Renewals",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — New York City ()",
-      "mode": "Remote",
-      "min": 93500,
-      "max": 126500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Gong"
-      ],
-      "posted": 25,
-      "postedAt": "2026-08-20T13:45:14-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -2815,6 +2757,135 @@
             "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
           ],
           "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:gusto:8128426",
+      "title": "401(k) Onboarding Advocate",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Denver, CO",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 26,
+      "postedAt": "2026-08-20T01:58:09-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8128426",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8128426",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role:",
+          "paras": [
+            "We are seeking a dedicated 401(k) Onboarding Advocate to join our team as we expand our 401(k) automation program, which transitioned from pilot to full launch in 2024. Your role will be pivotal in helping employers seamlessly integrate their existing 401(k) plans onto the Gusto Platform. As a key team member, you will enhance the onboarding experience by guiding customers through a complex process, ensuring timely communication, and maintaining smooth operations. Your expertise will help alleviate concerns, answer questions, and provide exceptional service to all onboarded customers."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Team:",
+          "paras": [
+            "The 401(k) onboarding team is committed to improving the 401(k) experience for small business owners, their employees, and our 401(k) partners through innovative technology and outstanding service.",
+            "As an AI-native company, we don't just use technology—it’s the backbone of how we work. We expect all team members to demonstrate digital fluency and a proactive approach to leveraging AI tooling to enhance accuracy, speed, and communication. At Gusto, every team member contributes to a significant daily impact on the lives of those we serve. If you take pride in getting the details right and helping customers get the coverage they deserve, this role is for you."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Here’s what you’ll do day-to-day:",
+          "paras": [],
+          "bullets": [
+            "Drive consultative outreach to keep customer onboarding on track: Guide customers through the 401(k) automation onboarding process, ensuring clear communication with 401(k) providers and serving as their advocate post-launch.",
+            "Be a real partner to your customers. You're not afraid to pick up the phone, and whether it's a call, an email, or a screen share, you're accessible, responsive, and clear. Customers should feel like they have someone in their corner.",
+            "Eligibility & Compliance: Qualify interested customers to ensure they are a good fit for the 401(k) automation feature.",
+            "End to end process: You own the entire onboarding journey: confirm plan eligibility and requirements, gather the necessary provider and plan details, build and test the plan in Pay(k)onnect, and confirm accuracy before go-live — all while keeping customers informed and engaged every step of the way."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:gusto:8143038",
+      "title": "Account Coordinator (Retirement Sponsor Support)",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Customer Success",
+      "seniority": "Entry",
+      "segment": null,
+      "location": "Scottsdale, AZ",
+      "mode": "Onsite",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce",
+        "Zendesk",
+        "Intercom",
+        "Freshdesk",
+        "Jira",
+        "Confluence"
+      ],
+      "posted": 26,
+      "postedAt": "2026-08-20T01:23:51-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8143038",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8143038",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role:",
+          "paras": [
+            "We're looking for someone who genuinely enjoys connecting with people, navigating complexity, and solving problems in real time. In this role, you'll be the first point of contact for plan sponsors and employers reaching out by phone and email bringing warmth, clarity, and solutions to every interaction. You'll also work closely with Product, Engineering, and Sales to flag trends, improve the customer experience, and help shape the product from the front lines.",
+            "If you're calm under pressure, quick on your feet, and motivated by making a real difference in people's financial futures, this role is for you."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Team:",
+          "paras": [
+            "At Gusto 401(k), customer care isn't a support function - it's a competitive advantage. Our Account Coordinator team goes beyond traditional service, acting as true advocates for our customers and the businesses that rely on us."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Here’s what you’ll do day-to-day:",
+          "paras": [],
+          "bullets": [
+            "Deliver exceptional service. Be the first voice and face of Gusto 401(k) for B2B customers, going above and beyond via phone and email to resolve issues and build trust.",
+            "Manage your queue with intention. Balance inbound phone support and email, prioritizing based on urgency while consistently hitting benchmarks for quality CSAT scores, average response time, and time to first response.",
+            "Collaborate cross-functionally. Partner with Product, Engineering, and Sales to troubleshoot issues and deliver the best possible outcomes for customers.",
+            "Identify and surface trends. Spot patterns early and share actionable insights with internal teams to drive product and process improvements.",
+            "Navigate tools with confidence. Manage multiple platforms simultaneously — Talkdesk, Salesforce, Slack, Google Suite, Confluence, and Jira — while handling sensitive information with care.",
+            "Escalate strategically. Know when to escalate complex issues, and see them through to resolution without losing sight of the customer experience.",
+            "Handle sensitive conversations with care. Bring empathy and active listening to emotionally charged situations, finding paths to resolution that reflect Gusto's values.",
+            "Leverage AI. Use AI tools to work more efficiently and deliver smarter, faster solutions for customers and teammates alik"
+          ]
         }
       ]
     },
