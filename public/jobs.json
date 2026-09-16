@@ -1,11 +1,286 @@
 {
-  "generatedAt": "2026-09-15T11:20:29.078Z",
-  "count": 69,
+  "generatedAt": "2026-09-16T11:03:17.416Z",
+  "count": 70,
   "sources": [
-    "Ashby",
-    "Greenhouse"
+    "Greenhouse",
+    "Ashby"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:amplitude:8811190002",
+      "title": "Senior Technical Success Manager, Emerging Enterprise - East/Central",
+      "company": "Amplitude",
+      "companySite": "https://amplitude.com",
+      "industry": "Product analytics",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Arlington, VA, Atlanta, GA + more",
+      "mode": "Onsite",
+      "min": 194000,
+      "max": 291000,
+      "variable": "$194K–$291K OTE",
+      "book": "40 accounts",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-15T11:19:46-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/amplitude/jobs/8811190002",
+      "postingUrl": "https://job-boards.greenhouse.io/amplitude/jobs/8811190002",
+      "blurb": "Amplitude is the leading AI analytics platform, helping over 4,700 customers—including Atlassian, Burger King, NBCUniversal, and Square—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze…",
+      "summary": "Amplitude is the leading AI analytics platform, helping over 4,700 customers—including Atlassian, Burger King, NBCUniversal, and Square—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories in G2’s Winter 2026 Report, Amplitude is the best-in-class solution for product, data, and marketing teams. Learn more at amplitude.com .\n\nAs an organization, we deliver for our customers by living our values. We operate from a place of humility, take ownership of problems and successes, approach challenges with a growth mindset, and put our customers at the center of everything we do.",
+      "sections": [
+        {
+          "title": "About The Role & Team",
+          "paras": [
+            "Amplitude is the leading AI-first digital analytics platform that helped over 4,000 customers build better products and digital experiences. Our customer base includes Atlassian, Burger King, NBCUniversal, Square, and Under Armour. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories in G2's Fall 2025 Report, Amplitude is the best-in-class solution for product, data, and marketing teams. Learn more at amplitude.com.",
+            "The Customer Success team is responsible for building relationships with and driving long-term value realization for Amplitude's customers.",
+            "The Senior Technical Success Manager, Emerging Enterprise owns customer deployment, adoption, and value realization across Amplitude's digital analytics platform. They bring strong product knowledge and fluency in customer technical ecosystems: data foundations, taxonomy, instrumentation patterns, and AI agent configuration. They are execution-first and outcome-driven from presales through implementation, adoption, renewal, and expansion."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "As a Senior Technical Success Manager, Strategic, you will:",
+          "paras": [],
+          "bullets": [
+            "Own customer deployment, adoption, and outcomes for a portfolio of 40-50 accounts, from presales through renewal",
+            "Lead deployment planning and implementation across your book, e.g.: scoping, deployment plan creation, kickoff meetings, use case alignment, coordination of delivery (e.g. managing internal and partner teams), project reporting",
+            "Track and manage risks and issues across active deployments, driving resolution before they impact timelines or outcomes",
+            "Monitor portfolio health through AI-augmented signals, engaging proactively to accelerate adoption, drive renewals, and deepen stakeholder engagement",
+            "Drive product adoption by running live working sessions, identifying new use cases to expand value over time, and showcasing new platform capabilities with a point of view on how they enable customer growth",
+            "Develop and maintain success plans tied to customer goals, tracking milestones and risks from onboarding through renewal",
+            "Build and deliver executive business reviews that connect Amplitude usage to measurable business impact, turning adoption into a renewal and expansion story",
+            "Partner with Account Executives on renewals and expansion, building the value story, coaching champions, and identifying growth opportunities across your book"
+          ]
+        },
+        {
+          "title": "Critical Skills Profile",
+          "paras": [],
+          "bullets": [
+            "Business Acumen: Understands each customer's business model, growth levers, and priorities. Builds a path to value that connects Amplitude's platform to the outcomes that matter most to the customer.",
+            "Technical Fluency: Comfortable with Amplitude data architecture, instrumentation methods, taxonomy design, and AI agent workflows. Able to unlock use cases and guide internal and partner delivery teams.",
+            "Delivery Excellence: Drives deployment and implementation quality across a full book of business. Manages timelines, coordinates internal and partner delivery teams, and ensures every account progresses through milestones on time and to standard.",
+            "Prescriptive Customer Guidance: Sets the standard for what good looks like at each stage of the customer journey. Drives accountability across deployment and ongoing success. Pushes back on bad implementation patterns, guides customers toward proven approaches, and holds them accountable to their own defined success criteria.",
+            "Diagnostic Thinking: Proactively recognizes adoption gaps and technical blockers early and drives creative solutions that get customers back on track.",
+            "Curiosity and Self-Sufficiency: Defaults to figuring things out independently. Explores edge cases on your own, and comes to conversations with a point of view. This role requires someone who runs toward ambiguity.",
+            "AI Innovation: Embeds AI in day-to-day workflow to improve efficiency and customer outcomes. Experiments, iterates, and shares best practices."
+          ]
+        },
+        {
+          "title": "At a minimum, you need to have:",
+          "paras": [],
+          "bullets": [
+            "5+ years of experience in Customer Success, Technical Account Management, or a similar customer-facing role in B2B SaaS",
+            "3+ years of experience specifically leading enterprise software deployments where change management and foundational data governance were core priorities.",
+            "2+ years managing a portfolio of 8-10 Strategic accounts",
+            "Experience co-owning renewals and contributing to expansion pipeline alongside a sales counterpart",
+            "Experience training or enabling non-technical teams to become data-sufficient.",
+            "Excellent communication skills to influence everyone from a data engineer to a C-level executive.",
+            "Expert-level project management skills and the ability to thrive in an independent and fast-paced environment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:amplitude:8811225002",
+      "title": "Senior Technical Success Manager, Strategic - West",
+      "company": "Amplitude",
+      "companySite": "https://amplitude.com",
+      "industry": "Product analytics",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Los Angeles, CA, Portland, OR + more",
+      "mode": "Onsite",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "10 accounts",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-15T11:25:24-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/amplitude/jobs/8811225002",
+      "postingUrl": "https://job-boards.greenhouse.io/amplitude/jobs/8811225002",
+      "blurb": "Amplitude is the leading AI analytics platform, helping over 4,700 customers—including Atlassian, Burger King, NBCUniversal, and Square—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze…",
+      "summary": "Amplitude is the leading AI analytics platform, helping over 4,700 customers—including Atlassian, Burger King, NBCUniversal, and Square—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories in G2’s Winter 2026 Report, Amplitude is the best-in-class solution for product, data, and marketing teams. Learn more at amplitude.com .\n\nAs an organization, we deliver for our customers by living our values. We operate from a place of humility, take ownership of problems and successes, approach challenges with a growth mindset, and put our customers at the center of everything we do.",
+      "sections": [
+        {
+          "title": "About The Role & Team",
+          "paras": [
+            "Amplitude is the leading AI-first digital analytics platform that helped over 4,000 customers build better products and digital experiences. Our customer base includes Atlassian, Burger King, NBCUniversal, Square, and Under Armour. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories in G2's Fall 2025 Report, Amplitude is the best-in-class solution for product, data, and marketing teams. Learn more at amplitude.com.",
+            "The Customer Success team is responsible for building relationships with and driving long-term value realization for Amplitude's customers.",
+            "The Senior Technical Success Manager, Strategic owns customer deployment, adoption, and value realization across Amplitude's digital analytics platform. They bring strong product knowledge and fluency in customer technical ecosystems: data foundations, taxonomy, instrumentation patterns, and AI agent configuration. They are execution-first and outcome-driven from presales through implementation, adoption, renewal, and expansion."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "As a Senior Technical Success Manager, Strategic, you will:",
+          "paras": [],
+          "bullets": [
+            "Own customer deployment, adoption, and outcomes for a portfolio of 10 accounts, from presales through renewal",
+            "Lead deployment planning and implementation across your book, e.g.: scoping, deployment plan creation, kickoff meetings, use case alignment, coordination of delivery (e.g. managing internal and partner teams), project reporting",
+            "Track and manage risks and issues across active deployments, driving resolution before they impact timelines or outcomes",
+            "Monitor portfolio health through AI-augmented signals, engaging proactively to accelerate adoption, drive renewals, and deepen stakeholder engagement",
+            "Drive product adoption by running live working sessions, identifying new use cases to expand value over time, and showcasing new platform capabilities with a point of view on how they enable customer growth",
+            "Develop and maintain success plans tied to customer goals, tracking milestones and risks from onboarding through renewal",
+            "Build and deliver executive business reviews that connect Amplitude usage to measurable business impact, turning adoption into a renewal and expansion story",
+            "Partner with Account Executives on renewals and expansion, building the value story, coaching champions, and identifying growth opportunities across your book"
+          ]
+        },
+        {
+          "title": "Critical Skills Profile",
+          "paras": [],
+          "bullets": [
+            "Business Acumen: Understands each customer's business model, growth levers, and priorities. Builds a path to value that connects Amplitude's platform to the outcomes that matter most to the customer.",
+            "Technical Fluency: Comfortable with Amplitude data architecture, instrumentation methods, taxonomy design, and AI agent workflows. Able to unlock use cases and guide internal and partner delivery teams.",
+            "Delivery Excellence: Drives deployment and implementation quality across a full book of business. Manages timelines, coordinates internal and partner delivery teams, and ensures every account progresses through milestones on time and to standard.",
+            "Prescriptive Customer Guidance: Sets the standard for what good looks like at each stage of the customer journey. Drives accountability across deployment and ongoing success. Pushes back on bad implementation patterns, guides customers toward proven approaches, and holds them accountable to their own defined success criteria.",
+            "Diagnostic Thinking: Proactively recognizes adoption gaps and technical blockers early and drives creative solutions that get customers back on track.",
+            "Curiosity and Self-Sufficiency: Defaults to figuring things out independently. Explores edge cases on your own, and comes to conversations with a point of view. This role requires someone who runs toward ambiguity.",
+            "AI Innovation: Embeds AI in day-to-day workflow to improve efficiency and customer outcomes. Experiments, iterates, and shares best practices."
+          ]
+        },
+        {
+          "title": "At a minimum, you need to have:",
+          "paras": [],
+          "bullets": [
+            "6+ years of experience in Customer Success, Technical Account Management, or a similar customer-facing role in B2B SaaS",
+            "3+ years of experience specifically leading enterprise software deployments where change management and foundational data governance were core priorities.",
+            "2+ years managing a portfolio of 8-10 Strategic accounts",
+            "Experience co-owning renewals and contributing to expansion pipeline alongside a sales counterpart",
+            "Experience training or enabling non-technical teams to become data-sufficient.",
+            "Excellent communication skills to influence everyone from a data engineer to a C-level executive.",
+            "Expert-level project management skills and the ability to thrive in an independent and fast-paced environment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:gusto:8203030",
+      "title": "Technical Account Manager",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Scottsdale, AZ",
+      "mode": "Onsite",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce"
+      ],
+      "posted": 0,
+      "postedAt": "2026-09-15T17:58:37-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8203030",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8203030",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role:",
+          "paras": [
+            "As a Technical Account Manager, you will act as the single point of contact for all support inquiries, enhancing their user experience and serving as a subject matter expert for Gusto’s core products. You will guide customers through our newest product features, provide proactive customer education and support, partner cross-functionally, move quickly to strategize and creatively solve problems, act as their advocate internally to influence our product decisions and roadmap, and holistically support the customer/Gusto partnership. You’ll address and solve real problems and deliver an exceptional customer experience to some of our most valued companies to build trust and loyalty to Gusto for the book of business.",
+            "This role requires leveraging AI-assisted tools to accelerate research and communication by demonstrating fluency in delegating repetitive work, crafting structured prompts, and critically reviewing outputs for accuracy, tone, and empathy, all while consistently applying compliance and data-privacy guardrails, delivering measurable efficiency gains, and exercising sound judgment on when to avoid AI or escalate edge cases."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Team:",
+          "paras": [
+            "The Dedicated Service team is a segment of our Care team dedicated to building and expanding relationships with our high-value customers. The team manages an assigned book of customer accounts, serving as product experts, and providing trusted and efficient service."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Here’s what you’ll do day-to-day:",
+          "paras": [],
+          "bullets": [
+            "Own the customer journey by building trust, rapport, and partnership with your book of business through inbound and outbound phone, email, and Google Meet interactions.",
+            "Act as a dedicated advisor, building trust in the support you provide to contain most customer interactions from your dedicated customers.",
+            "Provide passionate, opinionated, consistent, expert, reliable support as a dedicated point of contact for payroll and benefits inquiries .",
+            "Proactively connect with customers to build a deep understanding of their business, your support model, and their preferred connection style.",
+            "Identify churn risk and quickly act to deliver solutions to mitigate the risk of churn, using your product knowledge and unique understanding of each individual customer.",
+            "Partner with your customers and cross-functionally to unblock points of friction, proactively address potential concerns, and build an understanding of individual team needs and processes.",
+            "Think creatively, pivot quickly, live in ambiguity, and collaborate strategically. You will be required to expand your critical thinking skills and creatively problem-solve across all areas of the business, with an understanding of a variety of stakeholders and needs.",
+            "Display strong product knowledge, including a deep understanding of the competitive landscape to protect against customer churn."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:ab74a687-4545-47c9-870d-bfd7e7cde576",
+      "title": "Enterprise Customer Activation Manager | Bill Pay & Procurement",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Onboarding",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 115000,
+      "max": 212500,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-15T22:24:08.782+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/ab74a687-4545-47c9-870d-bfd7e7cde576/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/ab74a687-4545-47c9-870d-bfd7e7cde576",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "The Enterprise CSM, Bill Pay & Procurement Specialist, ensures Ramp’s upmarket customers quickly unlock value from our AP Automation and Procurement products. As part of the Customer Activation team, you’ll guide customers through implementation, configure workflows aligned to their internal processes, and help them operationalize Ramp’s tools to drive efficiency and compliance. In this role, you will help shape Ramp’s Enterprise activation motion for Bill Pay & Procurement and influence the strategy that accelerates customer adoption and business impact."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Deliver High-Quality Implementations",
+          "paras": [],
+          "bullets": [
+            "Lead Enterprise customers through the end-to-end onboarding of Ramp Bill Pay and Procurement, ensuring fast, accurate, and complete deployment",
+            "Educate customers on Ramp’s AP workflows, procurement best practices, approval logic, vendor management, and policy configuration"
+          ]
+        },
+        {
+          "title": "Drive Customer Adoption & Business Outcomes",
+          "paras": [],
+          "bullets": [
+            "Prevent delays in implementation by proactively identifying blockers and reinforcing the value of adopting Ramp’s AP & Procurement solutions",
+            "Understand customers’ current AP, purchasing, and approval processes to identify pain points, recommend improvements, and guide them toward an optimized rollout"
+          ]
+        }
+      ]
+    },
     {
       "id": "ashby:ramp:40f43993-21e8-4db1-a9f4-7a3e6098a9ba",
       "title": "Customer Experience Associate (Evening Shift)",
@@ -25,7 +300,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -93,7 +368,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -160,14 +435,14 @@
       "family": "Account Management",
       "seniority": "Mid",
       "segment": null,
-      "location": "Denver, CO -, NY + more",
+      "location": "Denver, CO - ; New York, NY - ; San Francisco, CA",
       "mode": "Hybrid",
       "min": 109785,
       "max": 135402,
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -229,7 +504,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -294,7 +569,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -359,7 +634,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -429,7 +704,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-09T00:29:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -500,7 +775,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -572,7 +847,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-08T22:08:28.085+00:00",
       "source": "Ashby",
       "featured": false,
@@ -644,7 +919,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-07T09:30:36-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -718,7 +993,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -788,7 +1063,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -824,7 +1099,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -892,7 +1167,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-03T13:52:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -966,7 +1241,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-02T14:19:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1036,7 +1311,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1105,7 +1380,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-02T09:49:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1177,7 +1452,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1248,7 +1523,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1311,7 +1586,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1376,7 +1651,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-01T16:40:32.875+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1444,7 +1719,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1518,7 +1793,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-08-28T12:42:34-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1594,7 +1869,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1670,7 +1945,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-08-28T20:46:40.303+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1751,7 +2026,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1827,7 +2102,7 @@
         "Gong",
         "SQL"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-08-27T19:17:55.860+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1897,7 +2172,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-08-26T11:34:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1968,7 +2243,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2039,7 +2314,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2109,7 +2384,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2183,7 +2458,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-08-24T20:39:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2248,7 +2523,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-08-24T07:56:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2316,7 +2591,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-08-24T17:13:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2375,7 +2650,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-08-21T10:06:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2419,7 +2694,7 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8144760",
+      "id": "greenhouse:mixpanel:8144765",
       "title": "Renewals Manager",
       "company": "Mixpanel",
       "companySite": "https://mixpanel.com",
@@ -2427,22 +2702,22 @@
       "family": "Renewals",
       "seniority": "Mid",
       "segment": null,
-      "location": "Remote — New York City ()",
+      "location": "Remote —  ()",
       "mode": "Remote",
-      "min": 93500,
-      "max": 126500,
-      "variable": "+ equity + bonus",
+      "min": null,
+      "max": null,
+      "variable": "",
       "book": "",
       "stack": [
         "Salesforce",
         "Gong"
       ],
-      "posted": 25,
-      "postedAt": "2026-08-20T13:45:14-04:00",
+      "posted": 26,
+      "postedAt": "2026-08-20T13:47:35-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -2488,7 +2763,7 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8144765",
+      "id": "greenhouse:mixpanel:8144760",
       "title": "Renewals Manager",
       "company": "Mixpanel",
       "companySite": "https://mixpanel.com",
@@ -2496,22 +2771,22 @@
       "family": "Renewals",
       "seniority": "Mid",
       "segment": null,
-      "location": "Remote —  ()",
+      "location": "Remote — New York City ()",
       "mode": "Remote",
-      "min": null,
-      "max": null,
-      "variable": "",
+      "min": 93500,
+      "max": 126500,
+      "variable": "+ equity + bonus",
       "book": "",
       "stack": [
         "Salesforce",
         "Gong"
       ],
-      "posted": 25,
-      "postedAt": "2026-08-20T13:47:35-04:00",
+      "posted": 26,
+      "postedAt": "2026-08-20T13:45:14-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -2575,7 +2850,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2641,7 +2916,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2712,7 +2987,7 @@
       "stack": [
         "Notion"
       ],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-08-19T16:50:46-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2761,65 +3036,6 @@
       ]
     },
     {
-      "id": "greenhouse:gusto:8128426",
-      "title": "401(k) Onboarding Advocate",
-      "company": "Gusto",
-      "companySite": "https://gusto.com",
-      "industry": "Payroll / HR",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Denver, CO",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 26,
-      "postedAt": "2026-08-20T01:58:09-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8128426",
-      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8128426",
-      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
-      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
-      "sections": [
-        {
-          "title": "About Gusto",
-          "paras": [
-            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role:",
-          "paras": [
-            "We are seeking a dedicated 401(k) Onboarding Advocate to join our team as we expand our 401(k) automation program, which transitioned from pilot to full launch in 2024. Your role will be pivotal in helping employers seamlessly integrate their existing 401(k) plans onto the Gusto Platform. As a key team member, you will enhance the onboarding experience by guiding customers through a complex process, ensuring timely communication, and maintaining smooth operations. Your expertise will help alleviate concerns, answer questions, and provide exceptional service to all onboarded customers."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team:",
-          "paras": [
-            "The 401(k) onboarding team is committed to improving the 401(k) experience for small business owners, their employees, and our 401(k) partners through innovative technology and outstanding service.",
-            "As an AI-native company, we don't just use technology—it’s the backbone of how we work. We expect all team members to demonstrate digital fluency and a proactive approach to leveraging AI tooling to enhance accuracy, speed, and communication. At Gusto, every team member contributes to a significant daily impact on the lives of those we serve. If you take pride in getting the details right and helping customers get the coverage they deserve, this role is for you."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Here’s what you’ll do day-to-day:",
-          "paras": [],
-          "bullets": [
-            "Drive consultative outreach to keep customer onboarding on track: Guide customers through the 401(k) automation onboarding process, ensuring clear communication with 401(k) providers and serving as their advocate post-launch.",
-            "Be a real partner to your customers. You're not afraid to pick up the phone, and whether it's a call, an email, or a screen share, you're accessible, responsive, and clear. Customers should feel like they have someone in their corner.",
-            "Eligibility & Compliance: Qualify interested customers to ensure they are a good fit for the 401(k) automation feature.",
-            "End to end process: You own the entire onboarding journey: confirm plan eligibility and requirements, gather the necessary provider and plan details, build and test the plan in Pay(k)onnect, and confirm accuracy before go-live — all while keeping customers informed and engaged every step of the way."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:gusto:8143038",
       "title": "Account Coordinator (Retirement Sponsor Support)",
       "company": "Gusto",
@@ -2842,7 +3058,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2905,7 +3121,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-08-18T17:23:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2972,7 +3188,7 @@
       "stack": [
         "Gong"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-08-18T16:20:52.077+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3051,7 +3267,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-08-18T16:04:22.263+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3123,7 +3339,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-17T14:57:27.477+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3202,7 +3418,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-14T08:58:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3276,7 +3492,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-14T08:58:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3350,7 +3566,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-14T14:07:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3424,7 +3640,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-13T16:51:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3492,7 +3708,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-13T16:50:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3560,7 +3776,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-13T18:08:29.292+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3643,7 +3859,7 @@
         "Linear",
         "Metabase"
       ],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-13T14:12:16.915+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3713,7 +3929,7 @@
       "variable": "",
       "book": "60 customers",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-11T22:25:11.605+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3783,7 +3999,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-11T17:23:19.988+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3852,7 +4068,7 @@
         "Gainsight",
         "Totango"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-10T16:41:17-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3900,71 +4116,6 @@
       ]
     },
     {
-      "id": "greenhouse:gusto:7096996",
-      "title": "Technical Account Manager",
-      "company": "Gusto",
-      "companySite": "https://gusto.com",
-      "industry": "Payroll / HR",
-      "family": "Account Management",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Scottsdale, AZ",
-      "mode": "Onsite",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Salesforce"
-      ],
-      "posted": 35,
-      "postedAt": "2026-08-10T16:31:04-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/7096996",
-      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/7096996",
-      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
-      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
-      "sections": [
-        {
-          "title": "About Gusto",
-          "paras": [
-            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role:",
-          "paras": [
-            "As a Technical Account Manager, you will act as the single point of contact for all support inquiries, enhancing their user experience and serving as a subject matter expert for Gusto’s core products. You will guide customers through our newest product features, provide proactive customer education and support, partner cross-functionally, move quickly to strategize and creatively solve problems, act as their advocate internally to influence our product decisions and roadmap, and holistically support the customer/Gusto partnership. You’ll address and solve real problems and deliver an exceptional customer experience to some of our most valued companies to build trust and loyalty to Gusto for the book of business.",
-            "This role requires leveraging AI-assisted tools to accelerate research and communication by demonstrating fluency in delegating repetitive work, crafting structured prompts, and critically reviewing outputs for accuracy, tone, and empathy, all while consistently applying compliance and data-privacy guardrails, delivering measurable efficiency gains, and exercising sound judgment on when to avoid AI or escalate edge cases."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team:",
-          "paras": [
-            "The Dedicated Service team is a segment of our Care team dedicated to building and expanding relationships with our high-value customers. The team manages an assigned book of customer accounts, serving as product experts, and providing trusted and efficient service."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Here’s what you’ll do day-to-day:",
-          "paras": [],
-          "bullets": [
-            "Own the customer journey by building trust, rapport, and partnership with your book of business through inbound and outbound phone, email, and Google Meet interactions.",
-            "Act as a dedicated advisor, building trust in the support you provide to contain most customer interactions from your dedicated customers.",
-            "Provide passionate, opinionated, consistent, expert, reliable support as a dedicated point of contact for payroll and benefits inquiries .",
-            "Proactively connect with customers to build a deep understanding of their business, your support model, and their preferred connection style.",
-            "Identify churn risk and quickly act to deliver solutions to mitigate the risk of churn, using your product knowledge and unique understanding of each individual customer.",
-            "Partner with your customers and cross-functionally to unblock points of friction, proactively address potential concerns, and build an understanding of individual team needs and processes.",
-            "Think creatively, pivot quickly, live in ambiguity, and collaborate strategically. You will be required to expand your critical thinking skills and creatively problem-solve across all areas of the business, with an understanding of a variety of stakeholders and needs.",
-            "Display strong product knowledge, including a deep understanding of the competitive landscape to protect against customer churn."
-          ]
-        }
-      ]
-    },
-    {
       "id": "ashby:ramp:94d79eed-34db-42c8-b47c-5edef335b7f2",
       "title": "Customer Activation Manager | Scaled",
       "company": "Ramp",
@@ -3980,7 +4131,7 @@
       "variable": "",
       "book": "100 customers",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-10T16:22:34.383+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4048,7 +4199,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-10T20:47:19.474+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4116,7 +4267,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-10T20:47:02.283+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4188,7 +4339,7 @@
         "HubSpot",
         "SQL"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-10T22:00:32.652+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4262,7 +4413,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-06T09:29:34-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4336,7 +4487,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-06T15:30:18.046+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4406,7 +4557,7 @@
         "Salesforce",
         "HubSpot"
       ],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-05T13:15:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4480,7 +4631,7 @@
         "Tableau",
         "SQL"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-04T14:07:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4552,7 +4703,7 @@
         "Tableau",
         "SQL"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-04T14:07:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4619,7 +4770,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-04T17:33:05.466+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4688,7 +4839,7 @@
       "variable": "$144K–$220K OTE",
       "book": "Team of 12",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-03T09:54:49-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4733,73 +4884,6 @@
             "Ensure your team stays engaged post-sale, driving product activation, adoption, and utilization to convert expansion into durable retention.",
             "Optimize sales processes and KPIs across the full funnel, from expansion to retention.",
             "Leverage customer and usage data to refine segmentation, targeting, and account strategy."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:instacart:8077677",
-      "title": "Senior Manager, Technical Account Management (Enterprise)",
-      "company": "Instacart",
-      "companySite": "https://www.instacart.com",
-      "industry": "Grocery delivery",
-      "family": "Account Management",
-      "seniority": "Manager",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 183000,
-      "max": 193000,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [],
-      "posted": 45,
-      "postedAt": "2026-07-31T12:59:17-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8077677",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8077677",
-      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
-      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
-      "sections": [
-        {
-          "title": "Instacart is a Flex First team",
-          "paras": [
-            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Overview",
-          "paras": [
-            "Instacart is seeking a Senior Manager to build, train, and lead our Technical Account Management (TAM) practice and own post-launch technical excellence for our premier Storefront Pro (SFP) product.\n\nStorefront Pro is the market leader in e-commerce solutions for grocery, combining Instacart's enormous scaling abilities with best-in-class customer experiences, while bridging online and in-store commerce.\n\nOver the past two years, SFP has grown explosively, launching triple digits of retailers ranging from local independent favorites to midsize players to multinational giants — totalling billions in revenue. You will own post-launch technical health and excellence across the entire SFP space, founding and scaling a tiered TAM organization to match the size and complexity of that portfolio."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Job",
-          "paras": [],
-          "bullets": [
-            "Hire, train, and develop the Technical Account Management team from the ground up, growing it through coaching and mentorship into a world-class practice",
-            "Define, develop, and refine the approach to platform health for SFP; identify and monitor key metrics and establish measurement as a foundational team practice",
-            "Design and operate the team's operating model — portfolio assignment, tiering by account size and complexity, coverage, and escalation paths — and evolve it as the portfolio scales",
-            "Develop and operate systems of intake and prioritization spanning external and internal stakeholders, balancing competing priorities across resource management, product roadmap, and business commitments",
-            "Serve as a senior escalation point for critical issues, communicating with retailer stakeholders at all levels — including C-suite — across a range of platform matters",
-            "Negotiate scope and responsibility boundaries with partners and internally, holding a principled line on what the TAM function owns versus Customer Success, Project Management, Technical Support, Solution Architecture, and Engineering",
-            "Initiate and operate internal cross-functional initiatives that drive continuous technical improvement in SFP's deployments and operation, and synthesize systemic patterns into product and engineering roadmap influence"
-          ]
-        },
-        {
-          "title": "Minimum Qualifications",
-          "paras": [],
-          "bullets": [
-            "10+ years of experience in technical account management, solutions engineering/architecture, technical consulting, or engineering, ideally in SaaS or platform environments",
-            "5+ years leading, hiring, and maturing engineering and/or engineering-adjacent teams; experience building or significantly scaling a team is strongly preferred",
-            "Outstanding communication and presentation skills, including experience liaising with VP-level and C-suite stakeholders on high-priority issues",
-            "Ability to define and drive large-scale transformation programs across a cross-functional landscape with measurable impact",
-            "Engineering depth at scale and speed: ability to analyze and diagnose complex platform integrations — REST APIs, authentication, ETL, message queues, async patterns, error handling and recovery — and drive improvements",
-            "Proven ability to balance proactive and reactive approaches to technical health, delivering on urgent needs without compromising long-term maintainability",
-            "Ability to thrive in a highly collaborative landscape, coordinating across many internal partners (project management, customer success, product management, engineering, solution architecture) to consistently deliver successful outcomes"
           ]
         }
       ]
