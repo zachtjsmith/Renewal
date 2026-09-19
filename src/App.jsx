@@ -11,8 +11,8 @@ import React, { useState, useMemo, useEffect, useRef } from "react";
 const BRAND = {
   name: "renewal",
   line: "Customer success jobs, nothing invented.",
-  contactEmail: "zachtjsmith@gmail.com",
-  GumRoadShop: "https://zachsmith43.gumroad.com/",
+  contactEmail: "hello@renewal.jobs",
+  etsyShop: "https://www.etsy.com/shop/YOURSHOPNAME",
 };
 
 const JOBS_URL = "/jobs.json";
@@ -117,17 +117,29 @@ const ISSUES = [
 ];
 
 /* --- shop ----------------------------------------------------------------
-   Checkout runs through Gumroad. Set SHOP.vendor once and every button
-   follows. If you move to Etsy or Stripe, change the buildUrl function and
-   nothing else in the file needs touching.                               */
+   PASTE THE REAL LINK. Each product below has a `url` field — open the
+   product in your Gumroad dashboard, hit Share, copy the URL, paste it in.
+   That always works, whatever the permalink happens to be.
+
+   If a `url` is left empty, the link is built from `vendor` + `slug` as a
+   fallback. That fallback only works if the product's Gumroad permalink is
+   character-for-character identical to the slug, which is why guessing it
+   produces 404s. Prefer pasting.                                          */
 const SHOP = {
-  vendor: "zachsmith43",                       // <- your Gumroad username
-  buildUrl: (slug) => `https://${SHOP.vendor}.gumroad.com/l/${slug}?wanted=true`,
+  vendor: "YOURNAME",                       // <- your Gumroad username
+  freeLeadMagnetUrl: "",                    // <- paste the free pack's URL
   freeLeadMagnet: "free-cs-prompts",
+  buildUrl: (product) => {
+    const explicit = typeof product === "string" ? "" : (product.url || "").trim();
+    if (explicit) return explicit;
+    const slug = typeof product === "string" ? product : product.slug;
+    return `https://${SHOP.vendor}.gumroad.com/l/${slug}?wanted=true`;
+  },
 };
 
 const BUNDLE = {
   slug: "complete-cs-toolkit",
+  url: "",                                  // <- paste the Gumroad link here
   name: "The Complete CS Toolkit",
   price: 69,
   compareAt: "$120+ separately",
@@ -148,6 +160,7 @@ const BUNDLE = {
 const PRODUCTS = [
   {
     slug: "health-scorecard",
+    url: "",                          // <- paste the Gumroad link here
     name: "Customer Health Scorecard",
     price: 24,
     format: "Excel",
@@ -165,6 +178,7 @@ const PRODUCTS = [
   },
   {
     slug: "qbr-decks",
+    url: "",                          // <- paste the Gumroad link here
     name: "QBR Deck Template ×4",
     price: 24,
     format: "PowerPoint",
@@ -182,6 +196,7 @@ const PRODUCTS = [
   },
   {
     slug: "onboarding-playbook",
+    url: "",                          // <- paste the Gumroad link here
     name: "Customer Onboarding Playbook",
     price: 24,
     format: "Word",
@@ -199,6 +214,7 @@ const PRODUCTS = [
   },
   {
     slug: "email-scripts",
+    url: "",                          // <- paste the Gumroad link here
     name: "22 Renewal & Escalation Scripts",
     price: 24,
     format: "Word",
@@ -216,6 +232,7 @@ const PRODUCTS = [
   },
   {
     slug: "success-plan",
+    url: "",                          // <- paste the Gumroad link here
     name: "Success Plan + Tracker",
     price: 24,
     format: "Word + Excel",
@@ -233,6 +250,7 @@ const PRODUCTS = [
   },
   {
     slug: "csm-30-60-90-kit",
+    url: "",                          // <- paste the Gumroad link here
     name: "CSM 30-60-90 Plan Kit",
     price: 24,
     format: "Word + PowerPoint",
@@ -251,6 +269,7 @@ const PRODUCTS = [
   },
   {
     slug: "ai-prompt-library",
+    url: "",                          // <- paste the Gumroad link here
     name: "The AI Prompt Library for CS",
     price: 39,
     format: "Word + plain text",
@@ -372,18 +391,18 @@ function Header({ tab, setTab }) {
             <span style={{ fontSize: 21, fontWeight: 800, letterSpacing: "-0.045em", color: C.ink }}>{BRAND.name}</span>
             <span style={{ width: 7, height: 7, borderRadius: 2, background: C.signal, marginTop: 6 }} />
           </button>
-          <nav className="hidden md:flex" style={{ gap: 22, alignItems: "center", flex: 1 }}>
+          <nav className="nav-links" style={{ gap: 22, alignItems: "center", flex: 1 }}>
             {tabs.map(([k, label]) => (
               <button key={k} onClick={() => setTab(k)} style={{ background: "none", border: "none", padding: "4px 0", cursor: "pointer", fontFamily: FONT, fontSize: 14.5, fontWeight: tab === k ? 600 : 450, color: tab === k ? C.ink : C.muted, borderBottom: "2px solid " + (tab === k ? C.signal : "transparent") }}>{label}</button>
             ))}
           </nav>
-          <div className="hidden md:flex" style={{ gap: 10, marginLeft: "auto" }}>
+          <div className="nav-cta" style={{ gap: 10, marginLeft: "auto" }}>
             <Button kind="ghost" onClick={() => setTab("advertise")}>Post a job</Button>
           </div>
-          <button className="md:hidden" onClick={() => setOpen(!open)} style={{ marginLeft: "auto", background: "none", border: "1px solid " + C.rule, borderRadius: 5, padding: "7px 11px", fontFamily: FONT, fontSize: 13, fontWeight: 600, color: C.ink, cursor: "pointer" }}>{open ? "Close" : "Menu"}</button>
+          <button className="nav-toggle" onClick={() => setOpen(!open)} style={{ marginLeft: "auto", background: "none", border: "1px solid " + C.rule, borderRadius: 5, padding: "7px 11px", fontFamily: FONT, fontSize: 13, fontWeight: 600, color: C.ink, cursor: "pointer" }}>{open ? "Close" : "Menu"}</button>
         </div>
         {open && (
-          <div className="md:hidden" style={{ paddingBottom: 14, display: "grid", gap: 2 }}>
+          <div className="nav-mobile" style={{ paddingBottom: 14, gap: 2 }}>
             {tabs.map(([k, label]) => (
               <button key={k} onClick={() => { setTab(k); setOpen(false); }} style={{ textAlign: "left", background: tab === k ? C.surface : "transparent", border: "none", borderRadius: 5, padding: "11px 12px", fontFamily: FONT, fontSize: 15, fontWeight: tab === k ? 600 : 450, color: tab === k ? C.ink : C.body, cursor: "pointer" }}>{label}</button>
             ))}
@@ -720,7 +739,7 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
           </p>
         </div>
 
-        <aside className="hidden lg:block" style={{ width: 300, flex: "0 0 300px" }}>
+        <aside className="board-rail" style={{ width: 300, flex: "0 0 300px" }}>
           <div style={{ display: "grid", gap: 16, position: "sticky", top: 82 }}>
             <AdUnit slot={AD_SLOTS[0]} setTab={setTab} />
             <RailNewsletter onSub={onSub} subbed={subbed} />
@@ -833,7 +852,7 @@ function TemplatesPage() {
             {BUNDLE.contains.map((c) => <li key={c} style={{ breakInside: "avoid" }}>{c}</li>)}
           </ul>
           <p style={{ fontSize: 14, color: C.muted, lineHeight: 1.55, margin: "14px 0 18px", maxWidth: "60ch" }}>{BUNDLE.why}</p>
-          <Button href={SHOP.buildUrl(BUNDLE.slug)}>Get the toolkit — ${BUNDLE.price}</Button>
+          <Button href={SHOP.buildUrl(BUNDLE)}>Get the toolkit — ${BUNDLE.price}</Button>
         </div>
       </div>
 
@@ -864,7 +883,7 @@ function TemplatesPage() {
               {p.stats.map((st) => <Tag key={st}>{st}</Tag>)}
             </div>
             <div style={{ marginTop: "auto" }}>
-              <Button href={SHOP.buildUrl(p.slug)} kind="ghost" wide>Buy — ${p.price}</Button>
+              <Button href={SHOP.buildUrl(p)} kind="ghost" wide>Buy — ${p.price}</Button>
             </div>
           </div>
         ))}
@@ -878,7 +897,7 @@ function TemplatesPage() {
             A free sample pack from the AI Prompt Library. No card, no trial — if they're useful you'll know inside ten minutes.
           </p>
         </div>
-        <Button href={SHOP.buildUrl(SHOP.freeLeadMagnet).replace("?wanted=true", "")}>Get the free pack</Button>
+        <Button href={SHOP.freeLeadMagnetUrl || SHOP.buildUrl(SHOP.freeLeadMagnet).replace("?wanted=true", "")}>Get the free pack</Button>
       </div>
 
       <p style={{ fontSize: 13.5, color: C.muted, marginTop: 22, maxWidth: "72ch", lineHeight: 1.6 }}>
@@ -1296,6 +1315,26 @@ export default function App() {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap');
         * { box-sizing: border-box; }
+
+        /* Responsive layout. This app has no Tailwind, so these are real
+           rules rather than utility classes. Breakpoints match what the
+           old md:/lg: prefixes meant: 768px and 1024px. */
+        .nav-links,
+        .nav-cta      { display: none; }
+        .nav-toggle   { display: block; }
+        .nav-mobile   { display: grid; }
+        .board-rail   { display: none; }
+
+        @media (min-width: 768px) {
+          .nav-links,
+          .nav-cta    { display: flex; }
+          .nav-toggle { display: none; }
+          .nav-mobile { display: none; }
+        }
+
+        @media (min-width: 1024px) {
+          .board-rail { display: block; }
+        }
         button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
           outline: 2px solid ${C.signal}; outline-offset: 2px;
         }
