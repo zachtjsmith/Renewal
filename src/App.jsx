@@ -11,8 +11,8 @@ import React, { useState, useMemo, useEffect, useRef } from "react";
 const BRAND = {
   name: "renewal",
   line: "Customer success jobs, nothing invented.",
-  contactEmail: "hello@renewal.jobs",
-  etsyShop: "https://www.etsy.com/shop/YOURSHOPNAME",
+  contactEmail: "zachtjsmith@gmail.com",
+  GumRoadShop: "https://zachsmith43.gumroad.com/",
 };
 
 const JOBS_URL = "/jobs.json";
