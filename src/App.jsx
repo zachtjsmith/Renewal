@@ -121,7 +121,7 @@ const ISSUES = [
    follows. If you move to Etsy or Stripe, change the buildUrl function and
    nothing else in the file needs touching.                               */
 const SHOP = {
-  vendor: "YOURNAME",                       // <- your Gumroad username
+  vendor: "zachsmith43",                       // <- your Gumroad username
   buildUrl: (slug) => `https://${SHOP.vendor}.gumroad.com/l/${slug}?wanted=true`,
   freeLeadMagnet: "free-cs-prompts",
 };
