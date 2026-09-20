@@ -1,11 +1,76 @@
 {
-  "generatedAt": "2026-09-19T10:30:38.953Z",
-  "count": 81,
+  "generatedAt": "2026-09-20T10:52:41.940Z",
+  "count": 79,
   "sources": [
     "Greenhouse",
     "Ashby"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:samsara:8195432",
+      "title": "Enterprise Customer Success Manager",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — Canada",
+      "mode": "Remote",
+      "min": 98685,
+      "max": 127710,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 1,
+      "postedAt": "2026-09-18T09:16:04-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8195432?gh_jid=8195432",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8195432?gh_jid=8195432",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "This is a remote position open to candidates residing in Canada.",
+          "paras": [
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "You want to impact the industries that run our world: Every phone call you answer and every email you send can affect whether truck drivers deliver goods on time and without accidents, whether students get dropped off safely from school, or whether power gets restored quickly after a natural disaster.",
+            "You are a natural relationship builder: Whether the relationship is with our customers or with cross-functional teams in Samsara, you are in constant communication and collaboration with key stakeholders to win as a team.",
+            "You are the architect of your own career: If you put in the work, this role won’t be your last at Samsara. This Customer Success team is still shaping its future and you will have plenty of autonomy and opportunities to master your craft in a hyper growth environment.",
+            "You want to be with the best: At Samsara, we win together, celebrate together and support each other. You will be surrounded by the best and brightest professionals out there.",
+            "Be on the front lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform",
+            "Compose joint success plans with customers, outlining their objectives, metrics, and timelines, and effectively removing any barriers to achieving business value",
+            "Orchestrate executive business reviews with our customers’ decision-makers and our executive leadership where we look back at past successes and align on upcoming goals",
+            "Conduct workshops with customers to understand their current operations and recommend workflow changes to get the most out of their Samsara products"
+          ]
+        },
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Flexible Working",
+          "paras": [
+            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Our Commitment to Authenticity",
+          "paras": [
+            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
+          ],
+          "bullets": []
+        }
+      ]
+    },
     {
       "id": "greenhouse:cloudflare:8188313",
       "title": "Senior Distribution Account Manager, META",
@@ -22,7 +87,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-18T09:07:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -78,71 +143,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8195432",
-      "title": "Enterprise Customer Success Manager",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — Canada",
-      "mode": "Remote",
-      "min": 98685,
-      "max": 127710,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 0,
-      "postedAt": "2026-09-18T09:16:04-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8195432?gh_jid=8195432",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8195432?gh_jid=8195432",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "This is a remote position open to candidates residing in Canada.",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "You want to impact the industries that run our world: Every phone call you answer and every email you send can affect whether truck drivers deliver goods on time and without accidents, whether students get dropped off safely from school, or whether power gets restored quickly after a natural disaster.",
-            "You are a natural relationship builder: Whether the relationship is with our customers or with cross-functional teams in Samsara, you are in constant communication and collaboration with key stakeholders to win as a team.",
-            "You are the architect of your own career: If you put in the work, this role won’t be your last at Samsara. This Customer Success team is still shaping its future and you will have plenty of autonomy and opportunities to master your craft in a hyper growth environment.",
-            "You want to be with the best: At Samsara, we win together, celebrate together and support each other. You will be surrounded by the best and brightest professionals out there.",
-            "Be on the front lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform",
-            "Compose joint success plans with customers, outlining their objectives, metrics, and timelines, and effectively removing any barriers to achieving business value",
-            "Orchestrate executive business reviews with our customers’ decision-makers and our executive leadership where we look back at past successes and align on upcoming goals",
-            "Conduct workshops with customers to understand their current operations and recommend workflow changes to get the most out of their Samsara products"
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Flexible Working",
-          "paras": [
-            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Our Commitment to Authenticity",
-          "paras": [
-            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:gusto:8144242",
       "title": "Head of Product, New Customer Experience",
       "company": "Gusto",
@@ -158,7 +158,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8211795",
+      "id": "greenhouse:samsara:8211820",
       "title": "Enterprise Core Implementation Consultant - East/Central",
       "company": "Samsara",
       "companySite": "https://www.samsara.com",
@@ -222,12 +222,12 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
-      "postedAt": "2026-09-17T15:02:36-04:00",
+      "posted": 2,
+      "postedAt": "2026-09-17T15:04:15-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8211795?gh_jid=8211795",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8211795?gh_jid=8211795",
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8211820?gh_jid=8211820",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8211820?gh_jid=8211820",
       "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
       "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
       "sections": [
@@ -296,7 +296,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -352,7 +352,7 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8209047",
+      "id": "greenhouse:samsara:8209046",
       "title": "Enterprise Implementation Consultant",
       "company": "Samsara",
       "companySite": "https://www.samsara.com",
@@ -367,12 +367,12 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 2,
-      "postedAt": "2026-09-16T14:32:24-04:00",
+      "posted": 3,
+      "postedAt": "2026-09-16T14:31:53-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8209047?gh_jid=8209047",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8209047?gh_jid=8209047",
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8209046?gh_jid=8209046",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8209046?gh_jid=8209046",
       "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
       "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
       "sections": [
@@ -435,7 +435,7 @@
       "variable": "",
       "book": "10 accounts",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-15T11:25:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -504,14 +504,14 @@
       "family": "Customer Success",
       "seniority": "Mid",
       "segment": null,
-      "location": "Denver, CO -, Scottsdale + more",
+      "location": "Denver, CO - ; Scottsdale, AZ",
       "mode": "Hybrid",
       "min": 62400,
       "max": 78000,
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-15T14:21:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -566,7 +566,7 @@
       "seniority": "Mid",
       "segment": null,
       "location": "Scottsdale, AZ",
-      "mode": "Onsite",
+      "mode": "Hybrid",
       "min": null,
       "max": null,
       "variable": "",
@@ -574,7 +574,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -637,7 +637,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -698,7 +698,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -766,7 +766,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -840,7 +840,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -904,7 +904,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -969,7 +969,7 @@
         "Salesforce",
         "Sigma"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-10T14:32:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1037,7 +1037,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1102,7 +1102,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1167,7 +1167,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1237,7 +1237,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1306,7 +1306,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1378,7 +1378,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-08T22:08:28.085+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1450,7 +1450,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1505,42 +1505,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8161251",
-      "title": "Principal Partner Account Manager, Service Provider, EMEA",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 15,
-      "postedAt": "2026-09-03T11:30:01-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8161251?gh_jid=8161251",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8161251?gh_jid=8161251",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "What Makes Cloudflare Special?",
-          "paras": [
-            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
-            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
-            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8177633",
       "title": "Senior Product Training Specialist",
       "company": "Samsara",
@@ -1556,7 +1520,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1624,7 +1588,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1677,6 +1641,42 @@
       ]
     },
     {
+      "id": "greenhouse:cloudflare:8161251",
+      "title": "Principal Partner Account Manager, Service Provider, EMEA",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 16,
+      "postedAt": "2026-09-03T11:30:01-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8161251?gh_jid=8161251",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8161251?gh_jid=8161251",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "What Makes Cloudflare Special?",
+          "paras": [
+            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
+            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
+            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:gusto:8175108",
       "title": "Sales Onboarding Advocate",
       "company": "Gusto",
@@ -1692,7 +1692,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-03T13:52:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1766,7 +1766,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1838,7 +1838,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-02T14:19:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1908,7 +1908,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1979,7 +1979,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2050,7 +2050,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2113,7 +2113,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2178,7 +2178,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-01T16:40:32.875+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2246,7 +2246,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2320,7 +2320,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-08-28T12:42:34-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2396,7 +2396,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2472,7 +2472,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-08-28T20:46:40.303+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2553,7 +2553,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2624,7 +2624,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-08-26T11:34:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2695,7 +2695,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2763,7 +2763,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-08-26T18:59:45.994+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2840,7 +2840,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2910,7 +2910,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2967,73 +2967,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8140643",
-      "title": "Customer Engineer, Korea",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": "Enterprise",
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Python"
-      ],
-      "posted": 25,
-      "postedAt": "2026-08-24T20:39:41-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "What you will do as a Customer Engineer",
-          "paras": [
-            "The Customer Engineer (CE) is the core driver of our technical go-to-market strategy: a trusted technical advisor and primary architect of the customer journey. You will bridge the gap between technical strategy and business value—guiding enterprise clients from initial pre-sales technical validation through onboarding, deployment architecture, and full lifecycle expansion. Sitting within the GTM organization and reporting to a Customer Engineering Leader, you will not hand off your customers once an initial agreement is reached. Instead, you will operate as a quota-carrying technologist, leveraging AI-augmented workflows to eliminate administrative toil so you can focus on high-value architectural design and driving measurable business outcomes across the entire customer journey."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Key Responsibilities",
-          "paras": [],
-          "bullets": [
-            "AI Orchestration & Workflow Automation: Leverage AI agents, Large Language Models (LLMs), and internal platforms to automate routine tasks such as RFP/Security Questionnaire responses, sandbox provisioning, basic telemetry monitoring, and internal/external documentation, reclaiming your time for strategic customer advisory."
-          ]
-        },
-        {
-          "title": "Minimum Qualifications",
-          "paras": [],
-          "bullets": [
-            "Experience: Experience in a customer-facing technical role, such as Solutions Engineering, Customer Engineering, Professional Services, Sales Engineering, Technical Account Management, or as a Forward Deployed Engineer (years of experience required will vary based on Associate, Senior, Staff, or Principal leveling).",
-            "Architectural Mindset: Ability to white-board, design, and articulate complex enterprise network and security architectures clearly.",
-            "Consultative & Advisory Skills: Excellent communication skills with the ability to translate deeply technical concepts into business outcomes for both hands-on engineers and C-level executives.",
-            "Commercial Mindset: Proven track record of operating in a quota-carrying or revenue-aligned environment, with a strong understanding of SaaS metrics, business value translation, and enterprise sales cycles.",
-            "Communication: Exceptional presentation and stakeholder management skills, capable of bridging the gap between deep technical implementation details and high-level C-suite business strategy.",
-            "Technical Breadth: We do not expect every candidate to be an expert in every domain. Qualified candidates will demonstrate depth in at least four of the technical areas below:",
-            "Internet fundamentals: Deep understanding of how the Internet works, including OSI Model layers 1–7, BGP, GRE, TCP/UDP, DNS (authoritative and recursive), HTTP(S), and SSL/TLS.",
-            "Security: Expertise in the security of Internet properties, including WAF, Bot Management, Firewalls, Rate Limiting, (M)TLS, Zero Trust, and SASE concepts."
-          ]
-        },
-        {
-          "title": "Strongly Preferred Qualifications (The \"Good-to-Haves\")",
-          "paras": [],
-          "bullets": [
-            "Technical Enablement: Track record of creating and delivering technical enablement - workshops, code samples, documentation, or developer onboarding - that accelerates customer adoption of complex platforms.",
-            "Applied AI Knowledge: Experience with LLM orchestration, Retrieval-Augmented Generation (RAG) architectures, and model-access controls.",
-            "Regulatory Knowledge: Understanding of regulatory requirements such as PCI DSS, HIPAA, and SOC 2.",
-            "Hyperscaler / Digital Native Background: Talent coming out of hyperscalers, digital natives, distributed systems environments, or startups is strongly valued for its deeper cloud fluency and advanced architecture depth."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8053880",
       "title": "Senior Sales Operations Analyst",
       "company": "Samsara",
@@ -3052,7 +2985,7 @@
         "Salesforce",
         "Sigma"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-08-24T14:12:20-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3109,6 +3042,73 @@
       ]
     },
     {
+      "id": "greenhouse:cloudflare:8140643",
+      "title": "Customer Engineer, Korea",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Python"
+      ],
+      "posted": 26,
+      "postedAt": "2026-08-24T20:39:41-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "What you will do as a Customer Engineer",
+          "paras": [
+            "The Customer Engineer (CE) is the core driver of our technical go-to-market strategy: a trusted technical advisor and primary architect of the customer journey. You will bridge the gap between technical strategy and business value—guiding enterprise clients from initial pre-sales technical validation through onboarding, deployment architecture, and full lifecycle expansion. Sitting within the GTM organization and reporting to a Customer Engineering Leader, you will not hand off your customers once an initial agreement is reached. Instead, you will operate as a quota-carrying technologist, leveraging AI-augmented workflows to eliminate administrative toil so you can focus on high-value architectural design and driving measurable business outcomes across the entire customer journey."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Key Responsibilities",
+          "paras": [],
+          "bullets": [
+            "AI Orchestration & Workflow Automation: Leverage AI agents, Large Language Models (LLMs), and internal platforms to automate routine tasks such as RFP/Security Questionnaire responses, sandbox provisioning, basic telemetry monitoring, and internal/external documentation, reclaiming your time for strategic customer advisory."
+          ]
+        },
+        {
+          "title": "Minimum Qualifications",
+          "paras": [],
+          "bullets": [
+            "Experience: Experience in a customer-facing technical role, such as Solutions Engineering, Customer Engineering, Professional Services, Sales Engineering, Technical Account Management, or as a Forward Deployed Engineer (years of experience required will vary based on Associate, Senior, Staff, or Principal leveling).",
+            "Architectural Mindset: Ability to white-board, design, and articulate complex enterprise network and security architectures clearly.",
+            "Consultative & Advisory Skills: Excellent communication skills with the ability to translate deeply technical concepts into business outcomes for both hands-on engineers and C-level executives.",
+            "Commercial Mindset: Proven track record of operating in a quota-carrying or revenue-aligned environment, with a strong understanding of SaaS metrics, business value translation, and enterprise sales cycles.",
+            "Communication: Exceptional presentation and stakeholder management skills, capable of bridging the gap between deep technical implementation details and high-level C-suite business strategy.",
+            "Technical Breadth: We do not expect every candidate to be an expert in every domain. Qualified candidates will demonstrate depth in at least four of the technical areas below:",
+            "Internet fundamentals: Deep understanding of how the Internet works, including OSI Model layers 1–7, BGP, GRE, TCP/UDP, DNS (authoritative and recursive), HTTP(S), and SSL/TLS.",
+            "Security: Expertise in the security of Internet properties, including WAF, Bot Management, Firewalls, Rate Limiting, (M)TLS, Zero Trust, and SASE concepts."
+          ]
+        },
+        {
+          "title": "Strongly Preferred Qualifications (The \"Good-to-Haves\")",
+          "paras": [],
+          "bullets": [
+            "Technical Enablement: Track record of creating and delivering technical enablement - workshops, code samples, documentation, or developer onboarding - that accelerates customer adoption of complex platforms.",
+            "Applied AI Knowledge: Experience with LLM orchestration, Retrieval-Augmented Generation (RAG) architectures, and model-access controls.",
+            "Regulatory Knowledge: Understanding of regulatory requirements such as PCI DSS, HIPAA, and SOC 2.",
+            "Hyperscaler / Digital Native Background: Talent coming out of hyperscalers, digital natives, distributed systems environments, or startups is strongly valued for its deeper cloud fluency and advanced architecture depth."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:flexport:8155210",
       "title": "Regional Implementation Manager",
       "company": "Flexport",
@@ -3124,7 +3124,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-08-24T17:13:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3183,7 +3183,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-08-24T16:24:38.638+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3262,7 +3262,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-21T10:06:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3321,7 +3321,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-20T09:54:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3393,7 +3393,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-20T13:45:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3462,7 +3462,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3531,7 +3531,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-20T13:47:35-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3597,7 +3597,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3668,7 +3668,7 @@
       "stack": [
         "Notion"
       ],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-19T16:50:46-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3726,7 +3726,7 @@
       "seniority": "Entry",
       "segment": null,
       "location": "Scottsdale, AZ",
-      "mode": "Onsite",
+      "mode": "Hybrid",
       "min": null,
       "max": null,
       "variable": "",
@@ -3739,7 +3739,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3802,7 +3802,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-20T01:37:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3865,7 +3865,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-19T19:04:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3934,7 +3934,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-18T17:23:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3999,7 +3999,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-18T09:49:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4070,7 +4070,7 @@
       "stack": [
         "Gong"
       ],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-18T16:20:52.077+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4149,7 +4149,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-18T16:04:22.263+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4221,7 +4221,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-17T14:42:27-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4277,7 +4277,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-14T08:58:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4351,7 +4351,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-14T14:07:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4425,7 +4425,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-13T16:51:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4493,7 +4493,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-13T16:50:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4561,7 +4561,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-13T18:08:29.292+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4644,7 +4644,7 @@
         "Linear",
         "Metabase"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-13T14:12:16.915+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4714,7 +4714,7 @@
       "variable": "",
       "book": "60 customers",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-11T22:25:11.605+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4784,7 +4784,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-11T17:23:19.988+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4853,7 +4853,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-11T19:16:27.198+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4934,7 +4934,7 @@
         "Gainsight",
         "Totango"
       ],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-10T16:41:17-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4997,7 +4997,7 @@
       "variable": "",
       "book": "100 customers",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-10T16:22:34.383+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5065,7 +5065,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-10T20:47:19.474+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5133,7 +5133,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-10T20:47:02.283+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5206,7 +5206,7 @@
         "Tableau",
         "SQL"
       ],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-07T16:33:20-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5268,7 +5268,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-06T09:29:34-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5342,7 +5342,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-06T15:30:18.046+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5409,7 +5409,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-05T09:45:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5457,139 +5457,6 @@
             "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
           ],
           "bullets": []
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:databricks:8654148002",
-      "title": "Lead Engagement Manager, FDE - CMEG",
-      "company": "Databricks",
-      "companySite": "https://www.databricks.com",
-      "industry": "Data platform",
-      "family": "Onboarding",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Dallas, TX + more",
-      "mode": "Onsite",
-      "min": 178800,
-      "max": 245850,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 45,
-      "postedAt": "2026-08-04T16:16:10-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8654148002",
-      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8654148002",
-      "blurb": "The Lead Engagement Manager delivers measurable impact for our Communications, Media, Entertainment, & Gaming (CMEG) customers as well as at the Business Unit (BU) or Regional team level in the Forward Deployed Engineering organization. You will own and…",
-      "summary": "The Lead Engagement Manager delivers measurable impact for our Communications, Media, Entertainment, & Gaming (CMEG) customers as well as at the Business Unit (BU) or Regional team level in the Forward Deployed Engineering organization. You will own and independently scope multi-quarter, highly complex initiatives to solve problems with no clear precedent, operating with high autonomy in high-stakes environments.",
-      "sections": [
-        {
-          "title": "The impact you will have:",
-          "paras": [],
-          "bullets": [
-            "Regional Impact: Drive excellence at the BU/Region level, contributing to team-level booking targets and consumption goals.",
-            "Complex Problem Solving: Navigate complex regional, regulatory, or market-specific complexities across multiple countries.",
-            "Mentorship: Coach and support junior Engagement Managers, acting as a go-to resource for peers on complex projects.",
-            "Sales Strategy: Shape account strategy to align with client goals and lead the sales of complex Professional Services & Training (PS&T) offerings.",
-            "Strategic Relationships: Establish and maintain strategic relationships with senior customer stakeholders across multiple engagements."
-          ]
-        },
-        {
-          "title": "What we look for:",
-          "paras": [],
-          "bullets": [
-            "10+ years of leadership experience in Professional Services.",
-            "Expert-level understanding of PS&T offerings and the ability to customize solutions for complex environments.",
-            "Proficient thought leadership, increasingly viewed as an external expert in the industry.",
-            "Participate in the hiring process to attract top-tier talent.",
-            "Expertise in Databricks architecture, ecosystem, and strategic account planning.",
-            "Ability to travel up to 25-50% as required."
-          ]
-        },
-        {
-          "title": "Pay Range Transparency",
-          "paras": [
-            "Databricks is committed to fair and equitable compensation practices. The pay range(s) for this role is listed below and represents the expected base salary range for non-commissionable roles or on-target earnings for commissionable roles. Actual compensation packages are based on several factors that are unique to each candidate, including but not limited to job-related skills, depth of experience, relevant certifications and training, and specific work location. Based on the factors above, Databricks anticipated utilizing the full width of the range. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits listed above. For more information regarding which range your location is in visit our page here ."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About Databricks",
-          "paras": [
-            "Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn , X , YouTube , and Instagram .\n\nBenefits\n\nAt Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here ."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
-      "id": "ashby:ramp:a4ecdd59-e379-4841-9bd3-c3f1f86da008",
-      "title": "Customer Activation Manager | Commercial",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 97100,
-      "max": 148400,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 45,
-      "postedAt": "2026-08-04T17:33:05.466+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/a4ecdd59-e379-4841-9bd3-c3f1f86da008/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/a4ecdd59-e379-4841-9bd3-c3f1f86da008",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "Customer Activation Managers at Ramp strive to deliver value to our customers and revenue for our business by implementing Ramp’s products for newly closed customers. You will have the opportunity to help build, lead, and refine Ramp’s Implementation organization and define the customer strategy that fuels our growth. This role combines strategy, operational leadership, and management of onboarding projects to ensure that new customers realize value from Ramp’s platform quickly and effectively."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You'll Do",
-          "paras": [],
-          "bullets": [
-            "Ensure fast, thorough, and complete onboarding of new Ramp customers by partnering with Commercial Account Managers to educate new customers on Ramp’s functionality and best practices",
-            "Work with new customers to deeply understand their current workflow, pain points, and obstacles to full rollout",
-            "Drive revenue for Ramp by ensuring there are no unnecessary delays in the implementation process and continuing to sell the customer on why implementing Ramp is a high-value initiative",
-            "Become an expert in the full range of integration and configuration options for Ramp’s suite of products",
-            "Partner closely with the product team to ensure customer feedback is reviewed and prioritized",
-            "Balance and own multiple priorities and tasks supporting implementation, follow-up, and proactive outreach",
-            "Participate in hiring decisions, including interviewing, selection, and onboarding of new team members.",
-            "Develop and maintain policies, procedures, and best practices for implementation processes and customer onboarding workflows."
-          ]
-        },
-        {
-          "title": "What You Need",
-          "paras": [],
-          "bullets": [
-            "Minimum 3 years of experience in customer success, account management, or product operations in a B2B organization",
-            "Exceptional project management and time management skills",
-            "Excellent verbal and written communication skills",
-            "Desire to learn the product inside out and understand why Ramp was built the way it was, and know how to communicate this effectively",
-            "Proven track record of exceeding quota and/or outperforming key target metrics",
-            "Ability to anticipate customers’ needs and position product solutions accordingly",
-            "High adaptability and ability to thrive in a fast-paced environment"
-          ]
         }
       ]
     }
