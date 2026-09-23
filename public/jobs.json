@@ -1,11 +1,194 @@
 {
-  "generatedAt": "2026-09-22T11:10:15.240Z",
-  "count": 78,
+  "generatedAt": "2026-09-23T11:00:49.012Z",
+  "count": 77,
   "sources": [
     "Greenhouse",
     "Ashby"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:cloudflare:8195510",
+      "title": "Principal Partner Account Manager",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-22T13:03:15-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8195510?gh_jid=8195510",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8195510?gh_jid=8195510",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "Role Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Define and execute the partner ecosystem strategy and annual business plan for NEUR, with clear priorities for Benelux and the Nordics.",
+            "Coordinate the regional partner ecosystem across global systems integrators, regional service providers, managed service providers, resellers, distributors, cloud partners, and technology alliance partners.",
+            "Integrate partner planning into Cloudflare’s regional sales dynamics, including territory planning, account mapping, pipeline reviews, forecasting, campaign execution, and quarterly business reviews.",
+            "Partner with regional sales leadership to identify where partners can accelerate customer acquisition, expansion, technical adoption, and long-term customer value.",
+            "Establish governance and operating cadences that align Partner Sales, Account Executives, Solutions Engineering, Customer Success, Marketing, and Operations around shared regional priorities.",
+            "Build executive relationships with priority partners and develop joint business plans, investment cases, market-development initiatives, and measurable growth commitments.",
+            "Translate differences across NEUR markets into focused partner coverage and go-to-market models while preserving one coherent regional strategy.",
+            "Drive partner-sourced and partner-influenced pipeline through joint account planning, demand generation, marketplace and distribution motions, and repeatable industry or solution plays."
+          ]
+        },
+        {
+          "title": "Role Requirements",
+          "paras": [],
+          "bullets": [
+            "Experience in partner management, channel sales, alliances, SaaS, cloud infrastructure, networking, or cybersecurity, including experience operating at principal, regional lead, or director level.",
+            "Required experience managing partners and driving commercial outcomes in the Nordics and/or Benelux, with a strong understanding of the region’s business cultures, routes to market, and partner communities.",
+            "Proven success designing and executing multi-country partner strategies that deliver measurable partner-sourced and partner-influenced revenue growth.",
+            "Demonstrated ability to coordinate a diverse partner ecosystem while aligning its execution with direct-sales territories, account strategies, and forecasting processes.",
+            "Experience influencing C-level executives within global, regional, or country-level partner organizations and building durable joint business plans.",
+            "Strong knowledge of cloud infrastructure, networking, SaaS, cybersecurity architectures, and partner-led services or managed-service models.",
+            "Experience leading cross-functional operating cadences across Sales, Solutions Engineering, Customer Success, Marketing, Operations, and Partner teams in a matrixed organization.",
+            "Expertise in partner segmentation, coverage design, enablement, performance management, program governance, and incentive investment."
+          ]
+        },
+        {
+          "title": "What Makes Cloudflare Special?",
+          "paras": [
+            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
+            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
+            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:samsara:8064913",
+      "title": "Customer Success Manager",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": "Mid-Market",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 65599,
+      "max": 88200,
+      "variable": "+ equity + bonus",
+      "book": "100 accounts",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-22T09:23:26-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8064913?gh_jid=8064913",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8064913?gh_jid=8064913",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Flexible Working",
+          "paras": [
+            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Our Commitment to Authenticity",
+          "paras": [
+            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Fraudulent Employment Offers",
+          "paras": [
+            "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:flexport:8213809",
+      "title": "Senior Account Manager, Fulfillment",
+      "company": "Flexport",
+      "companySite": "https://www.flexport.com",
+      "industry": "Logistics",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Atlanta Warehouse, Chicago Warehouse + more",
+      "mode": "Onsite",
+      "min": 84000,
+      "max": 105000,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-22T12:16:06-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8213809",
+      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8213809",
+      "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
+      "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
+      "sections": [
+        {
+          "title": "The opportunity:",
+          "paras": [
+            "We are seeking a seasoned and proactive Senior Account Manager, Fulfillment to join Flexport’s dynamic team. This senior role is pivotal to our mission of ensuring merchant success and driving sustainable growth in our fulfillment services. As a Fulfillment Account Manager, you will act as a trusted liaison between our merchants and all internal Flexport teams, ensuring seamless communication, strategic alignment, and operational excellence. Your primary responsibility is to support merchant retention and satisfaction, working collaboratively across departments to build and implement strategies that drive value for our clients and strengthen long-term relationships. This position requires both high-level strategic insight and hands-on execution skills, ideal for a professional eager to make a meaningful impact on client success."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "You will:",
+          "paras": [],
+          "bullets": [
+            "Strategic Leadership and Team Collaboration:\n\n\n\n• Contribute to the strategic direction of the account management function, helping align team resources and capabilities with Flexport's broader business objectives",
+            "Mentor junior team members, sharing best practices and cultivating exceptional client relationship management skills",
+            "Lead by example in implementing account management frameworks and processes to drive consistent excellence across accounts",
+            "Coordinate and lead cross-functional project teams to deliver exceptional client outcomes"
+          ]
+        },
+        {
+          "title": "Client Portfolio Management:",
+          "paras": [],
+          "bullets": [
+            "Lead strategic relationships with Flexport's significant accounts, ensuring exceptional service delivery and partnership at various stakeholder levels",
+            "Establish deep relationships with key client decision-makers, positioning yourself as a trusted strategic advisor who understands their business challenges and opportunities",
+            "Lead complex initiatives that transform clients' supply chain operations and deliver substantial ROI",
+            "Develop and implement strategic account plans that align with both client objectives and Flexport's growth goals"
+          ]
+        },
+        {
+          "title": "Client Relationship Management:",
+          "paras": [],
+          "bullets": [
+            "Establish and nurture strategic, long-lasting relationships with key merchants, ensuring they feel valued and supported throughout their Flexport journey",
+            "Act as the primary point of contact for merchants, anticipating their needs, resolving inquiries, and proactively addressing concerns to enhance their experience with Flexport",
+            "Serve as an advocate for the client within Flexport, ensuring their priorities and goals are represented across teams"
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:gitlab:8820804002",
       "title": "Senior Manager, Public Sector Renewals",
@@ -24,7 +207,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-21T14:49:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -94,7 +277,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-22T04:56:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -159,7 +342,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -229,7 +412,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -299,7 +482,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-18T09:07:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -355,70 +538,6 @@
       ]
     },
     {
-      "id": "greenhouse:gusto:8144242",
-      "title": "Head of Product, New Customer Experience",
-      "company": "Gusto",
-      "companySite": "https://gusto.com",
-      "industry": "Payroll / HR",
-      "family": "Leadership",
-      "seniority": "Executive",
-      "segment": "SMB",
-      "location": "San Francisco, CA",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 3,
-      "postedAt": "2026-09-18T11:50:07-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8144242",
-      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8144242",
-      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
-      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
-      "sections": [
-        {
-          "title": "About Gusto",
-          "paras": [
-            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "By the Numbers:",
-          "paras": [],
-          "bullets": [
-            "500,000+ small businesses served nationwide",
-            "Named #1 best software for small business by G2",
-            "2,700+ employees in the United States, Canada, and Mexico, and growing",
-            "Over $1B in annual revenue",
-            "The SMB market is large (and growing!) with huge opportunities for Gusto to make an incredible impact for SMBs",
-            "There are 6.2M employers in the US, 98% have fewer than 100 employees (1)",
-            "550,000 new businesses are created each year in the US (1)"
-          ]
-        },
-        {
-          "title": "What Product Management is like at Gusto:",
-          "paras": [],
-          "bullets": [
-            "Our Product team is lean, which means you’ll have a high degree of impact and ownership. We believe in smaller, empowered teams that move quickly with less overhead. You’ll move fast by pairing sharp product judgment with fluency in AI tools — automating what slows teams down and amplifying what makes them creative and high-performing.",
-            "We’re boundaryless builders. Lines between roles are intentionally blurred, and our PMs do whatever it takes to deliver outcomes. You’ll prototype, automate, design, and ship — using AI as your co-builder to turn problems into durable solutions that deliver customer value with urgency and care.",
-            "We’re here to serve small and medium businesses. Gusto has a strong mission-driven culture, and we care deeply about lifting up these business owners — building technology for an AI-first world that gives them the superpowers to run and grow their businesses with confidence.",
-            "We’re comfortable with change. Our environment moves fast, and PMs here thrive in ambiguity — blending curiosity, experimentation, and AI-native craft to shape how products (and work itself) are built at Gusto."
-          ]
-        },
-        {
-          "title": "About the Role:",
-          "paras": [
-            "Gusto is looking for an experienced Product leader for our New Customer Experience team. Gusto is known as the trusted payroll solution for hundreds of thousands of SMBs. As we expand as the trusted small business partner with new multi-product offerings, we need to ensure new customers can clearly see, and choose, the Gusto that’s right for their business. As Head of Product, New Customer Experience, you will be responsible for the entire product experience a small business takes from potentially never having heard of Gusto, to activating the Gusto products that help them start, run, and grow. Every new Gusto customer comes through the surfaces your team owns, which makes this one of the highest-leverage product roles at the company."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8195432",
       "title": "Enterprise Customer Success Manager",
       "company": "Samsara",
@@ -434,7 +553,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -484,76 +603,66 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8211820",
-      "title": "Enterprise Core Implementation Consultant - East/Central",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Onboarding",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 88979,
-      "max": 134591,
-      "variable": "+ equity + bonus",
+      "id": "greenhouse:gusto:8144242",
+      "title": "Head of Product, New Customer Experience",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Leadership",
+      "seniority": "Executive",
+      "segment": "SMB",
+      "location": "San Francisco, CA",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
       "book": "",
       "stack": [],
       "posted": 4,
-      "postedAt": "2026-09-17T15:04:15-04:00",
+      "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8211820?gh_jid=8211820",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8211820?gh_jid=8211820",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8144242",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8144242",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
       "sections": [
         {
-          "title": "About the role:",
+          "title": "About Gusto",
           "paras": [
-            "Samsara’s Select Customer Success team advises and guides our largest customers, ensuring they adopt Samsara and continuously gain business value from our products. We are the trusted point of contact for Samsara’s strategic customers throughout their lifecycle: onboarding, adoption, advocacy, and renewal.",
-            "In this role, you will be part of our Implementation team, responsible for helping Enterprise customers deploy and adopt our IoT solutions for their fleet and industrial assets. Picking up where our sales teams leave off, you will own the customer relationship and ensure a successful deployment of Samsara's solution. Your customers span the entire range of businesses that power our economy, including trucking and transportation, food and beverage, passenger transit, utilities, school buses, and many others. All the while building relationships with the customer, helping them learn our system, and overall ensuring a successful customer relationship.",
-            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering and Product, enabling you to experience multiple aspects of a fast growing company from within."
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
           ],
           "bullets": []
         },
         {
-          "title": "In this role, you will:",
+          "title": "By the Numbers:",
           "paras": [],
           "bullets": [
-            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform.",
-            "Manage the deployment of Samsara technology to large-scale customers, enabling customers to achieve quick time to value in their investment.",
-            "Create launch plans and a roadmap to increase product usage.",
-            "Track implementation progress, participation, product adoption, and account health.",
-            "Run training sessions, demonstrate Samsara’s technology, and work through challenges with executives and day-to-day users of the system across numerous use cases.",
-            "Juggle multiple customer engagements in parallel and work cross-functionally to deliver an exceptional experience for our customers.",
-            "Serve as a mentor to the wider Customer Success and Support teams.",
-            "Deeply understand the Samsara platform’s capabilities and explain them to customers of all types."
+            "500,000+ small businesses served nationwide",
+            "Named #1 best software for small business by G2",
+            "2,700+ employees in the United States, Canada, and Mexico, and growing",
+            "Over $1B in annual revenue",
+            "The SMB market is large (and growing!) with huge opportunities for Gusto to make an incredible impact for SMBs",
+            "There are 6.2M employers in the US, 98% have fewer than 100 employees (1)",
+            "550,000 new businesses are created each year in the US (1)"
           ]
         },
         {
-          "title": "Minimum requirements for this role:",
+          "title": "What Product Management is like at Gusto:",
           "paras": [],
           "bullets": [
-            "6+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred.",
-            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence.",
-            "Experience supporting or working with technical products.",
-            "Solutions-oriented with strong problem solving skills.",
-            "Excellent consultative skills with experience in end to end system implementations.",
-            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software.",
-            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment.",
-            "Diplomacy, tact, and poise under pressure when working through customer issues."
+            "Our Product team is lean, which means you’ll have a high degree of impact and ownership. We believe in smaller, empowered teams that move quickly with less overhead. You’ll move fast by pairing sharp product judgment with fluency in AI tools — automating what slows teams down and amplifying what makes them creative and high-performing.",
+            "We’re boundaryless builders. Lines between roles are intentionally blurred, and our PMs do whatever it takes to deliver outcomes. You’ll prototype, automate, design, and ship — using AI as your co-builder to turn problems into durable solutions that deliver customer value with urgency and care.",
+            "We’re here to serve small and medium businesses. Gusto has a strong mission-driven culture, and we care deeply about lifting up these business owners — building technology for an AI-first world that gives them the superpowers to run and grow their businesses with confidence.",
+            "We’re comfortable with change. Our environment moves fast, and PMs here thrive in ambiguity — blending curiosity, experimentation, and AI-native craft to shape how products (and work itself) are built at Gusto."
           ]
         },
         {
-          "title": "An ideal candidate also has:",
+          "title": "About the Role:",
           "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+            "Gusto is looking for an experienced Product leader for our New Customer Experience team. Gusto is known as the trusted payroll solution for hundreds of thousands of SMBs. As we expand as the trusted small business partner with new multi-product offerings, we need to ensure new customers can clearly see, and choose, the Gusto that’s right for their business. As Head of Product, New Customer Experience, you will be responsible for the entire product experience a small business takes from potentially never having heard of Gusto, to activating the Gusto products that help them start, run, and grow. Every new Gusto customer comes through the surfaces your team owns, which makes this one of the highest-leverage product roles at the company."
           ],
-          "bullets": [
-            "Strong bias for action, the ability to think big, with insistence on high standards.",
-            "Experience serving and supporting large-scale business solutions at Fortune 500 companies."
-          ]
+          "bullets": []
         }
       ]
     },
@@ -573,7 +682,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -629,150 +738,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8209046",
-      "title": "Enterprise Implementation Consultant",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Onboarding",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 66261,
-      "max": 100227,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 5,
-      "postedAt": "2026-09-16T14:31:53-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8209046?gh_jid=8209046",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8209046?gh_jid=8209046",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "Samsara’s Enterprise Customer Success team advises and guides our largest customers, ensuring they adopt Samsara and continuously gain business value from our products. We are the trusted point of contact for Samsara’s strategic customers throughout their lifecycle: onboarding, adoption, advocacy, and renewal.",
-            "In this role, you will be part of our Implementation team, responsible for helping Enterprise customers deploy and adopt our IoT solutions for their fleet and industrial assets. Picking up where our sales teams leave off, you will own the customer relationship and ensure a successful deployment of Samsara's solution. Your customers span the entire range of businesses that power our economy, including trucking and transportation, food and beverage, passenger transit, utilities, school buses, and many others. All the while building relationships with the customer, helping them learn our system, and overall ensuring a successful customer relationship.",
-            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering, and Product, enabling you to experience multiple aspects of a fast-growing company from within."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Minimum requirements for the role:",
-          "paras": [],
-          "bullets": [
-            "2-4 years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred",
-            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence",
-            "Experience supporting or working with technical products",
-            "Excellent consultative skills with experience in end-to-end system implementations",
-            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software",
-            "Diplomacy, tact, and poise under pressure when working through customer issues",
-            "Bachelor’s degree from a 4-year institution"
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Challenges the status quo, recommends customer-focused improvements, and brings a strong bias for action with high standards",
-            "Has experience serving a large and complex customer base in B2B SaaS",
-            "Thrives in an unstructured, fast-paced, and change-heavy environment"
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:amplitude:8811225002",
-      "title": "Senior Technical Success Manager, Strategic - West",
-      "company": "Amplitude",
-      "companySite": "https://amplitude.com",
-      "industry": "Product analytics",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Los Angeles, CA, Portland, OR + more",
-      "mode": "Onsite",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "10 accounts",
-      "stack": [],
-      "posted": 6,
-      "postedAt": "2026-09-15T11:25:24-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/amplitude/jobs/8811225002",
-      "postingUrl": "https://job-boards.greenhouse.io/amplitude/jobs/8811225002",
-      "blurb": "Amplitude is the leading AI analytics platform, helping over 4,700 customers—including Atlassian, Burger King, NBCUniversal, and Square—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze…",
-      "summary": "Amplitude is the leading AI analytics platform, helping over 4,700 customers—including Atlassian, Burger King, NBCUniversal, and Square—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories in G2’s Winter 2026 Report, Amplitude is the best-in-class solution for product, data, and marketing teams. Learn more at amplitude.com .\n\nAs an organization, we deliver for our customers by living our values. We operate from a place of humility, take ownership of problems and successes, approach challenges with a growth mindset, and put our customers at the center of everything we do.",
-      "sections": [
-        {
-          "title": "About The Role & Team",
-          "paras": [
-            "Amplitude is the leading AI-first digital analytics platform that helped over 4,000 customers build better products and digital experiences. Our customer base includes Atlassian, Burger King, NBCUniversal, Square, and Under Armour. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories in G2's Fall 2025 Report, Amplitude is the best-in-class solution for product, data, and marketing teams. Learn more at amplitude.com.",
-            "The Customer Success team is responsible for building relationships with and driving long-term value realization for Amplitude's customers.",
-            "The Senior Technical Success Manager, Strategic owns customer deployment, adoption, and value realization across Amplitude's digital analytics platform. They bring strong product knowledge and fluency in customer technical ecosystems: data foundations, taxonomy, instrumentation patterns, and AI agent configuration. They are execution-first and outcome-driven from presales through implementation, adoption, renewal, and expansion."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "As a Senior Technical Success Manager, Strategic, you will:",
-          "paras": [],
-          "bullets": [
-            "Own customer deployment, adoption, and outcomes for a portfolio of 10 accounts, from presales through renewal",
-            "Lead deployment planning and implementation across your book, e.g.: scoping, deployment plan creation, kickoff meetings, use case alignment, coordination of delivery (e.g. managing internal and partner teams), project reporting",
-            "Track and manage risks and issues across active deployments, driving resolution before they impact timelines or outcomes",
-            "Monitor portfolio health through AI-augmented signals, engaging proactively to accelerate adoption, drive renewals, and deepen stakeholder engagement",
-            "Drive product adoption by running live working sessions, identifying new use cases to expand value over time, and showcasing new platform capabilities with a point of view on how they enable customer growth",
-            "Develop and maintain success plans tied to customer goals, tracking milestones and risks from onboarding through renewal",
-            "Build and deliver executive business reviews that connect Amplitude usage to measurable business impact, turning adoption into a renewal and expansion story",
-            "Partner with Account Executives on renewals and expansion, building the value story, coaching champions, and identifying growth opportunities across your book"
-          ]
-        },
-        {
-          "title": "Critical Skills Profile",
-          "paras": [],
-          "bullets": [
-            "Business Acumen: Understands each customer's business model, growth levers, and priorities. Builds a path to value that connects Amplitude's platform to the outcomes that matter most to the customer.",
-            "Technical Fluency: Comfortable with Amplitude data architecture, instrumentation methods, taxonomy design, and AI agent workflows. Able to unlock use cases and guide internal and partner delivery teams.",
-            "Delivery Excellence: Drives deployment and implementation quality across a full book of business. Manages timelines, coordinates internal and partner delivery teams, and ensures every account progresses through milestones on time and to standard.",
-            "Prescriptive Customer Guidance: Sets the standard for what good looks like at each stage of the customer journey. Drives accountability across deployment and ongoing success. Pushes back on bad implementation patterns, guides customers toward proven approaches, and holds them accountable to their own defined success criteria.",
-            "Diagnostic Thinking: Proactively recognizes adoption gaps and technical blockers early and drives creative solutions that get customers back on track.",
-            "Curiosity and Self-Sufficiency: Defaults to figuring things out independently. Explores edge cases on your own, and comes to conversations with a point of view. This role requires someone who runs toward ambiguity.",
-            "AI Innovation: Embeds AI in day-to-day workflow to improve efficiency and customer outcomes. Experiments, iterates, and shares best practices."
-          ]
-        },
-        {
-          "title": "At a minimum, you need to have:",
-          "paras": [],
-          "bullets": [
-            "6+ years of experience in Customer Success, Technical Account Management, or a similar customer-facing role in B2B SaaS",
-            "3+ years of experience specifically leading enterprise software deployments where change management and foundational data governance were core priorities.",
-            "2+ years managing a portfolio of 8-10 Strategic accounts",
-            "Experience co-owning renewals and contributing to expansion pipeline alongside a sales counterpart",
-            "Experience training or enabling non-technical teams to become data-sufficient.",
-            "Excellent communication skills to influence everyone from a data engineer to a C-level executive.",
-            "Expert-level project management skills and the ability to thrive in an independent and fast-paced environment."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:gusto:8191997",
       "title": "Retirement Compliance Specialist",
       "company": "Gusto",
@@ -788,7 +753,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-15T14:21:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -851,7 +816,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -914,7 +879,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -975,7 +940,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1043,7 +1008,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1117,7 +1082,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1181,7 +1146,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1246,7 +1211,7 @@
         "Salesforce",
         "Sigma"
       ],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-10T14:32:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1314,7 +1279,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1379,7 +1344,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1444,7 +1409,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1514,7 +1479,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1583,7 +1548,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1655,7 +1620,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1725,7 +1690,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1746,78 +1711,6 @@
       ]
     },
     {
-      "id": "greenhouse:gusto:8175108",
-      "title": "Sales Onboarding Advocate",
-      "company": "Gusto",
-      "companySite": "https://gusto.com",
-      "industry": "Payroll / HR",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": "SMB",
-      "location": "Atlanta, GA - ; Denver, CO - ; Phoenix, AZ",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 18,
-      "postedAt": "2026-09-03T13:52:45-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8175108",
-      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8175108",
-      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
-      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
-      "sections": [
-        {
-          "title": "About Gusto",
-          "paras": [
-            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role:",
-          "paras": [
-            "This role blends technical problem-solving with sales and customer service. After training, you'll be helping small business owners get their payroll and HR set up correctly. This means entering their past information, catching mistakes in their setup before they cause problems, and helping them navigate state and federal tax guidelines (every state does this differently, so you'll become the expert who can guide customers through all 50).",
-            "This team is where technical sales careers start at Gusto. You'll build a strong foundational understanding of payroll, tax, and compliance expertise while developing consultative sales skills, and that opens doors. Reps who excel here can grow into specialized roles working in Implementations and Solutions Engineering. If you're looking for a sales career with a technical backbone, this is where that path starts."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Here’s what you’ll do day-to-day:",
-          "paras": [],
-          "bullets": [
-            "Customer conversations: Handle high-volume customer interactions across phone and email with small business owners guiding them from onboarding to running their first payroll.",
-            "Pipeline management: Own your ticket queue the way a seller owns their opportunity pipeline.",
-            "Grow revenue: Proactively position plan upgrades and surface cross-sell opportunities for Health Insurance, Workers' Comp, and 401(k).",
-            "Technical diagnosis: Catch tax discrepancies live, troubleshoot unfamiliar state portals in real time, and make the right compliance call for each state, size, and industry combination.",
-            "Compliance setup: Configure sick time, PTO, and overtime policies to keep companies compliant from day one",
-            "Work across teams: You'll know when a customer's situation is something you can solve yourself versus when it needs a specialist, and you'll get that handoff started. You'll also work closely with our Risk team, asking customers for extra information when needed to build trust.",
-            "AI-powered workflows: Use assigned AI tools daily as a core part of how you work, surfacing friction and inefficiencies and giving feedback that shapes what gets built next."
-          ]
-        },
-        {
-          "title": "Here’s what we're looking for:",
-          "paras": [
-            "Our cash compensation amount for this role is $23.00/hr to $24.50/hr in Denver, Phoenix & Atlanta. Final offer amounts are determined by multiple factors including candidate location, experience and expertise and may vary from the amounts listed above.",
-            "Gusto has physical office spaces in Denver, San Francisco, and New York City. Employees who are based in those locations will be expected to work from the office on designated days approximately 2-3 days per week (or more depending on role). The same office expectations apply to all Symmetry roles, Gusto's subsidiary, whose physical office is in Scottsdale.",
-            "Note: The San Francisco office expectations encompass both the San Francisco and San Jose metro areas."
-          ],
-          "bullets": [
-            "Experience: 1+ years in a high-volume sales or customer service role where you were cross-selling, upselling, or hitting a quota/KPIs. We love to hire new grads too, so if that’s you, please be prepared to translate how your internship or prior work experience would translate to this type of role.",
-            "Eager to learn: You're excited to dive into a brand new industry and figure out the details, whether that's tax codes, compliance rules, or how payroll actually works behind the scenes.",
-            "Customer obsessed: You put customer needs first, listening closely to understand what they would benefit from and help them understand how different parts of our product will affect their business. You build trust through consultative conversations, and that trust is what drives the right outcome for both the customer and the business.",
-            "Drive: Goal-oriented and competitive in the best way, you want to hit your numbers and keep leveling up your sales game.",
-            "Communication: Strong across phone, email, and chat, with the flexibility to adjust your tone to the moment.",
-            "Adaptability: You're a problem solver who thrives on challenge and adjusting quickly when a situation shifts.",
-            "AI: Proven, day-to-day experience integrating AI into how you work, across writing, research, prep, and summarization, with a track record of giving clear, useful feedback that helps improve your tools and processes."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8177633",
       "title": "Senior Product Training Specialist",
       "company": "Samsara",
@@ -1833,7 +1726,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1901,7 +1794,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1954,6 +1847,78 @@
       ]
     },
     {
+      "id": "greenhouse:gusto:8175108",
+      "title": "Sales Onboarding Advocate",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": "SMB",
+      "location": "Atlanta, GA - ; Denver, CO - ; Phoenix, AZ",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 19,
+      "postedAt": "2026-09-03T13:52:45-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8175108",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8175108",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role:",
+          "paras": [
+            "This role blends technical problem-solving with sales and customer service. After training, you'll be helping small business owners get their payroll and HR set up correctly. This means entering their past information, catching mistakes in their setup before they cause problems, and helping them navigate state and federal tax guidelines (every state does this differently, so you'll become the expert who can guide customers through all 50).",
+            "This team is where technical sales careers start at Gusto. You'll build a strong foundational understanding of payroll, tax, and compliance expertise while developing consultative sales skills, and that opens doors. Reps who excel here can grow into specialized roles working in Implementations and Solutions Engineering. If you're looking for a sales career with a technical backbone, this is where that path starts."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Here’s what you’ll do day-to-day:",
+          "paras": [],
+          "bullets": [
+            "Customer conversations: Handle high-volume customer interactions across phone and email with small business owners guiding them from onboarding to running their first payroll.",
+            "Pipeline management: Own your ticket queue the way a seller owns their opportunity pipeline.",
+            "Grow revenue: Proactively position plan upgrades and surface cross-sell opportunities for Health Insurance, Workers' Comp, and 401(k).",
+            "Technical diagnosis: Catch tax discrepancies live, troubleshoot unfamiliar state portals in real time, and make the right compliance call for each state, size, and industry combination.",
+            "Compliance setup: Configure sick time, PTO, and overtime policies to keep companies compliant from day one",
+            "Work across teams: You'll know when a customer's situation is something you can solve yourself versus when it needs a specialist, and you'll get that handoff started. You'll also work closely with our Risk team, asking customers for extra information when needed to build trust.",
+            "AI-powered workflows: Use assigned AI tools daily as a core part of how you work, surfacing friction and inefficiencies and giving feedback that shapes what gets built next."
+          ]
+        },
+        {
+          "title": "Here’s what we're looking for:",
+          "paras": [
+            "Our cash compensation amount for this role is $23.00/hr to $24.50/hr in Denver, Phoenix & Atlanta. Final offer amounts are determined by multiple factors including candidate location, experience and expertise and may vary from the amounts listed above.",
+            "Gusto has physical office spaces in Denver, San Francisco, and New York City. Employees who are based in those locations will be expected to work from the office on designated days approximately 2-3 days per week (or more depending on role). The same office expectations apply to all Symmetry roles, Gusto's subsidiary, whose physical office is in Scottsdale.",
+            "Note: The San Francisco office expectations encompass both the San Francisco and San Jose metro areas."
+          ],
+          "bullets": [
+            "Experience: 1+ years in a high-volume sales or customer service role where you were cross-selling, upselling, or hitting a quota/KPIs. We love to hire new grads too, so if that’s you, please be prepared to translate how your internship or prior work experience would translate to this type of role.",
+            "Eager to learn: You're excited to dive into a brand new industry and figure out the details, whether that's tax codes, compliance rules, or how payroll actually works behind the scenes.",
+            "Customer obsessed: You put customer needs first, listening closely to understand what they would benefit from and help them understand how different parts of our product will affect their business. You build trust through consultative conversations, and that trust is what drives the right outcome for both the customer and the business.",
+            "Drive: Goal-oriented and competitive in the best way, you want to hit your numbers and keep leveling up your sales game.",
+            "Communication: Strong across phone, email, and chat, with the flexibility to adjust your tone to the moment.",
+            "Adaptability: You're a problem solver who thrives on challenge and adjusting quickly when a situation shifts.",
+            "AI: Proven, day-to-day experience integrating AI into how you work, across writing, research, prep, and summarization, with a track record of giving clear, useful feedback that helps improve your tools and processes."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:gitlab:8746461002",
       "title": "Senior Professional Services Engineer- PubSec - DC Metro",
       "company": "GitLab",
@@ -1971,7 +1936,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2043,7 +2008,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-02T14:19:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2113,7 +2078,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2167,132 +2132,6 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8165155",
-      "title": "Principal Supply Chain Partner Manager",
-      "company": "Instacart",
-      "companySite": "https://www.instacart.com",
-      "industry": "Grocery delivery",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 195000,
-      "max": 206000,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [],
-      "posted": 20,
-      "postedAt": "2026-09-01T15:09:58-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8165155",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8165155",
-      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
-      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
-      "sections": [
-        {
-          "title": "Instacart is a Flex First team",
-          "paras": [
-            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "We are looking for a Principal Supply Chain Partner Manager to join the Instacart Business & Supply Chain team. This is a senior individual contributor role for someone who operates at the intersection of strategy, enterprise partnership, and cross-functional leadership. You will own Instacart's most complex and highest-impact supply chain relationships, setting the strategic direction for how we engage with and grow our largest distributors and network partners.",
-            "Beyond managing a portfolio of partners, you will shape how the broader team operates — establishing playbooks, influencing product direction, and serving as a thought leader internally and externally. You will be a trusted advisor to C-suite stakeholders on the partner side and a key voice in executive conversations internally. This role requires someone who can navigate deep ambiguity, build consensus across competing priorities, and drive outcomes that are felt at the company level."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team",
-          "paras": [
-            "The Instacart Business & Supply Chain team is a pivotal group within Instacart focused on serving the entire supply chain ecosystem with our technology solutions. This team's innovative strategies and dynamic industry relationships directly contribute to shaping our market presence and commercial success."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Job",
-          "paras": [],
-          "bullets": [
-            "Own the strategic relationship for Instacart's largest and most complex supply chain partners, including distributors, operating as their primary executive point of contact.",
-            "Define and drive long-term partnership strategies that align partner goals with Instacart's commercial and product priorities, unlocking growth at scale.",
-            "Lead and influence major cross-functional initiatives spanning Product, Finance, Marketing, Legal, Operations, and Partnerships — setting direction, resolving ambiguity, and holding teams accountable to outcomes without formal authority.",
-            "Shape the strategic framework for how Instacart approaches distributor and supply chain partnerships broadly, including developing scalable playbooks, partnership models, and go-to-market strategies adopted across the team.",
-            "Identify and develop net-new business opportunities — including new partner segments, product integrations, and commercial structures — that expand Instacart's footprint in the supply chain ecosystem.",
-            "Serve as an internal subject matter expert on supply chain dynamics, competitive landscape, and partner needs, regularly informing executive and product strategy.",
-            "Analyze complex, multi-variable datasets to surface insights that drive both individual partner growth and team-wide strategic decisions.",
-            "Represent Instacart in high-stakes external settings including executive negotiations, industry forums, and partner QBRs at the C-suite level."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:instacart:8168196",
-      "title": "Principal Supply Chain Partner Manager",
-      "company": "Instacart",
-      "companySite": "https://www.instacart.com",
-      "industry": "Grocery delivery",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
-      "mode": "Remote",
-      "min": 189000,
-      "max": 199500,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [],
-      "posted": 20,
-      "postedAt": "2026-09-01T15:10:01-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8168196",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8168196",
-      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
-      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
-      "sections": [
-        {
-          "title": "Instacart is a Flex First team",
-          "paras": [
-            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "We are looking for a Principal Supply Chain Partner Manager to join the Instacart Business & Supply Chain team. This is a senior individual contributor role for someone who operates at the intersection of strategy, enterprise partnership, and cross-functional leadership. You will own Instacart's most complex and highest-impact supply chain relationships, setting the strategic direction for how we engage with and grow our largest distributors and network partners.",
-            "Beyond managing a portfolio of partners, you will shape how the broader team operates — establishing playbooks, influencing product direction, and serving as a thought leader internally and externally. You will be a trusted advisor to C-suite stakeholders on the partner side and a key voice in executive conversations internally. This role requires someone who can navigate deep ambiguity, build consensus across competing priorities, and drive outcomes that are felt at the company level."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team",
-          "paras": [
-            "The Instacart Business & Supply Chain team is a pivotal group within Instacart focused on serving the entire supply chain ecosystem with our technology solutions. This team's innovative strategies and dynamic industry relationships directly contribute to shaping our market presence and commercial success."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Job",
-          "paras": [],
-          "bullets": [
-            "Own the strategic relationship for Instacart's largest and most complex supply chain partners, including distributors, operating as their primary executive point of contact.",
-            "Define and drive long-term partnership strategies that align partner goals with Instacart's commercial and product priorities, unlocking growth at scale.",
-            "Lead and influence major cross-functional initiatives spanning Product, Finance, Marketing, Legal, Operations, and Partnerships — setting direction, resolving ambiguity, and holding teams accountable to outcomes without formal authority.",
-            "Shape the strategic framework for how Instacart approaches distributor and supply chain partnerships broadly, including developing scalable playbooks, partnership models, and go-to-market strategies adopted across the team.",
-            "Identify and develop net-new business opportunities — including new partner segments, product integrations, and commercial structures — that expand Instacart's footprint in the supply chain ecosystem.",
-            "Serve as an internal subject matter expert on supply chain dynamics, competitive landscape, and partner needs, regularly informing executive and product strategy.",
-            "Analyze complex, multi-variable datasets to surface insights that drive both individual partner growth and team-wide strategic decisions.",
-            "Represent Instacart in high-stakes external settings including executive negotiations, industry forums, and partner QBRs at the C-suite level."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8143242",
       "title": "Implementation Consultant",
       "company": "Samsara",
@@ -2310,7 +2149,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2366,6 +2205,132 @@
       ]
     },
     {
+      "id": "greenhouse:instacart:8168196",
+      "title": "Principal Supply Chain Partner Manager",
+      "company": "Instacart",
+      "companySite": "https://www.instacart.com",
+      "industry": "Grocery delivery",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
+      "mode": "Remote",
+      "min": 189000,
+      "max": 199500,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [],
+      "posted": 21,
+      "postedAt": "2026-09-01T15:10:01-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8168196",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8168196",
+      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
+      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
+      "sections": [
+        {
+          "title": "Instacart is a Flex First team",
+          "paras": [
+            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "We are looking for a Principal Supply Chain Partner Manager to join the Instacart Business & Supply Chain team. This is a senior individual contributor role for someone who operates at the intersection of strategy, enterprise partnership, and cross-functional leadership. You will own Instacart's most complex and highest-impact supply chain relationships, setting the strategic direction for how we engage with and grow our largest distributors and network partners.",
+            "Beyond managing a portfolio of partners, you will shape how the broader team operates — establishing playbooks, influencing product direction, and serving as a thought leader internally and externally. You will be a trusted advisor to C-suite stakeholders on the partner side and a key voice in executive conversations internally. This role requires someone who can navigate deep ambiguity, build consensus across competing priorities, and drive outcomes that are felt at the company level."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Team",
+          "paras": [
+            "The Instacart Business & Supply Chain team is a pivotal group within Instacart focused on serving the entire supply chain ecosystem with our technology solutions. This team's innovative strategies and dynamic industry relationships directly contribute to shaping our market presence and commercial success."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Job",
+          "paras": [],
+          "bullets": [
+            "Own the strategic relationship for Instacart's largest and most complex supply chain partners, including distributors, operating as their primary executive point of contact.",
+            "Define and drive long-term partnership strategies that align partner goals with Instacart's commercial and product priorities, unlocking growth at scale.",
+            "Lead and influence major cross-functional initiatives spanning Product, Finance, Marketing, Legal, Operations, and Partnerships — setting direction, resolving ambiguity, and holding teams accountable to outcomes without formal authority.",
+            "Shape the strategic framework for how Instacart approaches distributor and supply chain partnerships broadly, including developing scalable playbooks, partnership models, and go-to-market strategies adopted across the team.",
+            "Identify and develop net-new business opportunities — including new partner segments, product integrations, and commercial structures — that expand Instacart's footprint in the supply chain ecosystem.",
+            "Serve as an internal subject matter expert on supply chain dynamics, competitive landscape, and partner needs, regularly informing executive and product strategy.",
+            "Analyze complex, multi-variable datasets to surface insights that drive both individual partner growth and team-wide strategic decisions.",
+            "Represent Instacart in high-stakes external settings including executive negotiations, industry forums, and partner QBRs at the C-suite level."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:instacart:8165155",
+      "title": "Principal Supply Chain Partner Manager",
+      "company": "Instacart",
+      "companySite": "https://www.instacart.com",
+      "industry": "Grocery delivery",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 195000,
+      "max": 206000,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [],
+      "posted": 21,
+      "postedAt": "2026-09-01T15:09:58-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8165155",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8165155",
+      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
+      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
+      "sections": [
+        {
+          "title": "Instacart is a Flex First team",
+          "paras": [
+            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "We are looking for a Principal Supply Chain Partner Manager to join the Instacart Business & Supply Chain team. This is a senior individual contributor role for someone who operates at the intersection of strategy, enterprise partnership, and cross-functional leadership. You will own Instacart's most complex and highest-impact supply chain relationships, setting the strategic direction for how we engage with and grow our largest distributors and network partners.",
+            "Beyond managing a portfolio of partners, you will shape how the broader team operates — establishing playbooks, influencing product direction, and serving as a thought leader internally and externally. You will be a trusted advisor to C-suite stakeholders on the partner side and a key voice in executive conversations internally. This role requires someone who can navigate deep ambiguity, build consensus across competing priorities, and drive outcomes that are felt at the company level."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Team",
+          "paras": [
+            "The Instacart Business & Supply Chain team is a pivotal group within Instacart focused on serving the entire supply chain ecosystem with our technology solutions. This team's innovative strategies and dynamic industry relationships directly contribute to shaping our market presence and commercial success."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Job",
+          "paras": [],
+          "bullets": [
+            "Own the strategic relationship for Instacart's largest and most complex supply chain partners, including distributors, operating as their primary executive point of contact.",
+            "Define and drive long-term partnership strategies that align partner goals with Instacart's commercial and product priorities, unlocking growth at scale.",
+            "Lead and influence major cross-functional initiatives spanning Product, Finance, Marketing, Legal, Operations, and Partnerships — setting direction, resolving ambiguity, and holding teams accountable to outcomes without formal authority.",
+            "Shape the strategic framework for how Instacart approaches distributor and supply chain partnerships broadly, including developing scalable playbooks, partnership models, and go-to-market strategies adopted across the team.",
+            "Identify and develop net-new business opportunities — including new partner segments, product integrations, and commercial structures — that expand Instacart's footprint in the supply chain ecosystem.",
+            "Serve as an internal subject matter expert on supply chain dynamics, competitive landscape, and partner needs, regularly informing executive and product strategy.",
+            "Analyze complex, multi-variable datasets to surface insights that drive both individual partner growth and team-wide strategic decisions.",
+            "Represent Instacart in high-stakes external settings including executive negotiations, industry forums, and partner QBRs at the C-suite level."
+          ]
+        }
+      ]
+    },
+    {
       "id": "ashby:ramp:6ac50530-ce1c-4375-9cc1-c56f8b5925fd",
       "title": "Account Manager | Growth",
       "company": "Ramp",
@@ -2383,7 +2348,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-01T16:40:32.875+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2451,7 +2416,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2510,80 +2475,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:7603023",
-      "title": "Customer Success Manager",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": "Mid-Market",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 88090,
-      "max": 118440,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 24,
-      "postedAt": "2026-08-28T12:42:34-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/7603023?gh_jid=7603023",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/7603023?gh_jid=7603023",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "Samsara’s Scaled Customer Success team ensures customers adopt our platform, realize measurable business value, and renew and expand with confidence. Scaled Customer Success Managers pick up where our Implementation team leaves off, working closely with top customers to understand their fleet and unique challenges, advising on how to customize Samsara for their needs, and becoming their long-term partner.",
-            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Finance, Renewals, Sales Engineering, Customer Education and Product, enabling you to experience multiple aspects of a hyper-growth company from within.",
-            "This position will take on a more technical approach to account management than a typical CSM, a successful candidate will be able to learn, understand, and convey the value of Samsara’s most complex products and features to our largest Mid-Market customers."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Minimum requirements for the role:",
-          "paras": [],
-          "bullets": [
-            "3 - 5+ years of experience in a technical customer success, account management, sales, sales engineering or strategic consulting role. Enterprise SaaS experience preferred.",
-            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence",
-            "Experience supporting or working with technical products",
-            "Solutions-oriented with strong problem-solving skills",
-            "Proven track record of building trust and communicating effectively with a wide variety of internal and external stakeholders: executives, Sales, Product, Support and Engineering leadership, day-to-day users of our software",
-            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment",
-            "Diplomacy, tact, and poise under pressure when working through customer issues",
-            "Bachelor’s degree from a 4-year institution"
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Has strong bias for action, the ability to think big, with insistence on high standards",
-            "Has experience serving and supporting large-scale business solutions at Fortune 500 companies",
-            "Thrives in an unstructured, fast-paced, and change-heavy environment",
-            "AI First : Experience using AI tooling to drive efficiency and outcomes",
-            "Technical Proficiency : Experience with APIs and integrations.",
-            "Knowledge Sharer : Experience with technical enablement and knowledge sharing across teams.",
-            "Adept in Big Data : Familiarity with tools like Databricks and PowerBI.",
-            "Industry Knowledge : Experience with Routing, Navigation, Commercial Trucking Fleets, and Logistics."
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:7589197",
       "title": "Manager II, Customer Success",
       "company": "Samsara",
@@ -2601,7 +2492,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2677,7 +2568,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-08-28T20:46:40.303+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2758,7 +2649,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2829,7 +2720,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-08-26T11:34:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2900,7 +2791,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2968,7 +2859,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-08-26T18:59:45.994+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3045,7 +2936,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3115,7 +3006,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3189,7 +3080,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-24T20:39:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3239,6 +3130,80 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8131784",
+      "title": "Enterprise Implementation Consultant",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Onboarding",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 66261,
+      "max": 100227,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 29,
+      "postedAt": "2026-08-24T07:56:19-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8131784?gh_jid=8131784",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8131784?gh_jid=8131784",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "In this role, you will:",
+          "paras": [],
+          "bullets": [
+            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform.",
+            "Manage the deployment of Samsara technology for a high-volume book of Enterprise customers, driving timely execution and outcomes for each.",
+            "Conduct goal planning workshops to align on business outcomes and metrics.",
+            "Track implementation progress, customer engagement, product adoption, and account health.",
+            "Lead training and consultation sessions, demonstrate Samsara’s technology, and work through challenges with project leads and day-to-day users.",
+            "Adapt implementation approach, training, and communication style across varied customer use cases, stakeholders, and levels of complexity.",
+            "Manage a large book of concurrent customer engagements with strong organization, focus, and efficiency while working cross-functionally to deliver an exceptional customer experience.",
+            "Contribute ideas to help evolve and adapt our implementation approach, driving impact for customers and accelerating time to value."
+          ]
+        },
+        {
+          "title": "Minimum requirements for the role:",
+          "paras": [],
+          "bullets": [
+            "2-4 years of experience in a Customer Success, account management, or consulting role. Enterprise SaaS experience preferred",
+            "This is a demanding position that requires exceptional organizational ability and time management to efficiently balance multiple simultaneous customer engagements.",
+            "Experience supporting or working with technical products",
+            "Excellent consultative skills with experience in end-to-end system implementations",
+            "Proven track record of building trust and communicating effectively with a wide variety of internal and customer stakeholders",
+            "Diplomacy, tact, and poise under pressure when working through customer issues",
+            "Bachelor’s degree from a 4-year institution"
+          ]
+        },
+        {
+          "title": "An ideal candidate also:",
+          "paras": [
+            "Automatically included at the end of external job posts:",
+            "At Samsara, we welcome all. All sizes, colors, cultures, sexes, beliefs, religions, ages, people. We depend on the unique approaches of our team members to help us solve complex problems. We are committed to increasing diversity across our team and ensuring that Samsara is a place where people from all backgrounds can make an impact."
+          ],
+          "bullets": [
+            "Challenges the status quo, recommends customer-focused improvements, and brings a strong bias for action with high standards",
+            "Has experience managing a high-volume customer base in B2B SaaS",
+            "Thrives in an unstructured, fast-paced, and change-heavy environment"
+          ]
+        },
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:samsara:8053880",
       "title": "Senior Sales Operations Analyst",
       "company": "Samsara",
@@ -3257,7 +3222,7 @@
         "Salesforce",
         "Sigma"
       ],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-24T14:12:20-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3329,7 +3294,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-24T17:13:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3388,7 +3353,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-24T16:24:38.638+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3467,7 +3432,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-21T10:06:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3526,7 +3491,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-20T09:54:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3598,7 +3563,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-20T13:47:35-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3667,7 +3632,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-20T13:45:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3736,7 +3701,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3802,7 +3767,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3856,6 +3821,72 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8140386",
+      "title": "Senior Executive Assistant - Customer Success & Services",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — SF Bay Area",
+      "mode": "Remote",
+      "min": 103233,
+      "max": 173500,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Notion"
+      ],
+      "posted": 34,
+      "postedAt": "2026-08-19T16:50:46-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8140386?gh_jid=8140386",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8140386?gh_jid=8140386",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "Must-haves",
+          "paras": [],
+          "bullets": [
+            "6+ years of experience supporting VP-level or above executives and GTM/Sales experience in a fast-paced environment",
+            "Proven ability to operate with discretion, sound judgment, and high EQ in sensitive or ambiguous situations",
+            "Exceptional communication skills — you write, speak, and represent with polish and precision",
+            "A track record of building systems and processes that scale, not just executing tasks",
+            "Ability to maintain San Francisco business hours (Pacific Time), regardless of location",
+            "Flexibility to travel approximately once per month for onsites and executive support"
+          ]
+        },
+        {
+          "title": "Nice-to-haves",
+          "paras": [
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. This role is also eligible for an initial RSU grant with no vesting cliff, and ongoing refresh opportunities tied to performance, subject to plan terms and conditions. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "Familiarity with enterprise SaaS or high-growth technology environments",
+            "Comfort with productivity and AI tools (Slack, Notion, Google Workspace, AI assistants)"
+          ]
+        },
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Flexible Working",
+          "paras": [
+            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:gusto:8143038",
       "title": "Account Coordinator (Retirement Sponsor Support)",
       "company": "Gusto",
@@ -3878,7 +3909,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3941,7 +3972,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-20T01:37:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3989,72 +4020,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8140386",
-      "title": "Senior Executive Assistant - Customer Success & Services",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Remote — SF Bay Area",
-      "mode": "Remote",
-      "min": 103233,
-      "max": 173500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Notion"
-      ],
-      "posted": 33,
-      "postedAt": "2026-08-19T16:50:46-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8140386?gh_jid=8140386",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8140386?gh_jid=8140386",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "Must-haves",
-          "paras": [],
-          "bullets": [
-            "6+ years of experience supporting VP-level or above executives and GTM/Sales experience in a fast-paced environment",
-            "Proven ability to operate with discretion, sound judgment, and high EQ in sensitive or ambiguous situations",
-            "Exceptional communication skills — you write, speak, and represent with polish and precision",
-            "A track record of building systems and processes that scale, not just executing tasks",
-            "Ability to maintain San Francisco business hours (Pacific Time), regardless of location",
-            "Flexibility to travel approximately once per month for onsites and executive support"
-          ]
-        },
-        {
-          "title": "Nice-to-haves",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. This role is also eligible for an initial RSU grant with no vesting cliff, and ongoing refresh opportunities tied to performance, subject to plan terms and conditions. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Familiarity with enterprise SaaS or high-growth technology environments",
-            "Comfort with productivity and AI tools (Slack, Notion, Google Workspace, AI assistants)"
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Flexible Working",
-          "paras": [
-            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:mixpanel:8143102",
       "title": "Customer Value Architect III",
       "company": "Mixpanel",
@@ -4070,7 +4035,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-19T19:04:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4139,7 +4104,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-18T17:23:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4204,7 +4169,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-18T09:49:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4275,7 +4240,7 @@
       "stack": [
         "Gong"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-18T16:20:52.077+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4354,7 +4319,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-17T14:42:27-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4395,6 +4360,80 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8121318",
+      "title": "Enterprise Core Implementation Consultant - East/Central",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Onboarding",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 88979,
+      "max": 134591,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 39,
+      "postedAt": "2026-08-14T08:58:14-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "About the role:",
+          "paras": [
+            "Samsara’s Select Customer Success team advises and guides our largest customers, ensuring they adopt Samsara and continuously gain business value from our products. We are the trusted point of contact for Samsara’s strategic customers throughout their lifecycle: onboarding, adoption, advocacy, and renewal.",
+            "In this role, you will be part of our Implementation team, responsible for helping Enterprise customers deploy and adopt our IoT solutions for their fleet and industrial assets. Picking up where our sales teams leave off, you will own the customer relationship and ensure a successful deployment of Samsara's solution. Your customers span the entire range of businesses that power our economy, including trucking and transportation, food and beverage, passenger transit, utilities, school buses, and many others. All the while building relationships with the customer, helping them learn our system, and overall ensuring a successful customer relationship.",
+            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering and Product, enabling you to experience multiple aspects of a fast growing company from within."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "In this role, you will:",
+          "paras": [],
+          "bullets": [
+            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform.",
+            "Manage the deployment of Samsara technology to large-scale customers, enabling customers to achieve quick time to value in their investment.",
+            "Create launch plans and a roadmap to increase product usage.",
+            "Track implementation progress, participation, product adoption, and account health.",
+            "Run training sessions, demonstrate Samsara’s technology, and work through challenges with executives and day-to-day users of the system across numerous use cases.",
+            "Juggle multiple customer engagements in parallel and work cross-functionally to deliver an exceptional experience for our customers.",
+            "Serve as a mentor to the wider Customer Success and Support teams.",
+            "Deeply understand the Samsara platform’s capabilities and explain them to customers of all types."
+          ]
+        },
+        {
+          "title": "Minimum requirements for this role:",
+          "paras": [],
+          "bullets": [
+            "6+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred.",
+            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence.",
+            "Experience supporting or working with technical products.",
+            "Solutions-oriented with strong problem solving skills.",
+            "Excellent consultative skills with experience in end to end system implementations.",
+            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software.",
+            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment.",
+            "Diplomacy, tact, and poise under pressure when working through customer issues."
+          ]
+        },
+        {
+          "title": "An ideal candidate also has:",
+          "paras": [
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "Strong bias for action, the ability to think big, with insistence on high standards.",
+            "Experience serving and supporting large-scale business solutions at Fortune 500 companies."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:samsara:8121312",
       "title": "Enterprise Core Implementation Consultant - West",
       "company": "Samsara",
@@ -4410,7 +4449,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-14T08:58:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4484,7 +4523,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-14T14:07:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4558,7 +4597,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-13T16:51:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4626,7 +4665,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-13T16:50:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4694,7 +4733,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-13T18:08:29.292+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4777,15 +4816,22 @@
         "Linear",
         "Metabase"
       ],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-13T14:12:16.915+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/warp/6ed7aaa2-8144-411a-8a4c-646b0c48a75d/application",
       "postingUrl": "https://jobs.ashbyhq.com/warp/6ed7aaa2-8144-411a-8a4c-646b0c48a75d",
-      "blurb": "Warp is the AI-native Employee Management Platform for ambitious companies. Our platform includes HRIS, payroll, IT, benefits, tax compliance, and more - all built from scratch on an AI-native architecture from day 1.",
-      "summary": "Warp is the AI-native Employee Management Platform for ambitious companies. Our platform includes HRIS, payroll, IT, benefits, tax compliance, and more - all built from scratch on an AI-native architecture from day 1.\n\nWarp embeds itself into every part of a company's people operating layer, we process over half a billion $ annually in payroll, on track to grow to $2B.\n\nLegacy vendors in our space built their businesses by profiting from complexity. Warp is built from day one for AI to be the primary operator, not a feature. Every advance in LLM capability widens our lead.\n\nWe hire people who ship constantly, own outcomes, and care about craft. If you want to build something that automates an entire category of core work, not just another point solution, this is the place.\n\nWe've raised over $85M from top investors like Ashton Kutcher/Sound Ventures, Y Combinator, founders of Dropbox,…",
+      "blurb": "Warp is the AI-native Employee Management Platform for ambitious companies. HRIS, payroll, benefits, IT, tax compliance, and more, all built from scratch on one AI-native platform.",
+      "summary": "Warp is the AI-native Employee Management Platform for ambitious companies. HRIS, payroll, benefits, IT, tax compliance, and more, all built from scratch on one AI-native platform.\n\nEvery company runs on its people, and the software that manages them is some of the oldest in the enterprise. Incumbents like ADP and Workday built their businesses on complexity and large ops teams. Warp is built for AI to be the primary operator. Every advance in LLM capability widens our lead.\n\nWe process $X billion in annual payments for high-growth companies across all 50 US states + globally.\n\nWe've raised $85M from Battery Ventures, Sapphire Ventures, Peak XV, Sound Ventures (Ashton Kutcher), and Y Combinator, alongside operators including Tobi Lütke (Shopify), Claire Hughes Johnson (Stripe), and the founders of Dropbox and Replit. Our team comes from MIT, Ramp, Brex, Google, Gusto, Rippling, and more.",
       "sections": [
+        {
+          "title": "About Warp",
+          "paras": [
+            "We hire people who ship constantly, own outcomes, and care about craft. If you want to automate an entire category of work that every company depends on, this is the place."
+          ],
+          "bullets": []
+        },
         {
           "title": "About The Role",
           "paras": [
@@ -4819,15 +4865,6 @@
             "Excellent communication and stakeholder management skills",
             "High adaptability and comfort with the pace and ambiguity of an early-stage startup"
           ]
-        },
-        {
-          "title": "Nice to Have",
-          "paras": [],
-          "bullets": [
-            "Experience managing account managers who serve early-stage startup or high-growth B2B SaaS customers",
-            "Background scaling an Account Management function through a period of rapid headcount growth",
-            "Experience designing compensation structures, quota frameworks, or account segmentation/tiering models"
-          ]
         }
       ]
     },
@@ -4847,7 +4884,7 @@
       "variable": "",
       "book": "60 customers",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-11T22:25:11.605+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4917,7 +4954,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-11T17:23:19.988+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4986,7 +5023,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-11T19:16:27.198+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5067,7 +5104,7 @@
         "Gainsight",
         "Totango"
       ],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-10T16:41:17-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5130,7 +5167,7 @@
       "variable": "",
       "book": "100 customers",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-10T16:22:34.383+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5183,74 +5220,6 @@
       ]
     },
     {
-      "id": "ashby:ramp:4904547a-e2ca-407c-b113-8aae2be0790c",
-      "title": "Customer Activation | Partnerships",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 116000,
-      "max": 177000,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [],
-      "posted": 42,
-      "postedAt": "2026-08-10T20:47:19.474+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/4904547a-e2ca-407c-b113-8aae2be0790c/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/4904547a-e2ca-407c-b113-8aae2be0790c",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "Customer Activation Managers on the Partnerships team own the activation and early growth of Ramp’s partner-referred customers. As an early member of the team, you will have the opportunity to help build and refine the Partner Success program and define the implementation motion to drive activation and expansion."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You'll Do",
-          "paras": [
-            "Drive Partner Enablement and Customer Activation"
-          ],
-          "bullets": [
-            "Build and maintain strong, long-term relationships with key partners segments, including Accounting, Private Equity, and Venture Capital",
-            "Serve as the trusted advisor and advocate for partners, understanding their business models, goals, and challenges.",
-            "Develop and deliver partner onboarding and education on the full range of integration and configuration options for Ramp’s suite of products",
-            "Work with partners and their customers to drive efficient, thorough, and complete onboarding at scale"
-          ]
-        },
-        {
-          "title": "What You Need",
-          "paras": [],
-          "bullets": [
-            "Minimum 3 years of experience in customer success, partnerships, account management, or product operations experience",
-            "Familiarity with partner ecosystem operations",
-            "Exceptional project management and time management",
-            "Excellent verbal and written communication",
-            "Experience working with technical counterparts in Product and Engineering to share feedback, troubleshoot, and ideate workarounds as needed",
-            "Desire to learn our product inside out. Understand why Ramp was built the way it was and know how to communicate this effectively",
-            "Proven track record of exceeding quota and/or outperforming key target metrics",
-            "Ability to anticipate customer needs and position product solutions accordingly"
-          ]
-        }
-      ]
-    },
-    {
       "id": "ashby:ramp:97898101-f97b-47c8-a991-267afc517ae5",
       "title": "Senior Customer Activation Manager | Partnerships",
       "company": "Ramp",
@@ -5266,7 +5235,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-10T20:47:02.283+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5306,7 +5275,7 @@
           "title": "What You Need",
           "paras": [],
           "bullets": [
-            "Minimum 5 years of experience in Partner Success",
+            "Minimum 5 years of experience in post-sales / onboarding",
             "Fluency with partner ecosystem operations",
             "Exceptional project management and time management",
             "Excellent verbal and written communication",
@@ -5314,71 +5283,6 @@
             "Desire to learn our product inside out. Understand why Ramp was built the way it was and know how to communicate this effectively",
             "Proven track record of exceeding quota and/or outperforming key target metrics",
             "Ability to anticipate customer needs and position product solutions accordingly"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:gusto:8105993",
-      "title": "Sales Operations Analyst",
-      "company": "Gusto",
-      "companySite": "https://gusto.com",
-      "industry": "Payroll / HR",
-      "family": "CS Operations",
-      "seniority": "Entry",
-      "segment": null,
-      "location": "Denver, CO -, NY, NY - + more",
-      "mode": "Hybrid",
-      "min": 104490,
-      "max": 128000,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Looker",
-        "Tableau",
-        "SQL"
-      ],
-      "posted": 45,
-      "postedAt": "2026-08-07T16:33:20-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8105993",
-      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8105993",
-      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
-      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
-      "sections": [
-        {
-          "title": "About Gusto",
-          "paras": [
-            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "This is your chance to shape the foundation of a fast-growing, high-impact part of Gusto's business as a Senior Sales Operations Analyst supporting our Expansion Sales organization. You'll build the insights and AI-powered solutions that make a large, multi-team sales organization more productive — spanning our Platform Sales, Expansion AM, and New Expansion Advisor teams. You'll sit at the intersection of data, process, and execution; you'll turn real sales challenges into the tools, reports, automations, and workflows that move the numbers.",
-            "You'll help grow revenue from Gusto's existing customer base through upsells and cross-sells. If you thrive where analytics, problem-solving, and supporting others meet, this role offers ownership, visibility, and the chance to influence how Gusto expands its relationship with the small businesses it already serves."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team",
-          "paras": [
-            "The Expansion Sales Operations team partners closely with sales leadership to support three dynamic, fast-moving sales teams that contribute meaningfully to Gusto's growth. We think of ourselves as builders, problem solvers, and strategic partners; we turn uncertainty into clarity and fragmented processes into scalable, repeatable systems.",
-            "Our work spans pacing and pipeline forecasting, quotas, trigger and backlog management, process design, data integrity, account and territory administration, rules of engagement, and increasingly, AI-driven optimization. We value curiosity, open communication, and a commitment to helping our reps operate efficiently and confidently across a multi-product, multi-team motion."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Analytics, Reporting & Forecasting",
-          "paras": [],
-          "bullets": [
-            "Build, automate, and maintain reports and dashboards that track pacing, funnel metrics, trigger and backlog health, SLAs, and rep productivity; keep definitions consistent and documentation clear.",
-            "Own the weekly forecast, CFQ closed-won ARR pacing, and probability-weighted pipeline forecast, feeding the Weekly Business Review (WBR) and Weekly Forecast Review (WFR) cadence for sales and executive leadership.",
-            "Partner with Finance and Analytics to produce operational reporting and revenue insights across dials, connects, lead passes, self-generated opportunities, and book coverage.",
-            "Own metric definitions and data accuracy so leaders trust the numbers they act on."
           ]
         }
       ]
