@@ -1,11 +1,229 @@
 {
-  "generatedAt": "2026-09-23T11:00:49.012Z",
-  "count": 77,
+  "generatedAt": "2026-09-24T11:19:38.396Z",
+  "count": 78,
   "sources": [
     "Greenhouse",
     "Ashby"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:gusto:8227773",
+      "title": "Future Opportunities: Sales Onboarding Advocate",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": "SMB",
+      "location": "Atlanta, GA - ; Denver, CO - ; Phoenix, AZ",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-23T18:26:40-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8227773",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8227773",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role:",
+          "paras": [
+            "This role blends technical problem-solving with sales and customer service. After training, you'll be helping small business owners get their payroll and HR set up correctly. This means entering their past information, catching mistakes in their setup before they cause problems, and helping them navigate state and federal tax guidelines (every state does this differently, so you'll become the expert who can guide customers through all 50).",
+            "This team is where technical sales careers start at Gusto. You'll build a strong foundational understanding of payroll, tax, and compliance expertise while developing consultative sales skills, and that opens doors. Reps who excel here can grow into specialized roles working in Implementations and Solutions Engineering. If you're looking for a sales career with a technical backbone, this is where that path starts."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Here’s what you’ll do day-to-day:",
+          "paras": [],
+          "bullets": [
+            "Customer conversations: Handle high-volume customer interactions across phone and email with small business owners guiding them from onboarding to running their first payroll.",
+            "Pipeline management: Own your ticket queue the way a seller owns their opportunity pipeline.",
+            "Grow revenue: Proactively position plan upgrades and surface cross-sell opportunities for Health Insurance, Workers' Comp, and 401(k).",
+            "Technical diagnosis: Catch tax discrepancies live, troubleshoot unfamiliar state portals in real time, and make the right compliance call for each state, size, and industry combination.",
+            "Compliance setup: Configure sick time, PTO, and overtime policies to keep companies compliant from day one",
+            "Work across teams: You'll know when a customer's situation is something you can solve yourself versus when it needs a specialist, and you'll get that handoff started. You'll also work closely with our Risk team, asking customers for extra information when needed to build trust.",
+            "AI-powered workflows: Use assigned AI tools daily as a core part of how you work, surfacing friction and inefficiencies and giving feedback that shapes what gets built next."
+          ]
+        },
+        {
+          "title": "Here’s what we're looking for:",
+          "paras": [
+            "Our cash compensation amount for this role is $23.00/hr to $24.50/hr in Denver, Phoenix & Atlanta. Final offer amounts are determined by multiple factors including candidate location, experience and expertise and may vary from the amounts listed above.",
+            "Gusto has physical office spaces in Denver, San Francisco, and New York City. Employees who are based in those locations will be expected to work from the office on designated days approximately 2-3 days per week (or more depending on role). The same office expectations apply to all Symmetry roles, Gusto's subsidiary, whose physical office is in Scottsdale.",
+            "Note: The San Francisco office expectations encompass both the San Francisco and San Jose metro areas."
+          ],
+          "bullets": [
+            "Experience: 1+ years in a high-volume sales or customer service role where you were cross-selling, upselling, or hitting a quota/KPIs. We love to hire new grads too, so if that’s you, please be prepared to translate how your internship or prior work experience would translate to this type of role.",
+            "Eager to learn: You're excited to dive into a brand new industry and figure out the details, whether that's tax codes, compliance rules, or how payroll actually works behind the scenes.",
+            "Customer obsessed: You put customer needs first, listening closely to understand what they would benefit from and help them understand how different parts of our product will affect their business. You build trust through consultative conversations, and that trust is what drives the right outcome for both the customer and the business.",
+            "Drive: Goal-oriented and competitive in the best way, you want to hit your numbers and keep leveling up your sales game.",
+            "Communication: Strong across phone, email, and chat, with the flexibility to adjust your tone to the moment.",
+            "Adaptability: You're a problem solver who thrives on challenge and adjusting quickly when a situation shifts.",
+            "AI: Proven, day-to-day experience integrating AI into how you work, across writing, research, prep, and summarization, with a track record of giving clear, useful feedback that helps improve your tools and processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:d84bbf19-572a-499c-9c87-0c154ce85caf",
+      "title": "Account Manager | Mid-Market",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": "Mid-Market",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 190000,
+      "max": 330000,
+      "variable": "",
+      "book": "300 customers",
+      "stack": [
+        "Salesforce",
+        "Outreach"
+      ],
+      "posted": 0,
+      "postedAt": "2026-09-23T16:15:40.412+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/d84bbf19-572a-499c-9c87-0c154ce85caf/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/d84bbf19-572a-499c-9c87-0c154ce85caf",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "The next chapter of Ramp's growth runs straight through the customers we already have: 70,000+ finance teams who adopted us for one thing and haven't yet seen what the rest of the platform can do for them. That is the largest untapped growth opportunity in the company, and Account Management owns it.",
+            "This is a build role, not a maintain role. You'll carry a book of high-value customers and real latitude over how you grow it. This means deciding which plays to run, which executives to get in front of, which products to lead with. Your ceiling is set by your judgment, operating rigor and urgency. Ramp’s expansion motion is a critical part of our long-term strategy and success, and this role represents an opportunity to help define what that looks like at a world-class business."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Own growth across a portfolio of 300+ high-value customers - retention, adoption, expansion, and net-new spend on the platform.",
+            "Build real relationships with the finance leaders who make the decisions, and connect what they're trying to accomplish to what Ramp can actually do for them.",
+            "Generate your own expansion pipeline. The best AMs here don't wait for a buying signal - they create the reason for the next conversation.",
+            "Lead Executive Business Reviews that change how a customer thinks about Ramp: from one vendor in the stack to the system their finance function runs on.",
+            "Launch new products into your book. Ramp ships relentlessly, and every launch is a reason to open a conversation you couldn't have had last quarter.",
+            "Quarterback outcomes across implementation, product, engineering, and CX - on new deals and on escalations, where trust is either earned or lost.",
+            "Set the standard. Account Management is still being built here. The playbooks you write and execute are the ones this team runs next year, and that level of ownership translates into more opportunities in the business."
+          ]
+        },
+        {
+          "title": "What You Need",
+          "paras": [],
+          "bullets": [
+            "Minimum 3 years of “hunter” sales experience; either new sale, or hunting within an existing book",
+            "Ability to anticipate customers’ needs to identify growth opportunities across various types of accounts",
+            "Excellent verbal and written communication skills, as well as interpersonal skills",
+            "Organizational, project management, and time management skills",
+            "Fluency in AI sales tooling",
+            "Ability to self-correct based on core KPIs and innate understanding of performance",
+            "High agency and adaptability - no two days are the same, and the only constant is change"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:baf0a4d2-e07e-4f76-af85-d85c91f479a4",
+      "title": "Senior Manager, Account Manager | Mid-Market",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Account Management",
+      "seniority": "Manager",
+      "segment": "Mid-Market",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 290000,
+      "max": 350000,
+      "variable": "",
+      "book": "300 customers",
+      "stack": [
+        "Salesforce",
+        "Looker"
+      ],
+      "posted": 0,
+      "postedAt": "2026-09-23T16:31:53.863+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/baf0a4d2-e07e-4f76-af85-d85c91f479a4/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/baf0a4d2-e07e-4f76-af85-d85c91f479a4",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "The next chapter of Ramp's growth runs straight through the customers we already have: 80,000+ finance teams who adopted us for one thing and haven't yet seen what the rest of the platform can do for them. Account Management owns that opportunity - and this role owns the team building the motion to capture it.",
+            "You'll lead a group of 5-8 Account Managers, each carrying a book of ~300 Mid-Market customers with real latitude over how they grow it. This is a build role, not a maintain role: the playbooks, coaching systems, and performance bar you set are the ones this team runs on next year. Your ceiling is set by how well you turn individual AM judgment into a repeatable, scalable motion that grows the segment."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Build and run a high-performing team of 5-8 Account Managers - setting the bar for culture, morale, and daily execution.",
+            "Get embedded in the relationships that matter. Engage directly with key customers and top accounts alongside your team, especially where trust is being built or repaired.",
+            "Own the number. Manage quota performance and pipeline generation across your team to hit spend activation, product activation, retention, and expansion goals.",
+            "Forecast and report team performance to senior leadership with clear-eyed visibility into what's working and what isn't.",
+            "Hire and develop the next generation of AMs - training on product, buyer personas, competition, and tooling through role-plays, game film, and real deal work.",
+            "Coach relentlessly. Run daily 1:1s, dissect call feedback, lead enablement sessions, and build career paths for every rep on your team.",
+            "Turn what works into a system. Continuously refine team processes and tooling to improve output and efficiency as the segment scales.",
+            "Represent Account Management cross-functionally, partnering with Sales, CX, CSM, Risk, and Product to remove blockers and drive outcomes."
+          ]
+        },
+        {
+          "title": "What You’ll Need",
+          "paras": [],
+          "bullets": [
+            "Minimum 3 years of quota-carrying sales or account management experience as an individual contributor, with a proven, consistent track record of exceeding goals (new business or cross-sell/upsell experience mandatory)",
+            "Minimum 3 years building and leading account management or sales teams, with a track record of exceeding goal (new business or cross-sell/upsell experience mandatory)",
+            "Prior success in fast-paced, results-oriented GTM environments, ideally at SaaS or AI companies",
+            "A genuine passion for hiring, with a thoughtful approach to team planning and development",
+            "Ability to articulate contractual, technical, and financial value to customers, including executive leaders",
+            "Strong track record negotiating, structuring, and executing complex agreements",
+            "Proficiency with data analytics tools (Salesforce, Looker, Excel) and a bias toward using data to drive decisions",
+            "Strong collaboration and influencing skills, backed by excellent communication and presentation ability"
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:cloudflare:8195510",
       "title": "Principal Partner Account Manager",
@@ -22,7 +240,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-22T13:03:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -86,7 +304,7 @@
       "variable": "+ equity + bonus",
       "book": "100 accounts",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-22T09:23:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -142,7 +360,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -207,7 +425,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-21T14:49:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -277,7 +495,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-22T04:56:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -327,76 +545,6 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8214962",
-      "title": "Senior Account Manager, Retail Media",
-      "company": "Instacart",
-      "companySite": "https://www.instacart.com",
-      "industry": "Grocery delivery",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
-      "mode": "Remote",
-      "min": 151000,
-      "max": 159500,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [],
-      "posted": 1,
-      "postedAt": "2026-09-21T12:45:24-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8214962",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8214962",
-      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
-      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
-      "sections": [
-        {
-          "title": "Instacart is a Flex First team",
-          "paras": [
-            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Why this role is on the menu",
-          "paras": [
-            "Instacart’s retail media platform, Carrot Ads, is scaling fast — and the strategic retail partners who power it need more than a point of contact. They need a trusted advisor who knows their business, knows ours, and can translate that into advertising performance that grows over time. Without this role, we risk leaving adoption on the table, missing signals from partners who could shape our product roadmap, and letting high-potential relationships stagnate. We’re hiring a Senior Account Manager to own a portfolio of enterprise retail partners end-to-end — from onboarding through growth — and make Carrot Ads an indispensable part of how they compete. This role sits at the center of Instacart’s retail media expansion, with a direct line of sight to partner revenue, product adoption, and the future of how we go to market."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you’ll cook up in your first year",
-          "paras": [],
-          "bullets": [
-            "A portfolio of strategic enterprise retail partners is measurably healthier — adoption is up, revenue is growing, and partners are pointing to Carrot Ads as a competitive advantage.",
-            "New retail partners are onboarded smoothly and confidently — trained on campaign tooling, demand sourcing, reporting, and invoicing — so they hit the ground running and don’t stall out early.",
-            "Partners are adopting expanded placements and new product capabilities because you’ve made the incremental revenue case clearly — and Product teams have better data to work with because of the feedback loops you’ve built.",
-            "The account management practice is sharper than when you arrived — playbooks are tighter, QBR formats are more compelling, and the team has better tools for tracking partner KPIs and scaling what works.",
-            "Cross-functional partners — from Business Development to Finance to Ads Quality — know who to call when something involves the retail partner book, because you’ve become the connective tissue across teams."
-          ]
-        },
-        {
-          "title": "The secret ingredients we’re looking for",
-          "paras": [
-            "Must-have pantry staples (Minimum Qualifications)",
-            "Optional garnishes (Preferred Qualifications)",
-            "Instacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here . Currently, we are only hiring in the following provinces: Ontario, Alberta, British Columbia, and Nova Scotia."
-          ],
-          "bullets": [
-            "5+ years in Account Management or a related field, with experience in ad tech, publishers, or retail media.",
-            "Proven experience supporting enterprise solutions in the advertising space, including managing complex partner relationships end-to-end.",
-            "Strong technical acumen — able to understand and explain complex product capabilities to partners who may not be technical.",
-            "Proficient in data analysis with the ability to derive actionable insights and make strategic recommendations from partner KPI data.",
-            "Comfortable navigating billing, invoicing, and revenue reconciliation workflows in partnership with Finance.",
-            "Outstanding communication skills, with the ability to distill complex concepts for varied audiences — from technical teams to executive stakeholders.",
-            "Proven project and program management skills, with the ability to juggle multiple partner relationships and internal workstreams simultaneously.",
-            "Experienced in cross-functional collaboration and executive-level presentations."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:instacart:8214941",
       "title": "Senior Account Manager, Retail Media",
       "company": "Instacart",
@@ -412,7 +560,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -467,73 +615,72 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8188313",
-      "title": "Senior Distribution Account Manager, META",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
+      "id": "greenhouse:instacart:8214962",
+      "title": "Senior Account Manager, Retail Media",
+      "company": "Instacart",
+      "companySite": "https://www.instacart.com",
+      "industry": "Grocery delivery",
       "family": "Account Management",
       "seniority": "Senior",
-      "segment": "Mid-Market",
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
+      "segment": "Enterprise",
+      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
+      "mode": "Remote",
+      "min": 151000,
+      "max": 159500,
+      "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 4,
-      "postedAt": "2026-09-18T09:07:31-04:00",
+      "posted": 2,
+      "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8188313?gh_jid=8188313",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8188313?gh_jid=8188313",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8214962",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8214962",
+      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
+      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
       "sections": [
         {
-          "title": "What you'll do:",
+          "title": "Instacart is a Flex First team",
           "paras": [
-            "Cloudflare is looking for a Distribution Account Manager (DAM) to build and scale our two-tier (2T) distribution business across the region. Based in Dubai, you will own the relationship with our distributors and their reseller ecosystem, and turn distribution into a scalable engine for recruiting partners, enabling them, generating demand, and transacting business efficiently.\nYou will work as an extended member of the Channel team, owning the distribution-led go-to-market segment as a complement to our focused partners. Your job is to make our distributors productive: recruit and onboard the right resellers through them, make sure those resellers are certified and capable on Cloudflare, drive demand generation with marketing programs and incentives (MDF/SPIFF), and keep the operational machine running so business flows through distribution at scale. You will build joint business plans with distributor executives, run regular business reviews (QBRs), own the distribution pipeline and forecast, and support the Cloudflare regional sales team to hit its targets.\nThis is a hands-on, execution-focused role for someone who knows two-tier distribution well and can both define a plan and deliver it."
+            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
           ],
           "bullets": []
         },
         {
-          "title": "Additional responsibilities will include:",
-          "paras": [],
-          "bullets": [
-            "Lead Distribution Joint Business Planning with our distributors to build the right partner ecosystem, demand generation, and growth across\nthe region.",
-            "Ensure territory coverage in alignment with regional sales leadership.",
-            "Define the partner coverage needed, and recruit and onboard the right two-tier partners — VARs and/or MSSPs — through our distributors.",
-            "Drive distributor- and partner-led business planning with top distributor-led resellers to generate distributor- and partner-initiated opportunities (DIO/PIO) through deal registration programs — measured on explicit KPIs: pipeline generation, booked revenue, and partner activation.",
-            "Ensure partner enablement and certification — make sure distributors deploy the right enablement tools and programs so their resellers are fully certified and capable of selling and supporting Cloudflare's Cloud Native Security Solutions.",
-            "Develop and run the distribution demand generation plan, using marketing programs and incentives (MDF/SPIFF).",
-            "Own the distribution pipeline — forecast, manage the sales process, and achieve sales targets — supporting the Cloudflare regional sales\nteam.",
-            "Support distributors in account planning, account mapping sessions, prospecting, and opportunity qualification, working alongside\ndistributor resources."
-          ]
-        },
-        {
-          "title": "Examples of desirable skills, knowledge and experience:",
-          "paras": [],
-          "bullets": [
-            "Fluency in English; Arabic or other regional languages are an advantage.",
-            "Knowledge of the Middle East & Africa channel and distribution landscape.",
-            "8+ years in distribution and/or partner management within a two-tier (2T) go-to-market model, recruiting and developing strategic\npartners through distribution.",
-            "Direct experience managing value-added distributors (VADs) and their reseller ecosystems.",
-            "Solid working knowledge of cloud infrastructure, SaaS, and cybersecurity solutions, gained selling at a cloud-native, fast-paced, high growth company.",
-            "Experience with channel governance, the MEDDPICC sales qualification methodology, and SFDC forecast discipline, with a proven track record of sales execution.",
-            "Experience in the Mid-Market / Commercial GTM segment, and comfortable with its dynamics — higher volume and velocity, a broader partner base, and faster sales cycles — versus the lower-volume, high-touch nature of top-end enterprise accounts. This is where two-tier distribution adds the most leverage.",
-            "Experience defining partner coverage, and recruiting and onboarding two-tier partners."
-          ]
-        },
-        {
-          "title": "What Makes Cloudflare Special?",
+          "title": "Why this role is on the menu",
           "paras": [
-            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
-            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
-            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
+            "Instacart’s retail media platform, Carrot Ads, is scaling fast — and the strategic retail partners who power it need more than a point of contact. They need a trusted advisor who knows their business, knows ours, and can translate that into advertising performance that grows over time. Without this role, we risk leaving adoption on the table, missing signals from partners who could shape our product roadmap, and letting high-potential relationships stagnate. We’re hiring a Senior Account Manager to own a portfolio of enterprise retail partners end-to-end — from onboarding through growth — and make Carrot Ads an indispensable part of how they compete. This role sits at the center of Instacart’s retail media expansion, with a direct line of sight to partner revenue, product adoption, and the future of how we go to market."
           ],
           "bullets": []
+        },
+        {
+          "title": "What you’ll cook up in your first year",
+          "paras": [],
+          "bullets": [
+            "A portfolio of strategic enterprise retail partners is measurably healthier — adoption is up, revenue is growing, and partners are pointing to Carrot Ads as a competitive advantage.",
+            "New retail partners are onboarded smoothly and confidently — trained on campaign tooling, demand sourcing, reporting, and invoicing — so they hit the ground running and don’t stall out early.",
+            "Partners are adopting expanded placements and new product capabilities because you’ve made the incremental revenue case clearly — and Product teams have better data to work with because of the feedback loops you’ve built.",
+            "The account management practice is sharper than when you arrived — playbooks are tighter, QBR formats are more compelling, and the team has better tools for tracking partner KPIs and scaling what works.",
+            "Cross-functional partners — from Business Development to Finance to Ads Quality — know who to call when something involves the retail partner book, because you’ve become the connective tissue across teams."
+          ]
+        },
+        {
+          "title": "The secret ingredients we’re looking for",
+          "paras": [
+            "Must-have pantry staples (Minimum Qualifications)",
+            "Optional garnishes (Preferred Qualifications)",
+            "Instacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here . Currently, we are only hiring in the following provinces: Ontario, Alberta, British Columbia, and Nova Scotia."
+          ],
+          "bullets": [
+            "5+ years in Account Management or a related field, with experience in ad tech, publishers, or retail media.",
+            "Proven experience supporting enterprise solutions in the advertising space, including managing complex partner relationships end-to-end.",
+            "Strong technical acumen — able to understand and explain complex product capabilities to partners who may not be technical.",
+            "Proficient in data analysis with the ability to derive actionable insights and make strategic recommendations from partner KPI data.",
+            "Comfortable navigating billing, invoicing, and revenue reconciliation workflows in partnership with Finance.",
+            "Outstanding communication skills, with the ability to distill complex concepts for varied audiences — from technical teams to executive stakeholders.",
+            "Proven project and program management skills, with the ability to juggle multiple partner relationships and internal workstreams simultaneously.",
+            "Experienced in cross-functional collaboration and executive-level presentations."
+          ]
         }
       ]
     },
@@ -553,7 +700,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -618,7 +765,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -682,7 +829,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -753,7 +900,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-15T14:21:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -816,7 +963,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -879,7 +1026,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -940,7 +1087,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1008,7 +1155,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1082,7 +1229,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1146,7 +1293,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1211,7 +1358,7 @@
         "Salesforce",
         "Sigma"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-10T14:32:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1279,7 +1426,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1344,7 +1491,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1409,7 +1556,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1479,7 +1626,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1548,7 +1695,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1620,7 +1767,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1690,7 +1837,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1726,7 +1873,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1794,7 +1941,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1862,7 +2009,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-03T13:52:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1936,7 +2083,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2008,7 +2155,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-02T14:19:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2078,7 +2225,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2149,7 +2296,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2220,7 +2367,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2283,7 +2430,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2348,7 +2495,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-01T16:40:32.875+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2416,7 +2563,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2492,7 +2639,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2568,7 +2715,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-08-28T20:46:40.303+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2649,7 +2796,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2720,7 +2867,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-08-26T11:34:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2791,7 +2938,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2859,7 +3006,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-08-26T18:59:45.994+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2936,7 +3083,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3006,7 +3153,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3080,7 +3227,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-24T20:39:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3145,7 +3292,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-24T07:56:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3222,7 +3369,7 @@
         "Salesforce",
         "Sigma"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-24T14:12:20-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3294,7 +3441,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-24T17:13:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3353,7 +3500,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-24T16:24:38.638+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3432,7 +3579,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-21T10:06:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3491,7 +3638,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-20T09:54:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3545,75 +3692,6 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8144765",
-      "title": "Renewals Manager",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Renewals",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote —  ()",
-      "mode": "Remote",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Gong"
-      ],
-      "posted": 33,
-      "postedAt": "2026-08-20T13:47:35-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Team",
-          "paras": [
-            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
-            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
-            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
-            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
-            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
-            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
-            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
-            "Contribute to renewal process improvements and help build scalable playbooks for the team."
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Has",
-          "paras": [],
-          "bullets": [
-            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
-            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
-            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
-            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
-            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:mixpanel:8144760",
       "title": "Renewals Manager",
       "company": "Mixpanel",
@@ -3632,7 +3710,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-20T13:45:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3701,12 +3779,81 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
       "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8143229",
       "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8143229",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Team",
+          "paras": [
+            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
+            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
+            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
+            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
+            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
+            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
+            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
+            "Contribute to renewal process improvements and help build scalable playbooks for the team."
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Has",
+          "paras": [],
+          "bullets": [
+            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
+            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
+            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
+            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
+            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:mixpanel:8144765",
+      "title": "Renewals Manager",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Renewals",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote —  ()",
+      "mode": "Remote",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce",
+        "Gong"
+      ],
+      "posted": 34,
+      "postedAt": "2026-08-20T13:47:35-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -3767,7 +3914,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3838,7 +3985,7 @@
       "stack": [
         "Notion"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-19T16:50:46-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3909,7 +4056,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3972,7 +4119,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-20T01:37:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4035,7 +4182,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-19T19:04:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4104,7 +4251,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-18T17:23:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4169,7 +4316,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-18T09:49:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4240,7 +4387,7 @@
       "stack": [
         "Gong"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-18T16:20:52.077+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4319,7 +4466,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-17T14:42:27-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4375,7 +4522,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-14T08:58:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4449,7 +4596,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-14T08:58:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4523,7 +4670,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-14T14:07:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4597,7 +4744,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-13T16:51:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4665,7 +4812,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-13T16:50:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4733,7 +4880,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-13T18:08:29.292+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4816,7 +4963,7 @@
         "Linear",
         "Metabase"
       ],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-13T14:12:16.915+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4884,7 +5031,7 @@
       "variable": "",
       "book": "60 customers",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-11T22:25:11.605+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4954,7 +5101,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-11T17:23:19.988+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5023,7 +5170,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-11T19:16:27.198+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5086,72 +5233,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8068523",
-      "title": "Manager I, Customer Success Manager",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Entry",
-      "segment": "Mid-Market",
-      "location": "Remote — Canada",
-      "mode": "Remote",
-      "min": 134173,
-      "max": 173635,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Gainsight",
-        "Totango"
-      ],
-      "posted": 43,
-      "postedAt": "2026-08-10T16:41:17-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8068523?gh_jid=8068523",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8068523?gh_jid=8068523",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "Samsara’s Canada Scaled Customer Success team advises and guides our Scaled customer base, ensuring they implement and adopt Samsara, and continuously gain business value from our products using digital communications and self-serve resources. As the manager of the Scaled Customer Success team, you will improve our Scaled Customer Success motion, provide focused coaching for each team member, and be an inspiring leader who establishes an energizing team culture for the team."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Team Leadership & Performance",
-          "paras": [],
-          "bullets": [
-            "Hire, onboard, and develop a high-performing team of CSMs covering the Canada (Commercial & Mid-Market) segment.",
-            "Set clear expectations, goals, and KPIs (e.g., net revenue retention, adoption rates, health scores, business review and implementation completion, risk management).",
-            "Run structured 1:1s, pipeline reviews, and risk reviews; deliver consistent coaching and developmental feedback.",
-            "Recognize and grow top talent; address underperformance quickly and fairly.",
-            "Manage capacity and account assignment across a high-volume book to balance IC and CSM workload and customer coverage."
-          ]
-        },
-        {
-          "title": "Digital Scale Program Ownership",
-          "paras": [],
-          "bullets": [
-            "Own and continuously improve the Digital Scale journey for Canada.",
-            "Define and execute digital plays (onboarding sequences, adoption campaigns, renewal outreach, health score triggers) in partnership with Marketing and CS Operations."
-          ]
-        },
-        {
-          "title": "Customer Outcomes & Execution",
-          "paras": [],
-          "bullets": [
-            "Ensure the team drives measurable value for Commercial and Mid-Market customers through structured onboarding, adoption, expansion, and renewal motions.",
-            "Review and elevate the quality of Customer Success Plans, Business Reviews, and executive-ready materials across the portfolio.",
-            "Oversee book-of-business risk management, ensure early identification, clear ownership, and documented action plans for at-risk accounts.",
-            "Support ICs and CSMs in high-stakes customer moments (Implementation kickoffs, QBRs, escalation calls, executive check-ins) as needed."
-          ]
-        }
-      ]
-    },
-    {
       "id": "ashby:ramp:94d79eed-34db-42c8-b47c-5edef335b7f2",
       "title": "Customer Activation Manager | Scaled",
       "company": "Ramp",
@@ -5167,7 +5248,7 @@
       "variable": "",
       "book": "100 customers",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-10T16:22:34.383+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5235,7 +5316,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-10T20:47:02.283+00:00",
       "source": "Ashby",
       "featured": false,
