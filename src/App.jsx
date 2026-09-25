@@ -11,7 +11,7 @@ import React, { useState, useMemo, useEffect, useRef } from "react";
 const BRAND = {
   name: "renewal",
   line: "Customer success jobs, nothing invented.",
-  contactEmail: "hello@renewal.jobs",
+  contactEmail: "zachtjsmith@gmail.com",
   etsyShop: "https://www.etsy.com/shop/YOURSHOPNAME",
 };
 
@@ -126,20 +126,21 @@ const ISSUES = [
    character-for-character identical to the slug, which is why guessing it
    produces 404s. Prefer pasting.                                          */
 const SHOP = {
-  vendor: "YOURNAME",                       // <- your Gumroad username
+  vendor: "zachsmith43",                    // <- your Gumroad username
   freeLeadMagnetUrl: "",                    // <- paste the free pack's URL
   freeLeadMagnet: "free-cs-prompts",
   buildUrl: (product) => {
     const explicit = typeof product === "string" ? "" : (product.url || "").trim();
     if (explicit) return explicit;
-    const slug = typeof product === "string" ? product : product.slug;
-    return `https://${SHOP.vendor}.gumroad.com/l/${slug}?wanted=true`;
+    // No link pasted yet: send people to the Gumroad store page rather than
+    // guess a product address (guessed addresses are what 404'd before).
+    return `https://${SHOP.vendor}.gumroad.com`;
   },
 };
 
 const BUNDLE = {
   slug: "complete-cs-toolkit",
-  url: "",                                  // <- paste the Gumroad link here
+  url: "https://zachsmith43.gumroad.com/l/Completetoolkit",                                  // <- paste the Gumroad link here
   name: "The Complete CS Toolkit",
   price: 69,
   compareAt: "$120+ separately",
@@ -160,9 +161,9 @@ const BUNDLE = {
 const PRODUCTS = [
   {
     slug: "health-scorecard",
-    url: "",                          // <- paste the Gumroad link here
+    url: "https://zachsmith43.gumroad.com/l/scorecard",                          // <- paste the Gumroad link here
     name: "Customer Health Scorecard",
-    price: 24,
+    price: 9.99,
     format: "Excel",
     stage: "Track",
     cover: "/images/covers/health-scorecard.jpg",
@@ -196,7 +197,7 @@ const PRODUCTS = [
   },
   {
     slug: "onboarding-playbook",
-    url: "",                          // <- paste the Gumroad link here
+    url: "https://zachsmith43.gumroad.com/l/Customerplaybook",                          // <- paste the Gumroad link here
     name: "Customer Onboarding Playbook",
     price: 24,
     format: "Word",
@@ -214,7 +215,7 @@ const PRODUCTS = [
   },
   {
     slug: "email-scripts",
-    url: "",                          // <- paste the Gumroad link here
+    url: "https://zachsmith43.gumroad.com/l/Scripts",                          // <- paste the Gumroad link here
     name: "22 Renewal & Escalation Scripts",
     price: 24,
     format: "Word",
@@ -232,7 +233,7 @@ const PRODUCTS = [
   },
   {
     slug: "success-plan",
-    url: "",                          // <- paste the Gumroad link here
+    url: "https://zachsmith43.gumroad.com/l/Successplantracker",                          // <- paste the Gumroad link here
     name: "Success Plan + Tracker",
     price: 24,
     format: "Word + Excel",
@@ -250,7 +251,7 @@ const PRODUCTS = [
   },
   {
     slug: "csm-30-60-90-kit",
-    url: "",                          // <- paste the Gumroad link here
+    url: "https://zachsmith43.gumroad.com/l/plankit",                          // <- paste the Gumroad link here
     name: "CSM 30-60-90 Plan Kit",
     price: 24,
     format: "Word + PowerPoint",
@@ -269,9 +270,9 @@ const PRODUCTS = [
   },
   {
     slug: "ai-prompt-library",
-    url: "",                          // <- paste the Gumroad link here
-    name: "The AI Prompt Library for CS",
-    price: 39,
+    url: "https://zachsmith43.gumroad.com/l/baselineprompts",                          // <- paste the Gumroad link here
+    name: "45 AI Prompts for Customer Success and Account Managers",
+    price: 19.99,
     format: "Word + plain text",
     stage: "AI layer",
     cover: "/images/covers/ai-prompt-library.jpg",
@@ -796,7 +797,8 @@ function NewsletterPage({ onSub, subbed, issues }) {
       </div>
       <div style={{ marginTop: 32, background: C.flagSoft, border: "1px solid #EADFBC", borderRadius: 6, padding: 22 }}>
         <h3 style={{ margin: 0, fontSize: 16.5, fontWeight: 700, color: C.ink }}>One sponsor slot per issue</h3>
-        <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.55, margin: "8px 0 0" }}>Plain text, near the top, written in the newsletter's voice. $199 an issue. Email <span style={{ color: C.ink, fontWeight: 600 }}>{BRAND.contactEmail}</span>.</p>
+        <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.55, margin: "8px 0 0" }}>Plain text, near the top, written in the newsletter's voice. $199 an issue.</p>
+        <div style={{ marginTop: 12 }}><CopyEmail /></div>
       </div>
     </div>
   );
@@ -890,15 +892,17 @@ function TemplatesPage() {
       </div>
 
       {/* free sample — feeds the list */}
-      <div style={{ marginTop: 28, background: C.signalSoft, border: "1px solid #CBE2D8", borderRadius: 6, padding: 24, display: "flex", gap: 20, alignItems: "center", flexWrap: "wrap" }}>
-        <div style={{ flex: "1 1 360px" }}>
-          <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em" }}>Try a few prompts first, free</h3>
-          <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.55, margin: "7px 0 0", maxWidth: "58ch" }}>
-            A free sample pack from the AI Prompt Library. No card, no trial — if they're useful you'll know inside ten minutes.
-          </p>
+      {SHOP.freeLeadMagnetUrl && (
+        <div style={{ marginTop: 28, background: C.signalSoft, border: "1px solid #CBE2D8", borderRadius: 6, padding: 24, display: "flex", gap: 20, alignItems: "center", flexWrap: "wrap" }}>
+          <div style={{ flex: "1 1 360px" }}>
+            <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em" }}>Try a few prompts first, free</h3>
+            <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.55, margin: "7px 0 0", maxWidth: "58ch" }}>
+              A free sample of the 45 AI Prompts. No card, no trial — if they're useful you'll know inside ten minutes.
+            </p>
+          </div>
+          <Button href={SHOP.freeLeadMagnetUrl || SHOP.buildUrl(SHOP.freeLeadMagnet).replace("?wanted=true", "")}>Get the free pack</Button>
         </div>
-        <Button href={SHOP.freeLeadMagnetUrl || SHOP.buildUrl(SHOP.freeLeadMagnet).replace("?wanted=true", "")}>Get the free pack</Button>
-      </div>
+      )}
 
       <p style={{ fontSize: 13.5, color: C.muted, marginTop: 22, maxWidth: "72ch", lineHeight: 1.6 }}>
         Every file is editable and yours to keep. Checkout, downloads and refunds are handled by Gumroad.
@@ -1166,6 +1170,117 @@ function ListingForm({ onClose }) {
   );
 }
 
+/* --- copyable contact ----------------------------------------------------
+   mailto: links silently do nothing for anyone without a desktop mail client —
+   most phone users and everyone on webmail. On the page where people are
+   trying to pay you, the address has to be visible and copyable too.        */
+
+async function copyText(text) {
+  try {
+    await navigator.clipboard.writeText(text);   // needs HTTPS — Netlify has it
+    return true;
+  } catch {
+    // Older browsers, or clipboard permission denied: the textarea fallback.
+    // The finally matters: if execCommand throws, the textarea must still come
+    // out, or every failed click leaves an invisible element stuck in the page.
+    let ta = null;
+    try {
+      ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      return document.execCommand("copy");
+    } catch {
+      return false;
+    } finally {
+      if (ta) { try { document.body.removeChild(ta); } catch { /* already gone */ } }
+    }
+  }
+}
+
+function CopyEmail({ dark = false }) {
+  const [state, setState] = useState("idle"); // idle | copied | failed
+  const email = BRAND.contactEmail;
+
+  const onCopy = async () => {
+    const ok = await copyText(email);
+    setState(ok ? "copied" : "failed");
+    setTimeout(() => setState("idle"), 2200);
+  };
+
+  const fg = dark ? "#FFFFFF" : C.ink;
+  const bd = dark ? "#3A4B44" : C.rule;
+  const bg = dark ? "rgba(255,255,255,0.06)" : C.surface;
+
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+      <span
+        style={{
+          fontSize: 14, fontWeight: 600, color: fg, fontFamily: FONT,
+          background: bg, border: "1px solid " + bd, borderRadius: 5,
+          padding: "7px 11px", userSelect: "all", wordBreak: "break-all",
+        }}
+        title="Click to select"
+      >
+        {email}
+      </span>
+      <button
+        onClick={onCopy}
+        style={{
+          background: state === "copied" ? C.signal : "transparent",
+          color: state === "copied" ? "#fff" : fg,
+          border: "1px solid " + (state === "copied" ? C.signal : bd),
+          borderRadius: 5, padding: "7px 13px", fontSize: 13, fontWeight: 600,
+          fontFamily: FONT, cursor: "pointer", minWidth: 74,
+        }}
+      >
+        {state === "copied" ? "Copied" : state === "failed" ? "Select it" : "Copy"}
+      </button>
+      {/* announced to screen readers without moving focus */}
+      <span aria-live="polite" style={{ position: "absolute", width: 1, height: 1, overflow: "hidden", clip: "rect(0 0 0 0)" }}>
+        {state === "copied" ? "Email address copied" : ""}
+      </span>
+    </div>
+  );
+}
+
+function ContactReveal({ topic, dark = false }) {
+  const [open, setOpen] = useState(false);
+  const muted = dark ? "#C6D2CD" : C.muted;
+
+  return (
+    <div style={{ marginTop: 10 }}>
+      <button
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+        style={{
+          background: "none", border: "none", padding: "2px 0", cursor: "pointer",
+          fontFamily: FONT, fontSize: 13.5, fontWeight: 600,
+          color: dark ? "#FFFFFF" : C.signal,
+          display: "inline-flex", alignItems: "center", gap: 6,
+        }}
+      >
+        Contact me directly
+        <span aria-hidden="true" style={{ display: "inline-block", transition: "transform 0.15s", transform: open ? "rotate(180deg)" : "none", fontSize: 11 }}>▾</span>
+      </button>
+
+      {open && (
+        <div style={{ marginTop: 9 }}>
+          <CopyEmail dark={dark} />
+          {topic && (
+            <p style={{ fontSize: 12.5, color: muted, margin: "8px 0 0", lineHeight: 1.5 }}>
+              Put "{topic}" in the subject line so I know which slot you're after.
+            </p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 /* --- advertise ----------------------------------------------------------- */
 function AdvertisePage() {
   const [showForm, setShowForm] = useState(false);
@@ -1182,7 +1297,10 @@ function AdvertisePage() {
             </div>
             <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.6, margin: "12px 0 14px" }}>{p.what}</p>
             <ul style={{ margin: "0 0 18px", paddingLeft: 17, fontSize: 14, color: C.body, lineHeight: 1.7 }}>{p.stats.map((s) => <li key={s}>{s}</li>)}</ul>
-            <div style={{ marginTop: "auto" }}><Button kind="ghost" href={"mailto:" + BRAND.contactEmail + "?subject=" + encodeURIComponent(p.name)} wide>Book this slot</Button></div>
+            <div style={{ marginTop: "auto" }}>
+              <Button kind="ghost" href={"mailto:" + BRAND.contactEmail + "?subject=" + encodeURIComponent(p.name)} wide>Book this slot</Button>
+              <ContactReveal topic={p.name} />
+            </div>
           </div>
         ))}
       </div>
@@ -1215,6 +1333,7 @@ function AdvertisePage() {
               <Button onClick={() => setShowForm(true)}>Submit a free listing</Button>
               <a href={"mailto:" + BRAND.contactEmail + "?subject=Featured%20listing"} style={{ color: "#fff", border: "1px solid #3A4B44", borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, textDecoration: "none", fontFamily: FONT }}>Feature a role — $99</a>
             </div>
+            <ContactReveal topic="Featured listing" dark />
           </>
         )}
       </div>
