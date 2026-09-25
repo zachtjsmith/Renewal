@@ -1,11 +1,358 @@
 {
-  "generatedAt": "2026-09-24T11:19:38.396Z",
-  "count": 78,
+  "generatedAt": "2026-09-25T11:24:58.621Z",
+  "count": 77,
   "sources": [
     "Greenhouse",
     "Ashby"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:cloudflare:8222614",
+      "title": "Sales Enablement Specialist - EMEA",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-24T11:09:42-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8222614?gh_jid=8222614",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8222614?gh_jid=8222614",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "What you'll do",
+          "paras": [
+            "Program Management and AI-native operating model"
+          ],
+          "bullets": [
+            "Sales Outcome Ownership\n\n\n\n• Identify and close productivity gaps by cohort; measure success by deal velocity, win rate, and quota attainment, not completion rates",
+            "Own 90/180-day new hire outcomes using data and field observation",
+            "Support competitive deal reviews; help create structure and tools for improvements",
+            "Design repetitive solutions starting from ad-hoc micro-interventions (30-day improvement plans, peer coaching) in addition to broad programs",
+            "Redesign and operate with AI regional onboarding with structured curriculum (MEDDPICC, SFDC, competitive positioning) plus embedded field support",
+            "Master MEDDPICC; audit discovery quality and coach on methodology adoption",
+            "Work with managers in 1:1s to diagnose rep-specific barriers and enable managers to coach their teams",
+            "Manage regional onboarding timelines and content rollouts"
+          ]
+        },
+        {
+          "title": "Desirable Skills, Knowledge, and Experience:",
+          "paras": [],
+          "bullets": [
+            "5-7 years sales enablement focused on field rep coaching and behavior change",
+            "Direct enterprise sales experience; complex multi-stakeholder deals",
+            "Proven track record diagnosing and closing rep skill gaps",
+            "MEDDPICC or equivalent sales methodology mastery",
+            "SFDC and AI fluency: comfortable pulling reports and modelling productivity signals",
+            "Strong program management and stakeholder communication skills"
+          ]
+        },
+        {
+          "title": "Preferred Qualifications",
+          "paras": [],
+          "bullets": [
+            "Sales manager coaching and 1:1 development experience",
+            "Competitive win/loss analysis and field ride-along experience",
+            "Productivity metrics and quota attainment analysis",
+            "GTM or sales operations partnership in high-growth SaaS background"
+          ]
+        },
+        {
+          "title": "What Makes Cloudflare Special?",
+          "paras": [
+            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
+            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
+            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:samsara:8227725",
+      "title": "Enterprise Customer Success Manager - Public Sector",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 88090,
+      "max": 133245,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-24T12:03:08-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8227725?gh_jid=8227725",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8227725?gh_jid=8227725",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "About the role:",
+          "paras": [
+            "Our Enterprise Customer Success Managers pick up where our Implementation team leaves off, working closely with our top customers to understand their fleet and unique challenges, advising on how to customize Samsara for their needs, and becoming their long-term partner.",
+            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering, and Product, enabling you to experience multiple aspects of a hyper-growth company from within.",
+            "This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "In this role, you will:",
+          "paras": [],
+          "bullets": [
+            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform",
+            "Compose joint success plans with customers, outlining their objectives, metrics, timelines, and effectively removing any barriers to achieving business value",
+            "Orchestrate executive business reviews with our customers’ decision makers and our executive leadership where we look back at past successes and align on upcoming goals",
+            "Conduct workshops with customers to understand their current operations and recommend workflow changes to get the most out of their Samsara products",
+            "Deeply understand the Samsara platform’s capabilities and explain them to businesses of all types - field services, utilities, long-haul transportation, school buses, and many more",
+            "Serve as a mentor to the wider Customer Success and Support teams",
+            "Champion, role model, and embed Samsara’s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices"
+          ]
+        },
+        {
+          "title": "Minimum requirements for the role:",
+          "paras": [],
+          "bullets": [
+            "3+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred",
+            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence",
+            "Experience supporting or working with technical products",
+            "Solutions-oriented with strong problem solving skills",
+            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software",
+            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment",
+            "Diplomacy, tact, and poise under pressure when working through customer issues",
+            "Bachelor’s degree from a 4-year institution"
+          ]
+        },
+        {
+          "title": "An ideal candidate also has:",
+          "paras": [
+            "Annual on-target earnings (OTE) range for full-time employees for this position is below and depends on your city of residence. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "Strong bias for action, the ability to think big, with insistence on high standards",
+            "Experience serving and supporting large-scale solutions for Public Sector organizations",
+            "Thrives in an unstructured, fast-paced, and change-heavy environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:samsara:8121968",
+      "title": "Senior Enterprise Implementation Consultant",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Onboarding",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 100406,
+      "max": 153409,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-24T17:18:37-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "In this role, you will:",
+          "paras": [
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform.",
+            "Manage the deployment of Samsara technology to large-scale customers, enabling customers to achieve quick time to value in their investment.",
+            "Create launch plans and a roadmap to increase product usage.",
+            "Track implementation progress, participation, product adoption, and account health.",
+            "Run training sessions, demonstrate Samsara’s technology, and work through challenges with executives and day-to-day users of the system across numerous use cases.",
+            "Juggle multiple customer engagements in parallel and work cross-functionally to deliver an exceptional experience for our customers.",
+            "Serve as a mentor to the wider Customer Success and Support teams.",
+            "Deeply understand the Samsara platform’s capabilities and explain them to customers of all types."
+          ]
+        },
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Flexible Working",
+          "paras": [
+            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Our Commitment to Authenticity",
+          "paras": [
+            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:samsara:8220469",
+      "title": "Strategic Customer Success Manager - US Public Sector",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 111563,
+      "max": 150000,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-24T11:16:18-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8220469?gh_jid=8220469",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8220469?gh_jid=8220469",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "About the role:",
+          "paras": [
+            "Our Enterprise Customer Success Managers pick up where our Implementation team leaves off, working closely with our top customers to understand their fleet and unique challenges, advising on how to customize Samsara for their needs, and becoming their long-term partner.",
+            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering, and Product, enabling you to experience multiple aspects of a hyper-growth company from within.",
+            "This is a remote position open to candidates residing in the US except Alaska, Austin Metro, Boulder Metro, California, Chicago Metro, Connecticut, Dallas Metro, Denver Metro, Houston Metro, Maryland, Massachusetts, New Jersey, New York, Rhode Island, Seattle Metro, and Washington, D.C."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "In this role, you will:",
+          "paras": [],
+          "bullets": [
+            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform",
+            "Compose joint success plans with customers, outlining their objectives, metrics, timelines, and effectively removing any barriers to achieving business value",
+            "Orchestrate executive business reviews with our customers’ decision makers and our executive leadership where we look back at past successes and align on upcoming goals",
+            "Conduct workshops with customers to understand their current operations and recommend workflow changes to get the most out of their Samsara products",
+            "Deeply understand the Samsara platform’s capabilities and explain them to businesses of all types - field services, utilities, long-haul transportation, school buses, and many more",
+            "Serve as a mentor to the wider Customer Success and Support teams",
+            "Champion, role model, and embed Samsara’s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices"
+          ]
+        },
+        {
+          "title": "Minimum requirements for the role:",
+          "paras": [],
+          "bullets": [
+            "5+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred",
+            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence",
+            "Experience supporting or working with technical products",
+            "Solutions-oriented with strong problem solving skills",
+            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software",
+            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment",
+            "Diplomacy, tact, and poise under pressure when working through customer issues",
+            "Bachelor’s degree from a 4-year institution"
+          ]
+        },
+        {
+          "title": "An ideal candidate also has:",
+          "paras": [
+            "Annual on-target earnings (OTE) range for full-time employees for this position is below and depends on your city of residence. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "Strong bias for action, the ability to think big, with insistence on high standards",
+            "Experience serving and supporting large-scale solutions for Public Sector organizations",
+            "Thrives in an unstructured, fast-paced, and change-heavy environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:gusto:8212226",
+      "title": "Senior GTM Insights Analyst",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — Atlanta, GA -, Denver, CO - + more",
+      "mode": "Hybrid",
+      "min": 130000,
+      "max": 160000,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-24T12:30:43-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8212226",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8212226",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "The Senior GTM Insights Analyst is the strategic and analytical backbone of Gusto's GTM organization. You will partner directly with GTM leadership to shape business strategy, own the analytics infrastructure and serve as the connective tissue between Finance, GTM Operations, GTM leadership, and Product/Growth. You'll build and defend the end-to-end view of how our GTM organization is designed, how our sales processes perform, and how changes to the business (new products, pricing, org design, market shifts) ripple through the organization and revenue outcomes.",
+            "Where other RevOps leaders own the operational engine & execution you own the strategic and analytical through-line that cuts across all of them, translating what's happening across every motion into a single, coherent narrative leadership can act on, and translating, positioning, and reporting business decisions directly to the Head of GTM for the entirety of the org.",
+            "This is a high-visibility leadership role embedded in Revenue Operations, partnering directly with the Head of GTM, Finance, Product, Growth, and every GTM route-to-market leader."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Team",
+          "paras": [
+            "You'll join the Revenue Operations organization at Gusto. RevOps at Gusto owns the machine: the infrastructure, systems, and operational execution that make our GTM motions possible.",
+            "You'll be a peer to the RevOps leaders aligned to each route to market along with Sales Compensation, Sales Enablement, and GTM Systems & Tooling, but your remit cuts horizontally across all of them rather than sitting inside one. The best version of this role is fluent in the mechanics of every motion without being married to any one of them, and leans into those partnerships to build one shared picture of the business rather than several competing ones."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Strategy & Business Partnership",
+          "paras": [],
+          "bullets": [
+            "Partner directly with the Head of GTM, Head of Revenue Ops, GTM leadership & I&O to shape business strategy, translating ambiguous strategic questions into structured analysis leadership can act on.",
+            "Serve as the primary conduit between Finance, GTM Operations, and GTM leadership, translating financial targets into operational plans, and operational reality back into financial forecasts.",
+            "Build the end-to-end view of the sales process across every route to market so leadership always has one coherent picture of how the business functions & performs"
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:gusto:8227773",
       "title": "Future Opportunities: Sales Onboarding Advocate",
@@ -22,7 +369,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -97,7 +444,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -169,7 +516,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -240,7 +587,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-22T13:03:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -304,7 +651,7 @@
       "variable": "+ equity + bonus",
       "book": "100 accounts",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-22T09:23:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -360,7 +707,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -425,7 +772,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-21T14:49:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -480,71 +827,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8222720",
-      "title": "Customer Experience Manager - UKI",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 2,
-      "postedAt": "2026-09-22T04:56:33-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8222720?gh_jid=8222720",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8222720?gh_jid=8222720",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "About the Department",
-          "paras": [
-            "Renewals Account Managers, Customer Success Managers, Account Executives, Business Development Representatives, Solution Engineers, and Sales Operations - all working together help our customers adopt Cloudflare and create great Internet-enabled experiences.",
-            "The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You’ll Do",
-          "paras": [
-            "The Customer Experience Manager leads the post-sale customer journey, managing everything from onboarding to long-term retention and contract renewals . Acting as both a trusted business advisor and a commercial owner of the account, you will build strategic relationships with stakeholders to clearly articulate ROI and business value and ultimately successfully close renewals maximizing upsells and minimizing churn. You will collaborate tightly with the Sales team to maintain accurate weekly forecasts and contribute to critical engagements like Executive Business Reviews. In addition, you will embed AI-driven optimization into your daily workflows—using advanced data analysis to uncover selling opportunities and automating routine tasks to accelerate customer outcomes and maximize operational efficiency."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Customer Lifecycle & Success",
-          "paras": [],
-          "bullets": [
-            "Manage customer engagement across the entire customer lifecycle, from onboarding through renewal.",
-            "Be a Trusted Advisor to your customers by helping them adopt the Cloudflare products and services to meet their needs and make them successful",
-            "Work with your account teams to plan and execute long term Success Plans with our largest customers to facilitate retention and growth via product and new business unit expansion.",
-            "Maintain a deep understanding of our solutions and present to customers about the most relevant features/functionality for their specific business needs.",
-            "Own or be an active participant in several customer touch points including: Business Value Justification meetings, Business Reviews, and Renewal Meetings, with a track record of successful planning and execution of Executive Business Reviews.",
-            "Demonstrate how your customer engagement directly impacts revenue growth and adoption of Cloudflare solutions and services."
-          ]
-        },
-        {
-          "title": "Commercial & Renewals",
-          "paras": [],
-          "bullets": [
-            "You are ultimately responsible for the retention and growth of your book of business. You will own and drive the renewal including maintaining and reporting an accurate weekly forecast.",
-            "Negotiate and execute renewal contracts in accordance with customer objectives.",
-            "You will be an expert in deal construction and pricing strategy. You will directly be designing renewals to create a win-win for customers and Cloudflare.",
-            "Analyze data and leverage tools to identify selling opportunities and business value.",
-            "Drive strong alignment with the Sales team, contributing to team forecasting, planning, and targets."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:instacart:8214941",
       "title": "Senior Account Manager, Retail Media",
       "company": "Instacart",
@@ -560,7 +842,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -630,7 +912,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -700,7 +982,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -765,7 +1047,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -829,7 +1111,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -885,6 +1167,82 @@
       ]
     },
     {
+      "id": "greenhouse:amplitude:8811190002",
+      "title": "Senior Technical Success Manager, Emerging Enterprise - East/Central",
+      "company": "Amplitude",
+      "companySite": "https://amplitude.com",
+      "industry": "Product analytics",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Arlington, VA, Atlanta, GA + more",
+      "mode": "Onsite",
+      "min": 194000,
+      "max": 291000,
+      "variable": "$194K–$291K OTE",
+      "book": "40 accounts",
+      "stack": [],
+      "posted": 9,
+      "postedAt": "2026-09-15T11:19:46-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/amplitude/jobs/8811190002",
+      "postingUrl": "https://job-boards.greenhouse.io/amplitude/jobs/8811190002",
+      "blurb": "Amplitude is the leading AI analytics platform, helping over 4,700 customers—including Atlassian, Burger King, NBCUniversal, and Square—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze…",
+      "summary": "Amplitude is the leading AI analytics platform, helping over 4,700 customers—including Atlassian, Burger King, NBCUniversal, and Square—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories in G2’s Winter 2026 Report, Amplitude is the best-in-class solution for product, data, and marketing teams. Learn more at amplitude.com .\n\nAs an organization, we deliver for our customers by living our values. We operate from a place of humility, take ownership of problems and successes, approach challenges with a growth mindset, and put our customers at the center of everything we do.",
+      "sections": [
+        {
+          "title": "About The Role & Team",
+          "paras": [
+            "Amplitude is the leading AI-first digital analytics platform that helped over 4,000 customers build better products and digital experiences. Our customer base includes Atlassian, Burger King, NBCUniversal, Square, and Under Armour. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories in G2's Fall 2025 Report, Amplitude is the best-in-class solution for product, data, and marketing teams. Learn more at amplitude.com.",
+            "The Customer Success team is responsible for building relationships with and driving long-term value realization for Amplitude's customers.",
+            "The Senior Technical Success Manager, Emerging Enterprise owns customer deployment, adoption, and value realization across Amplitude's digital analytics platform. They bring strong product knowledge and fluency in customer technical ecosystems: data foundations, taxonomy, instrumentation patterns, and AI agent configuration. They are execution-first and outcome-driven from presales through implementation, adoption, renewal, and expansion."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "As a Senior Technical Success Manager, Strategic, you will:",
+          "paras": [],
+          "bullets": [
+            "Own customer deployment, adoption, and outcomes for a portfolio of 40-50 accounts, from presales through renewal",
+            "Lead deployment planning and implementation across your book, e.g.: scoping, deployment plan creation, kickoff meetings, use case alignment, coordination of delivery (e.g. managing internal and partner teams), project reporting",
+            "Track and manage risks and issues across active deployments, driving resolution before they impact timelines or outcomes",
+            "Monitor portfolio health through AI-augmented signals, engaging proactively to accelerate adoption, drive renewals, and deepen stakeholder engagement",
+            "Drive product adoption by running live working sessions, identifying new use cases to expand value over time, and showcasing new platform capabilities with a point of view on how they enable customer growth",
+            "Develop and maintain success plans tied to customer goals, tracking milestones and risks from onboarding through renewal",
+            "Build and deliver executive business reviews that connect Amplitude usage to measurable business impact, turning adoption into a renewal and expansion story",
+            "Partner with Account Executives on renewals and expansion, building the value story, coaching champions, and identifying growth opportunities across your book"
+          ]
+        },
+        {
+          "title": "Critical Skills Profile",
+          "paras": [],
+          "bullets": [
+            "Business Acumen: Understands each customer's business model, growth levers, and priorities. Builds a path to value that connects Amplitude's platform to the outcomes that matter most to the customer.",
+            "Technical Fluency: Comfortable with Amplitude data architecture, instrumentation methods, taxonomy design, and AI agent workflows. Able to unlock use cases and guide internal and partner delivery teams.",
+            "Delivery Excellence: Drives deployment and implementation quality across a full book of business. Manages timelines, coordinates internal and partner delivery teams, and ensures every account progresses through milestones on time and to standard.",
+            "Prescriptive Customer Guidance: Sets the standard for what good looks like at each stage of the customer journey. Drives accountability across deployment and ongoing success. Pushes back on bad implementation patterns, guides customers toward proven approaches, and holds them accountable to their own defined success criteria.",
+            "Diagnostic Thinking: Proactively recognizes adoption gaps and technical blockers early and drives creative solutions that get customers back on track.",
+            "Curiosity and Self-Sufficiency: Defaults to figuring things out independently. Explores edge cases on your own, and comes to conversations with a point of view. This role requires someone who runs toward ambiguity.",
+            "AI Innovation: Embeds AI in day-to-day workflow to improve efficiency and customer outcomes. Experiments, iterates, and shares best practices."
+          ]
+        },
+        {
+          "title": "At a minimum, you need to have:",
+          "paras": [],
+          "bullets": [
+            "5+ years of experience in Customer Success, Technical Account Management, or a similar customer-facing role in B2B SaaS",
+            "3+ years of experience specifically leading enterprise software deployments where change management and foundational data governance were core priorities.",
+            "2+ years managing a portfolio of 8-10 Strategic accounts",
+            "Experience co-owning renewals and contributing to expansion pipeline alongside a sales counterpart",
+            "Experience training or enabling non-technical teams to become data-sufficient.",
+            "Excellent communication skills to influence everyone from a data engineer to a C-level executive.",
+            "Expert-level project management skills and the ability to thrive in an independent and fast-paced environment."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:gusto:8191997",
       "title": "Retirement Compliance Specialist",
       "company": "Gusto",
@@ -900,7 +1258,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-15T14:21:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -963,7 +1321,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1026,7 +1384,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1087,7 +1445,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1155,7 +1513,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1215,7 +1573,7 @@
     },
     {
       "id": "greenhouse:databricks:8395108002",
-      "title": "Sr. Engagement Manager, Forward Deployed Engineering - Financial Services",
+      "title": "Sr. Engagement Manager, FDE - Financial Services",
       "company": "Databricks",
       "companySite": "https://www.databricks.com",
       "industry": "Data platform",
@@ -1229,7 +1587,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1293,7 +1651,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1340,77 +1698,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8168027",
-      "title": "Sales Operations Manager",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "CS Operations",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 95498,
-      "max": 144450,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Sigma"
-      ],
-      "posted": 13,
-      "postedAt": "2026-09-10T14:32:42-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8168027?gh_jid=8168027",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8168027?gh_jid=8168027",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "Samsara is looking for a Sales Operations Manager to play a critical role in driving process optimization and transformation across our global sales organization. This role will partner with senior leaders across Samsara's go-to-market teams to design, build, and run critical sales capabilities — bringing together people, process, and technology to fundamentally improve how sellers engage with our internal systems and processes. This individual will have an outsized impact on the future of our sales organization by owning and executing complex, cross-functional programs that enable Samsara to Build for the Long Term as we grow past $1BN in revenue.",
-            "The ideal candidate has experience driving transformative initiatives that span multiple teams and functions, and can translate ambiguous business problems into elegant, scalable solutions.",
-            "This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Minimum requirements for the role:",
-          "paras": [],
-          "bullets": [
-            "6+ years of experience in a Sales Operations role or experience in similar growth or operations roles in a dynamic, high-growth environment",
-            "Ability to develop and drive complex, business-critical programs across teams, from ambiguous problem definition through implementation and adoption",
-            "Deep expertise in core sales operational processes such as opportunity management, quoting, approvals, product operations, or related pre-sales workflows",
-            "Proficiency in Salesforce and the overall sales technology ecosystem; experience providing business requirements and conducting UAT for systems changes",
-            "Strong organizational skills and business judgment with the ability to manage multiple projects from end to end",
-            "Demonstrated ability to craft compelling, data-driven narratives and present recommendations to senior and executive leadership",
-            "Excellent communication and critical thinking skills to understand sales processes at a company, team, and individual rep level",
-            "Bachelor's degree or higher from a top university; business, finance, economics, or engineering focus is a plus; MBA is optional"
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Experience as a Salesforce administrator is a plus but not required",
-            "Familiarity with Product Management and/or Six Sigma best practices is a plus, but not required"
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:figma:6181922004",
       "title": "Technical Account Manager",
       "company": "Figma",
@@ -1426,7 +1713,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1491,7 +1778,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1556,7 +1843,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1626,7 +1913,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1691,11 +1978,11 @@
       "location": "Remote — Toronto, ON",
       "mode": "Remote",
       "min": 265000,
-      "max": 363000,
+      "max": 362000,
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1767,7 +2054,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1837,7 +2124,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1873,7 +2160,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1941,7 +2228,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2009,7 +2296,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-03T13:52:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2083,7 +2370,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2138,78 +2425,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8145056",
-      "title": "Customer Experience Strategy Manager",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "CS Operations",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 106802,
-      "max": 161550,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Python"
-      ],
-      "posted": 21,
-      "postedAt": "2026-09-02T14:19:58-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8145056?gh_jid=8145056",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8145056?gh_jid=8145056",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "As a critical member of the Customer Experience Strategy team, you will be advancing our mission of delivering a superior experience throughout the customers' end-to-end journey. You will do this by bringing an AI forward approach to problem solving, leading an AI transformation from a CX lens. This role reports directly to the Head of CX Strategy and will collaborate closely with leaders across the organization.\n\nYou will move with urgency and speed, running rapid cycles from concept to prototype to development and rollout. You are first and foremost a builder, and will partner with the engineering team to translate business opportunities into tools and workflows that equip the business to deliver at a higher standard. You understand that AI is changing how companies listen to, understand, and act on customer feedback, and you're excited to bring that thinking into practice.",
-            "This is a remote position open to candidates residing in Canada and the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Minimum requirements for the role:",
-          "paras": [],
-          "bullets": [
-            "5+ years operations, business analysis, process improvement, product operations, or a similar hybrid builder/operator role",
-            "Demonstrated hands-on experience building with AI tools — not just using them: prompt engineering, LLM-based workflows, agent frameworks (e.g., LangChain, CrewAI), or low-code/no-code automation platforms (e.g., Zapier, Make, Retool).",
-            "Strong workflow/process analysis skills — able to spot the highest-leverage automation opportunities and redesign a process around them.",
-            "Comfortable prototyping fast with incomplete requirements, then iterating from real feedback rather than waiting for a full spec.",
-            "Able to translate a business problem into a buildable AI use case, and to write requirements clear enough for an engineering partner to build from.",
-            "Strong stakeholder management and communication skills — able to train and drive adoption among non-technical users.",
-            "Flourishes in a fast-paced environment. Comfortable managing multiple projects simultaneously.",
-            "Travel: Comfort traveling to customer sites once a quarter (1-2 days per trip) to gain first-hand understanding of customer operations."
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Basic Python/scripting ability",
-            "Experience with API integrations",
-            "Familiarity with data governance or security considerations for AI systems",
-            "Experience with customer insight, experiment management, or VoC programs such as NPS and CSAT surveys, qualitative interviews, or market research",
-            "Experience running statistical analysis, or churn and predictive models based on customer experience data"
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8173658",
       "title": "Enterprise Core Customer Success Manager",
       "company": "Samsara",
@@ -2225,7 +2440,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2296,7 +2511,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2367,7 +2582,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2430,7 +2645,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2495,7 +2710,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-01T16:40:32.875+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2563,7 +2778,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2639,7 +2854,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2715,7 +2930,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-08-28T20:46:40.303+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2796,7 +3011,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2852,74 +3067,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8125426",
-      "title": "Enterprise Core Customer Success Manager",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — Canada",
-      "mode": "Remote",
-      "min": 98685,
-      "max": 127710,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 28,
-      "postedAt": "2026-08-26T11:34:40-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8125426?gh_jid=8125426",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8125426?gh_jid=8125426",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "Our Enterprise Customer Success Managers pick up where our Implementation team leaves off, working closely with our top customers to understand their fleet and unique challenges, advising on how to customize Samsara for their needs, and becoming their long-term partner.",
-            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering and Product, enabling you to experience multiple aspects of a hyper-growth company from within."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Minimum requirements for the role:",
-          "paras": [],
-          "bullets": [
-            "4+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred",
-            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence",
-            "Experience supporting or working with technical products",
-            "Solutions-oriented with strong problem-solving skills",
-            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software",
-            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment",
-            "Diplomacy, tact, and poise under pressure when working through customer issues",
-            "Bachelor’s degree from a 4-year institution"
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Has strong bias for action, the ability to think big, with insistence on high standards",
-            "Has experience serving and supporting large-scale business solutions at Fortune 500 companies",
-            "Thrives in an unstructured, fast-paced, and change-heavy environment"
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "ashby:ramp:d64609dd-c391-45a2-bfdb-c1bb34e8f93c",
       "title": "Customer Experience Associate",
       "company": "Ramp",
@@ -2938,7 +3085,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3006,7 +3153,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-26T18:59:45.994+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3083,7 +3230,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3153,7 +3300,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3227,7 +3374,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-24T20:39:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3277,214 +3424,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8131784",
-      "title": "Enterprise Implementation Consultant",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Onboarding",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 66261,
-      "max": 100227,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 30,
-      "postedAt": "2026-08-24T07:56:19-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8131784?gh_jid=8131784",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8131784?gh_jid=8131784",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "In this role, you will:",
-          "paras": [],
-          "bullets": [
-            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform.",
-            "Manage the deployment of Samsara technology for a high-volume book of Enterprise customers, driving timely execution and outcomes for each.",
-            "Conduct goal planning workshops to align on business outcomes and metrics.",
-            "Track implementation progress, customer engagement, product adoption, and account health.",
-            "Lead training and consultation sessions, demonstrate Samsara’s technology, and work through challenges with project leads and day-to-day users.",
-            "Adapt implementation approach, training, and communication style across varied customer use cases, stakeholders, and levels of complexity.",
-            "Manage a large book of concurrent customer engagements with strong organization, focus, and efficiency while working cross-functionally to deliver an exceptional customer experience.",
-            "Contribute ideas to help evolve and adapt our implementation approach, driving impact for customers and accelerating time to value."
-          ]
-        },
-        {
-          "title": "Minimum requirements for the role:",
-          "paras": [],
-          "bullets": [
-            "2-4 years of experience in a Customer Success, account management, or consulting role. Enterprise SaaS experience preferred",
-            "This is a demanding position that requires exceptional organizational ability and time management to efficiently balance multiple simultaneous customer engagements.",
-            "Experience supporting or working with technical products",
-            "Excellent consultative skills with experience in end-to-end system implementations",
-            "Proven track record of building trust and communicating effectively with a wide variety of internal and customer stakeholders",
-            "Diplomacy, tact, and poise under pressure when working through customer issues",
-            "Bachelor’s degree from a 4-year institution"
-          ]
-        },
-        {
-          "title": "An ideal candidate also:",
-          "paras": [
-            "Automatically included at the end of external job posts:",
-            "At Samsara, we welcome all. All sizes, colors, cultures, sexes, beliefs, religions, ages, people. We depend on the unique approaches of our team members to help us solve complex problems. We are committed to increasing diversity across our team and ensuring that Samsara is a place where people from all backgrounds can make an impact."
-          ],
-          "bullets": [
-            "Challenges the status quo, recommends customer-focused improvements, and brings a strong bias for action with high standards",
-            "Has experience managing a high-volume customer base in B2B SaaS",
-            "Thrives in an unstructured, fast-paced, and change-heavy environment"
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:samsara:8053880",
-      "title": "Senior Sales Operations Analyst",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "CS Operations",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 79433,
-      "max": 120150,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Sigma"
-      ],
-      "posted": 30,
-      "postedAt": "2026-08-24T14:12:20-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8053880?gh_jid=8053880",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8053880?gh_jid=8053880",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "Samsara is looking for a Senior Sales Operations Analyst to own project-level workstreams that scale systems and processes supporting our Enterprise Account Executives. In this role, you will partner closely with Sales Operations leaders, Account Executives, and cross-functional stakeholders to reduce friction in the sales pipeline and help our Enterprise sellers spend more time in the field. You’ll be the go-to source for project-level data and reporting, and you’ll use AI and automation to accelerate analysis and decision-making across the team.",
-            "This is a great opportunity for an analytical operator who thrives on end-to-end ownership of smaller-scope projects, enjoys connecting data to business outcomes, and wants to build a career in Sales Operations at a high-growth, publicly traded company on the path past $1BN in revenue.",
-            "This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Minimum requirements for the role:",
-          "paras": [],
-          "bullets": [
-            "4–6 years of experience in a Sales Operations, Revenue Operations, or similar analytical/operations role in a dynamic environment.",
-            "Demonstrated ability to own project-level workstreams end-to-end with minimal guidance, including monitoring metrics post-launch and addressing follow-on challenges.",
-            "Strong written communication tailored to specific audiences, and the ability to present analysis and recommendations live to senior leaders and respond to follow-up questions.",
-            "Proficiency in Salesforce.com and working familiarity with the broader sales technology ecosystem.",
-            "Experience with Lead-to-Cash systems and business processes.",
-            "Strong analytical skills and comfort working with sales data — able to act as the go-to source for project-level data sources and reporting.",
-            "Ability to bridge differing perspectives across stakeholders and drive to consensus on project decisions.",
-            "Excellent critical thinking skills to understand sales policies and processes at the company, team, and sales rep level."
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Salesforce CPQ experience and/or Salesforce administrator experience.",
-            "Experience supporting Enterprise or large-segment sales teams.",
-            "Experience in a Sales Operations or other support function supporting a public sector sales team (e.g., state/local government, K–12, higher education, or federal) is a plus.",
-            "Concrete examples of AI-driven solutions they’ve built or implemented to improve operational workflows, analyses, or reporting.",
-            "Ability to translate between technical stakeholders and business leaders — explaining complex issues to different audiences seamlessly.",
-            "Familiarity with Product Management and/or Six Sigma best practices (nice-to-have, not required)."
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:flexport:8155210",
-      "title": "Regional Implementation Manager",
-      "company": "Flexport",
-      "companySite": "https://www.flexport.com",
-      "industry": "Logistics",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Atlanta, GA + more",
-      "mode": "Onsite",
-      "min": 100000,
-      "max": 130000,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 30,
-      "postedAt": "2026-08-24T17:13:15-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8155210",
-      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8155210",
-      "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
-      "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
-      "sections": [
-        {
-          "title": "The opportunity:",
-          "paras": [
-            "We're hiring an Implementation Manager to own and evolve Flexport's Implementation Methodology as our product suite expands. This is a self-starter role: you build the playbook for how we implement Flexport's ICP products today, then adapt it as new products and services come online. You'll drive implementation workflow independently, manage cross-functional projects end-to-end, and partner with Sales and Operations to get new business live and delivered as sold."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you'll do:",
-          "paras": [],
-          "bullets": [
-            "Build and evolve the Implementation Methodology: task definitions, personas, ownership, timing, dependencies, templates. Standardize them so the outputs can span across customers, services, and new ICP products as our suite grows.",
-            "Take first-mover ownership of implementation gaps: when a new product or service doesn't have a playbook yet, you build one, rather than waiting to be told.",
-            "Partner with Sales and Operations as the client's primary point of contact through implementation, including solutioning support.",
-            "Lead implementation for new accounts and new business with existing clients, from award through ramp to steady-state delivery.",
-            "Scope awarded business and build the implementation project plan, aligning sales, account management, planning & ops, carrier relations, procurement, fulfillment, and technical teams to execute.",
-            "Own the critical path and readiness to support: deliver what was sold, on the timeline it was sold on.",
-            "Adapt the plan in real time as conditions change; turn what you learn into better service level and quality.",
-            "Report implementation status to commercial, business, and operational leadership — flag barriers early and bring a mitigation plan, not just the problem."
-          ]
-        },
-        {
-          "title": "What you'll need:",
-          "paras": [],
-          "bullets": [
-            "BA/BS with 4+ years in logistics, supply chain management/consulting, or freight forwarding",
-            "A self-starter who spots process gaps and builds the solution before being asked",
-            "A track record of scoping, planning, and closing client-facing, cross-functional projects",
-            "Strong collaboration and communication skills; comfortable owning the room with clients",
-            "Sharp attention to detail and a bias for delivering ahead of schedule"
-          ]
-        }
-      ]
-    },
-    {
       "id": "ashby:vanta:ffdee1c4-c463-4e6f-a98a-ef8240e34868",
       "title": "Senior GTM Strategy & Operations Manager, Top of Funnel",
       "company": "Vanta",
@@ -3500,7 +3439,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-24T16:24:38.638+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3579,7 +3518,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-21T10:06:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3638,7 +3577,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-20T09:54:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3692,75 +3631,6 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8144760",
-      "title": "Renewals Manager",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Renewals",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — New York City ()",
-      "mode": "Remote",
-      "min": 93500,
-      "max": 126500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Gong"
-      ],
-      "posted": 34,
-      "postedAt": "2026-08-20T13:45:14-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Team",
-          "paras": [
-            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
-            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
-            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
-            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
-            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
-            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
-            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
-            "Contribute to renewal process improvements and help build scalable playbooks for the team."
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Has",
-          "paras": [],
-          "bullets": [
-            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
-            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
-            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
-            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
-            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:mixpanel:8143229",
       "title": "Renewals Manager",
       "company": "Mixpanel",
@@ -3779,7 +3649,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3848,12 +3718,81 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-20T13:47:35-04:00",
       "source": "Greenhouse",
       "featured": false,
       "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
       "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Team",
+          "paras": [
+            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
+            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
+            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
+            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
+            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
+            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
+            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
+            "Contribute to renewal process improvements and help build scalable playbooks for the team."
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Has",
+          "paras": [],
+          "bullets": [
+            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
+            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
+            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
+            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
+            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:mixpanel:8144760",
+      "title": "Renewals Manager",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Renewals",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — New York City ()",
+      "mode": "Remote",
+      "min": 93500,
+      "max": 126500,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Salesforce",
+        "Gong"
+      ],
+      "posted": 35,
+      "postedAt": "2026-08-20T13:45:14-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -3914,7 +3853,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3985,7 +3924,7 @@
       "stack": [
         "Notion"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-19T16:50:46-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4056,7 +3995,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4119,7 +4058,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-20T01:37:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4182,7 +4121,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-19T19:04:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4251,7 +4190,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-18T17:23:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4316,7 +4255,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-18T09:49:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4387,7 +4326,7 @@
       "stack": [
         "Gong"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-18T16:20:52.077+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4451,62 +4390,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8124366",
-      "title": "Senior AMS Field Enablement Activation Partner (Bilingual Spanish)",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 108587,
-      "max": 146000,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 37,
-      "postedAt": "2026-08-17T14:42:27-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8124366?gh_jid=8124366",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8124366?gh_jid=8124366",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Flexible Working",
-          "paras": [
-            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Our Commitment to Authenticity",
-          "paras": [
-            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Fraudulent Employment Offers",
-          "paras": [
-            "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8121318",
       "title": "Enterprise Core Implementation Consultant - East/Central",
       "company": "Samsara",
@@ -4522,7 +4405,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-14T08:58:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4596,7 +4479,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-14T08:58:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4655,80 +4538,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8029099",
-      "title": "Enterprise Customer Success Manager - Public Sector",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 97878,
-      "max": 131600,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 40,
-      "postedAt": "2026-08-14T14:07:00-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8029099?gh_jid=8029099",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8029099?gh_jid=8029099",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "Our Enterprise Customer Success Managers pick up where our Implementation team leaves off, working closely with our top customers to understand their fleet and unique challenges, advising on how to customize Samsara for their needs, and becoming their long-term partner.",
-            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering, and Product, enabling you to experience multiple aspects of a hyper-growth company from within.",
-            "This is a remote position open to candidates residing in the US except Alaska, Austin Metro, Boulder Metro, California, Chicago Metro, Connecticut, Dallas Metro, Denver Metro, Houston Metro, Maryland, Massachusetts, New Jersey, New York, Rhode Island, Seattle Metro, and Washington, D.C."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "In this role, you will:",
-          "paras": [],
-          "bullets": [
-            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform",
-            "Compose joint success plans with customers, outlining their objectives, metrics, timelines, and effectively removing any barriers to achieving business value",
-            "Orchestrate executive business reviews with our customers’ decision makers and our executive leadership where we look back at past successes and align on upcoming goals",
-            "Conduct workshops with customers to understand their current operations and recommend workflow changes to get the most out of their Samsara products",
-            "Deeply understand the Samsara platform’s capabilities and explain them to businesses of all types - field services, utilities, long-haul transportation, school buses, and many more",
-            "Serve as a mentor to the wider Customer Success and Support teams",
-            "Champion, role model, and embed Samsara’s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices"
-          ]
-        },
-        {
-          "title": "Minimum requirements for the role:",
-          "paras": [],
-          "bullets": [
-            "3+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred",
-            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence",
-            "Experience supporting or working with technical products",
-            "Solutions-oriented with strong problem solving skills",
-            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software",
-            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment",
-            "Diplomacy, tact, and poise under pressure when working through customer issues",
-            "Bachelor’s degree from a 4-year institution"
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [
-            "Annual on-target earnings (OTE) range for full-time employees for this position is below and depends on your city of residence. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Strong bias for action, the ability to think big, with insistence on high standards",
-            "Experience serving and supporting large-scale solutions for Public Sector organizations",
-            "Thrives in an unstructured, fast-paced, and change-heavy environment"
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8121329",
       "title": "Enterprise Select Implementation Consultant (Central or East)",
       "company": "Samsara",
@@ -4744,7 +4553,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-13T16:51:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4812,7 +4621,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-13T16:50:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4880,7 +4689,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-13T18:08:29.292+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4963,7 +4772,7 @@
         "Linear",
         "Metabase"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-13T14:12:16.915+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5031,7 +4840,7 @@
       "variable": "",
       "book": "60 customers",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-11T22:25:11.605+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5101,7 +4910,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-11T17:23:19.988+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5170,7 +4979,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-11T19:16:27.198+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5233,6 +5042,149 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8068523",
+      "title": "Manager I, Customer Success Manager",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Entry",
+      "segment": "Mid-Market",
+      "location": "Remote — Canada",
+      "mode": "Remote",
+      "min": 134173,
+      "max": 173635,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Gainsight",
+        "Totango"
+      ],
+      "posted": 45,
+      "postedAt": "2026-08-10T16:41:17-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8068523?gh_jid=8068523",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8068523?gh_jid=8068523",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "About the role:",
+          "paras": [
+            "Samsara’s Canada Scaled Customer Success team advises and guides our Scaled customer base, ensuring they implement and adopt Samsara, and continuously gain business value from our products using digital communications and self-serve resources. As the manager of the Scaled Customer Success team, you will improve our Scaled Customer Success motion, provide focused coaching for each team member, and be an inspiring leader who establishes an energizing team culture for the team."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Team Leadership & Performance",
+          "paras": [],
+          "bullets": [
+            "Hire, onboard, and develop a high-performing team of CSMs covering the Canada (Commercial & Mid-Market) segment.",
+            "Set clear expectations, goals, and KPIs (e.g., net revenue retention, adoption rates, health scores, business review and implementation completion, risk management).",
+            "Run structured 1:1s, pipeline reviews, and risk reviews; deliver consistent coaching and developmental feedback.",
+            "Recognize and grow top talent; address underperformance quickly and fairly.",
+            "Manage capacity and account assignment across a high-volume book to balance IC and CSM workload and customer coverage."
+          ]
+        },
+        {
+          "title": "Digital Scale Program Ownership",
+          "paras": [],
+          "bullets": [
+            "Own and continuously improve the Digital Scale journey for Canada.",
+            "Define and execute digital plays (onboarding sequences, adoption campaigns, renewal outreach, health score triggers) in partnership with Marketing and CS Operations."
+          ]
+        },
+        {
+          "title": "Customer Outcomes & Execution",
+          "paras": [],
+          "bullets": [
+            "Ensure the team drives measurable value for Commercial and Mid-Market customers through structured onboarding, adoption, expansion, and renewal motions.",
+            "Review and elevate the quality of Customer Success Plans, Business Reviews, and executive-ready materials across the portfolio.",
+            "Oversee book-of-business risk management, ensure early identification, clear ownership, and documented action plans for at-risk accounts.",
+            "Support ICs and CSMs in high-stakes customer moments (Implementation kickoffs, QBRs, escalation calls, executive check-ins) as needed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:samsara:8103641",
+      "title": "Senior Sales Operations Analyst",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "CS Operations",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 79433,
+      "max": 120150,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Salesforce"
+      ],
+      "posted": 45,
+      "postedAt": "2026-08-10T10:04:00-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8103641?gh_jid=8103641",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8103641?gh_jid=8103641",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "About the role:",
+          "paras": [
+            "Samsara is looking for a strategic and highly effective Senior Sales Operations Analyst to support our fast-growing partner sales organization. This role will partner directly with partner leadership and the partner programs team to support day-to-day partner operations, implement and manage all partner processes, and contribute to the strategic design of new partner programs. The ideal candidate has experience driving operational programs that bring together people, process, and technology to solve complex business problems — and is passionate about building scalable solutions in a fast-paced, cross-functional environment.",
+            "The ideal candidate has experience at a high-growth B2B SaaS company, preferably public, with demonstrated success designing and scaling processes in an indirect or partner sales environment.",
+            "This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "In this role, you will:",
+          "paras": [],
+          "bullets": [
+            "Partner directly with partner leadership and the partner programs team to support day-to-day partner operations, serving as the primary Sales Ops point of contact for all partner sales needs.",
+            "Implement and manage all partner sales processes, ensuring they are scalable, repeatable, and aligned with Samsara's global sales policies and systems.",
+            "Contribute to the strategic design of new partner programs, including operational playbooks, cross-functional alignment, and change management execution as new programs are launched.",
+            "Own project objectives and milestones with minimal guidance, driving smaller-scope projects or complex cross-functional workstreams end-to-end.",
+            "Serve as the subject matter expert on all sales processes that involve channel partners, advising on solution design, system enhancements, and 'run-the-business' items.",
+            "Devise and implement new solutions that solve complex project-level issues, including improvements and UAT for tools such as Salesforce used across the partner sales organization.",
+            "Proactively identify and prioritize process and system improvements that enhance productivity for partner-facing sales teams.",
+            "Champion, role model, and embed Samsara's cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally."
+          ]
+        },
+        {
+          "title": "Minimum requirements for the role:",
+          "paras": [],
+          "bullets": [
+            "4+ years of experience in a Sales Operations or related operational/strategic role supporting sales organizations in a dynamic, high-growth environment",
+            "Demonstrated ability to design, implement, and scale sales processes and policies, with strong organizational skills and the ability to manage projects from end-to-end",
+            "Proficiency in Salesforce and the broader sales technology ecosystem; ability to build and maintain reports, dashboards, and operational workflows",
+            "Strong analytical skills with comfort performing quantitative analysis on large data sets to surface insights, track KPIs, and inform business decisions",
+            "Proven ability to manage complex, cross-functional programs and coordinate across multiple stakeholders with competing priorities",
+            "Strong written and verbal communication skills; experience partnering with and presenting to senior and executive leadership",
+            "Proactive, adaptable, and able to operate independently with strong business judgment in a fast-moving environment",
+            "Bachelor's degree or higher; business, finance, economics, or related field is a plus"
+          ]
+        },
+        {
+          "title": "An ideal candidate also has:",
+          "paras": [
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "Experience supporting channel, reseller, or partner sales programs at a B2B SaaS company",
+            "Familiarity with partner relationship management tools or indirect sales systems",
+            "Experience working closely with deal desk, finance, or partner programs teams on cross-functional process design"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ashby:ramp:94d79eed-34db-42c8-b47c-5edef335b7f2",
       "title": "Customer Activation Manager | Scaled",
       "company": "Ramp",
@@ -5248,7 +5200,7 @@
       "variable": "",
       "book": "100 customers",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-10T16:22:34.383+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5316,7 +5268,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-10T20:47:02.283+00:00",
       "source": "Ashby",
       "featured": false,
