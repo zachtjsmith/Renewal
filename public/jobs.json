@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T11:00:46.767Z",
-  "count": 78,
+  "generatedAt": "2026-09-27T11:39:06.023Z",
+  "count": 75,
   "sources": [
     "Greenhouse",
     "Ashby"
@@ -22,7 +22,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-25T07:59:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -89,7 +89,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -159,7 +159,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -227,7 +227,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -301,7 +301,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -375,7 +375,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -440,7 +440,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -514,7 +514,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-24T12:30:43-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -574,7 +574,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -649,7 +649,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -721,7 +721,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -792,7 +792,7 @@
       "variable": "+ equity + bonus",
       "book": "100 accounts",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-22T09:23:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -848,7 +848,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -913,7 +913,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-21T14:49:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -983,7 +983,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1053,7 +1053,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1123,7 +1123,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1188,7 +1188,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1252,7 +1252,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1323,7 +1323,7 @@
       "variable": "$194K–$291K OTE",
       "book": "40 accounts",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-15T11:19:46-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1399,7 +1399,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-15T14:21:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1462,7 +1462,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1525,7 +1525,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1586,7 +1586,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1654,7 +1654,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1728,7 +1728,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1792,7 +1792,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1854,7 +1854,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1919,7 +1919,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1984,7 +1984,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2054,7 +2054,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2123,7 +2123,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2195,7 +2195,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-04T19:00:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2256,7 +2256,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2326,7 +2326,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2362,7 +2362,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2430,7 +2430,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2498,7 +2498,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-03T13:52:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2572,7 +2572,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2642,7 +2642,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2713,7 +2713,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2784,7 +2784,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2847,7 +2847,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2912,7 +2912,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-01T16:40:32.875+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2980,7 +2980,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3056,7 +3056,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3132,7 +3132,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-28T20:46:40.303+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3213,7 +3213,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3284,7 +3284,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-26T11:34:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3355,7 +3355,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3423,7 +3423,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-26T18:59:45.994+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3500,7 +3500,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3570,7 +3570,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3644,7 +3644,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-24T20:39:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3709,7 +3709,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-24T17:13:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3768,7 +3768,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-24T16:24:38.638+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3847,7 +3847,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-21T10:06:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3906,7 +3906,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-20T09:54:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3978,7 +3978,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4047,7 +4047,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-20T13:47:35-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4116,7 +4116,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-20T13:45:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4182,7 +4182,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4253,7 +4253,7 @@
       "stack": [
         "Notion"
       ],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-19T16:50:46-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4324,7 +4324,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4387,7 +4387,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-20T01:37:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4450,7 +4450,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-19T19:04:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4519,7 +4519,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-18T17:23:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4584,7 +4584,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-18T09:49:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4655,7 +4655,7 @@
       "stack": [
         "Gong"
       ],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-18T16:20:52.077+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4734,7 +4734,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-14T08:58:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4808,7 +4808,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-14T08:58:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4882,7 +4882,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-13T16:51:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4950,7 +4950,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-13T16:50:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5018,7 +5018,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-13T18:08:29.292+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5101,7 +5101,7 @@
         "Linear",
         "Metabase"
       ],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-13T14:12:16.915+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5150,223 +5150,6 @@
             "Excellent communication and stakeholder management skills",
             "High adaptability and comfort with the pace and ambiguity of an early-stage startup"
           ]
-        }
-      ]
-    },
-    {
-      "id": "ashby:ramp:f5cf4790-0b77-47be-b332-02ca6ec755fd",
-      "title": "Account Manager | Enterprise",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 250000,
-      "max": 340000,
-      "variable": "",
-      "book": "60 customers",
-      "stack": [],
-      "posted": 45,
-      "postedAt": "2026-08-11T22:25:11.605+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/f5cf4790-0b77-47be-b332-02ca6ec755fd/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/f5cf4790-0b77-47be-b332-02ca6ec755fd",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "As an Enterprise Account Manager, you will oversee a book of 60–70 Enterprise customers (500+ employees) and own the long-term relationship, overall account health, and commercial outcomes for your portfolio. You will be responsible for maintaining and growing revenue, driving adoption across Ramp’s product suite, and ensuring customers achieve meaningful business outcomes.",
-            "You will build strong relationships at all levels of your customers’ organizations — including operators, directors, VPs, and C-suite leaders — and be skilled at managing evolving needs and product configurations. Internally, you’ll work closely with cross-functional teams to support customer initiatives, coordinate efforts, and contribute insights that help shape Ramp’s product and operational processes."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You’ll Do",
-          "paras": [],
-          "bullets": [
-            "Own a portfolio of ~60-70 Enterprise customers, with a clear responsibility to develop strategies for expansion, driving revenue for Ramp",
-            "Lead customer conversations across all seniority levels, including operators, finance leadership, and C-suite executives, to ensure alignment and drive strong business outcomes",
-            "Manage renewals end-to-end, from identifying the need to solution design, positioning, and negotiation",
-            "Create and execute scalable account plans, highlighting areas of risk, opportunity, and long-term strategy",
-            "Run regular touchpoints — status calls, optimization reviews, roadmap conversations, and QBRs — to keep customers engaged and successful",
-            "Collaborate cross-functionally with Product, Sales, Support, CSMs, and Solutions teams to deliver a cohesive and high-quality customer experience",
-            "Travel occasionally for customer on-sites, events, and internal summits"
-          ]
-        },
-        {
-          "title": "What You Need",
-          "paras": [],
-          "bullets": [
-            "Minimum 6 years of quota-carrying SaaS sales experience in a closing role with strong prospecting, qualifying, negotiating, and closing skills",
-            "Experience managing Enterprise or large Mid-Market accounts (500+ employees), ideally in a scaled book model",
-            "Strong familiarity with Fintech, Payments, Finance/Accounting, or B2B SaaS",
-            "Comfortable explaining product workflows, integrations, and technical requirements to both financial and technical stakeholders",
-            "Ability to articulate financial value — ROI, cost savings, operational efficiency, and modernization impacts",
-            "Strong communication and relationship-building skills, including comfort working with senior leadership and the C-suite",
-            "Track record of meeting or exceeding revenue or growth targets in a fast-paced, evolving environment",
-            "High level of ownership, adaptability, and comfort working through ambiguity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ashby:ramp:2ddd97a8-70b2-4030-ba42-21124ad304d3",
-      "title": "Associate Manager, Premier Support (Customer Experience)",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Customer Success",
-      "seniority": "Entry",
-      "segment": "Enterprise",
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 100000,
-      "max": 132000,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 45,
-      "postedAt": "2026-08-11T17:23:19.988+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/2ddd97a8-70b2-4030-ba42-21124ad304d3/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/2ddd97a8-70b2-4030-ba42-21124ad304d3",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team",
-          "paras": [
-            "Ramp builds software that moves real money — corporate cards, bill payments, reimbursements, accounting integrations, and travel. Our customers rely on us to keep their operations running, and our CX team is the frontline when something needs to be resolved fast.",
-            "Premier Support is the dedicated support team for Ramp's largest and most complex customers - the Enterprise and Strategic accounts running global, multi-entity finance operations on Ramp. Our specialists support these accounts with real depth: they know the businesses, stakeholders, and systems, and they're the people the customer comes to when something matters. It's high-touch, relationship-led support."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "Ramp is hiring an Associate Manager to lead Premier Support. This is a small team of senior specialists - six today, scaling meaningfully, who are the daily point of contact for the accounts Ramp can least afford to get wrong.",
-            "You'll own the people and the performance. That means coaching specialists who operate with real autonomy, hold a high bar for quality and responsiveness when the stakes are high, and are the person your team escalates to when an account is experiencing challenges. You'll partner daily with the Account Managers who own the strategy for these same accounts - they own the account direction, you own the support experience that makes it possible.",
-            "This team is new. The playbook exists but it isn't finished, and you'll be shaping it. That means you need to be someone who can build and lead at the same time: designing the operating rhythm, spotting where the model breaks before it breaks, and having a contingency ready when something doesn't land. You'll be trusted with a lot early, and you'll have a manager who has built these teams from scratch and stays close."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You'll Do",
-          "paras": [],
-          "bullets": [
-            "Lead and develop a team of senior specialists. Run weekly 1:1s, give feedback that changes behavior, and build development plans that grow real ownership and judgment. Know your people well enough to make coaching specific.",
-            "Own performance directly. Set a clear bar, recognize and grow your strongest people, and address gaps early and honestly. You'll have the hard conversations yourself, with a plan and a follow-through.",
-            "Own your team's results. Quality, responsiveness, and SLA delivery across the accounts your team supports - plus the day-to-day mechanics that get you there: triage by account risk, load balancing, coverage, and on-call rotation.",
-            "Own escalations. Be the point of accountability when a strategic account escalates - driving it to resolution, keeping partners informed, and making sure it gets raised cleanly to Product or Engineering when it needs to.",
-            "Partner with Account Management. Work shoulder-to-shoulder on shared accounts: surfacing risk, feeding product and account signals back, and making Premier a partner they rely on.",
-            "Use data to decide. Read the quality, SLA, escalation, and volume trends; find the root cause; turn it into coaching or a process change.",
-            "Build what's missing. Turn recurring patterns from your accounts into durable playbooks, documentation, and processes. Manage capacity as the book grows, so quality scales faster than headcount.",
-            "Work with AI tools daily. Ramp is actively building AI into CX operations. You'll adopt and champion AI-powered workflows, help your team get fluent, and shape how these tools evolve. Comfort with new technology isn't optional - we are all builders at Ramp."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ashby:vanta:77d1b868-40d3-44a3-b290-f48ebe77f403",
-      "title": "Senior Revenue Enablement Manager, Upmarket",
-      "company": "Vanta",
-      "companySite": "https://www.vanta.com",
-      "industry": "Compliance",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — U.S.",
-      "mode": "Remote",
-      "min": 196000,
-      "max": 230000,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Gong"
-      ],
-      "posted": 45,
-      "postedAt": "2026-08-11T19:16:27.198+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/vanta/77d1b868-40d3-44a3-b290-f48ebe77f403/application",
-      "postingUrl": "https://jobs.ashbyhq.com/vanta/77d1b868-40d3-44a3-b290-f48ebe77f403",
-      "blurb": "At Vanta, our mission is to help businesses earn and prove trust. We believe that security should be monitored and verified continuously, and we empower companies to practice better security and prove it with ease. Vanta has a kind and talented team, and…",
-      "summary": "At Vanta, our mission is to help businesses earn and prove trust. We believe that security should be monitored and verified continuously, and we empower companies to practice better security and prove it with ease. Vanta has a kind and talented team, and while some have prior security experience, many have been successful at Vanta without it.\n\nAs Vanta continues its push into the enterprise, the Upmarket Account Executive team is at the center of that growth, and this role is the dedicated enablement partner making that motion faster, sharper, and more scalable. As a Sr. Revenue Enablement Manager supporting our Upmarket AE organization, you'll operate as a true strategic thought partner to AE leadership, helping design and build the enablement infrastructure needed to win in complex, enterprise sales environments. This is a high-autonomy role that shapes how Vanta's most strategic…",
-      "sections": [
-        {
-          "title": "What you’ll do as a Sr. Revenue Enablement Manager at Vanta:",
-          "paras": [],
-          "bullets": [
-            "Serve as a dedicated strategic partner to Upmarket AE leadership, including directors and frontline managers, to deeply understand the upmarket GTM motion and proactively identify where enablement can drive measurable impact on pipeline and revenue.",
-            "Build and maintain a suite of high-quality enablement resources, including playbooks, deal strategy frameworks, account planning tools, and competitive positioning guides, that equip AEs to engage and win at the enterprise level.",
-            "Design and deliver enterprise-grade sales methodology programs, such as MEDDPICC and Command of the Message, and embed them into the day-to-day practices of the Upmarket AE team.",
-            "Conduct continuous needs assessments, drawing on data from Gong, Salesforce, and direct field observation, to identify capability gaps and prioritize the enablement roadmap accordingly.",
-            "Partner cross-functionally with Revenue Operations, Product Marketing, Product Management, and Solutions Engineering to ensure Upmarket AEs have timely, high-quality content and messaging that reflects Vanta's evolving enterprise positioning.",
-            "Define, track, and report on enablement effectiveness metrics that connect directly to AE productivity, ramp time, quota attainment, and pipeline health for the upmarket segment.",
-            "Influence the broader enablement strategy by acting as the voice of the Upmarket AE field, surfacing trends, gaps, and opportunities to enable smarter decisions across the GTM organization."
-          ]
-        },
-        {
-          "title": "How to be successful in this role:",
-          "paras": [],
-          "bullets": [
-            "8+ years of experience in revenue enablement, sales enablement, or a closely related GTM role, with a strong track record of supporting complex, enterprise sales organizations.",
-            "Deep expertise in enterprise sales methodologies, with MEDDPICC strongly preferred, and the ability to coach sellers on how to apply them in real deal scenarios.",
-            "Proven experience partnering directly with senior sales leadership as a strategic advisor, not just a program executor, with the ability to influence and drive alignment across stakeholders.",
-            "Experience building greenfield or early-stage enablement programs for an upmarket or enterprise segment, including onboarding, skills certification, and ongoing field enablement.",
-            "Strong analytical skills, with the ability to use data and field insights to diagnose problems, measure impact, and continuously improve programs.",
-            "Excellent communication and facilitation skills, with the ability to deliver high-impact learning experiences and earn credibility with experienced, senior-level sellers.",
-            "Proficiency with enablement tools and the broader GTM tech stack, including Gong, Salesforce, and content or learning management platforms such as Highspot, Seismic, or Workramp.",
-            "Build deep trust with Upmarket AE leadership quickly, acting as a true thought partner who is embedded in the business, understands the enterprise sales motion inside and out, and proactively brings solutions, not just programs."
-          ]
-        },
-        {
-          "title": "What you can expect as a Vanta’n:",
-          "paras": [
-            "To provide greater transparency to candidates, we share base pay ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar-stage growth companies. Final offer amounts are determined by multiple factors and may vary based on candidate location, skills, depth of work experience, and relevant licenses/credentials."
-          ],
-          "bullets": [
-            "Industry-competitive salary and equity",
-            "Comprehensive medical, dental, and vision coverage, with 100% of employee-only benefit premiums covered for most medical plans",
-            "16 weeks paid Parental Leave for all new parents",
-            "Health & wellness stipend",
-            "Remote workspace, internet, and cellphone stipend",
-            "Commuter benefits for team members who report to the SF and NYC office",
-            "Family planning benefits",
-            "Matching 401(k) contribution with immediate vesting"
-          ]
-        },
-        {
-          "title": "About Vanta",
-          "paras": [
-            "We started in 2018, in the wake of several high-profile data breaches. Online security was only becoming more important, but we knew firsthand how hard it could be for fast-growing companies to invest the time and manpower it takes to build a solid security foundation. Vanta was inspired by a vision to restore trust in internet businesses by enabling companies to improve and prove their security. From our early days automating security monitoring for compliance standards like SOC 2, HIPAA and ISO 27001 to creating the world's leading Trust Management Platform, our vision remains unchanged.",
-            "Now more than ever, making security continuous—not just a point-in-time check— is essential. Thousands of companies rely on Vanta to build, maintain and demonstrate their trust— all in a way that's real-time and transparent."
-          ],
-          "bullets": []
         }
       ]
     }
