@@ -1,78 +1,11 @@
 {
-  "generatedAt": "2026-09-27T11:39:06.023Z",
-  "count": 75,
+  "generatedAt": "2026-09-28T13:14:15.386Z",
+  "count": 74,
   "sources": [
-    "Greenhouse",
-    "Ashby"
+    "Ashby",
+    "Greenhouse"
   ],
   "jobs": [
-    {
-      "id": "greenhouse:cloudflare:8044644",
-      "title": "Principal Partner Account Manager",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 1,
-      "postedAt": "2026-09-25T07:59:23-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8044644?gh_jid=8044644",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8044644?gh_jid=8044644",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "Principal Partner Account Manager",
-          "paras": [
-            "About the Department\nPartner Account Managers, Account Executives, Business Development Representatives, Solution Engineers, Customer Success, and Sales Operations – all working together help our customers adopt Cloudflare and create great internet-enabled experiences. The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community.",
-            "What you'll do\nWe are looking for an experienced Senior Partner Account Manager to lead and build out our global partner ecosystem.",
-            "In this role, you’ll drive the strategy and execution for managing high-value, strategic partners across different regions. You will lead the development of joint business plans, work with senior partner stakeholders to align on mutual growth objectives, and ensure partners have the resources and support needed to drive partner-sourced revenue."
-          ],
-          "bullets": [
-            "Leading partner business planning and execution for strategic global accounts.",
-            "Collaborating with sales teams on joint partner territory planning and alignment to maximize partner-sourced revenue.",
-            "Driving partner sales enablement, including advanced training and certifications for both sales and technical teams.",
-            "Coordinating demand generation and GTM activities in collaboration with partners and internal teams.",
-            "Developing and influencing partner strategies to ensure alignment with Cloudflare’s business objectives and revenue goals.",
-            "Sharing analytics, metrics, and insights with executive and technical champions both internally and within partner organizations.",
-            "Managing partner programs, including MDF, SPIFF, and other incentive programs, to drive growth and success."
-          ]
-        },
-        {
-          "title": "Examples of desirable skills, knowledge, and experience",
-          "paras": [],
-          "bullets": [
-            "12+ years (P5) of experience in partner management, SaaS, Cloud Infrastructure, or Security sales and channel management.",
-            "Proven track record of developing and executing strategies that drive partner-sourced revenue and business growth.",
-            "Experience working with senior-level executives within partner organizations to align on business objectives and drive results.",
-            "Strong understanding of cloud infrastructure, SaaS, and security solutions.",
-            "Expertise in partner programs, including tiered partner structures and managing partner incentives like MDF and SPIFF.",
-            "Ability to manage complex, global partner relationships and influence partner strategies.",
-            "Strong communication and presentation skills, capable of engaging with senior executives and internal stakeholders.",
-            "Experience in leading cross-functional teams, mentoring junior team members, and driving collaborative initiatives across multiple departments."
-          ]
-        },
-        {
-          "title": "What Makes Cloudflare Special?",
-          "paras": [
-            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
-            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
-            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
-          ],
-          "bullets": []
-        }
-      ]
-    },
     {
       "id": "ashby:ramp:b4908db8-ac21-4c7f-b544-a66fffbfb97e",
       "title": "Senior Channel Partner Manager, Global Advisory / GSI",
@@ -89,7 +22,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -159,7 +92,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -212,6 +145,73 @@
       ]
     },
     {
+      "id": "greenhouse:cloudflare:8044644",
+      "title": "Principal Partner Account Manager",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 3,
+      "postedAt": "2026-09-25T07:59:23-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8044644?gh_jid=8044644",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8044644?gh_jid=8044644",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "Principal Partner Account Manager",
+          "paras": [
+            "About the Department\nPartner Account Managers, Account Executives, Business Development Representatives, Solution Engineers, Customer Success, and Sales Operations – all working together help our customers adopt Cloudflare and create great internet-enabled experiences. The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community.",
+            "What you'll do\nWe are looking for an experienced Senior Partner Account Manager to lead and build out our global partner ecosystem.",
+            "In this role, you’ll drive the strategy and execution for managing high-value, strategic partners across different regions. You will lead the development of joint business plans, work with senior partner stakeholders to align on mutual growth objectives, and ensure partners have the resources and support needed to drive partner-sourced revenue."
+          ],
+          "bullets": [
+            "Leading partner business planning and execution for strategic global accounts.",
+            "Collaborating with sales teams on joint partner territory planning and alignment to maximize partner-sourced revenue.",
+            "Driving partner sales enablement, including advanced training and certifications for both sales and technical teams.",
+            "Coordinating demand generation and GTM activities in collaboration with partners and internal teams.",
+            "Developing and influencing partner strategies to ensure alignment with Cloudflare’s business objectives and revenue goals.",
+            "Sharing analytics, metrics, and insights with executive and technical champions both internally and within partner organizations.",
+            "Managing partner programs, including MDF, SPIFF, and other incentive programs, to drive growth and success."
+          ]
+        },
+        {
+          "title": "Examples of desirable skills, knowledge, and experience",
+          "paras": [],
+          "bullets": [
+            "12+ years (P5) of experience in partner management, SaaS, Cloud Infrastructure, or Security sales and channel management.",
+            "Proven track record of developing and executing strategies that drive partner-sourced revenue and business growth.",
+            "Experience working with senior-level executives within partner organizations to align on business objectives and drive results.",
+            "Strong understanding of cloud infrastructure, SaaS, and security solutions.",
+            "Expertise in partner programs, including tiered partner structures and managing partner incentives like MDF and SPIFF.",
+            "Ability to manage complex, global partner relationships and influence partner strategies.",
+            "Strong communication and presentation skills, capable of engaging with senior executives and internal stakeholders.",
+            "Experience in leading cross-functional teams, mentoring junior team members, and driving collaborative initiatives across multiple departments."
+          ]
+        },
+        {
+          "title": "What Makes Cloudflare Special?",
+          "paras": [
+            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
+            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
+            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:cloudflare:8222614",
       "title": "Sales Enablement Specialist - EMEA",
       "company": "Cloudflare",
@@ -227,7 +227,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -301,7 +301,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -375,7 +375,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -440,7 +440,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -514,7 +514,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-24T12:30:43-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -574,7 +574,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -649,7 +649,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -721,7 +721,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -792,7 +792,7 @@
       "variable": "+ equity + bonus",
       "book": "100 accounts",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-22T09:23:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -848,7 +848,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -913,7 +913,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-21T14:49:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -983,7 +983,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1053,7 +1053,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1123,7 +1123,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1188,7 +1188,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1252,7 +1252,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1323,7 +1323,7 @@
       "variable": "$194K–$291K OTE",
       "book": "40 accounts",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-15T11:19:46-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1399,7 +1399,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-15T14:21:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1462,7 +1462,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1525,7 +1525,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1586,7 +1586,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1654,7 +1654,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1728,7 +1728,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1792,7 +1792,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1854,7 +1854,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1919,7 +1919,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1966,77 +1966,6 @@
       ]
     },
     {
-      "id": "ashby:ramp:fc971889-db1d-4a20-a25e-f282f9296936",
-      "title": "University Grad | Customer Experience Associate",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Customer Success",
-      "seniority": "Entry",
-      "segment": null,
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 60000,
-      "max": 70000,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Zendesk",
-        "Notion"
-      ],
-      "posted": 17,
-      "postedAt": "2026-09-09T12:19:47.141+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/fc971889-db1d-4a20-a25e-f282f9296936/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/fc971889-db1d-4a20-a25e-f282f9296936",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "Ramp builds software that moves real money, from bill payments and corporate cards to reimbursements, accounting integrations, and travel. Our customers rely on us to keep their operations running: invoices get paid, books get closed, and finance leaders can trust the data behind every decision.",
-            "In this role, you will be the person who spots where customers are getting stuck and drives issues to a clear resolution. You will learn a complex product deeply enough to troubleshoot across payments, bank linking, accounting syncs, and card programs, then partner with teams across Engineering, Risk, Product, and Partnerships to get problems solved. This is not script-based support. You will triage, investigate, and make high-signal judgment calls throughout the day.",
-            "You will thrive in this role if you are a systems thinker and deeply customer obsessed. Support is the baseline. How you think about improving processes, tools, and outcomes is what sets you apart."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You’ll Do",
-          "paras": [],
-          "bullets": [
-            "Be the voice of Ramp's Customer Support. You'll spend your day engaging with customers, primarily via live calls, email, and chat.",
-            "Diagnose across a broad product surface. Ramp isn't one product — it's payments, cards, travel, accounting integrations, and more. You'll need to understand how they connect and where they break.",
-            "Build and shape AI tools, not just use them. Ramp is building AI into CX operations. You'll use AI-powered research tools and proprietary tools like Glass daily, provide direct feedback on what's working, and play an active role in how these tools evolve. You're not just a user — you're a builder. We are all builders at Ramp.",
-            "Communicate with precision and empathy. Our customers are financially sophisticated. You need to explain what's happening, what you're doing about it, and what they should expect — clearly and without filler."
-          ]
-        },
-        {
-          "title": "What You Need",
-          "paras": [],
-          "bullets": [
-            "You're a systems thinker: you don't just solve the ticket in front of you, you ask why the problem exists and how to prevent it from happening again.",
-            "You actively use AI tools — Claude, Notion AI, research and workflow tools — and can demonstrate how you've applied them to get real work done. This is a hard requirement.",
-            "You're fast-moving while holding yourself to a high bar for execution: you balance speed, accuracy, and thoroughness in every interaction.",
-            "You can hold a technical conversation about how systems connect (APIs, bank integrations, accounting software) even if you're not writing code.",
-            "You manage competing priorities without dropping things. When you have 15 open issues across 4 internal teams, nothing falls through.",
-            "You write clearly and concisely. You can explain a payment reconciliation issue to a CFO without jargon.",
-            "You're comfortable on the phone. Many interactions start there.",
-            "You have a demonstrated track record of exceeding key performance standards, including CSAT, QA, and speed-of-service metrics."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:cloudflare:8158104",
       "title": "Workday Integration Specialist",
       "company": "Cloudflare",
@@ -2054,7 +1983,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2108,6 +2037,77 @@
       ]
     },
     {
+      "id": "ashby:ramp:fc971889-db1d-4a20-a25e-f282f9296936",
+      "title": "University Grad | Customer Experience Associate",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Customer Success",
+      "seniority": "Entry",
+      "segment": null,
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 60000,
+      "max": 70000,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Zendesk",
+        "Notion"
+      ],
+      "posted": 19,
+      "postedAt": "2026-09-09T12:19:47.141+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/fc971889-db1d-4a20-a25e-f282f9296936/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/fc971889-db1d-4a20-a25e-f282f9296936",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "Ramp builds software that moves real money, from bill payments and corporate cards to reimbursements, accounting integrations, and travel. Our customers rely on us to keep their operations running: invoices get paid, books get closed, and finance leaders can trust the data behind every decision.",
+            "In this role, you will be the person who spots where customers are getting stuck and drives issues to a clear resolution. You will learn a complex product deeply enough to troubleshoot across payments, bank linking, accounting syncs, and card programs, then partner with teams across Engineering, Risk, Product, and Partnerships to get problems solved. This is not script-based support. You will triage, investigate, and make high-signal judgment calls throughout the day.",
+            "You will thrive in this role if you are a systems thinker and deeply customer obsessed. Support is the baseline. How you think about improving processes, tools, and outcomes is what sets you apart."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Be the voice of Ramp's Customer Support. You'll spend your day engaging with customers, primarily via live calls, email, and chat.",
+            "Diagnose across a broad product surface. Ramp isn't one product — it's payments, cards, travel, accounting integrations, and more. You'll need to understand how they connect and where they break.",
+            "Build and shape AI tools, not just use them. Ramp is building AI into CX operations. You'll use AI-powered research tools and proprietary tools like Glass daily, provide direct feedback on what's working, and play an active role in how these tools evolve. You're not just a user — you're a builder. We are all builders at Ramp.",
+            "Communicate with precision and empathy. Our customers are financially sophisticated. You need to explain what's happening, what you're doing about it, and what they should expect — clearly and without filler."
+          ]
+        },
+        {
+          "title": "What You Need",
+          "paras": [],
+          "bullets": [
+            "You're a systems thinker: you don't just solve the ticket in front of you, you ask why the problem exists and how to prevent it from happening again.",
+            "You actively use AI tools — Claude, Notion AI, research and workflow tools — and can demonstrate how you've applied them to get real work done. This is a hard requirement.",
+            "You're fast-moving while holding yourself to a high bar for execution: you balance speed, accuracy, and thoroughness in every interaction.",
+            "You can hold a technical conversation about how systems connect (APIs, bank integrations, accounting software) even if you're not writing code.",
+            "You manage competing priorities without dropping things. When you have 15 open issues across 4 internal teams, nothing falls through.",
+            "You write clearly and concisely. You can explain a payment reconciliation issue to a CFO without jargon.",
+            "You're comfortable on the phone. Many interactions start there.",
+            "You have a demonstrated track record of exceeding key performance standards, including CSAT, QA, and speed-of-service metrics."
+          ]
+        }
+      ]
+    },
+    {
       "id": "ashby:ramp:ad9d3118-1ab4-488a-a6e8-3784082f92a4",
       "title": "Senior Channel Partner Manager, Canada",
       "company": "Ramp",
@@ -2123,7 +2123,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2195,7 +2195,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-04T19:00:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2256,7 +2256,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2326,7 +2326,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2362,7 +2362,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2430,7 +2430,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2498,7 +2498,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-03T13:52:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2572,7 +2572,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2642,7 +2642,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2713,7 +2713,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2784,7 +2784,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2847,7 +2847,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2912,7 +2912,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-01T16:40:32.875+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2980,7 +2980,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3056,7 +3056,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3132,7 +3132,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-08-28T20:46:40.303+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3213,7 +3213,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3284,7 +3284,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-26T11:34:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3355,7 +3355,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3423,7 +3423,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-26T18:59:45.994+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3500,7 +3500,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3570,7 +3570,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3627,73 +3627,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8140643",
-      "title": "Customer Engineer, Korea",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": "Enterprise",
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Python"
-      ],
-      "posted": 33,
-      "postedAt": "2026-08-24T20:39:41-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8140643?gh_jid=8140643",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "What you will do as a Customer Engineer",
-          "paras": [
-            "The Customer Engineer (CE) is the core driver of our technical go-to-market strategy: a trusted technical advisor and primary architect of the customer journey. You will bridge the gap between technical strategy and business value—guiding enterprise clients from initial pre-sales technical validation through onboarding, deployment architecture, and full lifecycle expansion. Sitting within the GTM organization and reporting to a Customer Engineering Leader, you will not hand off your customers once an initial agreement is reached. Instead, you will operate as a quota-carrying technologist, leveraging AI-augmented workflows to eliminate administrative toil so you can focus on high-value architectural design and driving measurable business outcomes across the entire customer journey."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Key Responsibilities",
-          "paras": [],
-          "bullets": [
-            "AI Orchestration & Workflow Automation: Leverage AI agents, Large Language Models (LLMs), and internal platforms to automate routine tasks such as RFP/Security Questionnaire responses, sandbox provisioning, basic telemetry monitoring, and internal/external documentation, reclaiming your time for strategic customer advisory."
-          ]
-        },
-        {
-          "title": "Minimum Qualifications",
-          "paras": [],
-          "bullets": [
-            "Experience: Experience in a customer-facing technical role, such as Solutions Engineering, Customer Engineering, Professional Services, Sales Engineering, Technical Account Management, or as a Forward Deployed Engineer (years of experience required will vary based on Associate, Senior, Staff, or Principal leveling).",
-            "Architectural Mindset: Ability to white-board, design, and articulate complex enterprise network and security architectures clearly.",
-            "Consultative & Advisory Skills: Excellent communication skills with the ability to translate deeply technical concepts into business outcomes for both hands-on engineers and C-level executives.",
-            "Commercial Mindset: Proven track record of operating in a quota-carrying or revenue-aligned environment, with a strong understanding of SaaS metrics, business value translation, and enterprise sales cycles.",
-            "Communication: Exceptional presentation and stakeholder management skills, capable of bridging the gap between deep technical implementation details and high-level C-suite business strategy.",
-            "Technical Breadth: We do not expect every candidate to be an expert in every domain. Qualified candidates will demonstrate depth in at least four of the technical areas below:",
-            "Internet fundamentals: Deep understanding of how the Internet works, including OSI Model layers 1–7, BGP, GRE, TCP/UDP, DNS (authoritative and recursive), HTTP(S), and SSL/TLS.",
-            "Security: Expertise in the security of Internet properties, including WAF, Bot Management, Firewalls, Rate Limiting, (M)TLS, Zero Trust, and SASE concepts."
-          ]
-        },
-        {
-          "title": "Strongly Preferred Qualifications (The \"Good-to-Haves\")",
-          "paras": [],
-          "bullets": [
-            "Technical Enablement: Track record of creating and delivering technical enablement - workshops, code samples, documentation, or developer onboarding - that accelerates customer adoption of complex platforms.",
-            "Applied AI Knowledge: Experience with LLM orchestration, Retrieval-Augmented Generation (RAG) architectures, and model-access controls.",
-            "Regulatory Knowledge: Understanding of regulatory requirements such as PCI DSS, HIPAA, and SOC 2.",
-            "Hyperscaler / Digital Native Background: Talent coming out of hyperscalers, digital natives, distributed systems environments, or startups is strongly valued for its deeper cloud fluency and advanced architecture depth."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:flexport:8155210",
       "title": "Regional Implementation Manager",
       "company": "Flexport",
@@ -3709,7 +3642,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-24T17:13:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3768,7 +3701,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-24T16:24:38.638+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3847,7 +3780,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-21T10:06:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3906,7 +3839,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-20T09:54:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3978,7 +3911,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4047,7 +3980,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-20T13:47:35-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4116,7 +4049,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-20T13:45:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4182,7 +4115,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4253,7 +4186,7 @@
       "stack": [
         "Notion"
       ],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-19T16:50:46-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4324,7 +4257,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4387,7 +4320,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-20T01:37:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4450,7 +4383,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-19T19:04:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4519,7 +4452,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-18T17:23:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4584,7 +4517,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-18T09:49:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4655,7 +4588,7 @@
       "stack": [
         "Gong"
       ],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-18T16:20:52.077+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4734,7 +4667,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 45,
       "postedAt": "2026-08-14T08:58:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4808,7 +4741,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 45,
       "postedAt": "2026-08-14T08:58:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4882,7 +4815,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-13T16:51:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4950,7 +4883,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-13T16:50:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5018,7 +4951,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-13T18:08:29.292+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5101,7 +5034,7 @@
         "Linear",
         "Metabase"
       ],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-13T14:12:16.915+00:00",
       "source": "Ashby",
       "featured": false,
