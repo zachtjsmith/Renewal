@@ -1,11 +1,439 @@
 {
-  "generatedAt": "2026-09-29T12:22:18.177Z",
-  "count": 71,
+  "generatedAt": "2026-09-30T12:07:39.383Z",
+  "count": 73,
   "sources": [
     "Greenhouse",
     "Ashby"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:gitlab:8857185002",
+      "title": "Associate Renewals Manager",
+      "company": "GitLab",
+      "companySite": "https://about.gitlab.com",
+      "industry": "Developer tools",
+      "family": "Renewals",
+      "seniority": "Entry",
+      "segment": null,
+      "location": "Remote — Canada;",
+      "mode": "Remote",
+      "min": 53760,
+      "max": 105000,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-29T18:06:03-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8857185002",
+      "postingUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8857185002",
+      "blurb": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million…",
+      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\n\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to…",
+      "sections": [
+        {
+          "title": "An overview of this role",
+          "paras": [
+            "This is an individual-contributor, tactical role focused on timely, accurate execution rather than strategic decision-making. The Associate Renewals Manager works under the general direction of Senior Renewals Managers and their manager, following specific instructions and frameworks in day-to-day work. Solutions and outputs are reviewed by more senior team members and/or the direct manager."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Manage an assigned portfolio of customer renewals tracking key dates and driving them to on-time closure.",
+            "Have real, consultative conversations with customers throughout the renewal cycle to understand how they're actually using the product and where they're headed next.",
+            "Identify and surface expansion opportunities — additional seats, tiers, or modules — that come out of those conversations.",
+            "Probe for new use cases and unmet needs within existing accounts, connecting what customers describe to relevant GitLab capabilities they aren't yet using.",
+            "Prepare and send renewal quotes, order forms, and related documentation accurately and on schedule, structuring them to reflect any expansion identified.",
+            "Prepare and send renewal quotes, order forms, and related documentation accurately and on schedule.",
+            "Analyze moderately complex renewal situations (usage trends, contract terms, pricing) by reviewing existing account factors, escalating anything unusual to a senior team member or manager and helping to mitigate any risk identified.",
+            "Explain moderately complex renewal terms and issues to customers and internal stakeholders, working to build alignment."
+          ]
+        },
+        {
+          "title": "What You’ll Bring",
+          "paras": [],
+          "bullets": [
+            "Can execute basic renewal processes independently (\"basic knots\") and has been introduced to more advanced scenarios (\"complex knots\") such as multi-year deals, upsell-attached renewals, or non-standard terms.",
+            "Developing understanding of GitLab's way of working, values, and high-performance culture.",
+            "Awareness of GitLab's remote work best practices.",
+            "Growth mindset and sense of ownership — proactively seeks out ways to learn and improve, and takes action rather than waiting for direction.",
+            "Strong attention to detail and organizational skills; comfortable managing many renewals at once.",
+            "Clear written and verbal communication skills.",
+            "Ability to follow defined processes and frameworks while flagging exceptions appropriately.",
+            "Collaborative mindset and openness to feedback and coaching from senior teammates and manager."
+          ]
+        },
+        {
+          "title": "About the team",
+          "paras": [
+            "The Renewals team focuses on protecting and growing GitLab's recurring revenue by managing the full contract lifecycle for our subscription customers. As a Renewal Manager, you'll be part of a quota-carrying team that works closely with Sales, Customer Success, Finance, and Legal to ensure timely, accurate renewals and strong customer retention across regions in an all-remote, asynchronous environment. The team is responsible for forecasting renewal outcomes, identifying and addressing churn risk, and uncovering opportunities to expand GitLab adoption, while continuously improving processes and best practices that support predictable, sustainable growth."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:gitlab:8857084002",
+      "title": "Manager, Renewals",
+      "company": "GitLab",
+      "companySite": "https://about.gitlab.com",
+      "industry": "Developer tools",
+      "family": "Renewals",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — Canada;",
+      "mode": "Remote",
+      "min": 116480,
+      "max": 196560,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [
+        "Gainsight",
+        "Salesforce",
+        "Gong"
+      ],
+      "posted": 0,
+      "postedAt": "2026-09-29T16:35:31-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8857084002",
+      "postingUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8857084002",
+      "blurb": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million…",
+      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\n\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to…",
+      "sections": [
+        {
+          "title": "An overview of this role",
+          "paras": [
+            "Reports to: Director, Renewals\n\nThis is a first-line people-management role focused on the day-to-day execution and coaching of individual contributors — typically early-career to mid-level Renewals Managers and Associates — rather than long-range strategic decision-making. The Manager, Renewals implements functional plans into tactical processes, makes routine operational decisions for their team, and relies primarily on their own experience to guide direct reports' task execution and career growth. Their sphere of influence is largely limited to their direct reports and primary stakeholders, and they escalate cleanly to more senior leaders when decisions or progress are blocked."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Manage the day-to-day work of a team of individual-contributor Renewals Managers/Associates, most of whom are at early-career to mid-level stages.",
+            "Implement functional renewals plans and strategy into tactical, day-to-day processes for a book of business.",
+            "Maintain accurate visibility into team renewals performance in the CRM/renewals system for forecasting and reporting.",
+            "Deliver precise forecasting for their renewal segment alongside Field Sales Leadership and the Geo Director, incorporating projections for churn and growth opportunities.",
+            "Partner with Sales, Customer Success, and Finance to keep renewals and expansion opportunities moving, escalating unusual or high-risk situations appropriately.",
+            "Solve renewal and team problems of moderate complexity by following GitLab's processes and policies and selecting the relevant solution.",
+            "Demonstrate and coach business acumen — pricing, contract terms, whitespace, and expansion motion — to team members.",
+            "Make routine operational decisions covering the team's day-to-day renewals operations, typically of lower complexity and risk, and escalate cleanly to appropriate levels when decisions or progress are blocked."
+          ]
+        },
+        {
+          "title": "What You’ll Bring",
+          "paras": [],
+          "bullets": [
+            "Prior experience as a renewals, customer success, or sales professional, with exposure to renewal motions.",
+            "Experience managing or mentoring early-career to mid-level individual contributors, or clear readiness to step into first-line people management.",
+            "Strong understanding of GitLab's (or a comparable SaaS company's) renewals processes, pricing, and contract fundamentals, with developing business acumen to coach others.",
+            "Ability to translate functional plans and strategy into clear, tactical day-to-day team processes.",
+            "Sound judgment on routine operational decisions, with the discipline to escalate cleanly when issues exceed the team's scope.",
+            "Strong prioritization skills and the ability to help others balance urgent versus important work.",
+            "Demonstrated people-leadership instincts: goal-setting, accountability, feedback, coaching, and fostering trust and engagement.",
+            "Genuine care for team members' growth, paired with candid, real-time feedback delivered productively."
+          ]
+        },
+        {
+          "title": "About the team",
+          "paras": [
+            "We are dedicated to driving customer retention and growth by managing the end-to-end renewal process for a large portfolio of customers. Our mission is to deliver a seamless, efficient, and positive renewal experience that supports long-term customer success. We leverage automation, data-driven insights, and close collaboration with Customer Success and Sales teams to proactively engage customers, identify risks and opportunities, and ensure timely renewals. We operate in a global, asynchronous environment, utilizing tools like Salesforce, Gainsight, and Gong to coordinate efforts and maintain high standards of customer satisfaction. Learn more about our approach and best practices in the Renewals Manager Handbook ."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:databricks:8490644002",
+      "title": "Sr. Engagement Manager, Forward Deployed Engineering - Public Sector",
+      "company": "Databricks",
+      "companySite": "https://www.databricks.com",
+      "industry": "Data platform",
+      "family": "Onboarding",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — Virginia; Washington D.C.",
+      "mode": "Remote",
+      "min": 130300,
+      "max": 179200,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-29T20:16:06-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8490644002",
+      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8490644002",
+      "blurb": "The Sr. Engagement Manager delivers measurable impact for our Public Sector customers as well as at the Business Unit (BU) or Regional team level in the Forward Deployed Engineering organization. You will own and independently scope multi-quarter, highly…",
+      "summary": "The Sr. Engagement Manager delivers measurable impact for our Public Sector customers as well as at the Business Unit (BU) or Regional team level in the Forward Deployed Engineering organization. You will own and independently scope multi-quarter, highly complex initiatives to solve problems with no clear precedent, operating with high autonomy in high-stakes environments.",
+      "sections": [
+        {
+          "title": "The impact you will have:",
+          "paras": [],
+          "bullets": [
+            "Regional Impact: Drive excellence at the BU/Region level, contributing to team-level booking targets and consumption goals.",
+            "Complex Problem Solving: Navigate complex regional, regulatory, or market-specific complexities across multiple countries.",
+            "Mentorship: Coach and support junior Engagement Managers, acting as a go-to resource for peers on complex projects.",
+            "Sales Strategy: Shape account strategy to align with client goals and lead the sales of complex Professional Services & Training (PS&T) offerings.",
+            "Strategic Relationships: Establish and maintain strategic relationships with senior customer stakeholders across multiple engagements."
+          ]
+        },
+        {
+          "title": "What we look for:",
+          "paras": [],
+          "bullets": [
+            "10+ years of leadership experience in Professional Services.",
+            "Expert-level understanding of PS&T offerings and the ability to customize solutions for complex environments.",
+            "Proficient thought leadership, increasingly viewed as an external expert in the industry.",
+            "Participate in the hiring process to attract top-tier talent.",
+            "Expertise in Databricks architecture, ecosystem, and strategic account planning.",
+            "Ability to travel up to 25-50% as required.",
+            "Active high-level clearance"
+          ]
+        },
+        {
+          "title": "Pay Range Transparency",
+          "paras": [
+            "Databricks is committed to fair and equitable compensation practices. The pay range(s) for this role is listed below and represents the expected salary range for non-commissionable roles or on-target earnings for commissionable roles. Actual compensation packages are based on several factors that are unique to each candidate, including but not limited to job-related skills, depth of experience, relevant certifications and training, and specific work location. Based on the factors above, Databricks anticipates utilizing the full width of the range. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits listed above. For more information regarding which range your location is in visit our page here ."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About Databricks",
+          "paras": [
+            "Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn , X , YouTube , and Instagram .\n\nBenefits\n\nAt Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here ."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:gusto:8233276",
+      "title": "Gusto Pro Core, Junior Account Manager",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Account Management",
+      "seniority": "Entry",
+      "segment": "SMB",
+      "location": "Atlanta, GA - ; Denver, CO - ; Phoenix, AZ",
+      "mode": "Hybrid",
+      "min": 52499,
+      "max": 63003,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [
+        "Salesforce"
+      ],
+      "posted": 0,
+      "postedAt": "2026-09-29T16:25:45-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8233276",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8233276",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About this role",
+          "paras": [
+            "We are currently seeking a Junior Account Manager who will play a crucial role in assisting Channel Partners, such as Accounting Firms and their Small Business Clients, in selecting Gusto as their preferred platform. We are looking for someone who has experience in or wants to break into the tech sales world and learn the ins and outs of account management within the channel space.",
+            "In this role, you will consult with and support current Channel Partners through phone and email communications. You will also work with Channel Partners that are brand new to Gusto. Your responsibilities will include educating Partners about Gusto Pro (our platform for Accountants & Bookkeepers), matching our people platform offerings to the specific needs of their clients, and providing advisory sales guidance. Additionally, you will assist them in navigating the onboarding process, showcasing your expertise in customer success."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Here’s what you’ll do day-to-day:",
+          "paras": [],
+          "bullets": [
+            "Maintain a clean and consistent record of notes in Salesforce for all Leads & Accounts you work on",
+            "Leverage phone and email cadences, develop effective talk tracks, and employ other strategies to be a trusted advisor to Channel Partners and their Clients, assisting them in selecting Gusto as their preferred payroll and benefits platform for clients",
+            "Educate Channel Partners about our partnership program, certification process, and guide them to manage their Clients with GustoPro",
+            "Lead frequent discussions with partners to ensure they are leveraging the GustoPro platform to achieve successful business outcomes for their clients and their firm.",
+            "Drive awareness and usage of new or updated GustoPro features and integrations to partners,, showcasing how these advancements can benefit their clients",
+            "Provide support to Clients through their implementation and account setup. This will comprise approximately 25% of your daily conversations",
+            "Exhibit Customer empathy and demonstrate a strong understanding of our product offerings to effectively address Customer needs and concerns",
+            "Exercise and refine your skills in advisory selling, presenting solutions to Channel Partners and their Small Business Clients"
+          ]
+        },
+        {
+          "title": "Here’s what we're looking for:",
+          "paras": [
+            "Our cash compensation range for this role is $25.24 to $30.29 hourly in Denver & Atlanta. $24.14 to $28.37 hourly for Phoenix. Final offer amounts are determined by multiple factors including candidate location, experience and expertise and may vary from the amounts listed above.",
+            "Please note: This is a non-commissionable role.",
+            "Gusto has physical office spaces in Denver, San Francisco, and New York City. Employees who are based in those locations will be expected to work from the office on designated days approximately 2-3 days per week (or more depending on role). The same office expectations apply to all Symmetry roles, Gusto's subsidiary, whose physical office is in Scottsdale."
+          ],
+          "bullets": [
+            "2+ years experience in a sales role. Experience managing existing customer accounts is a plus.",
+            "An ideal candidate will have at least 2 years of experience in Inside or Outside Sales, Insurance Sales, Retention, and/or Customer Success",
+            "Previous experience with making high volume outbound dials and/or prospecting leads",
+            "Previous Salesforce experience",
+            "Track record of consistently meeting or exceeding targets and a desire to enhance your craft"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:flexport:8240063",
+      "title": "Global Aid Account Manager",
+      "company": "Flexport",
+      "companySite": "https://www.flexport.com",
+      "industry": "Logistics",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Bellevue, WA + more",
+      "mode": "Onsite",
+      "min": 91200,
+      "max": 114000,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-29T12:33:07-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
+      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
+      "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
+      "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
+      "sections": [
+        {
+          "title": "The Opportunity",
+          "paras": [
+            "Flexport.org is the humanitarian arm of Flexport. We serve nonprofits, NGOs, and mission-driven organizations that need to move impactful cargo reliably, often into some of the hardest environments to reach. As humanitarian and development needs keep climbing, the supply chain expertise our partners can count on matters more than ever.",
+            "You'll own some of Flexport.org's most complex and highest-impact partner relationships. Your accounts span multiple shipping modes and trade lanes: ocean, air, trucking, and customs, and demand real supply chain fluency to navigate well. You won't just manage these relationships, you'll shape them. You bring a strategic point of view to every partner engagement, lead business reviews that drive real decisions, and connect the dots across Flexport's full product suite to help partners do more with what they have. You'll operate with full autonomy, hold a high bar on program growth and retention, and become someone junior teammates turn to for guidance."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "You Will",
+          "paras": [],
+          "bullets": [
+            "Own end-to-end success for a portfolio of complex, multi-modal Flexport.org partner accounts, including partners with significant program growth potential and high operational intensity.",
+            "Lead RFP bids and contract renewals end-to-end.",
+            "Serve as a true strategic partner to nonprofits, NGOs, and mission-driven organizations, going deep on their supply chain operations to find where Flexport can cut cost, add capability, or move faster.",
+            "Lead high-impact business reviews (QBRs/MBRs) that go beyond reporting. Bring market context, multi-modal insight, and recommendations tailored to each partner's mission and constraints.",
+            "Drive expansion across Flexport's full product suite, consistently meeting or exceeding program growth and retention targets.",
+            "Collaborate with Operations, Pricing, Legal, Trade Lane Management, and other Flexport.org teams on solutions that need internal alignment and creative problem-solving.",
+            "Mentor account teammates: share playbooks, join key partner calls, and help the team raise its game.",
+            "Use AI-enabled tools to automate and improve internal and partner-facing processes where it makes the work faster or better."
+          ]
+        },
+        {
+          "title": "You Should Have",
+          "paras": [],
+          "bullets": [
+            "5+ years in account management, business development, or a similar partner-facing role. A background in logistics, supply chain, humanitarian aid, or international development is strongly preferred.",
+            "A track record of independently managing and growing a complex, multi-product book of business.",
+            "Deep understanding of global trade and supply chain operations across multiple modes. You can speak fluently about ocean, air, trucking, and customs.",
+            "Comfort operating without a playbook in ambiguous or novel situations, and the judgment to write the playbook for others once you've solved it.",
+            "Strong commercial instincts: you spot growth opportunities before partners ask, and you close them.",
+            "Genuine curiosity about the humanitarian and development space. You want to become an expert in aid logistics, not just move freight.",
+            "A natural tendency to develop others. Peers and junior teammates get better from working alongside you.",
+            "A compliance-first mindset. We operate in a heavily regulated industry, and our partners and regulators need to trust us."
+          ]
+        },
+        {
+          "title": "You Will Get",
+          "paras": [],
+          "bullets": [
+            "Ownership of Flexport.org's most complex and meaningful partner relationships, the accounts where the impact is biggest.",
+            "A visible role in shaping how the Flexport.org account team operates. Your judgment and approach set the standard.",
+            "Opportunities to contribute to team playbooks, onboarding content, and process improvements.",
+            "A front-row seat on Flexport.org's mission: getting aid to the people who need it, on time.",
+            "Competitive compensation, comprehensive benefits, and a vibrant company culture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:flexport:8240062",
+      "title": "Global Aid Account Manager",
+      "company": "Flexport",
+      "companySite": "https://www.flexport.com",
+      "industry": "Logistics",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Chicago, IL + more",
+      "mode": "Onsite",
+      "min": 83600,
+      "max": 104500,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-09-29T12:31:34-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
+      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
+      "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
+      "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
+      "sections": [
+        {
+          "title": "The Opportunity",
+          "paras": [
+            "Flexport.org is the humanitarian arm of Flexport. We serve nonprofits, NGOs, and mission-driven organizations that need to move impactful cargo reliably, often into some of the hardest environments to reach. As humanitarian and development needs keep climbing, the supply chain expertise our partners can count on matters more than ever.",
+            "You'll own some of Flexport.org's most complex and highest-impact partner relationships. Your accounts span multiple shipping modes and trade lanes: ocean, air, trucking, and customs, and demand real supply chain fluency to navigate well. You won't just manage these relationships, you'll shape them. You bring a strategic point of view to every partner engagement, lead business reviews that drive real decisions, and connect the dots across Flexport's full product suite to help partners do more with what they have. You'll operate with full autonomy, hold a high bar on program growth and retention, and become someone junior teammates turn to for guidance."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "You Will",
+          "paras": [],
+          "bullets": [
+            "Own end-to-end success for a portfolio of complex, multi-modal Flexport.org partner accounts, including partners with significant program growth potential and high operational intensity.",
+            "Lead RFP bids and contract renewals end-to-end.",
+            "Serve as a true strategic partner to nonprofits, NGOs, and mission-driven organizations, going deep on their supply chain operations to find where Flexport can cut cost, add capability, or move faster.",
+            "Lead high-impact business reviews (QBRs/MBRs) that go beyond reporting. Bring market context, multi-modal insight, and recommendations tailored to each partner's mission and constraints.",
+            "Drive expansion across Flexport's full product suite, consistently meeting or exceeding program growth and retention targets.",
+            "Collaborate with Operations, Pricing, Legal, Trade Lane Management, and other Flexport.org teams on solutions that need internal alignment and creative problem-solving.",
+            "Mentor account teammates: share playbooks, join key partner calls, and help the team raise its game.",
+            "Use AI-enabled tools to automate and improve internal and partner-facing processes where it makes the work faster or better."
+          ]
+        },
+        {
+          "title": "You Should Have",
+          "paras": [],
+          "bullets": [
+            "5+ years in account management, business development, or a similar partner-facing role. A background in logistics, supply chain, humanitarian aid, or international development is strongly preferred.",
+            "A track record of independently managing and growing a complex, multi-product book of business.",
+            "Deep understanding of global trade and supply chain operations across multiple modes. You can speak fluently about ocean, air, trucking, and customs.",
+            "Comfort operating without a playbook in ambiguous or novel situations, and the judgment to write the playbook for others once you've solved it.",
+            "Strong commercial instincts: you spot growth opportunities before partners ask, and you close them.",
+            "Genuine curiosity about the humanitarian and development space. You want to become an expert in aid logistics, not just move freight.",
+            "A natural tendency to develop others. Peers and junior teammates get better from working alongside you.",
+            "A compliance-first mindset. We operate in a heavily regulated industry, and our partners and regulators need to trust us."
+          ]
+        },
+        {
+          "title": "You Will Get",
+          "paras": [],
+          "bullets": [
+            "Ownership of Flexport.org's most complex and meaningful partner relationships, the accounts where the impact is biggest.",
+            "A visible role in shaping how the Flexport.org account team operates. Your judgment and approach set the standard.",
+            "Opportunities to contribute to team playbooks, onboarding content, and process improvements.",
+            "A front-row seat on Flexport.org's mission: getting aid to the people who need it, on time.",
+            "Competitive compensation, comprehensive benefits, and a vibrant company culture."
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:databricks:8593373002",
       "title": "Customer Enablement Architect",
@@ -22,7 +450,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -93,7 +521,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -160,7 +588,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -230,7 +658,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -275,73 +703,6 @@
       ]
     },
     {
-      "id": "greenhouse:gusto:8224747",
-      "title": "APEX Risk Operations Analyst",
-      "company": "Gusto",
-      "companySite": "https://gusto.com",
-      "industry": "Payroll / HR",
-      "family": "CS Operations",
-      "seniority": "Entry",
-      "segment": null,
-      "location": "Denver, CO",
-      "mode": "Hybrid",
-      "min": 79565,
-      "max": 95478,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "SQL"
-      ],
-      "posted": 0,
-      "postedAt": "2026-09-28T23:14:38-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8224747",
-      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8224747",
-      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
-      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
-      "sections": [
-        {
-          "title": "About Gusto",
-          "paras": [
-            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role:",
-          "paras": [
-            "As an APEX (Agent & Partner Experiences) Risk Operations Analyst, you will serve as a fraud-fighting detective for Gusto's partner ecosystem, playing a key role in keeping Gusto Embedded Payroll (GEP) and our API-driven partnerships the safest and most secure way to run payroll. In this role, you will identify patterns, recognize uncharacteristic behavior across partner-originated activity, and apply critical thinking to protect our partners and their end customers. Beyond investigation, you will continuously look for opportunities to iterate and optimize our processes — driving greater efficiency and reducing partner and customer pain along the way.",
-            "This role also sits at the front line of Gusto's increasingly AI-native Risk Operations work. You'll serve as the human in the loop for AI-powered workflows — reviewing flagged cases, validating AI outputs, making nuanced decisions where human discretion matters (including complex, white-glove partner cases the AI can't yet confidently resolve), and helping improve the systems we use every day."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team:",
-          "paras": [
-            "The APEX Risk Operations team sits within the broader Risk Operations organization and is a key stakeholder in company decisions and operations. While our Risk Fraud Operations counterparts protect Gusto's direct customers, APEX safeguards Gusto's partner ecosystem — the businesses and developers who use Gusto behind the scenes through APIs and embedded payroll to power payroll for their own end customers.",
-            "Gusto Embedded Payroll (GEP) empowers developers to embed payroll solutions directly into their applications, combining robust APIs, embeddable UI flows, and developer toolkits to deliver a next-generation payroll product. Operating like a startup within Gusto, GEP moves fast and experiments often, and our team is pioneering how AI-native risk operations can secure payroll at scale for partners — giving you the chance to define industry best practices in real time.",
-            "As Gusto continues moving toward an AI-first operating model, APEX is evolving how we work so more case volume is supported by AI before it reaches human review, with analysts focused on judgment, edge cases, and continuous improvement. We are a small, close group that works hard. No egos here — we collaborate, share knowledge freely, and help each other out in a positive environment."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Here’s what you’ll do day-to-day:",
-          "paras": [],
-          "bullets": [
-            "Human + AI Partnership & Feedback: Supervise and validate AI outputs for fraud and ACH risk cases originating from partner and API activity, making nuanced decisions where human discretion is needed, while documenting anomalies and opportunities for model improvement to continuously fine-tune AI system performance.",
-            "AI-first mindset: Use AI tools in everyday work (Claude, Gemini, etc.). Explore how prompts, automations, or workflow tweaks can make your day-to-day work faster or smarter — and how AI can eliminate blockers not just for you, but for the whole team.",
-            "Run operations: Own and optimize our operational task queues — keep things flowing, unblock partners and internal teams, and put the pieces together to make sense of partner-originated activity.",
-            "Protect the partner ecosystem: Safeguard GEP and Gusto's API/embedded partnerships by investigating flagged activity, validating high-impact findings, and taking decisive action to mitigate risk while minimizing friction for legitimate partners and their end customers.",
-            "Investigate complex, partner-specific cases: Deep-dive into high-value, white-glove, and edge cases tied to partner and API activity that are too sensitive or complex for AI decisioning — including anomalies the AI can't confidently resolve — and turn your findings into reusable AI training examples.",
-            "Proactive critical thinking: Fraud is a complicated puzzle to solve. Come up with innovative methods to identify trends and patterns in partner and API traffic, and ideally catch unusual activity before impact.",
-            "Builder mindset in action: Identify small manual pain points in partner-facing workflows and experiment with ways to automate or simplify them using AI tools to improve team performance.",
-            "Work closely with key stakeholders: Work cross-functionally with risk, product, and engineering teams, as well as our external partners and their developers, to monitor AI performance, feed back edge cases, and design workflows where human expertise and AI intelligence reinforce one another."
-          ]
-        }
-      ]
-    },
-    {
       "id": "ashby:ramp:b4908db8-ac21-4c7f-b544-a66fffbfb97e",
       "title": "Senior Channel Partner Manager, Global Advisory / GSI",
       "company": "Ramp",
@@ -357,7 +718,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -427,7 +788,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -495,7 +856,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-25T07:59:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -562,7 +923,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -636,7 +997,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -710,7 +1071,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -775,7 +1136,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -849,7 +1210,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-24T12:30:43-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -909,7 +1270,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -984,7 +1345,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1056,7 +1417,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1127,7 +1488,7 @@
       "variable": "+ equity + bonus",
       "book": "100 accounts",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-22T09:23:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1183,7 +1544,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1248,7 +1609,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-21T14:49:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1318,7 +1679,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1388,7 +1749,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1458,7 +1819,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1523,7 +1884,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1587,7 +1948,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1660,7 +2021,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1723,7 +2084,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1784,7 +2145,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1845,14 +2206,14 @@
       "family": "Account Management",
       "seniority": "Mid",
       "segment": null,
-      "location": "Atlanta, GA",
+      "location": "Atlanta, GA + more",
       "mode": "Onsite",
-      "min": null,
-      "max": null,
-      "variable": "",
+      "min": 76000,
+      "max": 95000,
+      "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1926,7 +2287,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1990,7 +2351,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2052,7 +2413,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2117,7 +2478,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2159,77 +2520,6 @@
             "Lead frequent discussions (weekly status calls, upsell calls, QBRs) with partners to ensure they are leveraging the Gusto Pro platform to achieve successful business outcomes for their clients and their firm.",
             "Drive awareness and usage of new or updated Gusto Pro features and integrations to the partners in your book, showcasing how these advancements can benefit their clients.",
             "Own end-to-end execution of contract renewals and upsells, negotiating mutually beneficial terms and ensuring seamless transitions."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:cloudflare:8158104",
-      "title": "Workday Integration Specialist",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": "Enterprise",
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Jira"
-      ],
-      "posted": 20,
-      "postedAt": "2026-09-08T20:48:50-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8158104?gh_jid=8158104",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8158104?gh_jid=8158104",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "About the Department",
-          "paras": [
-            "Cloudflare’s Enterprise Applications Team is responsible for running and maintaining the essential systems that enable internal teams to operate efficiently. Within the Enterprise Applications Team is a technical group responsible for the HR tech suite and associated integrations with various platforms."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "We are looking for a Workday Integration Specialist to join our People & Payroll Systems team, an energetic team focused on building resilient and efficient solutions to difficult problems. The Workday Integration Specialist serves as a technical point of contact for production support issues and assigned projects, including solution design, technical documentation, and implementation. We strive to build reliable, fault-tolerant systems that can operate at Cloudflare’s scale."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You’ll Do",
-          "paras": [],
-          "bullets": [
-            "Work on a range of system integration support, technical debt and HR initiatives involving Workday, Greenhouse, middleware, data lakes and other systems.",
-            "Help design, build, test, and support inbound and outbound Workday integrations.",
-            "Integrate Workday HCM with third-party global payroll and benefits providers.",
-            "Configure integration security.",
-            "Troubleshoot and fix production support issues.",
-            "Develop Workday custom reports, including BIRT.",
-            "Create and launch EIBs.",
-            "Work with teams to communicate, verify, and test desired functionality changes."
-          ]
-        },
-        {
-          "title": "Examples of Desirable Skills, Knowledge and Experience",
-          "paras": [],
-          "bullets": [
-            "Bachelor’s degree or higher in a technology-related field, or relevant experience implementing business systems.",
-            "Proficient technical knowledge of Workday HCM, Benefits, Compensation, Talent Management, and third-party payroll vendors such as ADP, CloudPay, Safeguard, and TMF.",
-            "Workday integration certifications preferred.",
-            "2–3 years of experience in software development.",
-            "Experience developing Workday inbound and outbound integrations.",
-            "Experience developing Workday custom reports, dashboards, and calculated fields.",
-            "Experience developing Workday EIBs, Core Connectors, RaaS, and web services.",
-            "Experience working with Workday Studio."
           ]
         }
       ]
@@ -2306,6 +2596,77 @@
       ]
     },
     {
+      "id": "greenhouse:cloudflare:8158104",
+      "title": "Workday Integration Specialist",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Jira"
+      ],
+      "posted": 21,
+      "postedAt": "2026-09-08T20:48:50-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8158104?gh_jid=8158104",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8158104?gh_jid=8158104",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "About the Department",
+          "paras": [
+            "Cloudflare’s Enterprise Applications Team is responsible for running and maintaining the essential systems that enable internal teams to operate efficiently. Within the Enterprise Applications Team is a technical group responsible for the HR tech suite and associated integrations with various platforms."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "We are looking for a Workday Integration Specialist to join our People & Payroll Systems team, an energetic team focused on building resilient and efficient solutions to difficult problems. The Workday Integration Specialist serves as a technical point of contact for production support issues and assigned projects, including solution design, technical documentation, and implementation. We strive to build reliable, fault-tolerant systems that can operate at Cloudflare’s scale."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Work on a range of system integration support, technical debt and HR initiatives involving Workday, Greenhouse, middleware, data lakes and other systems.",
+            "Help design, build, test, and support inbound and outbound Workday integrations.",
+            "Integrate Workday HCM with third-party global payroll and benefits providers.",
+            "Configure integration security.",
+            "Troubleshoot and fix production support issues.",
+            "Develop Workday custom reports, including BIRT.",
+            "Create and launch EIBs.",
+            "Work with teams to communicate, verify, and test desired functionality changes."
+          ]
+        },
+        {
+          "title": "Examples of Desirable Skills, Knowledge and Experience",
+          "paras": [],
+          "bullets": [
+            "Bachelor’s degree or higher in a technology-related field, or relevant experience implementing business systems.",
+            "Proficient technical knowledge of Workday HCM, Benefits, Compensation, Talent Management, and third-party payroll vendors such as ADP, CloudPay, Safeguard, and TMF.",
+            "Workday integration certifications preferred.",
+            "2–3 years of experience in software development.",
+            "Experience developing Workday inbound and outbound integrations.",
+            "Experience developing Workday custom reports, dashboards, and calculated fields.",
+            "Experience developing Workday EIBs, Core Connectors, RaaS, and web services.",
+            "Experience working with Workday Studio."
+          ]
+        }
+      ]
+    },
+    {
       "id": "ashby:ramp:ad9d3118-1ab4-488a-a6e8-3784082f92a4",
       "title": "Senior Channel Partner Manager, Canada",
       "company": "Ramp",
@@ -2321,7 +2682,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2393,7 +2754,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-04T19:00:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2454,7 +2815,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2524,7 +2885,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2560,7 +2921,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2628,7 +2989,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2696,7 +3057,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-03T13:52:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2770,7 +3131,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2840,7 +3201,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2911,7 +3272,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2967,7 +3328,7 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8165155",
+      "id": "greenhouse:instacart:8168196",
       "title": "Principal Supply Chain Partner Manager",
       "company": "Instacart",
       "companySite": "https://www.instacart.com",
@@ -2975,19 +3336,19 @@
       "family": "Account Management",
       "seniority": "Senior",
       "segment": null,
-      "location": "Remote — US",
+      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
       "mode": "Remote",
-      "min": 195000,
-      "max": 206000,
+      "min": 189000,
+      "max": 199500,
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 27,
-      "postedAt": "2026-09-01T15:09:58-04:00",
+      "posted": 28,
+      "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8165155",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8165155",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8168196",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8168196",
       "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
       "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
       "sections": [
@@ -3030,7 +3391,7 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8168196",
+      "id": "greenhouse:instacart:8165155",
       "title": "Principal Supply Chain Partner Manager",
       "company": "Instacart",
       "companySite": "https://www.instacart.com",
@@ -3038,19 +3399,19 @@
       "family": "Account Management",
       "seniority": "Senior",
       "segment": null,
-      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
+      "location": "Remote — US",
       "mode": "Remote",
-      "min": 189000,
-      "max": 199500,
+      "min": 195000,
+      "max": 206000,
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 27,
-      "postedAt": "2026-09-01T15:10:01-04:00",
+      "posted": 28,
+      "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8168196",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8168196",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8165155",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8165155",
       "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
       "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
       "sections": [
@@ -3108,7 +3469,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3184,7 +3545,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3260,7 +3621,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3331,7 +3692,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-26T11:34:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3402,7 +3763,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3470,7 +3831,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-26T18:59:45.994+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3547,7 +3908,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3617,7 +3978,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3689,7 +4050,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-24T17:13:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3748,7 +4109,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-24T16:24:38.638+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3827,7 +4188,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-21T10:06:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3886,7 +4247,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-20T09:54:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3940,75 +4301,6 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8144765",
-      "title": "Renewals Manager",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Renewals",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote —  ()",
-      "mode": "Remote",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Gong"
-      ],
-      "posted": 39,
-      "postedAt": "2026-08-20T13:47:35-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Team",
-          "paras": [
-            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
-            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
-            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
-            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
-            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
-            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
-            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
-            "Contribute to renewal process improvements and help build scalable playbooks for the team."
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Has",
-          "paras": [],
-          "bullets": [
-            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
-            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
-            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
-            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
-            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:mixpanel:8144760",
       "title": "Renewals Manager",
       "company": "Mixpanel",
@@ -4027,7 +4319,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-20T13:45:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4096,12 +4388,81 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
       "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8143229",
       "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8143229",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Team",
+          "paras": [
+            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
+            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
+            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
+            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
+            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
+            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
+            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
+            "Contribute to renewal process improvements and help build scalable playbooks for the team."
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Has",
+          "paras": [],
+          "bullets": [
+            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
+            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
+            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
+            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
+            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:mixpanel:8144765",
+      "title": "Renewals Manager",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Renewals",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote —  ()",
+      "mode": "Remote",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce",
+        "Gong"
+      ],
+      "posted": 40,
+      "postedAt": "2026-08-20T13:47:35-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -4162,7 +4523,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4216,72 +4577,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8140386",
-      "title": "Senior Executive Assistant - Customer Success & Services",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Remote — SF Bay Area",
-      "mode": "Remote",
-      "min": 103233,
-      "max": 173500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Notion"
-      ],
-      "posted": 40,
-      "postedAt": "2026-08-19T16:50:46-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8140386?gh_jid=8140386",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8140386?gh_jid=8140386",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "Must-haves",
-          "paras": [],
-          "bullets": [
-            "6+ years of experience supporting VP-level or above executives and GTM/Sales experience in a fast-paced environment",
-            "Proven ability to operate with discretion, sound judgment, and high EQ in sensitive or ambiguous situations",
-            "Exceptional communication skills — you write, speak, and represent with polish and precision",
-            "A track record of building systems and processes that scale, not just executing tasks",
-            "Ability to maintain San Francisco business hours (Pacific Time), regardless of location",
-            "Flexibility to travel approximately once per month for onsites and executive support"
-          ]
-        },
-        {
-          "title": "Nice-to-haves",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. This role is also eligible for an initial RSU grant with no vesting cliff, and ongoing refresh opportunities tied to performance, subject to plan terms and conditions. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Familiarity with enterprise SaaS or high-growth technology environments",
-            "Comfort with productivity and AI tools (Slack, Notion, Google Workspace, AI assistants)"
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Flexible Working",
-          "paras": [
-            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:gusto:8143038",
       "title": "Account Coordinator (Retirement Sponsor Support)",
       "company": "Gusto",
@@ -4304,7 +4599,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4367,7 +4662,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-20T01:37:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4430,7 +4725,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-19T19:04:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4499,7 +4794,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-18T17:23:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4564,7 +4859,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-18T09:49:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4635,7 +4930,7 @@
       "stack": [
         "Gong"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-18T16:20:52.077+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4695,154 +4990,6 @@
             "Now more than ever, making security continuous—not just a point-in-time check— is essential. Thousands of companies rely on Vanta to build, maintain and demonstrate their trust— all in a way that's real-time and transparent."
           ],
           "bullets": []
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:samsara:8121318",
-      "title": "Enterprise Core Implementation Consultant",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Onboarding",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 88979,
-      "max": 134591,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 45,
-      "postedAt": "2026-08-14T08:58:14-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "Samsara’s Select Customer Success team advises and guides our largest customers, ensuring they adopt Samsara and continuously gain business value from our products. We are the trusted point of contact for Samsara’s strategic customers throughout their lifecycle: onboarding, adoption, advocacy, and renewal.",
-            "In this role, you will be part of our Implementation team, responsible for helping Enterprise customers deploy and adopt our IoT solutions for their fleet and industrial assets. Picking up where our sales teams leave off, you will own the customer relationship and ensure a successful deployment of Samsara's solution. Your customers span the entire range of businesses that power our economy, including trucking and transportation, food and beverage, passenger transit, utilities, school buses, and many others. All the while building relationships with the customer, helping them learn our system, and overall ensuring a successful customer relationship.",
-            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering and Product, enabling you to experience multiple aspects of a fast growing company from within."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "In this role, you will:",
-          "paras": [],
-          "bullets": [
-            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform.",
-            "Manage the deployment of Samsara technology to large-scale customers, enabling customers to achieve quick time to value in their investment.",
-            "Create launch plans and a roadmap to increase product usage.",
-            "Track implementation progress, participation, product adoption, and account health.",
-            "Run training sessions, demonstrate Samsara’s technology, and work through challenges with executives and day-to-day users of the system across numerous use cases.",
-            "Juggle multiple customer engagements in parallel and work cross-functionally to deliver an exceptional experience for our customers.",
-            "Serve as a mentor to the wider Customer Success and Support teams.",
-            "Deeply understand the Samsara platform’s capabilities and explain them to customers of all types."
-          ]
-        },
-        {
-          "title": "Minimum requirements for this role:",
-          "paras": [],
-          "bullets": [
-            "6+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred.",
-            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence.",
-            "Experience supporting or working with technical products.",
-            "Solutions-oriented with strong problem solving skills.",
-            "Excellent consultative skills with experience in end to end system implementations.",
-            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software.",
-            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment.",
-            "Diplomacy, tact, and poise under pressure when working through customer issues."
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Strong bias for action, the ability to think big, with insistence on high standards.",
-            "Experience serving and supporting large-scale business solutions at Fortune 500 companies."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:samsara:8121312",
-      "title": "Enterprise Core Implementation Consultant - West",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Onboarding",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 88979,
-      "max": 134591,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 45,
-      "postedAt": "2026-08-14T08:58:11-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8121312?gh_jid=8121312",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8121312?gh_jid=8121312",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "Samsara’s Select Customer Success team advises and guides our largest customers, ensuring they adopt Samsara and continuously gain business value from our products. We are the trusted point of contact for Samsara’s strategic customers throughout their lifecycle: onboarding, adoption, advocacy, and renewal.",
-            "In this role, you will be part of our Implementation team, responsible for helping Enterprise customers deploy and adopt our IoT solutions for their fleet and industrial assets. Picking up where our sales teams leave off, you will own the customer relationship and ensure a successful deployment of Samsara's solution. Your customers span the entire range of businesses that power our economy, including trucking and transportation, food and beverage, passenger transit, utilities, school buses, and many others. All the while building relationships with the customer, helping them learn our system, and overall ensuring a successful customer relationship.",
-            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering and Product, enabling you to experience multiple aspects of a fast growing company from within."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "In this role, you will:",
-          "paras": [],
-          "bullets": [
-            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform.",
-            "Manage the deployment of Samsara technology to large-scale customers, enabling customers to achieve quick time to value in their investment.",
-            "Create launch plans and a roadmap to increase product usage.",
-            "Track implementation progress, participation, product adoption, and account health.",
-            "Run training sessions, demonstrate Samsara’s technology, and work through challenges with executives and day-to-day users of the system across numerous use cases.",
-            "Juggle multiple customer engagements in parallel and work cross-functionally to deliver an exceptional experience for our customers.",
-            "Serve as a mentor to the wider Customer Success and Support teams.",
-            "Deeply understand the Samsara platform’s capabilities and explain them to customers of all types."
-          ]
-        },
-        {
-          "title": "Minimum requirements for this role:",
-          "paras": [],
-          "bullets": [
-            "6+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred.",
-            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence.",
-            "Experience supporting or working with technical products.",
-            "Solutions-oriented with strong problem solving skills.",
-            "Excellent consultative skills with experience in end to end system implementations.",
-            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software.",
-            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment.",
-            "Diplomacy, tact, and poise under pressure when working through customer issues."
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Strong bias for action, the ability to think big, with insistence on high standards.",
-            "Experience serving and supporting large-scale business solutions at Fortune 500 companies."
-          ]
         }
       ]
     }
