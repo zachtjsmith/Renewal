@@ -1,11 +1,145 @@
 {
-  "generatedAt": "2026-10-01T12:41:19.829Z",
-  "count": 72,
+  "generatedAt": "2026-10-02T12:05:15.448Z",
+  "count": 73,
   "sources": [
     "Greenhouse",
     "Ashby"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:samsara:8247289",
+      "title": "Sr Customer Experience Specialist - Finance",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 102042,
+      "max": 154350,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-10-01T13:59:33-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8247289?gh_jid=8247289",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8247289?gh_jid=8247289",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "About the role",
+          "paras": [
+            "Samsara is looking for a Senior Escalations Program Manager to own our most complex customer escalations and turn those experiences into durable improvements. Approximately 70% of your time will be spent managing complex customer finance requests, you will coordinate cross-functional resources, lead executive-level communications, and drive rapid, high-quality resolution for high-severity customer issues. The remaining 30% of your time will focus on programs that eliminate root causes, streamline workflows, proactively resolve potential customer billing issues and scale customer-facing processes.",
+            "This role is ideal for a structured, customer-centered operator who can bring clarity to complex situations, build alignment across teams, and translate individual escalations into systemic improvements.",
+            "This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "In this role, you will:",
+          "paras": [],
+          "bullets": [
+            "Own priority customer escalations end to end, including triage, action planning, cross-functional coordination, risk management, and real-time status updates to customers and executive stakeholders.",
+            "Serve as the single-threaded owner for complex escalations, creating structure and accountability across Sales, Finance, Support, Customer Success, Product, Engineering, and other partner teams.",
+            "Deliver clear post-mortems and executive summaries; track resolution progress, commitments, and follow-up actions through closure.",
+            "Analyze escalation themes and quantify business impact to identify and prioritize opportunities for process, product, and workflow improvement.",
+            "Lead cross-functional programs to improve the customer experience – standardize escalation workflows, service-level expectations, tooling, reporting, and dashboards.",
+            "Coach frontline teams on escalation prevention, de-escalation, customer communication, and effective use of escalation processes.",
+            "Champion, role model, and embed Samsara’s cultural principles—Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, and Win as a Team—as we scale globally and across new offices."
+          ]
+        },
+        {
+          "title": "Success in this role will be measured by:",
+          "paras": [],
+          "bullets": [
+            "Reduced mean time to resolution (MTTR) for high-severity escalations.",
+            "Improved post-escalation CSAT and NPS.",
+            "Increased percentage of systemic issues permanently fixed within 90 days.",
+            "Consistent SLA adherence and audit-ready escalation documentation.",
+            "Clear stakeholder accountability and completion of commitments arising from escalations."
+          ]
+        },
+        {
+          "title": "Minimun requirements for the role:",
+          "paras": [],
+          "bullets": [
+            "4+ years of experience in Customer Success, Support Operations, Trust & Safety, incident management, or a related function, including direct ownership of high-severity escalations.",
+            "Demonstrated success leading cross-functional process-improvement programs from problem definition through implementation and adoption.",
+            "Structured problem-solving skills and the ability to use data to make decisions, quantify impact, and prioritize work.",
+            "Strong program and project management skills, including the ability to manage multiple workstreams, dependencies, and stakeholders in time-sensitive situations.",
+            "Excellent written and verbal communication skills, with the ability to synthesize complex situations into clear executive-level updates and recommendations.",
+            "Bachelor’s degree in Business, Operations, Engineering, or a related field, or equivalent practical experience."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:gusto:8212233",
+      "title": "Sr. Sales Operations Analyst",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "CS Operations",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — Atlanta, GA -, Denver, CO - + more",
+      "mode": "Hybrid",
+      "min": 100000,
+      "max": 120000,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [
+        "Salesforce"
+      ],
+      "posted": 0,
+      "postedAt": "2026-10-01T15:13:11-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8212233",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8212233",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "This is your chance to own one of the most technical, horizontal levers in GTM planning: building the scalable models and infrastructure that enable every route to market to grow efficiently. As Senior Sales Operations Analyst, you’ll partner with GTM leaders, Finance, Revenue Operations, and GTM Ops to develop and execute segmentation, book-of-business design, quota setting, and capacity planning. You’ll turn GTM strategy into concrete, automated models that determine how customers are segmented, how reps are staffed, and what they are held accountable for.",
+            "This role takes an end-to-end, platform-minded view across GTM motions, not just a single sales team. You’ll identify where manual work, fragmented logic, or inconsistent processes limit scale and build durable planning infrastructure that drives revenue outcomes as the business evolves. You’ll own the outcome: balanced books, defensible quotas tied to capacity, and scalable models that hold up under scrutiny."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Team",
+          "paras": [
+            "You'll sit within GTM Operations, working as the dedicated segmentation, book-of-business, and capacity planning owner for our Direct, Expansion, and Benefits sales teams. We think of ourselves as builders and problem solvers: we turn ambiguous planning questions into scalable, defensible models, and we hold the line on rigor even when the business is moving fast and priorities compete.",
+            "You'll work in close partnership with each organization's GTM leaders and their dedicated GTM Ops partners, leaning on their operational and business context, while you own building, defending, and maintaining the segmentation, book, quota, and headcount models that everyone plans against."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Segmentation & Book of Business",
+          "paras": [],
+          "bullets": [
+            "Own the design and ongoing maintenance of customer/account segmentation for Direct, Expansion, and Benefits sales, translating org-level segmentation strategy into concrete, rules-based models these teams can operate against.",
+            "Build and maintain balanced books of business across reps and teams, accounting for account potential, workload, geography, and product mix; own rebalancing when the business shifts (new hires, departures, territory changes, book splits).",
+            "Set and maintain clear, documented rules for account assignment, routing, and reclassification, and serve as the ruling authority when edge cases or disputes come up.",
+            "Partner with Sales, GTM Ops, and Systems & Tooling to ensure segmentation and book structures are reflected accurately in Salesforce and downstream systems."
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:gitlab:8857335002",
       "title": "Professional Services Engineer - West",
@@ -22,7 +156,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-09-30T14:29:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -86,7 +220,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -159,7 +293,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-29T16:35:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -228,7 +362,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -295,7 +429,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-29T16:25:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -366,7 +500,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-29T12:33:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -440,7 +574,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-29T12:31:34-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -514,7 +648,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -585,7 +719,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -652,7 +786,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -722,7 +856,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -782,7 +916,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -852,7 +986,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -920,7 +1054,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-25T07:59:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -987,7 +1121,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1061,7 +1195,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1135,7 +1269,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1200,7 +1334,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1274,7 +1408,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-09-24T12:30:43-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1334,7 +1468,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1409,7 +1543,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1481,7 +1615,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1552,7 +1686,7 @@
       "variable": "+ equity + bonus",
       "book": "100 accounts",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-22T09:23:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1608,7 +1742,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1673,7 +1807,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-21T14:49:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1743,7 +1877,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1813,7 +1947,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1883,7 +2017,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1948,7 +2082,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2012,7 +2146,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2085,7 +2219,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2148,7 +2282,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2209,7 +2343,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2277,7 +2411,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2351,7 +2485,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2415,7 +2549,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2477,7 +2611,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2542,7 +2676,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2584,77 +2718,6 @@
             "Lead frequent discussions (weekly status calls, upsell calls, QBRs) with partners to ensure they are leveraging the Gusto Pro platform to achieve successful business outcomes for their clients and their firm.",
             "Drive awareness and usage of new or updated Gusto Pro features and integrations to the partners in your book, showcasing how these advancements can benefit their clients.",
             "Own end-to-end execution of contract renewals and upsells, negotiating mutually beneficial terms and ensuring seamless transitions."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:cloudflare:8158104",
-      "title": "Workday Integration Specialist",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": "Enterprise",
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Jira"
-      ],
-      "posted": 22,
-      "postedAt": "2026-09-08T20:48:50-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8158104?gh_jid=8158104",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8158104?gh_jid=8158104",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "About the Department",
-          "paras": [
-            "Cloudflare’s Enterprise Applications Team is responsible for running and maintaining the essential systems that enable internal teams to operate efficiently. Within the Enterprise Applications Team is a technical group responsible for the HR tech suite and associated integrations with various platforms."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "We are looking for a Workday Integration Specialist to join our People & Payroll Systems team, an energetic team focused on building resilient and efficient solutions to difficult problems. The Workday Integration Specialist serves as a technical point of contact for production support issues and assigned projects, including solution design, technical documentation, and implementation. We strive to build reliable, fault-tolerant systems that can operate at Cloudflare’s scale."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You’ll Do",
-          "paras": [],
-          "bullets": [
-            "Work on a range of system integration support, technical debt and HR initiatives involving Workday, Greenhouse, middleware, data lakes and other systems.",
-            "Help design, build, test, and support inbound and outbound Workday integrations.",
-            "Integrate Workday HCM with third-party global payroll and benefits providers.",
-            "Configure integration security.",
-            "Troubleshoot and fix production support issues.",
-            "Develop Workday custom reports, including BIRT.",
-            "Create and launch EIBs.",
-            "Work with teams to communicate, verify, and test desired functionality changes."
-          ]
-        },
-        {
-          "title": "Examples of Desirable Skills, Knowledge and Experience",
-          "paras": [],
-          "bullets": [
-            "Bachelor’s degree or higher in a technology-related field, or relevant experience implementing business systems.",
-            "Proficient technical knowledge of Workday HCM, Benefits, Compensation, Talent Management, and third-party payroll vendors such as ADP, CloudPay, Safeguard, and TMF.",
-            "Workday integration certifications preferred.",
-            "2–3 years of experience in software development.",
-            "Experience developing Workday inbound and outbound integrations.",
-            "Experience developing Workday custom reports, dashboards, and calculated fields.",
-            "Experience developing Workday EIBs, Core Connectors, RaaS, and web services.",
-            "Experience working with Workday Studio."
           ]
         }
       ]
@@ -2731,6 +2794,77 @@
       ]
     },
     {
+      "id": "greenhouse:cloudflare:8158104",
+      "title": "Workday Integration Specialist",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Jira"
+      ],
+      "posted": 23,
+      "postedAt": "2026-09-08T20:48:50-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8158104?gh_jid=8158104",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8158104?gh_jid=8158104",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "About the Department",
+          "paras": [
+            "Cloudflare’s Enterprise Applications Team is responsible for running and maintaining the essential systems that enable internal teams to operate efficiently. Within the Enterprise Applications Team is a technical group responsible for the HR tech suite and associated integrations with various platforms."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "We are looking for a Workday Integration Specialist to join our People & Payroll Systems team, an energetic team focused on building resilient and efficient solutions to difficult problems. The Workday Integration Specialist serves as a technical point of contact for production support issues and assigned projects, including solution design, technical documentation, and implementation. We strive to build reliable, fault-tolerant systems that can operate at Cloudflare’s scale."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Work on a range of system integration support, technical debt and HR initiatives involving Workday, Greenhouse, middleware, data lakes and other systems.",
+            "Help design, build, test, and support inbound and outbound Workday integrations.",
+            "Integrate Workday HCM with third-party global payroll and benefits providers.",
+            "Configure integration security.",
+            "Troubleshoot and fix production support issues.",
+            "Develop Workday custom reports, including BIRT.",
+            "Create and launch EIBs.",
+            "Work with teams to communicate, verify, and test desired functionality changes."
+          ]
+        },
+        {
+          "title": "Examples of Desirable Skills, Knowledge and Experience",
+          "paras": [],
+          "bullets": [
+            "Bachelor’s degree or higher in a technology-related field, or relevant experience implementing business systems.",
+            "Proficient technical knowledge of Workday HCM, Benefits, Compensation, Talent Management, and third-party payroll vendors such as ADP, CloudPay, Safeguard, and TMF.",
+            "Workday integration certifications preferred.",
+            "2–3 years of experience in software development.",
+            "Experience developing Workday inbound and outbound integrations.",
+            "Experience developing Workday custom reports, dashboards, and calculated fields.",
+            "Experience developing Workday EIBs, Core Connectors, RaaS, and web services.",
+            "Experience working with Workday Studio."
+          ]
+        }
+      ]
+    },
+    {
       "id": "ashby:ramp:ad9d3118-1ab4-488a-a6e8-3784082f92a4",
       "title": "Senior Channel Partner Manager, Canada",
       "company": "Ramp",
@@ -2746,7 +2880,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2818,7 +2952,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-04T19:00:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2879,7 +3013,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2949,7 +3083,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2985,7 +3119,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3053,7 +3187,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3121,7 +3255,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-03T13:52:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3195,7 +3329,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3250,75 +3384,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8173658",
-      "title": "Enterprise Core Customer Success Manager",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 88090,
-      "max": 118440,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 28,
-      "postedAt": "2026-09-02T10:30:32-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8173658?gh_jid=8173658",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8173658?gh_jid=8173658",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "Our Enterprise Customer Success Managers pick up where our Implementation team leaves off, working closely with our top customers to understand their fleet and unique challenges, advising on how to customize Samsara for their needs, and becoming their long-term partner.",
-            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering and Product, enabling you to experience multiple aspects of a hyper-growth company from within.",
-            "This is a remote position open to candidates residing in the US except Alaska, Austin Metro, Boulder Metro, California, Chicago Metro, Connecticut, Dallas Metro, Denver Metro, Houston Metro, Maryland, Massachusetts, New Jersey, New York, Rhode Island, Seattle Metro, and Washington, D.C."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Minimum requirements for the role:",
-          "paras": [],
-          "bullets": [
-            "4+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred",
-            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence",
-            "Experience supporting or working with technical products",
-            "Solutions-oriented with strong problem-solving skills",
-            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software",
-            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment",
-            "Diplomacy, tact, and poise under pressure when working through customer issues",
-            "Bachelor’s degree from a 4-year institution"
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Has strong bias for action, the ability to think big, with insistence on high standards",
-            "Has experience serving and supporting large-scale business solutions at Fortune 500 companies",
-            "Thrives in an unstructured, fast-paced, and change-heavy environment"
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8143242",
       "title": "Implementation Consultant",
       "company": "Samsara",
@@ -3336,7 +3401,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3392,7 +3457,7 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8168196",
+      "id": "greenhouse:instacart:8165155",
       "title": "Principal Supply Chain Partner Manager",
       "company": "Instacart",
       "companySite": "https://www.instacart.com",
@@ -3400,19 +3465,19 @@
       "family": "Account Management",
       "seniority": "Senior",
       "segment": null,
-      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
+      "location": "Remote — US",
       "mode": "Remote",
-      "min": 189000,
-      "max": 199500,
+      "min": 195000,
+      "max": 206000,
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 29,
-      "postedAt": "2026-09-01T15:10:01-04:00",
+      "posted": 30,
+      "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8168196",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8168196",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8165155",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8165155",
       "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
       "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
       "sections": [
@@ -3455,7 +3520,7 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8165155",
+      "id": "greenhouse:instacart:8168196",
       "title": "Principal Supply Chain Partner Manager",
       "company": "Instacart",
       "companySite": "https://www.instacart.com",
@@ -3463,19 +3528,19 @@
       "family": "Account Management",
       "seniority": "Senior",
       "segment": null,
-      "location": "Remote — US",
+      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
       "mode": "Remote",
-      "min": 195000,
-      "max": 206000,
+      "min": 189000,
+      "max": 199500,
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 29,
-      "postedAt": "2026-09-01T15:09:58-04:00",
+      "posted": 30,
+      "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8165155",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8165155",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8168196",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8168196",
       "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
       "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
       "sections": [
@@ -3533,7 +3598,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3609,7 +3674,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3685,7 +3750,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3756,7 +3821,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-26T11:34:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3827,7 +3892,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3895,7 +3960,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-26T18:59:45.994+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3972,7 +4037,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4042,7 +4107,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4114,7 +4179,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-24T16:24:38.638+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4193,7 +4258,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-08-21T10:06:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4252,7 +4317,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-20T09:54:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4306,6 +4371,75 @@
       ]
     },
     {
+      "id": "greenhouse:mixpanel:8144760",
+      "title": "Renewals Manager",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Renewals",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — New York City ()",
+      "mode": "Remote",
+      "min": 93500,
+      "max": 126500,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Salesforce",
+        "Gong"
+      ],
+      "posted": 42,
+      "postedAt": "2026-08-20T13:45:14-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Team",
+          "paras": [
+            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
+            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
+            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
+            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
+            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
+            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
+            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
+            "Contribute to renewal process improvements and help build scalable playbooks for the team."
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Has",
+          "paras": [],
+          "bullets": [
+            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
+            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
+            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
+            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
+            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:mixpanel:8144765",
       "title": "Renewals Manager",
       "company": "Mixpanel",
@@ -4324,7 +4458,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-20T13:47:35-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4393,81 +4527,12 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
       "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8143229",
       "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8143229",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Team",
-          "paras": [
-            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
-            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
-            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
-            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
-            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
-            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
-            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
-            "Contribute to renewal process improvements and help build scalable playbooks for the team."
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Has",
-          "paras": [],
-          "bullets": [
-            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
-            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
-            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
-            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
-            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:mixpanel:8144760",
-      "title": "Renewals Manager",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Renewals",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — New York City ()",
-      "mode": "Remote",
-      "min": 93500,
-      "max": 126500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Gong"
-      ],
-      "posted": 41,
-      "postedAt": "2026-08-20T13:45:14-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -4528,7 +4593,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4604,7 +4669,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4667,7 +4732,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-20T01:37:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4730,7 +4795,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-19T19:04:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4799,7 +4864,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-18T17:23:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4864,7 +4929,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-18T09:49:12-04:00",
       "source": "Greenhouse",
       "featured": false,
