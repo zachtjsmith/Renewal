@@ -1,11 +1,218 @@
 {
-  "generatedAt": "2026-10-02T12:05:15.448Z",
-  "count": 73,
+  "generatedAt": "2026-10-03T11:16:57.206Z",
+  "count": 74,
   "sources": [
     "Greenhouse",
+    "Lever",
     "Ashby"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:instacart:8250324",
+      "title": "Account Manager",
+      "company": "Instacart",
+      "companySite": "https://www.instacart.com",
+      "industry": "Grocery delivery",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 101000,
+      "max": 106500,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [
+        "Salesforce",
+        "Tableau"
+      ],
+      "posted": 0,
+      "postedAt": "2026-10-02T19:10:53-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8250324",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8250324",
+      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
+      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
+      "sections": [
+        {
+          "title": "Instacart is a Flex First team",
+          "paras": [
+            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Why this role is on the menu",
+          "paras": [
+            "We're hiring an Account Manager II to make Instacart Ads the place CPG advertisers and agencies trust to grow their business, by improving campaign performance, widening how brands invest across our ad products, and shaping the advertiser experience. This role sits at the intersection of client strategy and campaign performance, and the person who fills it will have a direct line of sight to advertiser growth and retention. Twelve months from now, the advertisers you partner with should see Instacart as a growth partner whose recommendations they act on."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What you'll cook up in your first year",
+          "paras": [],
+          "bullets": [
+            "Advertiser Relationships: CPG clients and agency partners treat you as a trusted advisor. Working with Sales, you understand their business objectives and build strategies that support their long-term growth on Instacart.",
+            "Campaign Performance: Each advertiser has a full-funnel media strategy tied to its goals. You use campaign data and marketplace insights to recommend investment and optimization approaches that measurably improve results, and you manage gap-to-goal across multiple business units.",
+            "Advertiser Growth: Advertisers adopt your optimization and upsell recommendations and expand their use of Instacart advertising products. You get there by explaining clearly how each product works, building persuasive narratives, and handling objections with confidence across multiple stakeholders.",
+            "Business Reviews: Recurring client conversations and quarterly business reviews turn campaign data into a clear story of business impact, opportunities, and next steps. You own the vision and content for these reviews, and advertisers leave knowing what to do next. You also resolve campaign and partner issues with limited guidance.",
+            "Product and Team Influence: Advertiser pain points reach the right internal teams as specific feedback that shapes product enhancements and process improvements. You also share best practices across the category and Advertiser Success teams and lead projects that strengthen team-wide capabilities."
+          ]
+        },
+        {
+          "title": "The secret ingredients we're looking for",
+          "paras": [
+            "You are customer-focused and analytical, comfortable influencing senior stakeholders, and energized by a fast-paced role where priorities and solutions keep evolving. You use judgment and initiative to balance immediate client needs against longer-term chances to improve products, processes, and advertiser outcomes, and you are at your best explaining complex campaign data in plain terms.",
+            "Must-have pantry staples (Minimum Qualifications)",
+            "Optional garnishes (Preferred Qualifications)"
+          ],
+          "bullets": [
+            "Bachelor's degree in business, advertising, commerce, digital marketing, or a related field, or equivalent practical experience",
+            "4+ years of experience in account management, digital advertising, paid media, ad operations, ecommerce, client services, or a related field",
+            "Experience building and maintaining strong client relationships in an external-facing role",
+            "Experience analyzing campaign or business performance data and turning findings into clear recommendations and client-facing narratives",
+            "Proficiency with Microsoft Excel and Google Workspace (Gmail, Docs, Sheets, and Slides)",
+            "Ability to manage multiple priorities independently and deliver high-quality work in a fast-paced, changing environment",
+            "Strong written and verbal communication skills, including presenting confidently to advertisers, agencies, and internal stakeholders",
+            "Experience with Salesforce and Tableau; familiarity with Mode is a plus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lever:spotify:a6f8c9a6-821e-45d9-85c8-e5783ec03eaf",
+      "title": "Partner Manager - Lifestyle & Wellness",
+      "company": "Spotify",
+      "companySite": "https://www.spotify.com",
+      "industry": "Audio streaming",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Los Angeles, CA",
+      "mode": "Onsite",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-10-02T16:09:31.879Z",
+      "source": "Lever",
+      "featured": false,
+      "applyUrl": "https://jobs.lever.co/spotify/a6f8c9a6-821e-45d9-85c8-e5783ec03eaf/apply",
+      "postingUrl": "https://jobs.lever.co/spotify/a6f8c9a6-821e-45d9-85c8-e5783ec03eaf",
+      "blurb": "We’re looking for a Partner Manager to join Spotify’s Content Partnerships team and build meaningful relationships with creators across Lifestyle & Wellness. You’ll be a trusted partner to creators, helping them understand their performance, develop their…",
+      "summary": "We’re looking for a Partner Manager to join Spotify’s Content Partnerships team and build meaningful relationships with creators across Lifestyle & Wellness. You’ll be a trusted partner to creators, helping them understand their performance, develop their audiences, adopt Spotify products, and find new opportunities to grow.\n\nYou’ll bring a strong understanding of video, podcasts, and the broader creator ecosystem. You’ll combine creator relationships, data, and sound judgment to help shape how Spotify supports creators across Lifestyle & Wellness, with a particular focus on Fitness.",
+      "sections": [
+        {
+          "title": "What You'll Do",
+          "paras": [],
+          "bullets": [
+            "Manage relationships with a portfolio of Spotify creators across Lifestyle & Wellness, helping them grow their presence and audiences on Spotify.",
+            "Support the growth of Fitness on Spotify by identifying, recruiting, and onboarding high-value and high-potential creators and video content.",
+            "Develop a deep understanding of creators’ businesses and goals, connecting them with Spotify products, programs, and opportunities that can deliver meaningful value.",
+            "Use performance data and audience insights to advise creators on content strategy, audience development, and opportunities for growth.",
+            "Help shape Spotify’s creator strategy and partner approach for Fitness by bringing forward creator insights, opportunities, and ideas as the space evolves.",
+            "Develop and test new ways to support and engage creators, identifying successful approaches that can scale across the broader creator ecosystem.",
+            "Collaborate with teams across Spotify to support priority creators, increase adoption of relevant products and features, and advance partner and company initiatives.",
+            "Bring creator feedback, portfolio trends, and quantitative and qualitative insights back into Spotify to help inform content and product strategy."
+          ]
+        },
+        {
+          "title": "Who You Are",
+          "paras": [],
+          "bullets": [
+            "You have 5+ years of partner-facing experience in creator or talent relations, account management, business development, or a related field within an audio, video, social, talent management, or creator-focused organization.",
+            "You have established relationships with podcasters and/or video creators and understand how to build trusted, long-term creator partnerships.",
+            "You understand the audio, video, social, and creator landscape, including emerging formats and trends across Lifestyle, Wellness, and Fitness.",
+            "You identify opportunities, develop ideas, and move work forward in areas where the path may not yet be fully defined.",
+            "You use quantitative and qualitative insights to develop a point of view, make recommendations, and inform partner strategy.",
+            "You communicate clearly and build credibility with creators, partners, and cross-functional stakeholders.",
+            "You’re excited by the evolution of podcasts, video, and creator-led content and curious about how audiences discover and engage with it.",
+            "You know how to balance high-quality partner support with prioritization and scalable ways of working."
+          ]
+        },
+        {
+          "title": "Where You'll Be",
+          "paras": [
+            "The United States base range for this position is $92,126–$131,609 USD, plus equity. The benefits available for this position include health insurance, six-month paid parental leave, 401(k) retirement plan, monthly meal allowance, 23 paid days off, paid flexible holidays, and paid sick leave. These ranges may be modified in the future."
+          ],
+          "bullets": [
+            "This role can be based in Los Angeles, CA or New York, NY",
+            "We offer you the flexibility to work where you work best! There will be some in-person meetings, but still allows for flexibility to work from home. We ask that you come in 2-3 times per week."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:warp:733d0d82-6798-4407-8f15-28022fb74750",
+      "title": "Customer Experience Specialist",
+      "company": "Warp",
+      "companySite": "https://www.warp.dev",
+      "industry": "Developer tools",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — New York",
+      "mode": "Remote",
+      "min": 60000,
+      "max": 85000,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Linear"
+      ],
+      "posted": 0,
+      "postedAt": "2026-10-02T15:46:27.936+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/warp/733d0d82-6798-4407-8f15-28022fb74750/application",
+      "postingUrl": "https://jobs.ashbyhq.com/warp/733d0d82-6798-4407-8f15-28022fb74750",
+      "blurb": "Warp is the AI-native Employee Management Platform for ambitious companies. HRIS, payroll, benefits, IT, tax compliance, and more, all built from scratch on one AI-native platform.",
+      "summary": "Warp is the AI-native Employee Management Platform for ambitious companies. HRIS, payroll, benefits, IT, tax compliance, and more, all built from scratch on one AI-native platform.\n\nEvery company runs on its people, and the software that manages them is some of the oldest in the enterprise. Incumbents like ADP and Workday built their businesses on complexity and large ops teams. Warp is built for AI to be the primary operator. Every advance in LLM capability widens our lead.\n\nWe process $X billion in annual payments for high-growth companies across all 50 US states + globally.\n\nWe've raised $85M from Battery Ventures, Sapphire Ventures, Peak XV, Sound Ventures (Ashton Kutcher), and Y Combinator, alongside operators including Tobi Lütke (Shopify), Claire Hughes Johnson (Stripe), and the founders of Dropbox and Replit. Our team comes from MIT, Ramp, Brex, Google, Gusto, Rippling, and more.",
+      "sections": [
+        {
+          "title": "About Warp",
+          "paras": [
+            "We hire people who ship constantly, own outcomes, and care about craft. If you want to automate an entire category of work that every company depends on, this is the place."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About The Role",
+          "paras": [
+            "As a Customer Experience Specialist at Warp, you'll be the frontline advocate for our customers and a deep product expert on the Warp platform. You'll join our growing Customer Experience team — reporting to the Head of Customer Success — and serve as the go-to person when customers need guidance, answers, or hands-on support. This isn't a ticket-submitting role. You'll be a true partner in resolving customer cases end-to-end, translating real customer pain into actionable insights for our engineering and product teams, and getting ahead of issues before they become patterns."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Own real-time customer engagement via chat, Slack, and email — maintaining high service quality and fast response times",
+            "Resolve complex payroll challenges including tax notices and payment issues",
+            "Develop deep product expertise in Warp and serve as the team's internal resource for how the platform works",
+            "Partner with engineering on customer cases — context-setting, reproducing issues, and seeing them through to resolution rather than simply escalating",
+            "Translate customer-reported issues into clear, well-documented technical briefs that engineering and product can act on",
+            "Identify recurring or deep-rooted issues and bring them to leadership with recommendations — shifting from reactive resolution to proactive prevention",
+            "Communicate with third-party partners integrated with Warp on behalf of customers",
+            "Build and maintain a customer-facing knowledge base that evolves with product rollouts and common queries"
+          ]
+        },
+        {
+          "title": "You'll Be a Great Fit if You:",
+          "paras": [],
+          "bullets": [
+            "Are genuinely curious about how products work and motivated to become a subject matter expert",
+            "Can translate complex or technical issues into plain language — for customers and internal teams alike",
+            "Spot patterns in customer feedback and think about root causes, not just quick fixes",
+            "Take ownership of customer cases from first touch to full resolution",
+            "Thrive in a fast-paced environment where processes are still being built"
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:samsara:8247289",
       "title": "Sr Customer Experience Specialist - Finance",
@@ -22,7 +229,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -96,7 +303,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -156,7 +363,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-09-30T14:29:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -220,7 +427,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -293,7 +500,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-29T16:35:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -362,7 +569,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -429,7 +636,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-29T16:25:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -500,7 +707,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-29T12:33:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -574,7 +781,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-29T12:31:34-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -648,7 +855,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -719,7 +926,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -786,7 +993,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -856,7 +1063,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -896,144 +1103,6 @@
             "Passion and Drive: Inspire others with your drive for excellence, maintain a tenacious and optimistic attitude, and care deeply about winning and your teammates.",
             "Willingness to travel: Ability to travel domestically up to 25% for customer engagements and team meetings.",
             "An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ashby:ramp:b4908db8-ac21-4c7f-b544-a66fffbfb97e",
-      "title": "Senior Channel Partner Manager, Global Advisory / GSI",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 194000,
-      "max": 297000,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 6,
-      "postedAt": "2026-09-25T17:54:58.408+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/b4908db8-ac21-4c7f-b544-a66fffbfb97e/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/b4908db8-ac21-4c7f-b544-a66fffbfb97e",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "Ramp is building institutional partnerships with the GSI (Global System Integrators), Big-Four consulting firms, and global advisory firms that shape finance transformation, ERP modernization, and technology decisions for the CFOs and finance leaders we serve. These organizations are often in the room when enterprise clients are redesigning their finance stack, selecting technology, or moving from strategy into implementation.",
-            "This portfolio spans the largest global professional services firms (e.g., Deloitte) and GSIs (e.g., Infosys). They are complex organizations with distinct service lines (e.g., ERP, Tech Modernization, Finance Transformation) each with its own leadership, incentives, and economics, so earning credibility inside one is as much about navigating the firm as it is about the relationship.",
-            "This role will own Ramp's relationship with that network of firms, building firm-specific go-to-market motions that can include executive engagement, account mapping, co-sell, implementation alignment, thought leadership, and events. Ramp's relationships here are early and largely informal today, so this person will be responsible for the relationship, the partnership thesis, and the operating motion that makes a firm a meaningful Ramp partner over time."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You'll Do",
-          "paras": [],
-          "bullets": [
-            "Own Ramp's relationships with a portfolio of the largest global professional services, GSIs, and consulting firms, serving as the primary relationship owner",
-            "Map each firm and build credibility with the partners, practice leaders, alliance teams and client-service teams who matter most",
-            "Turn executive introductions into structured partnerships, developing the partnership thesis, executive sponsor plan, target practices and client wedge for each firm",
-            "Negotiate and close the first formal agreements between Ramp and these firms",
-            "Build market-facing proof points with Ramp's leadership, marketing and product teams, including executive events, thought leadership and shared client stories",
-            "Coordinate execution across Ramp, bringing the right Account Executives, Customer Success Managers, Product, AI Solutions and executive sponsors into each firm relationship",
-            "Establish and maintain the operating cadence: relationship maps, firm plans, account maps and next steps"
-          ]
-        },
-        {
-          "title": "What You Need",
-          "paras": [],
-          "bullets": [
-            "6+ years of experience in consulting, alliances, partnerships or an adjacent role. Time inside a top-tier professional services or global consulting firm (e.g., McKinsey, Bain, BCG, Deloitte) is strongly preferred.",
-            "Exceptional executive presence. You can hold a room with senior leaders, earn trust quickly, and be trusted to represent Ramp in meetings without support",
-            "Fluency in how large, matrixed professional services firms actually work, including how practices are incentivized and how a technology partner earns internal endorsement",
-            "Proven ability to run many workstreams and complex stakeholder management",
-            "A builder's instinct. You are energized by an empty page, comfortable without a playbook, and bring structure to ambiguity",
-            "Excellent written and verbal communication, and the judgment to calibrate between an executive conversation and a working session",
-            "Willingness to travel approximately 25% and to be based in a major metro. New York preferred"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ashby:ramp:d2beca4a-7409-404b-8382-761e5db6e917",
-      "title": "Senior Channel Partner Manager, Strategic Advisory",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 194000,
-      "max": 297000,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 6,
-      "postedAt": "2026-09-25T17:58:44.966+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/d2beca4a-7409-404b-8382-761e5db6e917/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/d2beca4a-7409-404b-8382-761e5db6e917",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "Ramp is building institutional partnerships with top global strategy consulting firms that shape finance transformation and technology decisions for the CFOs and CEOs we serve. These firms influence clients before a buying process begins, advise on the operating and technology decisions that define transformation programs, and can help clients move from strategy to live operational capability.",
-            "Ramp has an opportunity to build relationships that create value for the firm, its clients, and Ramp, across executive engagement, thought leadership, co-sell, and shared client work. This role will own those relationships and turn them into an institutional go-to-market motion: building credibility with firm leadership, identifying the right client and practice wedges, developing firm-specific plans, leveraging Ramp’s data to amplify firms’ thought leadership, and creating repeatable paths to joint client outcomes.",
-            "This is a build from the ground up. Ramp's relationships across this ecosystem are early and largely informal today, and this person will be responsible for the relationship, the partnership thesis, and the operating motion that makes a firm a meaningful Ramp partner over time. It is a broader remit than a typical partnerships role."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You'll Do",
-          "paras": [],
-          "bullets": [
-            "Own Ramp's relationships with a portfolio of top-tier strategy and advisory firms (e.g., McKinsey, Bain, BCG), serving as the primary relationship owner and building credibility with senior firm leadership",
-            "Turn executive introductions into structured partnerships, developing the partnership thesis, relationship map, executive sponsor plan, target practices and client wedge for each firm",
-            "Negotiate and close the first formal agreements between Ramp and these firms",
-            "Build market-facing proof points with Ramp's leadership, marketing and product teams, including executive events, thought leadership and shared client stories",
-            "Coordinate execution across Ramp, bringing the right Account Executives, Customer Success Managers, Product, AI Solutions and executive sponsors into each firm relationship",
-            "Establish and maintain the operating cadence: relationship maps, firm plans, account maps and next steps"
-          ]
-        },
-        {
-          "title": "What You Need",
-          "paras": [],
-          "bullets": [
-            "4+ years of experience at a leading strategy consulting firm (e.g., McKinsey, Bain, BCG)",
-            "Exceptional executive presence. You can hold a room with senior leaders, earn trust quickly, and be trusted to represent Ramp in meetings without support",
-            "Proven ability to run many work streams and complicated stakeholder management",
-            "A builder's instinct. You are energized by an empty page, comfortable without a playbook, and bring structure to ambiguity",
-            "Excellent written and verbal communication, and the judgment to calibrate between an executive conversation and a working session",
-            "Willingness to travel approximately 25% and to be based in a major metro. New York preferred"
           ]
         }
       ]
@@ -1106,6 +1175,144 @@
       ]
     },
     {
+      "id": "ashby:ramp:b4908db8-ac21-4c7f-b544-a66fffbfb97e",
+      "title": "Senior Channel Partner Manager, Global Advisory / GSI",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 194000,
+      "max": 297000,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 7,
+      "postedAt": "2026-09-25T17:54:58.408+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/b4908db8-ac21-4c7f-b544-a66fffbfb97e/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/b4908db8-ac21-4c7f-b544-a66fffbfb97e",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "Ramp is building institutional partnerships with the GSI (Global System Integrators), Big-Four consulting firms, and global advisory firms that shape finance transformation, ERP modernization, and technology decisions for the CFOs and finance leaders we serve. These organizations are often in the room when enterprise clients are redesigning their finance stack, selecting technology, or moving from strategy into implementation.",
+            "This portfolio spans the largest global professional services firms (e.g., Deloitte) and GSIs (e.g., Infosys). They are complex organizations with distinct service lines (e.g., ERP, Tech Modernization, Finance Transformation) each with its own leadership, incentives, and economics, so earning credibility inside one is as much about navigating the firm as it is about the relationship.",
+            "This role will own Ramp's relationship with that network of firms, building firm-specific go-to-market motions that can include executive engagement, account mapping, co-sell, implementation alignment, thought leadership, and events. Ramp's relationships here are early and largely informal today, so this person will be responsible for the relationship, the partnership thesis, and the operating motion that makes a firm a meaningful Ramp partner over time."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You'll Do",
+          "paras": [],
+          "bullets": [
+            "Own Ramp's relationships with a portfolio of the largest global professional services, GSIs, and consulting firms, serving as the primary relationship owner",
+            "Map each firm and build credibility with the partners, practice leaders, alliance teams and client-service teams who matter most",
+            "Turn executive introductions into structured partnerships, developing the partnership thesis, executive sponsor plan, target practices and client wedge for each firm",
+            "Negotiate and close the first formal agreements between Ramp and these firms",
+            "Build market-facing proof points with Ramp's leadership, marketing and product teams, including executive events, thought leadership and shared client stories",
+            "Coordinate execution across Ramp, bringing the right Account Executives, Customer Success Managers, Product, AI Solutions and executive sponsors into each firm relationship",
+            "Establish and maintain the operating cadence: relationship maps, firm plans, account maps and next steps"
+          ]
+        },
+        {
+          "title": "What You Need",
+          "paras": [],
+          "bullets": [
+            "6+ years of experience in consulting, alliances, partnerships or an adjacent role. Time inside a top-tier professional services or global consulting firm (e.g., McKinsey, Bain, BCG, Deloitte) is strongly preferred.",
+            "Exceptional executive presence. You can hold a room with senior leaders, earn trust quickly, and be trusted to represent Ramp in meetings without support",
+            "Fluency in how large, matrixed professional services firms actually work, including how practices are incentivized and how a technology partner earns internal endorsement",
+            "Proven ability to run many workstreams and complex stakeholder management",
+            "A builder's instinct. You are energized by an empty page, comfortable without a playbook, and bring structure to ambiguity",
+            "Excellent written and verbal communication, and the judgment to calibrate between an executive conversation and a working session",
+            "Willingness to travel approximately 25% and to be based in a major metro. New York preferred"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:d2beca4a-7409-404b-8382-761e5db6e917",
+      "title": "Senior Channel Partner Manager, Strategic Advisory",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 194000,
+      "max": 297000,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 7,
+      "postedAt": "2026-09-25T17:58:44.966+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/d2beca4a-7409-404b-8382-761e5db6e917/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/d2beca4a-7409-404b-8382-761e5db6e917",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "Ramp is building institutional partnerships with top global strategy consulting firms that shape finance transformation and technology decisions for the CFOs and CEOs we serve. These firms influence clients before a buying process begins, advise on the operating and technology decisions that define transformation programs, and can help clients move from strategy to live operational capability.",
+            "Ramp has an opportunity to build relationships that create value for the firm, its clients, and Ramp, across executive engagement, thought leadership, co-sell, and shared client work. This role will own those relationships and turn them into an institutional go-to-market motion: building credibility with firm leadership, identifying the right client and practice wedges, developing firm-specific plans, leveraging Ramp’s data to amplify firms’ thought leadership, and creating repeatable paths to joint client outcomes.",
+            "This is a build from the ground up. Ramp's relationships across this ecosystem are early and largely informal today, and this person will be responsible for the relationship, the partnership thesis, and the operating motion that makes a firm a meaningful Ramp partner over time. It is a broader remit than a typical partnerships role."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You'll Do",
+          "paras": [],
+          "bullets": [
+            "Own Ramp's relationships with a portfolio of top-tier strategy and advisory firms (e.g., McKinsey, Bain, BCG), serving as the primary relationship owner and building credibility with senior firm leadership",
+            "Turn executive introductions into structured partnerships, developing the partnership thesis, relationship map, executive sponsor plan, target practices and client wedge for each firm",
+            "Negotiate and close the first formal agreements between Ramp and these firms",
+            "Build market-facing proof points with Ramp's leadership, marketing and product teams, including executive events, thought leadership and shared client stories",
+            "Coordinate execution across Ramp, bringing the right Account Executives, Customer Success Managers, Product, AI Solutions and executive sponsors into each firm relationship",
+            "Establish and maintain the operating cadence: relationship maps, firm plans, account maps and next steps"
+          ]
+        },
+        {
+          "title": "What You Need",
+          "paras": [],
+          "bullets": [
+            "4+ years of experience at a leading strategy consulting firm (e.g., McKinsey, Bain, BCG)",
+            "Exceptional executive presence. You can hold a room with senior leaders, earn trust quickly, and be trusted to represent Ramp in meetings without support",
+            "Proven ability to run many work streams and complicated stakeholder management",
+            "A builder's instinct. You are energized by an empty page, comfortable without a playbook, and bring structure to ambiguity",
+            "Excellent written and verbal communication, and the judgment to calibrate between an executive conversation and a working session",
+            "Willingness to travel approximately 25% and to be based in a major metro. New York preferred"
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:cloudflare:8222614",
       "title": "Sales Enablement Specialist - EMEA",
       "company": "Cloudflare",
@@ -1121,7 +1328,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1195,7 +1402,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1269,7 +1476,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1334,7 +1541,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1408,7 +1615,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-24T12:30:43-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1468,7 +1675,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1543,7 +1750,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1615,7 +1822,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1686,7 +1893,7 @@
       "variable": "+ equity + bonus",
       "book": "100 accounts",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-22T09:23:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1742,7 +1949,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1807,7 +2014,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-21T14:49:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1862,76 +2069,6 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8214962",
-      "title": "Senior Account Manager, Retail Media",
-      "company": "Instacart",
-      "companySite": "https://www.instacart.com",
-      "industry": "Grocery delivery",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
-      "mode": "Remote",
-      "min": 151000,
-      "max": 159500,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [],
-      "posted": 10,
-      "postedAt": "2026-09-21T12:45:24-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8214962",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8214962",
-      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
-      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
-      "sections": [
-        {
-          "title": "Instacart is a Flex First team",
-          "paras": [
-            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Why this role is on the menu",
-          "paras": [
-            "Instacart’s retail media platform, Carrot Ads, is scaling fast — and the strategic retail partners who power it need more than a point of contact. They need a trusted advisor who knows their business, knows ours, and can translate that into advertising performance that grows over time. Without this role, we risk leaving adoption on the table, missing signals from partners who could shape our product roadmap, and letting high-potential relationships stagnate. We’re hiring a Senior Account Manager to own a portfolio of enterprise retail partners end-to-end — from onboarding through growth — and make Carrot Ads an indispensable part of how they compete. This role sits at the center of Instacart’s retail media expansion, with a direct line of sight to partner revenue, product adoption, and the future of how we go to market."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you’ll cook up in your first year",
-          "paras": [],
-          "bullets": [
-            "A portfolio of strategic enterprise retail partners is measurably healthier — adoption is up, revenue is growing, and partners are pointing to Carrot Ads as a competitive advantage.",
-            "New retail partners are onboarded smoothly and confidently — trained on campaign tooling, demand sourcing, reporting, and invoicing — so they hit the ground running and don’t stall out early.",
-            "Partners are adopting expanded placements and new product capabilities because you’ve made the incremental revenue case clearly — and Product teams have better data to work with because of the feedback loops you’ve built.",
-            "The account management practice is sharper than when you arrived — playbooks are tighter, QBR formats are more compelling, and the team has better tools for tracking partner KPIs and scaling what works.",
-            "Cross-functional partners — from Business Development to Finance to Ads Quality — know who to call when something involves the retail partner book, because you’ve become the connective tissue across teams."
-          ]
-        },
-        {
-          "title": "The secret ingredients we’re looking for",
-          "paras": [
-            "Must-have pantry staples (Minimum Qualifications)",
-            "Optional garnishes (Preferred Qualifications)",
-            "Instacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here . Currently, we are only hiring in the following provinces: Ontario, Alberta, British Columbia, and Nova Scotia."
-          ],
-          "bullets": [
-            "5+ years in Account Management or a related field, with experience in ad tech, publishers, or retail media.",
-            "Proven experience supporting enterprise solutions in the advertising space, including managing complex partner relationships end-to-end.",
-            "Strong technical acumen — able to understand and explain complex product capabilities to partners who may not be technical.",
-            "Proficient in data analysis with the ability to derive actionable insights and make strategic recommendations from partner KPI data.",
-            "Comfortable navigating billing, invoicing, and revenue reconciliation workflows in partnership with Finance.",
-            "Outstanding communication skills, with the ability to distill complex concepts for varied audiences — from technical teams to executive stakeholders.",
-            "Proven project and program management skills, with the ability to juggle multiple partner relationships and internal workstreams simultaneously.",
-            "Experienced in cross-functional collaboration and executive-level presentations."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:instacart:8214941",
       "title": "Senior Account Manager, Retail Media",
       "company": "Instacart",
@@ -1947,7 +2084,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2002,67 +2139,72 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8195432",
-      "title": "Enterprise Customer Success Manager",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
+      "id": "greenhouse:instacart:8214962",
+      "title": "Senior Account Manager, Retail Media",
+      "company": "Instacart",
+      "companySite": "https://www.instacart.com",
+      "industry": "Grocery delivery",
+      "family": "Account Management",
       "seniority": "Senior",
       "segment": "Enterprise",
-      "location": "Remote — Canada",
+      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
       "mode": "Remote",
-      "min": 98685,
-      "max": 127710,
-      "variable": "+ equity + bonus",
+      "min": 151000,
+      "max": 159500,
+      "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 13,
-      "postedAt": "2026-09-18T09:16:04-04:00",
+      "posted": 11,
+      "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8195432?gh_jid=8195432",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8195432?gh_jid=8195432",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8214962",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8214962",
+      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
+      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
       "sections": [
         {
-          "title": "This is a remote position open to candidates residing in Canada.",
+          "title": "Instacart is a Flex First team",
           "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
           ],
+          "bullets": []
+        },
+        {
+          "title": "Why this role is on the menu",
+          "paras": [
+            "Instacart’s retail media platform, Carrot Ads, is scaling fast — and the strategic retail partners who power it need more than a point of contact. They need a trusted advisor who knows their business, knows ours, and can translate that into advertising performance that grows over time. Without this role, we risk leaving adoption on the table, missing signals from partners who could shape our product roadmap, and letting high-potential relationships stagnate. We’re hiring a Senior Account Manager to own a portfolio of enterprise retail partners end-to-end — from onboarding through growth — and make Carrot Ads an indispensable part of how they compete. This role sits at the center of Instacart’s retail media expansion, with a direct line of sight to partner revenue, product adoption, and the future of how we go to market."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What you’ll cook up in your first year",
+          "paras": [],
           "bullets": [
-            "You want to impact the industries that run our world: Every phone call you answer and every email you send can affect whether truck drivers deliver goods on time and without accidents, whether students get dropped off safely from school, or whether power gets restored quickly after a natural disaster.",
-            "You are a natural relationship builder: Whether the relationship is with our customers or with cross-functional teams in Samsara, you are in constant communication and collaboration with key stakeholders to win as a team.",
-            "You are the architect of your own career: If you put in the work, this role won’t be your last at Samsara. This Customer Success team is still shaping its future and you will have plenty of autonomy and opportunities to master your craft in a hyper growth environment.",
-            "You want to be with the best: At Samsara, we win together, celebrate together and support each other. You will be surrounded by the best and brightest professionals out there.",
-            "Be on the front lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform",
-            "Compose joint success plans with customers, outlining their objectives, metrics, and timelines, and effectively removing any barriers to achieving business value",
-            "Orchestrate executive business reviews with our customers’ decision-makers and our executive leadership where we look back at past successes and align on upcoming goals",
-            "Conduct workshops with customers to understand their current operations and recommend workflow changes to get the most out of their Samsara products"
+            "A portfolio of strategic enterprise retail partners is measurably healthier — adoption is up, revenue is growing, and partners are pointing to Carrot Ads as a competitive advantage.",
+            "New retail partners are onboarded smoothly and confidently — trained on campaign tooling, demand sourcing, reporting, and invoicing — so they hit the ground running and don’t stall out early.",
+            "Partners are adopting expanded placements and new product capabilities because you’ve made the incremental revenue case clearly — and Product teams have better data to work with because of the feedback loops you’ve built.",
+            "The account management practice is sharper than when you arrived — playbooks are tighter, QBR formats are more compelling, and the team has better tools for tracking partner KPIs and scaling what works.",
+            "Cross-functional partners — from Business Development to Finance to Ads Quality — know who to call when something involves the retail partner book, because you’ve become the connective tissue across teams."
           ]
         },
         {
-          "title": "Total Rewards",
+          "title": "The secret ingredients we’re looking for",
           "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+            "Must-have pantry staples (Minimum Qualifications)",
+            "Optional garnishes (Preferred Qualifications)",
+            "Instacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here . Currently, we are only hiring in the following provinces: Ontario, Alberta, British Columbia, and Nova Scotia."
           ],
-          "bullets": []
-        },
-        {
-          "title": "Flexible Working",
-          "paras": [
-            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Our Commitment to Authenticity",
-          "paras": [
-            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
-          ],
-          "bullets": []
+          "bullets": [
+            "5+ years in Account Management or a related field, with experience in ad tech, publishers, or retail media.",
+            "Proven experience supporting enterprise solutions in the advertising space, including managing complex partner relationships end-to-end.",
+            "Strong technical acumen — able to understand and explain complex product capabilities to partners who may not be technical.",
+            "Proficient in data analysis with the ability to derive actionable insights and make strategic recommendations from partner KPI data.",
+            "Comfortable navigating billing, invoicing, and revenue reconciliation workflows in partnership with Finance.",
+            "Outstanding communication skills, with the ability to distill complex concepts for varied audiences — from technical teams to executive stakeholders.",
+            "Proven project and program management skills, with the ability to juggle multiple partner relationships and internal workstreams simultaneously.",
+            "Experienced in cross-functional collaboration and executive-level presentations."
+          ]
         }
       ]
     },
@@ -2082,7 +2224,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2146,7 +2288,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2219,7 +2361,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2282,7 +2424,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2343,7 +2485,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2411,7 +2553,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2485,7 +2627,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2549,7 +2691,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2611,7 +2753,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2676,7 +2818,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2741,7 +2883,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2811,7 +2953,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2880,7 +3022,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2937,67 +3079,6 @@
       ]
     },
     {
-      "id": "greenhouse:gusto:8128422",
-      "title": "Senior L&D Specialist",
-      "company": "Gusto",
-      "companySite": "https://gusto.com",
-      "industry": "Payroll / HR",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Denver, CO -, NY, NY - + more",
-      "mode": "Hybrid",
-      "min": 85955,
-      "max": 85955,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [],
-      "posted": 27,
-      "postedAt": "2026-09-04T19:00:33-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8128422",
-      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8128422",
-      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
-      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
-      "sections": [
-        {
-          "title": "About Gusto",
-          "paras": [
-            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role:",
-          "paras": [
-            "Our CX Learning & Development team is dedicated to building an exceptional customer experience by equipping our CX professionals with the skills they need to thrive, and it all starts with creating impactful, data-driven learning experiences. We are seeking a highly skilled and motivated Senior Learning & Development Specialist to lead program design, facilitate learning in key areas, and manage stakeholder relationships to drive business success. The ideal candidate will have experience in robust course design, program management, and coaching, with a track record of delivering high-quality learning solutions in fast-paced environments."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team:",
-          "paras": [
-            "This role is part of our Learning & Development team, within our Customer Experience organization. Our CX organization is the linchpin of our world-class experience. With their passion, insight, and customer advocacy, the CX team has helped Gusto maintain industry-leading NPS scores while serving over 500,000 customers. We strive to positively influence millions of businesses and hundreds of millions of employees across the country."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Facilitation",
-          "paras": [],
-          "bullets": [
-            "Facilitate in-person, virtual, and hybrid learning sessions across at least six distinct and complex knowledge areas, demonstrating a deep understanding of subject matter and the ability to tailor delivery for various audience levels, including mid & senior leadership participants.",
-            "Take the lead in creating an inclusive and dynamic learning environment that challenges participants to apply critical thinking and problem-solving skills in real-world scenarios.",
-            "Actively engage learners through interactive techniques, real-world examples, and structured activities that reinforce course content and objectives.",
-            "Provide feedback & coaching to learners in real-time, offering guidance and support to enhance their understanding and skills development.",
-            "Design and facilitate sessions that teach CX teams how to use AI tools responsibly and effectively in their daily workflows.",
-            "Leverage AI-assisted tools to enhance participation and personalization during live training.",
-            "Uses insights from AI-driven learning platforms to tailor discussions, provide targeted feedback, and reinforce learning outcomes."
-          ]
-        }
-      ]
-    },
-    {
       "id": "ashby:linear:26c77e48-b4ef-455d-a02c-3ef68fc6f9f9",
       "title": "Customer Success Manager, Growth",
       "company": "Linear",
@@ -3013,7 +3094,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3083,7 +3164,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3119,7 +3200,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3187,7 +3268,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3255,7 +3336,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-03T13:52:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3329,7 +3410,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3384,6 +3465,75 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8173658",
+      "title": "Enterprise Core Customer Success Manager",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 88090,
+      "max": 118440,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 30,
+      "postedAt": "2026-09-02T10:30:32-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8173658?gh_jid=8173658",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8173658?gh_jid=8173658",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "About the role:",
+          "paras": [
+            "Our Enterprise Customer Success Managers pick up where our Implementation team leaves off, working closely with our top customers to understand their fleet and unique challenges, advising on how to customize Samsara for their needs, and becoming their long-term partner.",
+            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering and Product, enabling you to experience multiple aspects of a hyper-growth company from within.",
+            "This is a remote position open to candidates residing in the US except Alaska, Austin Metro, Boulder Metro, California, Chicago Metro, Connecticut, Dallas Metro, Denver Metro, Houston Metro, Maryland, Massachusetts, New Jersey, New York, Rhode Island, Seattle Metro, and Washington, D.C."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Minimum requirements for the role:",
+          "paras": [],
+          "bullets": [
+            "4+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred",
+            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence",
+            "Experience supporting or working with technical products",
+            "Solutions-oriented with strong problem-solving skills",
+            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software",
+            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment",
+            "Diplomacy, tact, and poise under pressure when working through customer issues",
+            "Bachelor’s degree from a 4-year institution"
+          ]
+        },
+        {
+          "title": "An ideal candidate also has:",
+          "paras": [
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "Has strong bias for action, the ability to think big, with insistence on high standards",
+            "Has experience serving and supporting large-scale business solutions at Fortune 500 companies",
+            "Thrives in an unstructured, fast-paced, and change-heavy environment"
+          ]
+        },
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:samsara:8143242",
       "title": "Implementation Consultant",
       "company": "Samsara",
@@ -3401,7 +3551,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3457,7 +3607,7 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8165155",
+      "id": "greenhouse:instacart:8168196",
       "title": "Principal Supply Chain Partner Manager",
       "company": "Instacart",
       "companySite": "https://www.instacart.com",
@@ -3465,19 +3615,19 @@
       "family": "Account Management",
       "seniority": "Senior",
       "segment": null,
-      "location": "Remote — US",
+      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
       "mode": "Remote",
-      "min": 195000,
-      "max": 206000,
+      "min": 189000,
+      "max": 199500,
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 30,
-      "postedAt": "2026-09-01T15:09:58-04:00",
+      "posted": 31,
+      "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8165155",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8165155",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8168196",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8168196",
       "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
       "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
       "sections": [
@@ -3520,7 +3670,7 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8168196",
+      "id": "greenhouse:instacart:8165155",
       "title": "Principal Supply Chain Partner Manager",
       "company": "Instacart",
       "companySite": "https://www.instacart.com",
@@ -3528,19 +3678,19 @@
       "family": "Account Management",
       "seniority": "Senior",
       "segment": null,
-      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
+      "location": "Remote — US",
       "mode": "Remote",
-      "min": 189000,
-      "max": 199500,
+      "min": 195000,
+      "max": 206000,
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 30,
-      "postedAt": "2026-09-01T15:10:01-04:00",
+      "posted": 31,
+      "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8168196",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8168196",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8165155",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8165155",
       "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
       "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
       "sections": [
@@ -3598,7 +3748,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3674,7 +3824,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3750,7 +3900,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3821,7 +3971,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-26T11:34:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3892,7 +4042,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3960,7 +4110,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-26T18:59:45.994+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4037,7 +4187,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4107,7 +4257,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4179,7 +4329,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-24T16:24:38.638+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4243,65 +4393,6 @@
       ]
     },
     {
-      "id": "greenhouse:figma:6146574004",
-      "title": "Strategic Partner Manager",
-      "company": "Figma",
-      "companySite": "https://www.figma.com",
-      "industry": "Design software",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "San Francisco, CA • New York, NY •",
-      "mode": "Onsite",
-      "min": 169000,
-      "max": 296000,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 41,
-      "postedAt": "2026-08-21T10:06:22-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/figma/jobs/6146574004?gh_jid=6146574004",
-      "postingUrl": "https://boards.greenhouse.io/figma/jobs/6146574004?gh_jid=6146574004",
-      "blurb": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with…",
-      "summary": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excited to shape the future of design and collaboration, join us!\n\nFigma’s Business Development & Partnerships team aims to advance our company goals by working with partners to augment product experiences, drive user engagement, accelerate user and revenue growth, distribute our products and services, and raise brand awareness. As Figma’s product portfolio and user base continue to evolve, the team plays a critical role in connecting our platform to a broader network of builders,…",
-      "sections": [
-        {
-          "title": "What you'll do at Figma:",
-          "paras": [],
-          "bullets": [
-            "Own the end-to-end relationship for a small, fixed portfolio of 3-5 of Figma’s most strategic technology partners, including large, multi-product platform companies across developer tooling, enterprise productivity & collaboration, operating system and hardware ecosystems",
-            "Build and maintain a living strategy for each partnership, including joint goals, product and integration roadmaps, stakeholder maps, and executive relationship plans. Drive alignment across leadership and cross-functional teams to execute against plans",
-            "Lead cross-functional workstreams that bring partnerships to life, partnering closely with Product and Engineering to prioritize integrations, coordinate early access to new platform capabilities where relevant, and track delivery against roadmap commitments",
-            "Own the commercial fundamentals of each relationship by aligning internal stakeholders on terms, leading complex contract negotiations, and proactively managing risk and escalations",
-            "Build and execute go-to-market plans with Marketing and Comms for joint launches, co-marketing moments, event sponsorships, and other strategic opportunities",
-            "Prepare and facilitate recurring and ad hoc partner meetings, including executive briefings, to drive alignment, decisions, and momentum across internal and external stakeholders.",
-            "Define and track success metrics for each partnership, and report impact to BD leadership and cross-functional stakeholders"
-          ]
-        },
-        {
-          "title": "We’d love to hear from you if you have:",
-          "paras": [],
-          "bullets": [
-            "10+ years of experience, with 5+ years managing large, complex, strategic technology partnerships end-to-end, including, strategy setting, commercial negotiation and executive relationship management",
-            "Strong written, verbal, and presentation communication skills, including comfort presenting to executives; able to translate between business and technical concepts e.g., APIs, MCP, and extensibility platforms",
-            "Strong analytical, organizational, and prioritization skills; Ability to plan, coordinate, and prioritize a small number of deep, sophisticated workstreams simultaneously",
-            "Experience working cross-functionally with product, engineering, marketing, research, operations, legal, and other internal partners to move initiatives from concept to launch",
-            "Comfort operating in fast-moving, ambiguous environments and proactively surfacing solutions"
-          ]
-        },
-        {
-          "title": "While it’s not required, it’s an added plus if you also have:",
-          "paras": [],
-          "bullets": [
-            "Experience with enterprise software, developer tools, or workplace collaboration ecosystems",
-            "Experience managing partnerships with large, multi-product platform companies specifically"
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:mixpanel:8143101",
       "title": "Customer Value Architect",
       "company": "Mixpanel",
@@ -4317,7 +4408,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-20T09:54:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4371,7 +4462,7 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8144760",
+      "id": "greenhouse:mixpanel:8144765",
       "title": "Renewals Manager",
       "company": "Mixpanel",
       "companySite": "https://mixpanel.com",
@@ -4379,22 +4470,22 @@
       "family": "Renewals",
       "seniority": "Mid",
       "segment": null,
-      "location": "Remote — New York City ()",
+      "location": "Remote —  ()",
       "mode": "Remote",
-      "min": 93500,
-      "max": 126500,
-      "variable": "+ equity + bonus",
+      "min": null,
+      "max": null,
+      "variable": "",
       "book": "",
       "stack": [
         "Salesforce",
         "Gong"
       ],
-      "posted": 42,
-      "postedAt": "2026-08-20T13:45:14-04:00",
+      "posted": 43,
+      "postedAt": "2026-08-20T13:47:35-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -4440,7 +4531,7 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8144765",
+      "id": "greenhouse:mixpanel:8144760",
       "title": "Renewals Manager",
       "company": "Mixpanel",
       "companySite": "https://mixpanel.com",
@@ -4448,22 +4539,22 @@
       "family": "Renewals",
       "seniority": "Mid",
       "segment": null,
-      "location": "Remote —  ()",
+      "location": "Remote — New York City ()",
       "mode": "Remote",
-      "min": null,
-      "max": null,
-      "variable": "",
+      "min": 93500,
+      "max": 126500,
+      "variable": "+ equity + bonus",
       "book": "",
       "stack": [
         "Salesforce",
         "Gong"
       ],
-      "posted": 42,
-      "postedAt": "2026-08-20T13:47:35-04:00",
+      "posted": 43,
+      "postedAt": "2026-08-20T13:45:14-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -4527,7 +4618,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4593,7 +4684,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4669,7 +4760,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4732,7 +4823,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-20T01:37:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4795,7 +4886,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-19T19:04:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4864,7 +4955,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-18T17:23:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4929,7 +5020,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-18T09:49:12-04:00",
       "source": "Greenhouse",
       "featured": false,
