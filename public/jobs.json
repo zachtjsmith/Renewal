@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T11:16:57.206Z",
-  "count": 74,
+  "generatedAt": "2026-10-04T11:56:46.751Z",
+  "count": 73,
   "sources": [
     "Greenhouse",
     "Lever",
@@ -26,7 +26,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-02T19:10:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -96,7 +96,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-02T16:09:31.879Z",
       "source": "Lever",
       "featured": false,
@@ -163,7 +163,7 @@
       "stack": [
         "Linear"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-02T15:46:27.936+00:00",
       "source": "Ashby",
       "featured": false,
@@ -229,7 +229,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -303,7 +303,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -363,7 +363,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-09-30T14:29:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -427,7 +427,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -500,7 +500,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-29T16:35:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -569,7 +569,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -636,7 +636,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-09-29T16:25:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -692,7 +692,7 @@
       ]
     },
     {
-      "id": "greenhouse:flexport:8240063",
+      "id": "greenhouse:flexport:8240062",
       "title": "Global Aid Account Manager",
       "company": "Flexport",
       "companySite": "https://www.flexport.com",
@@ -700,19 +700,19 @@
       "family": "Account Management",
       "seniority": "Mid",
       "segment": null,
-      "location": "Bellevue, WA + more",
+      "location": "Chicago, IL + more",
       "mode": "Onsite",
-      "min": 91200,
-      "max": 114000,
+      "min": 83600,
+      "max": 104500,
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 3,
-      "postedAt": "2026-09-29T12:33:07-04:00",
+      "posted": 4,
+      "postedAt": "2026-09-29T12:31:34-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
-      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
+      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
+      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
       "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
       "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
       "sections": [
@@ -766,7 +766,7 @@
       ]
     },
     {
-      "id": "greenhouse:flexport:8240062",
+      "id": "greenhouse:flexport:8240063",
       "title": "Global Aid Account Manager",
       "company": "Flexport",
       "companySite": "https://www.flexport.com",
@@ -774,19 +774,19 @@
       "family": "Account Management",
       "seniority": "Mid",
       "segment": null,
-      "location": "Chicago, IL + more",
+      "location": "Bellevue, WA + more",
       "mode": "Onsite",
-      "min": 83600,
-      "max": 104500,
+      "min": 91200,
+      "max": 114000,
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 3,
-      "postedAt": "2026-09-29T12:31:34-04:00",
+      "posted": 4,
+      "postedAt": "2026-09-29T12:33:07-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
-      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
+      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
+      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
       "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
       "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
       "sections": [
@@ -855,7 +855,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -926,7 +926,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -993,7 +993,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1063,7 +1063,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1123,7 +1123,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-25T07:59:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1190,7 +1190,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1260,7 +1260,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1328,7 +1328,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1402,7 +1402,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1476,7 +1476,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1541,7 +1541,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1615,7 +1615,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-09-24T12:30:43-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1675,7 +1675,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1750,7 +1750,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1822,7 +1822,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1893,7 +1893,7 @@
       "variable": "+ equity + bonus",
       "book": "100 accounts",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-22T09:23:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1949,7 +1949,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2014,7 +2014,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-21T14:49:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2084,7 +2084,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2154,7 +2154,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2209,6 +2209,71 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8195432",
+      "title": "Enterprise Customer Success Manager",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — Canada",
+      "mode": "Remote",
+      "min": 98685,
+      "max": 127710,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 15,
+      "postedAt": "2026-09-18T09:16:04-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8195432?gh_jid=8195432",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8195432?gh_jid=8195432",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "This is a remote position open to candidates residing in Canada.",
+          "paras": [
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "You want to impact the industries that run our world: Every phone call you answer and every email you send can affect whether truck drivers deliver goods on time and without accidents, whether students get dropped off safely from school, or whether power gets restored quickly after a natural disaster.",
+            "You are a natural relationship builder: Whether the relationship is with our customers or with cross-functional teams in Samsara, you are in constant communication and collaboration with key stakeholders to win as a team.",
+            "You are the architect of your own career: If you put in the work, this role won’t be your last at Samsara. This Customer Success team is still shaping its future and you will have plenty of autonomy and opportunities to master your craft in a hyper growth environment.",
+            "You want to be with the best: At Samsara, we win together, celebrate together and support each other. You will be surrounded by the best and brightest professionals out there.",
+            "Be on the front lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform",
+            "Compose joint success plans with customers, outlining their objectives, metrics, and timelines, and effectively removing any barriers to achieving business value",
+            "Orchestrate executive business reviews with our customers’ decision-makers and our executive leadership where we look back at past successes and align on upcoming goals",
+            "Conduct workshops with customers to understand their current operations and recommend workflow changes to get the most out of their Samsara products"
+          ]
+        },
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Flexible Working",
+          "paras": [
+            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Our Commitment to Authenticity",
+          "paras": [
+            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:gusto:8144242",
       "title": "Head of Product, New Customer Experience",
       "company": "Gusto",
@@ -2224,7 +2289,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2288,7 +2353,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2361,7 +2426,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2424,7 +2489,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2485,7 +2550,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2553,7 +2618,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2627,7 +2692,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2691,7 +2756,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2753,7 +2818,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2818,7 +2883,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2883,7 +2948,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2953,7 +3018,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3022,7 +3087,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3094,7 +3159,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3164,7 +3229,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3200,7 +3265,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3268,7 +3333,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3336,7 +3401,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-03T13:52:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3410,7 +3475,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3480,7 +3545,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3551,7 +3616,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3607,7 +3672,7 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8168196",
+      "id": "greenhouse:instacart:8165155",
       "title": "Principal Supply Chain Partner Manager",
       "company": "Instacart",
       "companySite": "https://www.instacart.com",
@@ -3615,19 +3680,19 @@
       "family": "Account Management",
       "seniority": "Senior",
       "segment": null,
-      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
+      "location": "Remote — US",
       "mode": "Remote",
-      "min": 189000,
-      "max": 199500,
+      "min": 195000,
+      "max": 206000,
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 31,
-      "postedAt": "2026-09-01T15:10:01-04:00",
+      "posted": 32,
+      "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8168196",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8168196",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8165155",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8165155",
       "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
       "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
       "sections": [
@@ -3670,7 +3735,7 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8165155",
+      "id": "greenhouse:instacart:8168196",
       "title": "Principal Supply Chain Partner Manager",
       "company": "Instacart",
       "companySite": "https://www.instacart.com",
@@ -3678,19 +3743,19 @@
       "family": "Account Management",
       "seniority": "Senior",
       "segment": null,
-      "location": "Remote — US",
+      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
       "mode": "Remote",
-      "min": 195000,
-      "max": 206000,
+      "min": 189000,
+      "max": 199500,
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 31,
-      "postedAt": "2026-09-01T15:09:58-04:00",
+      "posted": 32,
+      "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8165155",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8165155",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8168196",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8168196",
       "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
       "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
       "sections": [
@@ -3748,7 +3813,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-08-31T19:44:24.017+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3824,7 +3889,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3900,7 +3965,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-08-27T14:30:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3971,7 +4036,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-26T11:34:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4042,7 +4107,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-26T21:23:31.708+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4110,7 +4175,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-08-26T18:59:45.994+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4187,7 +4252,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-08-25T17:28:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4257,7 +4322,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-24T14:42:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4329,7 +4394,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-08-24T16:24:38.638+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4408,7 +4473,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-20T09:54:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4480,81 +4545,12 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-20T13:47:35-04:00",
       "source": "Greenhouse",
       "featured": false,
       "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
       "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144765",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Team",
-          "paras": [
-            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
-            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
-            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
-            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
-            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
-            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
-            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
-            "Contribute to renewal process improvements and help build scalable playbooks for the team."
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Has",
-          "paras": [],
-          "bullets": [
-            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
-            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
-            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
-            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
-            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:mixpanel:8144760",
-      "title": "Renewals Manager",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Renewals",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — New York City ()",
-      "mode": "Remote",
-      "min": 93500,
-      "max": 126500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Gong"
-      ],
-      "posted": 43,
-      "postedAt": "2026-08-20T13:45:14-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -4618,12 +4614,81 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-20T13:43:15-04:00",
       "source": "Greenhouse",
       "featured": false,
       "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8143229",
       "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8143229",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Team",
+          "paras": [
+            "Mixpanel's Renewals Manager team partners with our most strategic customers to help them turn product data into decisions that drive growth. The Renewals function sits at the heart of our revenue engine—ensuring customers continuously realize value from Mixpanel and that we retain and grow our recurring revenue base."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "The right candidate brings commercial acumen and customer empathy in equal measure. You'll own the full renewal cycle for an assigned book of business—from early risk identification through contract close—partnering closely with Customer Value Managers, Sales, and Finance to protect and expand Mixpanel's recurring revenue. You'll be the primary driver of on-time, on-value renewals in your territory."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Own the end-to-end renewal process for an assigned territory, managing quote-to-close with accuracy and urgency.",
+            "Negotiate contract renewals using sound commercial judgment, building strategies that protect customer relationships while maximizing contract value.",
+            "Maintain a rolling 90–120-day forecast; analyze renewal data regularly to identify trends, surface risk, and prioritize intervention.",
+            "Engage decision-makers early to understand budget cycles, stakeholder maps, approval processes, and potential blockers.",
+            "Identify risk signals proactively and partner with Customer Success, Deal Desk, Legal, Finance, and Sales to navigate complex situations and protect retention.",
+            "Develop and present pricing and packaging proposals tailored to customer needs and growth stage.",
+            "Articulate Mixpanel's differentiated value and defend against competitive pressures during renewal negotiations.",
+            "Contribute to renewal process improvements and help build scalable playbooks for the team."
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Has",
+          "paras": [],
+          "bullets": [
+            "A track record of quota achievement in a renewals, account management, or sales role in a B2B SaaS environment.",
+            "Experience negotiating contracts with commercial and procurement stakeholders, including multi-year or multi-product deals.",
+            "The ability to manage a high-volume book of business while maintaining forecast accuracy and customer satisfaction.",
+            "Comfort working with ARR data, churn signals, and renewal metrics to drive prioritization decisions.",
+            "Experience partnering cross-functionally with CS, Finance, Legal, and Sales Ops to close complex deals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:mixpanel:8144760",
+      "title": "Renewals Manager",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Renewals",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — New York City ()",
+      "mode": "Remote",
+      "min": 93500,
+      "max": 126500,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Salesforce",
+        "Gong"
+      ],
+      "posted": 44,
+      "postedAt": "2026-08-20T13:45:14-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8144760",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -4684,7 +4749,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-08-20T16:50:30.773+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4760,7 +4825,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-20T01:23:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4823,7 +4888,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-20T01:37:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4886,7 +4951,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-19T19:04:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4935,140 +5000,6 @@
             "Hands-on experience with AI or agentic tooling beyond casual use, such as MCP-based workflows or LLM copilots.",
             "A collaborative approach to working across account teams and internal partners to move plans forward.",
             "Good judgment for prioritizing which accounts and actions need attention first."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:samsara:8104151",
-      "title": "Senior Strategic Implementation Consultant",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Onboarding",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 109480,
-      "max": 165600,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 45,
-      "postedAt": "2026-08-18T17:23:42-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8104151?gh_jid=8104151",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8104151?gh_jid=8104151",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "In this role, you will:",
-          "paras": [
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform.",
-            "Manage the deployment of Samsara technology to large-scale customers, enabling customers to achieve quick time to value in their investment.",
-            "Create launch plans and a roadmap to increase product usage.",
-            "Track implementation progress, participation, product adoption, and account health.",
-            "Run training sessions, demonstrate Samsara’s technology, and work through challenges with executives and day-to-day users of the system across numerous use cases.",
-            "Juggle multiple customer engagements in parallel and work cross-functionally to deliver an exceptional experience for our customers.",
-            "Serve as a mentor to the wider Customer Success and Support teams.",
-            "Deeply understand the Samsara platform’s capabilities and explain them to customers of all types."
-          ]
-        },
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Flexible Working",
-          "paras": [
-            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Our Commitment to Authenticity",
-          "paras": [
-            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:mixpanel:8138185",
-      "title": "Customer Value Architect",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — San Francisco ()",
-      "mode": "Remote",
-      "min": 93500,
-      "max": 126500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 45,
-      "postedAt": "2026-08-18T09:49:12-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8138185",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8138185",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Team",
-          "paras": [
-            "The Customer Value Architects team sits inside the revenue organization and owns the connection between what customers buy and what they actually get out of Mixpanel. We turn product usage into measurable business outcomes, working across onboarding, adoption, and renewal to make sure customers see the value they signed up for."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "The right candidate is a relationship-first advisor who connects a customer's Mixpanel investment to real outcomes for a portion of a defined book of accounts. You'll help own the adoption and value plan for each account: understanding why the customer bought Mixpanel, tracking whether they're getting the ROI they expected, and supporting the enablement and product usage that gets them there. You'll build trusted relationships with business and technical stakeholders, partner closely with your Account Executive and renewal counterparts, and start developing a point of view on how customers should think about AI in their product workflows. This role suits someone who is building the skills to own accounts end to end and is ready to grow into greater independence, with support from your manager and senior teammates."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Help own the value plan for accounts in your book, connecting the business problem that led the customer to buy Mixpanel with the outcomes they measure.",
-            "Build relationships with business and technical stakeholders, aligning Mixpanel's capabilities to what customers care about most.",
-            "Support discovery on customer priorities and pain points, and turn what you learn into adoption plan updates.",
-            "Partner with your Account Executive on expansion and your renewal counterpart on renewal execution, bringing adoption evidence that supports both.",
-            "Help lead enablement/best practices sessions on dashboard design, funnel analysis, and retention modeling to grow how a customer uses Mixpanel.",
-            "Monitor usage and health signals and support business reviews that surface what's working, deepen adoption, and catch risk early.",
-            "Spot underused features and contracted capabilities, and turn them into recommendations for the customer.",
-            "Triage product questions and issues, solving what you can and routing the rest to the right team."
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Has",
-          "paras": [],
-          "bullets": [
-            "2 - 4 years of experience in customer success, consulting, or a related field supporting B2B SaaS accounts, or equivalent experience.",
-            "A track record of building relationships across a range of stakeholders, from business partners to technical teams.",
-            "The ability to translate technical concepts, like data models and product metrics, into terms that land with non-technical stakeholders.",
-            "Growing experience connecting product usage to customer outcomes and ROI.",
-            "Comfort supporting adoption plans that tie daily work to a customer's larger goals.",
-            "Hands-on experience with AI or agentic tooling beyond casual use, such as MCP-based workflows or LLM copilots.",
-            "A collaborative approach to working across account teams and internal partners to move plans forward.",
-            "Good judgment for prioritizing which accounts and actions need attention first, with support from your manager and senior teammates."
           ]
         }
       ]
