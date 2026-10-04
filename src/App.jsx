@@ -15,19 +15,97 @@ const BRAND = {
   etsyShop: "https://www.etsy.com/shop/YOURSHOPNAME",
 };
 
+/* The Free resources tab is switched off for now. Set this to true to bring it
+   back: its header and footer links and its page return exactly as they were. */
+const SHOW_FREE_RESOURCES = false;
+
+/* The Friday roundup signup box in the Jobs page sidebar, switched off until
+   the newsletter launches. Set to true to show it again. */
+const SHOW_JOBS_NEWSLETTER_BOX = false;
+
 const JOBS_URL = "/jobs.json";
+
+/* --- featured and hand-added listings ------------------------------------
+   public/featured.json is the one file to edit when a company pays for a
+   featured slot, or when you add a job that isn't in the nightly feed. The
+   browser reads it on every visit, so a change is live with the next deploy
+   (about two minutes); no data run needed. Every entry carries an "until"
+   date and drops off by itself after it.
+     feature:  pin a job already on the board   { company, titleContains, until }
+     listings: add a job that isn't             { title, company, applyUrl, location,
+               mode, family, until, featured, min, max, summary, ... }
+   A missing or broken file is ignored and the board carries on without it. */
+const FEATURED_URL = "/featured.json";
+const localDay = () => {
+  const d = new Date();
+  return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+};
+const notExpired = (e) => !e.until || String(e.until) >= localDay();
+/* When a placement started, as a full timestamp. A bare date counts as the
+   start of that day, so it sorts before any purchase made later that day;
+   an unknown start sorts after everything. */
+const startedAt = (v) => {
+  const t = String(v || "");
+  return /^\d{4}-\d{2}-\d{2}$/.test(t) ? t + "T00:00:00.000Z" : t || "9999-12-31T23:59:59.999Z";
+};
+const sameText = (a, b) => String(a || "").trim().toLowerCase() === String(b || "").trim().toLowerCase();
+async function loadFeatured() {
+  try {
+    const res = await fetch(FEATURED_URL, { cache: "no-store" });
+    return res.ok ? await res.json() : null;
+  } catch {
+    return null;
+  }
+}
+function applyFeatured(jobs, file) {
+  if (!file || typeof file !== "object") return jobs;
+  const rules = (Array.isArray(file.feature) ? file.feature : []).filter((r) => r && r.company && notExpired(r));
+  const pinned = jobs.map((j) =>
+    {
+      const k = rules.findIndex((r) => sameText(r.company, j.company) && (!r.titleContains || String(j.title).toLowerCase().includes(String(r.titleContains).trim().toLowerCase())));
+      return k < 0 ? j : { ...j, featured: true, featuredOrder: startedAt(rules[k].since) + "|r" + String(k).padStart(4, "0") };
+    }
+  );
+  const added = (Array.isArray(file.listings) ? file.listings : [])
+    .filter((l) => l && l.title && l.company && l.applyUrl && notExpired(l))
+    .map((l, k) => {
+      const postedAt = l.postedAt || localDay();
+      const days = Math.floor((Date.now() - Date.parse(postedAt)) / 86400000);
+      return {
+        industry: "", segment: "", book: "", variable: "", stack: [], sections: [], summary: "",
+        family: "Customer Success", mode: "Remote", location: "Location not listed",
+        min: null, max: null, companySite: "", source: "the employer's site",
+        ...l,
+        id: l.id || ("listing-" + l.company + "-" + l.title).toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+        posted: Number.isFinite(days) ? Math.max(0, days) : 0,
+        postedAt,
+        featured: !!l.featured,
+        featuredOrder: l.featured ? startedAt(l.featuredSince || postedAt) + "|l" + String(k).padStart(4, "0") : undefined,
+      };
+    });
+  return [...added, ...pinned];
+}
 const CONTENT_URL = "/content.json";
 
-/* Where submitted listings go. Leave empty and the form falls back to opening
-   a pre-filled email, so it works on day one with no backend. To collect them
-   properly, paste a Formspree / Basin / Netlify Forms endpoint here — the
-   payload is plain JSON and needs no other changes. */
-const LISTING_ENDPOINT = "";
+/* Where submitted listings go: your Formspree form. Each submission is saved
+   in the Formspree dashboard and emailed to you. Empty this and the form falls
+   back to opening a pre-filled email instead. */
+const LISTING_ENDPOINT = "https://formspree.io/f/meaoywag";
+
+/* Formspree reads two fields specially: "subject" becomes the notification
+   email's subject line, and "email" its Reply-To, so Reply goes straight to
+   the employer who submitted. */
+const formspreeBody = ({ contactEmail, ...details }) => ({
+  subject: `Free listing: ${details.title} at ${details.company}`,
+  ...details,
+  email: contactEmail,
+});
 
 const C = {
   paper: "#EDF1EF", surface: "#FFFFFF", ink: "#0E1A15", body: "#38453F",
   muted: "#6B7A73", rule: "#D5DEDA", ruleSoft: "#E7ECEA",
   signal: "#0B6E4F", signalSoft: "#E2EFE9", flag: "#8A6104", flagSoft: "#FAF0D9",
+  flagTint: "#FDF7E8", flagLine: "#E3C47C", flagTag: "#F6E3B3", flagInk: "#664700", // featured placements
 };
 const FONT = "'Archivo', 'Helvetica Neue', Helvetica, Arial, sans-serif";
 
@@ -311,10 +389,9 @@ const AD_SLOTS = [
 ];
 
 const AD_PACKAGES = [
-  { name: "Featured listing", price: "$99", unit: "per job, 30 days", what: "Your role sits at the top of the board with an amber edge and a pinned position, above the daily feed.", stats: ["Top of board for 30 days", "Included in the next newsletter", "Amber featured treatment"] },
-  { name: "Newsletter sponsor", price: "$199", unit: "per issue", what: "A single sponsor slot near the top of the weekly issue. Plain text, written in the newsletter's voice, no banner.", stats: ["One sponsor per issue", "Above the job roundup", "Copy written with you"] },
+  { name: "Featured listing", price: "$39", unit: "per job, 30 days", what: "Your role sits at the top of the board with an amber edge and a pinned position, above the daily feed.", stats: ["Top of board for 30 days", "Included in the next newsletter", "Amber featured treatment"] },
+  { name: "Newsletter sponsor", price: "$89", unit: "per issue", what: "A single sponsor slot near the top of the weekly issue. Plain text, written in the newsletter's voice, no banner.", stats: ["One sponsor per issue", "Above the job roundup", "Copy written with you"] },
   { name: "Board rail", price: "$299", unit: "per month", what: "A 300 × 250 unit in the right rail of the job board, visible on every filtered view.", stats: ["Runs on all board views", "Two slots total, ever", "Monthly reporting"] },
-  { name: "Resource sponsor", price: "$499", unit: "per quarter", what: "Your brand on a resource section, plus one co-produced guide or video that lives on the site permanently.", stats: ["Section-level placement", "One co-produced piece", "Evergreen, does not expire"] },
 ];
 
 /* --- helpers ------------------------------------------------------------- */
@@ -354,10 +431,11 @@ function Tag({ children, tone }) {
   const map = {
     signal: { bg: C.signalSoft, fg: C.signal, bd: "#CBE2D8" },
     flag: { bg: C.flagSoft, fg: C.flag, bd: "#EADFBC" },
+    featured: { bg: C.flagTag, fg: C.flagInk, bd: C.flagLine, w: 700 },
     plain: { bg: "#F2F5F4", fg: C.muted, bd: C.ruleSoft },
   };
   const t = map[tone] || map.plain;
-  return <span style={{ background: t.bg, color: t.fg, border: "1px solid " + t.bd, borderRadius: 4, padding: "3px 7px", fontSize: 12, fontWeight: 500, whiteSpace: "nowrap", display: "inline-block" }}>{children}</span>;
+  return <span style={{ background: t.bg, color: t.fg, border: "1px solid " + t.bd, borderRadius: 4, padding: "3px 7px", fontSize: 12, fontWeight: t.w || 500, whiteSpace: "nowrap", display: "inline-block" }}>{children}</span>;
 }
 
 function Mark({ name, size = 40 }) {
@@ -383,7 +461,7 @@ function PageHead({ title, sub }) {
 /* --- header -------------------------------------------------------------- */
 function Header({ tab, setTab }) {
   const [open, setOpen] = useState(false);
-  const tabs = [["jobs", "Jobs"], ["newsletter", "Newsletter"], ["templates", "Templates"], ["resources", "Free resources"], ["advertise", "Advertise"]];
+  const tabs = [["jobs", "Jobs"], ["newsletter", "Newsletter"], ["templates", "Templates"], ["resources", "Free resources"], ["advertise", "Advertise"]].filter(([k]) => k !== "resources" || SHOW_FREE_RESOURCES);
   return (
     <header style={{ position: "sticky", top: 0, zIndex: 40, background: C.paper, borderBottom: "1px solid " + C.rule }}>
       <div style={{ maxWidth: 1180, margin: "0 auto", padding: "0 20px" }}>
@@ -418,21 +496,21 @@ function Header({ tab, setTab }) {
 /* Every field below is conditional. A posting that didn't state a salary,
    a book size, a segment or a stack simply doesn't show those rows — the
    board never fills a gap with a guess. */
-function JobRow({ job, open, toggle }) {
+function JobRow({ job, open, toggle, last }) {
   const isNew = job.posted <= 2;
   const edge = job.featured ? C.flag : isNew ? C.signal : "transparent";
   const hasPay = job.min != null && job.max != null;
   const hasSections = job.sections && job.sections.length > 0;
 
   return (
-    <article style={{ background: C.surface, borderBottom: "1px solid " + C.ruleSoft, borderLeft: "3px solid " + edge }}>
+    <article style={{ background: job.featured ? C.flagTint : C.surface, borderBottom: job.featured ? (last ? "none" : "1px solid " + C.flagLine) : "1px solid " + C.ruleSoft, borderLeft: "3px solid " + edge }}>
       <button onClick={toggle} aria-expanded={open} style={{ width: "100%", background: "none", border: "none", textAlign: "left", padding: "18px 20px", cursor: "pointer", fontFamily: FONT, display: "block" }}>
         <div style={{ display: "flex", gap: 15, alignItems: "flex-start" }}>
           <Mark name={job.company} />
           <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ display: "flex", alignItems: "baseline", gap: 9, flexWrap: "wrap" }}>
               <h3 style={{ margin: 0, fontSize: 17, fontWeight: 650, color: C.ink, letterSpacing: "-0.015em" }}>{job.title}</h3>
-              {job.featured && <Tag tone="flag">Featured</Tag>}
+              {job.featured && <Tag tone="featured">Featured</Tag>}
               {isNew && !job.featured && <Tag tone="signal">New</Tag>}
             </div>
             <p style={{ margin: "4px 0 0", fontSize: 14.5, color: C.body }}>
@@ -515,7 +593,7 @@ function AdUnit({ slot, setTab }) {
   return (
     <div style={{ background: C.flagSoft, border: "1px dashed #DCC98E", borderRadius: 6, padding: 20, textAlign: "center" }}>
       <div style={{ fontSize: 12.5, color: C.flag, fontWeight: 600 }}>Available ad space</div>
-      <div style={{ fontSize: 15, color: C.ink, fontWeight: 600, margin: "8px 0 4px" }}>{slot.size} — {slot.price}</div>
+      <div style={{ fontSize: 15, color: C.ink, fontWeight: 600, margin: "8px 0 4px" }}>{slot.size}</div>
       <p style={{ fontSize: 13.5, color: C.body, lineHeight: 1.5, margin: "0 0 14px" }}>Reaches customer success people actively changing jobs.</p>
       <Button kind="dark" onClick={() => setTab("advertise")} wide>See the rate card</Button>
     </div>
@@ -629,7 +707,14 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
       .map((x) => x.job);
 
     list.sort((a, b) => {
-      if (a.featured !== b.featured) return a.featured ? -1 : 1;
+      // Paid placements always lead, in every sort. Among them, the one
+      // featured first keeps first place; later ones stack below it.
+      const fa = !!a.featured, fb = !!b.featured;
+      if (fa !== fb) return fa ? -1 : 1;
+      if (fa) {
+        const oa = a.featuredOrder || "~", ob = b.featuredOrder || "~";
+        if (oa !== ob) return oa < ob ? -1 : 1;
+      }
       if (sort === "pay") {
         // Roles with no published salary sort last rather than as zero.
         if ((a.max == null) !== (b.max == null)) return a.max == null ? 1 : -1;
@@ -644,6 +729,8 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
   const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const safePage = Math.min(page, pageCount);
   const visible = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
+  const pinnedRows = visible.filter((j) => j.featured);
+  const listRows = visible.filter((j) => !j.featured);
 
   // Changing a filter should land you on page 1, not page 7 of a shorter list.
   useEffect(() => { setPage(1); setOpenId(null); }, [q, family, mode, segment, minPay, sort]);
@@ -710,6 +797,12 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
             {filtered.length !== jobs.length && <button onClick={reset} style={{ background: "none", border: "none", color: C.signal, fontSize: 13.5, fontWeight: 600, cursor: "pointer", fontFamily: FONT, padding: 0 }}>Clear filters</button>}
           </div>
 
+          {/* paid placements: pinned above the list in their own highlighted box */}
+          {!feed.loading && pinnedRows.length > 0 && (
+            <div style={{ border: "1px solid " + C.flagLine, borderRadius: 6, overflow: "hidden", marginBottom: 12 }}>
+              {pinnedRows.map((job, i) => <JobRow key={job.id} job={job} last={i === pinnedRows.length - 1} open={openId === job.id} toggle={() => setOpenId(openId === job.id ? null : job.id)} />)}
+            </div>
+          )}
           <div style={{ border: "1px solid " + C.rule, borderRadius: 6, overflow: "hidden" }}>
             {feed.loading ? (
               [0, 1, 2].map((i) => (
@@ -729,7 +822,7 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
               </div>
             ) : (
               <>
-                {visible.map((job) => <JobRow key={job.id} job={job} open={openId === job.id} toggle={() => setOpenId(openId === job.id ? null : job.id)} />)}
+                {listRows.map((job) => <JobRow key={job.id} job={job} open={openId === job.id} toggle={() => setOpenId(openId === job.id ? null : job.id)} />)}
                 <Pager page={safePage} pageCount={pageCount} setPage={goToPage} total={filtered.length} />
               </>
             )}
@@ -743,7 +836,7 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
         <aside className="board-rail" style={{ width: 300, flex: "0 0 300px" }}>
           <div style={{ display: "grid", gap: 16, position: "sticky", top: 82 }}>
             <AdUnit slot={AD_SLOTS[0]} setTab={setTab} />
-            <RailNewsletter onSub={onSub} subbed={subbed} />
+            {SHOW_JOBS_NEWSLETTER_BOX && <RailNewsletter onSub={onSub} subbed={subbed} />}
             <div style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 20 }}>
               <h4 style={{ margin: 0, fontSize: 16, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em" }}>Walk in with the deck already built</h4>
               <p style={{ fontSize: 13.5, color: C.body, lineHeight: 1.55, margin: "8px 0 14px" }}>QBR decks, health score models and renewal trackers. Built by a CSM who had to use them.</p>
@@ -760,6 +853,8 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
 /* --- newsletter ---------------------------------------------------------- */
 function NewsletterPage({ onSub, subbed, issues }) {
   const [email, setEmail] = useState("");
+  // Only real, published issues: ones in content.json with a working link.
+  const published = (issues || []).filter((i) => i && /^https?:\/\//.test(String(i.url || "")));
   return (
     <div style={{ maxWidth: 780 }}>
       <PageHead title="The Friday roundup" sub="One email a week. The roles worth a look, which CS orgs are restructuring, and one thing you can use in your own book on Monday. No sponsors disguised as advice." />
@@ -779,25 +874,34 @@ function NewsletterPage({ onSub, subbed, issues }) {
           </>
         )}
       </div>
-      <h2 style={{ fontSize: 21, fontWeight: 700, color: C.ink, letterSpacing: "-0.025em", margin: "0 0 4px" }}>Past issues</h2>
-      <p style={{ fontSize: 14.5, color: C.muted, margin: "0 0 16px" }}>Read a few before you decide.</p>
-      <div style={{ border: "1px solid " + C.rule, borderRadius: 6, overflow: "hidden" }}>
-        {ISSUES.map((iss) => (
-          <a key={iss.n} href="#" onClick={(e) => e.preventDefault()} style={{ display: "block", background: C.surface, padding: "18px 20px", borderBottom: "1px solid " + C.ruleSoft, textDecoration: "none" }}>
-            <div style={{ display: "flex", gap: 18, alignItems: "flex-start" }}>
-              <span style={{ fontSize: 13.5, color: C.muted, fontVariantNumeric: "tabular-nums", flex: "0 0 auto", paddingTop: 2, width: 88 }}>No. {iss.n}</span>
-              <div style={{ flex: 1 }}>
-                <h3 style={{ margin: 0, fontSize: 16.5, fontWeight: 650, color: C.ink, letterSpacing: "-0.015em" }}>{iss.title}</h3>
-                <p style={{ margin: "5px 0 0", fontSize: 14.5, color: C.body, lineHeight: 1.55 }}>{iss.teaser}</p>
-              </div>
-              <span style={{ fontSize: 13, color: C.muted, flex: "0 0 auto", whiteSpace: "nowrap" }}>{iss.date}</span>
-            </div>
-          </a>
-        ))}
-      </div>
+      {published.length > 0 ? (
+        <>
+          <h2 style={{ fontSize: 21, fontWeight: 700, color: C.ink, letterSpacing: "-0.025em", margin: "0 0 4px" }}>Past issues</h2>
+          <p style={{ fontSize: 14.5, color: C.muted, margin: "0 0 16px" }}>Read a few before you decide.</p>
+          <div style={{ border: "1px solid " + C.rule, borderRadius: 6, overflow: "hidden" }}>
+            {published.map((iss) => (
+              <a key={iss.url} href={iss.url} target="_blank" rel="noopener noreferrer" style={{ display: "block", background: C.surface, padding: "18px 20px", borderBottom: "1px solid " + C.ruleSoft, textDecoration: "none" }}>
+                <div style={{ display: "flex", gap: 18, alignItems: "flex-start" }}>
+                  <span style={{ fontSize: 13.5, color: C.muted, fontVariantNumeric: "tabular-nums", flex: "0 0 auto", paddingTop: 2, width: 88 }}>No. {iss.n}</span>
+                  <div style={{ flex: 1 }}>
+                    <h3 style={{ margin: 0, fontSize: 16.5, fontWeight: 650, color: C.ink, letterSpacing: "-0.015em" }}>{iss.title}</h3>
+                    <p style={{ margin: "5px 0 0", fontSize: 14.5, color: C.body, lineHeight: 1.55 }}>{iss.teaser}</p>
+                  </div>
+                  <span style={{ fontSize: 13, color: C.muted, flex: "0 0 auto", whiteSpace: "nowrap" }}>{iss.date}</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </>
+      ) : (
+        <div style={{ border: "1px dashed " + C.rule, borderRadius: 6, background: C.surface, padding: "34px 24px", textAlign: "center" }}>
+          <h2 style={{ fontSize: 21, fontWeight: 700, color: C.ink, letterSpacing: "-0.025em", margin: 0 }}>Coming Soon!</h2>
+          <p style={{ fontSize: 14.5, color: C.muted, margin: "8px 0 0" }}>Past issues will appear here once the first Friday roundup goes out.</p>
+        </div>
+      )}
       <div style={{ marginTop: 32, background: C.flagSoft, border: "1px solid #EADFBC", borderRadius: 6, padding: 22 }}>
         <h3 style={{ margin: 0, fontSize: 16.5, fontWeight: 700, color: C.ink }}>One sponsor slot per issue</h3>
-        <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.55, margin: "8px 0 0" }}>Plain text, near the top, written in the newsletter's voice. $199 an issue.</p>
+        <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.55, margin: "8px 0 0" }}>Plain text, near the top, written in the newsletter's voice. $89 an issue.</p>
         <div style={{ marginTop: 12 }}><CopyEmail /></div>
       </div>
     </div>
@@ -1045,7 +1149,7 @@ function ListingForm({ onClose }) {
         const res = await fetch(LISTING_ENDPOINT, {
           method: "POST",
           headers: { "Content-Type": "application/json", Accept: "application/json" },
-          body: JSON.stringify(payload),
+          body: JSON.stringify(formspreeBody(payload)),
         });
         if (!res.ok) throw new Error(String(res.status));
         setState("sent");
@@ -1287,7 +1391,7 @@ function AdvertisePage() {
   return (
     <div>
       <PageHead title="Reach customer success people who are actually looking" sub="A narrow audience: CSMs, account managers, renewals and CS ops, most of them mid-career and actively changing jobs. Four ways to reach them, and a hard cap on how much of the site is for sale." />
-      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", marginBottom: 40 }}>
+      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", marginBottom: 40 }}>
         {AD_PACKAGES.map((p) => (
           <div key={p.name} style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 22, display: "flex", flexDirection: "column" }}>
             <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em" }}>{p.name}</h3>
@@ -1331,7 +1435,7 @@ function AdvertisePage() {
             </p>
             <div style={{ display: "flex", gap: 11, flexWrap: "wrap" }}>
               <Button onClick={() => setShowForm(true)}>Submit a free listing</Button>
-              <a href={"mailto:" + BRAND.contactEmail + "?subject=Featured%20listing"} style={{ color: "#fff", border: "1px solid #3A4B44", borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, textDecoration: "none", fontFamily: FONT }}>Feature a role — $99</a>
+              <a href={"mailto:" + BRAND.contactEmail + "?subject=Featured%20listing"} style={{ color: "#fff", border: "1px solid #3A4B44", borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, textDecoration: "none", fontFamily: FONT }}>Feature a role — $39</a>
             </div>
             <ContactReveal topic="Featured listing" dark />
           </>
@@ -1352,13 +1456,13 @@ function Footer({ setTab }) {
             <span style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-0.045em", color: C.ink }}>{BRAND.name}</span>
             <span style={{ width: 6, height: 6, borderRadius: 2, background: C.signal, marginTop: 5 }} />
           </div>
-          <p style={{ fontSize: 13.5, color: C.muted, lineHeight: 1.6, margin: "9px 0 0" }}>Built by a customer success manager who got laid off and went looking for a board like this. There wasn't one.</p>
+          <p style={{ fontSize: 13.5, color: C.muted, lineHeight: 1.6, margin: "9px 0 0" }}>Built by a customer success manager who got laid off and went looking for a board like this.</p>
         </div>
         <div style={{ display: "flex", gap: 46, flexWrap: "wrap" }}>
           <div>
             <h4 style={{ fontSize: 13.5, fontWeight: 650, color: C.ink, margin: "0 0 10px" }}>Site</h4>
             <div style={{ display: "grid", gap: 7 }}>
-              {[["jobs", "Jobs"], ["newsletter", "Newsletter"], ["templates", "Templates"], ["resources", "Free resources"]].map(([k, l]) => (
+              {[["jobs", "Jobs"], ["newsletter", "Newsletter"], ["templates", "Templates"], ["resources", "Free resources"]].filter(([k]) => k !== "resources" || SHOW_FREE_RESOURCES).map(([k, l]) => (
                 <button key={k} onClick={() => setTab(k)} style={linkBtn}>{l}</button>
               ))}
             </div>
@@ -1387,16 +1491,17 @@ export default function App() {
   useEffect(() => {
     let live = true;
     (async () => {
+      const featured = loadFeatured(); // fetched alongside the jobs, not after
       try {
         const res = await fetch(JOBS_URL, { cache: "no-store" });
         if (!res.ok) throw new Error(String(res.status));
         const data = await res.json();
         if (!Array.isArray(data.jobs) || data.jobs.length === 0) throw new Error("empty feed");
-        if (live) setFeed({ jobs: data.jobs, loading: false, sample: false, generatedAt: data.generatedAt || null });
+        if (live) setFeed({ jobs: applyFeatured(data.jobs, await featured), loading: false, sample: false, generatedAt: data.generatedAt || null });
       } catch {
         // No jobs.json yet (local preview, first deploy, or ingest hasn't run).
         // Show the sample board and say so, rather than an empty page.
-        if (live) setFeed({ jobs: SAMPLE_JOBS, loading: false, sample: true, generatedAt: null });
+        if (live) setFeed({ jobs: applyFeatured(SAMPLE_JOBS, await featured), loading: false, sample: true, generatedAt: null });
       }
     })();
     return () => { live = false; };
@@ -1425,7 +1530,7 @@ export default function App() {
     jobs: <JobsPage setTab={setTab} onSub={() => setSubbed(true)} subbed={subbed} feed={feed} />,
     newsletter: <NewsletterPage onSub={() => setSubbed(true)} subbed={subbed} issues={content.issues} />,
     templates: <TemplatesPage />,
-    resources: <ResourcesPage setTab={setTab} groups={content.resources} />,
+    resources: SHOW_FREE_RESOURCES ? <ResourcesPage setTab={setTab} groups={content.resources} /> : null,
     advertise: <AdvertisePage />,
   };
 
@@ -1463,7 +1568,7 @@ export default function App() {
         @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
       `}</style>
       <Header tab={tab} setTab={setTab} />
-      <main style={{ maxWidth: 1180, margin: "0 auto", padding: "34px 20px 0" }}>{pages[tab]}</main>
+      <main style={{ maxWidth: 1180, margin: "0 auto", padding: "34px 20px 0" }}>{pages[tab] || pages.jobs}</main>
       <Footer setTab={setTab} />
     </div>
   );
