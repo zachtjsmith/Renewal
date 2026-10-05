@@ -11,7 +11,7 @@ import React, { useState, useMemo, useEffect, useRef } from "react";
 const BRAND = {
   name: "renewal",
   line: "Customer success jobs, nothing invented.",
-  contactEmail: "zachtjsmith@gmail.com",
+  contactEmail: "zach@baselinecsm.com",
   etsyShop: "https://www.etsy.com/shop/YOURSHOPNAME",
 };
 
