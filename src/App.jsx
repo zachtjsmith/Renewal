@@ -388,11 +388,23 @@ const AD_SLOTS = [
   { id: "rail-b", label: "Board rail, lower", size: "300 × 250", price: "$199 / month", sold: false },
 ];
 
+/* Featured listings are bought on Gumroad. The Featured listing card and the
+   "Feature a role" button both open this checkout. Empty it to go back to
+   booking by email. */
+const FEATURED_CHECKOUT_URL = "https://zachsmith43.gumroad.com/l/30daylisting";
+const featuredHref = () => FEATURED_CHECKOUT_URL || "mailto:" + BRAND.contactEmail + "?subject=Featured%20listing";
+
+/* The newsletter sponsor package is switched off until the newsletter
+   launches. Set this to true to offer it again. */
+const SHOW_NEWSLETTER_SPONSOR = false;
+
 const AD_PACKAGES = [
-  { name: "Featured listing", price: "$39", unit: "per job, 30 days", what: "Your role sits at the top of the board with an amber edge and a pinned position, above the daily feed.", stats: ["Top of board for 30 days", "Included in the next newsletter", "Amber featured treatment"] },
+  { name: "Featured listing", price: "$39", unit: "per job, 30 days", what: "Your role sits at the top of the board with an amber edge and a pinned position, above the daily feed.", stats: ["Top of board for 30 days", "Shown first in every sort", "Amber featured treatment"], checkout: true },
   { name: "Newsletter sponsor", price: "$89", unit: "per issue", what: "A single sponsor slot near the top of the weekly issue. Plain text, written in the newsletter's voice, no banner.", stats: ["One sponsor per issue", "Above the job roundup", "Copy written with you"] },
   { name: "Board rail", price: "$299", unit: "per month", what: "A 300 × 250 unit in the right rail of the job board, visible on every filtered view.", stats: ["Runs on all board views", "Two slots total, ever", "Monthly reporting"] },
 ];
+const AD_OFFERS = AD_PACKAGES.filter((p) => p.name !== "Newsletter sponsor" || SHOW_NEWSLETTER_SPONSOR);
+const NUMBER_WORDS = ["No", "One", "Two", "Three", "Four", "Five"];
 
 /* --- helpers ------------------------------------------------------------- */
 const money = (n) => "$" + Math.round(n / 1000) + "k";
@@ -1390,9 +1402,9 @@ function AdvertisePage() {
   const [showForm, setShowForm] = useState(false);
   return (
     <div>
-      <PageHead title="Reach customer success people who are actually looking" sub="A narrow audience: CSMs, account managers, renewals and CS ops, most of them mid-career and actively changing jobs. Four ways to reach them, and a hard cap on how much of the site is for sale." />
+      <PageHead title="Reach customer success people who are actually looking" sub={`A narrow audience: CSMs, account managers, renewals and CS ops, most of them mid-career and actively changing jobs. ${NUMBER_WORDS[AD_OFFERS.length]} ways to reach them, and a hard cap on how much of the site is for sale.`} />
       <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", marginBottom: 40 }}>
-        {AD_PACKAGES.map((p) => (
+        {AD_OFFERS.map((p) => (
           <div key={p.name} style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 22, display: "flex", flexDirection: "column" }}>
             <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em" }}>{p.name}</h3>
             <div style={{ margin: "10px 0 0", display: "flex", alignItems: "baseline", gap: 7 }}>
@@ -1402,7 +1414,7 @@ function AdvertisePage() {
             <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.6, margin: "12px 0 14px" }}>{p.what}</p>
             <ul style={{ margin: "0 0 18px", paddingLeft: 17, fontSize: 14, color: C.body, lineHeight: 1.7 }}>{p.stats.map((s) => <li key={s}>{s}</li>)}</ul>
             <div style={{ marginTop: "auto" }}>
-              <Button kind="ghost" href={"mailto:" + BRAND.contactEmail + "?subject=" + encodeURIComponent(p.name)} wide>Book this slot</Button>
+              <Button kind="ghost" href={p.checkout ? featuredHref() : "mailto:" + BRAND.contactEmail + "?subject=" + encodeURIComponent(p.name)} wide>Book this slot</Button>
               <ContactReveal topic={p.name} />
             </div>
           </div>
@@ -1435,7 +1447,7 @@ function AdvertisePage() {
             </p>
             <div style={{ display: "flex", gap: 11, flexWrap: "wrap" }}>
               <Button onClick={() => setShowForm(true)}>Submit a free listing</Button>
-              <a href={"mailto:" + BRAND.contactEmail + "?subject=Featured%20listing"} style={{ color: "#fff", border: "1px solid #3A4B44", borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, textDecoration: "none", fontFamily: FONT }}>Feature a role — $39</a>
+              <a href={featuredHref()} target="_blank" rel="noopener noreferrer" style={{ color: "#fff", border: "1px solid #3A4B44", borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, textDecoration: "none", fontFamily: FONT }}>Feature a role — $39</a>
             </div>
             <ContactReveal topic="Featured listing" dark />
           </>
