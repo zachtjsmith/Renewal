@@ -1,12 +1,148 @@
 {
-  "generatedAt": "2026-10-12T14:45:37.605Z",
-  "count": 68,
+  "generatedAt": "2026-10-13T13:47:48.321Z",
+  "count": 69,
   "sources": [
     "Greenhouse",
-    "Lever",
-    "Ashby"
+    "Ashby",
+    "Lever"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:gusto:8083986",
+      "title": "Retirement Implementation Specialist",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Atlanta, GA - ; Denver, CO",
+      "mode": "Hybrid",
+      "min": 53750,
+      "max": 53750,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [
+        "Salesforce"
+      ],
+      "posted": 0,
+      "postedAt": "2026-10-12T11:10:32-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8083986",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8083986",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role:",
+          "paras": [
+            "The Conversion Specialist manages the onboarding experience for 401(k) plans transferring an existing plan to the Gusto 401k platform. This role oversees the full conversion lifecycle — from initial handoff through asset transfer, data reconciliation, and first contribution — ensuring accurate recordkeeping and a smooth transition for plan sponsors and administrators. The ideal candidate brings a strong understanding of retirement plan mechanics, meticulous attention to detail, and the confidence to guide employers through a complex, multi-step process. They work exclusively with plan sponsors and administrators and partner closely with Legal, Sales, and Operations to keep conversions on track and compliant."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Team:",
+          "paras": [
+            "The Conversion Onboarding team handles one of the most operationally complex moments in a client's journey: moving an existing retirement plan to a new provider. We combine operational rigor with a client-first approach, ensuring sponsors and administrators feel supported and informed at every step — and that assets are transferred accurately and on time."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Here’s what you’ll do day-to-day:",
+          "paras": [],
+          "bullets": [
+            "Manage a dedicated book of business of 401(k) plan conversions from signing through completed asset transfer and first contribution",
+            "Work with plan sponsors and administrators to gather required documentation and ensure accurate data is submitted to support a smooth asset transfer and recordkeeping transition",
+            "Serve as the primary point of contact for plan sponsors and administrators via email, phone, and video — including inbound scheduling through Calendly",
+            "Guide employers through pre-ready task dashboards, proactively preventing stalls and keeping plans on track for their plan start date",
+            "Monitor and drive performance against key benchmarks including time to activation, time to ready, CSAT, and average response time",
+            "Partner closely with Operations and cross-functional teams including Sales and Legal to support asset transfers, client expectations, and complex plan changes",
+            "Use AI tools to streamline workflows, improve client communications, and increase efficiency across your book of business"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:190c265a-ca4f-48b7-b2a4-13412299249d",
+      "title": "Manager, Account Manager | Growth",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": "SMB",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 180000,
+      "max": 247000,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce",
+        "Looker"
+      ],
+      "posted": 0,
+      "postedAt": "2026-10-13T03:46:48.624+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/190c265a-ca4f-48b7-b2a4-13412299249d/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/190c265a-ca4f-48b7-b2a4-13412299249d",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About The Role",
+          "paras": [
+            "The next chapter of Ramp's growth runs straight through the customers we already have: 80,000+ finance teams who adopted us for one thing and haven't yet seen what the rest of the platform can do for them. Account Management owns that opportunity - and this role owns the team building the motion to capture it.",
+            "You'll lead a group of 5-8 Account Managers, each carrying a book of ~3,000 emerging and SMB customers with real latitude over how they grow it. This is a build role, not a maintain role: the playbooks, coaching systems, and performance bar you set are the ones this team runs on next year. Your ceiling is set by how well you turn individual AM judgment into a repeatable, scalable motion that grows the segment."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Build and run a high-performing team of 5-8 Account Managers - setting the bar for culture, morale, and daily execution.",
+            "Understand where to prioritize your teams time. Engage directly with AMs to identify and break into top accounts, especially where trust is being built or repaired.",
+            "Own the number. Manage quota performance and pipeline generation across your team to hit spend activation, product activation, retention, and expansion goals. Forecast your business to senior leadership on a weekly cadence.",
+            "Hire and develop the next generation of AMs - training on product, buyer personas, competition, and tooling through role-plays, game film, and real deal work.",
+            "Coach relentlessly. Run daily 1:1s, dissect call feedback, lead enablement sessions, and build career paths for every rep on your team.",
+            "Turn what works into a system. Continuously refine team processes and tooling to improve output and efficiency as the segment scales.",
+            "Represent Account Management cross-functionally, partnering with Sales, CX, CSM, Risk, and Product to remove blockers and drive outcomes."
+          ]
+        },
+        {
+          "title": "What You’ll Need",
+          "paras": [],
+          "bullets": [
+            "Minimum 2+ years of quota-carrying sales or account management experience as an individual contributor, with a proven, consistent track record of exceeding goals (new business or cross-sell/upsell experience mandatory)",
+            "Minimum 1+ years building and leading account management or sales teams, with a track record of exceeding goal (new business or cross-sell/upsell experience mandatory)",
+            "Prior success in fast-paced, results-oriented GTM environments, ideally at SaaS or AI companies",
+            "A genuine passion for hiring, with a thoughtful approach to team planning and development",
+            "Ability to articulate contractual, technical, and financial value to customers, including executive leaders",
+            "Proficiency with data analytics tools (Salesforce, Looker, Excel) and a bias toward using data to drive decisions",
+            "Strong collaboration and influencing skills, backed by excellent communication and presentation ability",
+            "High agency and adaptability - no two days are the same, and the only constant is change"
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:mixpanel:8268370",
       "title": "Digital Adoption & Lifecycle Manager",
@@ -27,7 +163,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-10-09T16:26:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -104,7 +240,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-10-09T17:58:48-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -181,7 +317,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-10-09T19:24:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -317,6 +453,77 @@
       ]
     },
     {
+      "id": "ashby:ramp:40295bb5-3b56-4544-b7fb-5c1b20383525",
+      "title": "Account Manager | Strategic",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 265000,
+      "max": 400000,
+      "variable": "",
+      "book": "12 customers",
+      "stack": [],
+      "posted": 4,
+      "postedAt": "2026-10-08T22:52:16.432+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/40295bb5-3b56-4544-b7fb-5c1b20383525/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/40295bb5-3b56-4544-b7fb-5c1b20383525",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "As a Strategic Account Manager, you will be responsible for driving the strategy, growth, and overall health of a book of 8–12 of Ramp’s largest and most strategic customers. You’ll own the long-term relationship and be accountable for maintaining and growing revenue, driving product adoption, and ensuring your customers achieve meaningful business outcomes on Ramp.",
+            "You’ll build deep relationships across all levels of your customers’ organizations, from day-to-day operators to C-suite executives, and be skilled at managing complex stakeholder dynamics and product configurations. Internally, you’ll partner closely with senior leaders and cross-functional teams at Ramp to strengthen our B2B relationships, coordinate strategic initiatives, and feed structured insights into our product roadmap and internal processes."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Own a portfolio of 8–12 strategic Enterprise customers, with clear accountability for retention, expansion, and overall account health",
+            "Maintain and grow revenue and usage within your book of business by identifying, pitching, and executing on upsell and cross-sell opportunities",
+            "Build and execute detailed account and territory plans, including QBRs and executive reviews that highlight results, surface risks, and align on future growth",
+            "Lead frequent customer conversations (status calls, roadmap discussions, upsell conversations, and QBRs) to ensure customers are achieving strong outcomes with Ramp",
+            "Own end-to-end execution of renewals and expansions, from discovery and solution design through commercial negotiation and close",
+            "Serve as a Ramp product expert, proactively uncovering workflow gaps and recommending solutions that save customers time and money, while guiding them toward deeper platform adoption",
+            "Partner cross-functionally with Product, Design, Engineering, Sales, CSMs, and Solutions to coordinate customer initiatives and deliver tailored, enterprise-grade solutions",
+            "Provide structured feedback to product and leadership teams, translating customer needs and patterns into recommendations that shape Ramp’s Strategic and Enterprise roadmap"
+          ]
+        },
+        {
+          "title": "What You Need",
+          "paras": [],
+          "bullets": [
+            "9+ years of experience as a Account Manager or Account Executive",
+            "3+ years managing strategic Enterprise accounts (2,500+ employees or Fortune 1000) with proven commercial ownership",
+            "Strong familiarity with Fintech, Payments, Finance/Accounting, or B2B SaaS products",
+            "Demonstrated success negotiating and closing complex six-figure renewals and upsells",
+            "Ability to understand and communicate complex product workflows, integrations, and technical configurations",
+            "High fluency in financial value drivers — able to articulate ROI, payback periods, process modernization, and cost savings",
+            "Deep sense of ownership with the ability to build processes, playbooks, and documentation from 0→1 as strategic customers push the limits of Ramp’s platform and require new, scalable solutions",
+            "Strong executive communication and storytelling skills with the ability to influence cross-functionally and at the C-suite"
+          ]
+        }
+      ]
+    },
+    {
       "id": "lever:spotify:29252640-3fc6-4ba9-8dac-2838093bab96",
       "title": "Performance Marketing Activation Specialist",
       "company": "Spotify",
@@ -332,7 +539,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-10-08T16:54:28.448Z",
       "source": "Lever",
       "featured": false,
@@ -378,77 +585,6 @@
       ]
     },
     {
-      "id": "ashby:ramp:40295bb5-3b56-4544-b7fb-5c1b20383525",
-      "title": "Account Manager | Strategic",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 265000,
-      "max": 400000,
-      "variable": "",
-      "book": "12 customers",
-      "stack": [],
-      "posted": 3,
-      "postedAt": "2026-10-08T22:52:16.432+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/40295bb5-3b56-4544-b7fb-5c1b20383525/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/40295bb5-3b56-4544-b7fb-5c1b20383525",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "As a Strategic Account Manager, you will be responsible for driving the strategy, growth, and overall health of a book of 8–12 of Ramp’s largest and most strategic customers. You’ll own the long-term relationship and be accountable for maintaining and growing revenue, driving product adoption, and ensuring your customers achieve meaningful business outcomes on Ramp.",
-            "You’ll build deep relationships across all levels of your customers’ organizations, from day-to-day operators to C-suite executives, and be skilled at managing complex stakeholder dynamics and product configurations. Internally, you’ll partner closely with senior leaders and cross-functional teams at Ramp to strengthen our B2B relationships, coordinate strategic initiatives, and feed structured insights into our product roadmap and internal processes."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You’ll Do",
-          "paras": [],
-          "bullets": [
-            "Own a portfolio of 8–12 strategic Enterprise customers, with clear accountability for retention, expansion, and overall account health",
-            "Maintain and grow revenue and usage within your book of business by identifying, pitching, and executing on upsell and cross-sell opportunities",
-            "Build and execute detailed account and territory plans, including QBRs and executive reviews that highlight results, surface risks, and align on future growth",
-            "Lead frequent customer conversations (status calls, roadmap discussions, upsell conversations, and QBRs) to ensure customers are achieving strong outcomes with Ramp",
-            "Own end-to-end execution of renewals and expansions, from discovery and solution design through commercial negotiation and close",
-            "Serve as a Ramp product expert, proactively uncovering workflow gaps and recommending solutions that save customers time and money, while guiding them toward deeper platform adoption",
-            "Partner cross-functionally with Product, Design, Engineering, Sales, CSMs, and Solutions to coordinate customer initiatives and deliver tailored, enterprise-grade solutions",
-            "Provide structured feedback to product and leadership teams, translating customer needs and patterns into recommendations that shape Ramp’s Strategic and Enterprise roadmap"
-          ]
-        },
-        {
-          "title": "What You Need",
-          "paras": [],
-          "bullets": [
-            "9+ years of experience in Account Management, Customer Success, or a similar revenue-focused role",
-            "3+ years managing strategic Enterprise accounts (2,500+ employees or Fortune 1000) with proven commercial ownership",
-            "Strong familiarity with Fintech, Payments, Finance/Accounting, or B2B SaaS products",
-            "Demonstrated success negotiating and closing complex six-figure renewals and upsells",
-            "Ability to understand and communicate complex product workflows, integrations, and technical configurations",
-            "High fluency in financial value drivers — able to articulate ROI, payback periods, process modernization, and cost savings",
-            "Deep sense of ownership with the ability to build processes, playbooks, and documentation from 0→1 as strategic customers push the limits of Ramp’s platform and require new, scalable solutions",
-            "Strong executive communication and storytelling skills with the ability to influence cross-functionally and at the C-suite"
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:gitlab:8838331002",
       "title": "Senior Professional Services Engineer - PubSec - US Only",
       "company": "GitLab",
@@ -464,7 +600,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-07T14:53:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -536,7 +672,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-07T20:23:27-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -594,7 +730,7 @@
       "stack": [
         "Intercom"
       ],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-07T16:06:36.133+00:00",
       "source": "Ashby",
       "featured": false,
@@ -671,7 +807,7 @@
         "Salesforce",
         "SQL"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-06T13:40:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -743,7 +879,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-10-05T18:35:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -816,7 +952,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-10-02T19:10:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -886,7 +1022,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-10-02T16:09:31.879Z",
       "source": "Lever",
       "featured": false,
@@ -953,7 +1089,7 @@
       "stack": [
         "Linear"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-10-02T15:46:27.936+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1019,7 +1155,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1093,7 +1229,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1158,7 +1294,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-10-01T21:19:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1230,7 +1366,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1299,7 +1435,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1366,7 +1502,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-29T16:25:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1437,7 +1573,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-29T12:31:34-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1511,7 +1647,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-09-29T12:33:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1585,7 +1721,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1656,7 +1792,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1723,7 +1859,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1793,7 +1929,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1858,7 +1994,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-28T14:18:35-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1935,7 +2071,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-09-28T14:16:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2007,7 +2143,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2077,7 +2213,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2145,7 +2281,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2219,7 +2355,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2294,7 +2430,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2360,7 +2496,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2435,7 +2571,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-09-24T12:30:43-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2495,7 +2631,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2570,7 +2706,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2642,7 +2778,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2713,7 +2849,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-22T13:03:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2777,7 +2913,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2840,7 +2976,7 @@
       "variable": "+ equity + bonus",
       "book": "100 accounts",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-22T09:23:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2896,7 +3032,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2966,7 +3102,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3036,7 +3172,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3100,7 +3236,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3166,7 +3302,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3238,7 +3374,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3299,7 +3435,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3367,7 +3503,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3441,7 +3577,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-09-11T11:02:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3513,7 +3649,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3577,7 +3713,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3639,7 +3775,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3704,7 +3840,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3768,7 +3904,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3840,7 +3976,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3908,7 +4044,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3980,7 +4116,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4050,7 +4186,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4086,7 +4222,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4155,7 +4291,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4226,7 +4362,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4366,7 +4502,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4429,7 +4565,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4494,7 +4630,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4568,7 +4704,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-08-28T15:00:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4623,79 +4759,6 @@
             "Experience integrating AI into CS workflows to drive measurable team productivity",
             "Advanced proficiency with Gainsight (or similar customer success platforms)",
             "Experience partnering closely with Sales on expansion and account strategy"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:cloudflare:8160386",
-      "title": "Manager, Customer Experience and Renewals",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Renewals",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": 158000,
-      "max": 218000,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [
-        "Salesforce"
-      ],
-      "posted": 45,
-      "postedAt": "2026-08-27T14:30:53-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8160386?gh_jid=8160386",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8160386?gh_jid=8160386",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "Available Locations",
-          "paras": [],
-          "bullets": [
-            "New York, NY",
-            "Washington DC"
-          ]
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "The Manager, Customer Experience is a strategic people leader responsible for building, coaching, and scaling a high-performing team of Customer Experience Managers (CXMs). In this role, you will empower your team to lead the post-sale journey, from onboarding to long-term retention and expansion. You will serve as a mentor and escalation point, guiding your team in building strategic stakeholder relationships and articulating business value. You will lead the operational strategy for your region, ensuring accurate forecasting and driving team-wide adoption of AI-driven workflows to automate routine tasks and uncover growth opportunities. Your focus is on developing talent, optimizing the customer journey, and scaling our CX organization to accelerate customer outcomes and maximize operational efficiency."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [
-            "Operational Strategy & Performance Management"
-          ],
-          "bullets": [
-            "Directly manage and coach a team of CXMs, fostering a culture of high performance, accountability, and continuous learning.",
-            "Drive career development initiatives, including regular 1:1s, performance reviews, and skill-gap analysis to prepare team members for growth.",
-            "Oversee regional forecasting and pipeline hygiene in Salesforce, ensuring accurate reporting to leadership.",
-            "Establish and optimize operational workflows, including the integration of AI tools for account quoting and automated lifecycle alerts.",
-            "Act as the ultimate point of escalation for complex commercial negotiations, legal redlines, and commercial business issues.",
-            "Maintain strong alignment with Sales, Product, and Support leadership to resolve friction points in the customer journey.",
-            "Generative AI: Mastery of LLMs to rapidly draft renewal communications, synthesize quarterly review data, and prepare executive summaries.",
-            "Data Analysis: Proficiency in leveraging AI analytics tools to parse customer usage metrics and instantly highlight up-sell or cross-sell opportunities."
-          ]
-        },
-        {
-          "title": "Desirable Skills, Knowledge, and Experience",
-          "paras": [],
-          "bullets": [
-            "Minimum of 5 years of experience in Customer Success and Renewals Sales, with at least 2 years in a direct people management role.",
-            "Proven track record of scaling teams and managing organizational transitions in a high-growth SaaS environment.",
-            "Expertise in SaaS retention strategies, commercial negotiations, and value-driven sales leadership.",
-            "Strong proficiency in coaching teams on AI competencies, including LLM utilization and automated workflow building.",
-            "Deep understanding of cloud security and networking industries; ability to translate technical concepts into business strategy.",
-            "Exceptional mentorship and leadership skills with a focus on empathy, transparency, and results.",
-            "Excellent problem solving skills with the ability to creatively achieve resolutions."
           ]
         }
       ]
