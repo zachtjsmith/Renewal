@@ -8,10 +8,39 @@
     <title>Renewal — customer success jobs, nothing invented</title>
     <meta name="description" content="A job board for customer success managers, account managers and client success leads. Salary, book size and tooling shown wherever the employer published them." />
 
+    <!-- Link previews on LinkedIn, Slack, X and in messages. The image needs the full address. -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Renewal" />
     <meta property="og:title" content="Renewal — customer success jobs" />
     <meta property="og:description" content="CSM, AM, onboarding, renewals and CS Ops roles. Nothing on the board is estimated." />
+    <meta property="og:image" content="https://renewalcsm.netlify.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Renewal: customer success jobs, nothing invented." />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://renewalcsm.netlify.app/og-image.png" />
+
+    <!-- Archivo, served from this site so the page doesn't wait on Google Fonts
+         and text doesn't jump when the font arrives. One file holds every weight. -->
+    <link rel="preload" href="/fonts/archivo-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <style>
+      @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/archivo-latin-ext-wght-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+      @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/archivo-latin-wght-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+      @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 500; font-display: swap; src: url(/fonts/archivo-latin-ext-wght-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+      @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 500; font-display: swap; src: url(/fonts/archivo-latin-wght-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+      @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 600; font-display: swap; src: url(/fonts/archivo-latin-ext-wght-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+      @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 600; font-display: swap; src: url(/fonts/archivo-latin-wght-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+      @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 700; font-display: swap; src: url(/fonts/archivo-latin-ext-wght-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+      @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 700; font-display: swap; src: url(/fonts/archivo-latin-wght-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+      @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 800; font-display: swap; src: url(/fonts/archivo-latin-ext-wght-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+      @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 800; font-display: swap; src: url(/fonts/archivo-latin-wght-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+    </style>
+
+    <!-- Umami analytics: counts visits, plus the clicks that matter (Apply, checkout,
+         template buys, listings, signups). No cookies. data-domains keeps test copies
+         and Netlify previews out of your numbers: if the site moves to its own domain,
+         add the new name there. -->
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="c8a8615c-6d62-4200-b3fa-5e822f77f33b" data-domains="renewalcsm.netlify.app"></script>
   </head>
   <body>
     <div id="root"></div>

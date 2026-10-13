@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect, useRef } from "react";
+import React, { useState, useMemo, useEffect, useRef, useCallback } from "react";
 
 /* ============================================================================
    RENEWAL — a job board for customer success people
@@ -427,6 +427,18 @@ const fmtDate = (d) => {
 };
 const normalizeText = (v) => String(v || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
+/* --- analytics ------------------------------------------------------------ */
+/* Umami (loaded in index.html) counts page views by itself. These count the
+   clicks that matter: Apply, checkout, template buys, listings and signups,
+   so you can see what works and show employers their numbers. If Umami isn't
+   loaded (an ad blocker, a test copy of the site), this quietly does nothing. */
+function track(event, data) {
+  try {
+    if (window.umami && typeof window.umami.track === "function") window.umami.track(event, data);
+  } catch { /* a click must never fail because of analytics */ }
+}
+const applyData = (job) => ({ company: String(job.company || ""), role: String(job.title || ""), featured: !!job.featured });
+
 /* --- shared pieces ------------------------------------------------------- */
 function Chip({ children, active, onClick }) {
   return (
@@ -457,7 +469,7 @@ function Mark({ name, size = 40 }) {
 function Button({ children, href, onClick, kind = "primary", wide }) {
   const s0 = { primary: { bg: C.signal, fg: "#fff", bd: C.signal }, dark: { bg: C.ink, fg: "#fff", bd: C.ink }, ghost: { bg: "transparent", fg: C.ink, bd: C.rule } }[kind];
   const s = { background: s0.bg, color: s0.fg, border: "1px solid " + s0.bd, borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, fontFamily: FONT, cursor: "pointer", textDecoration: "none", display: wide ? "block" : "inline-block", textAlign: "center", width: wide ? "100%" : "auto" };
-  if (href) return <a href={href} target="_blank" rel="noopener noreferrer" style={s}>{children}</a>;
+  if (href) return <a href={href} target="_blank" rel="noopener noreferrer" onClick={onClick} style={s}>{children}</a>;
   return <button onClick={onClick} style={s}>{children}</button>;
 }
 
@@ -470,6 +482,48 @@ function PageHead({ title, sub }) {
   );
 }
 
+/* --- addresses ------------------------------------------------------------- */
+/* Every tab has its own address, so a link can go straight to it: send an
+   employer renewalcsm.netlify.app/advertise. netlify.toml already serves the
+   app at every path, so these work on refresh and when shared. If the site
+   moves to its own domain, change SITE_URL here, and the address in
+   index.html, public/robots.txt and public/sitemap.xml. */
+const SITE_URL = "https://renewalcsm.netlify.app";
+const PATHS = { jobs: "/", newsletter: "/newsletter", templates: "/templates", resources: "/resources", advertise: "/advertise", privacy: "/privacy" };
+const TITLES = {
+  jobs: "Renewal — customer success jobs, nothing invented",
+  newsletter: "The Friday roundup newsletter — Renewal",
+  templates: "Customer success templates — Renewal",
+  resources: "Free resources — Renewal",
+  advertise: "Advertise or post a customer success job — Renewal",
+  privacy: "Privacy — Renewal",
+};
+
+function tabFromPath(pathname) {
+  const p = String(pathname || "/").toLowerCase().replace(/\/+$/, "") || "/";
+  const k = Object.keys(PATHS).find((key) => PATHS[key] === p);
+  return !k || (k === "resources" && !SHOW_FREE_RESOURCES) ? "jobs" : k;
+}
+
+/* A link to another tab. It's a real link, so it can be opened in a new tab,
+   copied, and followed by search engines; a plain click switches tabs in
+   place without reloading the page. */
+function TabLink({ to, setTab, onNavigate, style, children, ...rest }) {
+  return (
+    <a
+      {...rest}
+      href={PATHS[to] || "/"}
+      onClick={(e) => {
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        setTab(to);
+        if (onNavigate) onNavigate();
+      }}
+      style={{ textDecoration: "none", ...style }}
+    >{children}</a>
+  );
+}
+
 /* --- header -------------------------------------------------------------- */
 function Header({ tab, setTab }) {
   const [open, setOpen] = useState(false);
@@ -478,13 +532,13 @@ function Header({ tab, setTab }) {
     <header style={{ position: "sticky", top: 0, zIndex: 40, background: C.paper, borderBottom: "1px solid " + C.rule }}>
       <div style={{ maxWidth: 1180, margin: "0 auto", padding: "0 20px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 28, height: 62 }}>
-          <button onClick={() => { setTab("jobs"); setOpen(false); }} style={{ background: "none", border: "none", padding: 0, cursor: "pointer", display: "flex", alignItems: "center", gap: 6, fontFamily: FONT }}>
+          <TabLink to="jobs" setTab={setTab} onNavigate={() => setOpen(false)} style={{ background: "none", border: "none", padding: 0, cursor: "pointer", display: "flex", alignItems: "center", gap: 6, fontFamily: FONT }}>
             <span style={{ fontSize: 21, fontWeight: 800, letterSpacing: "-0.045em", color: C.ink }}>{BRAND.name}</span>
             <span style={{ width: 7, height: 7, borderRadius: 2, background: C.signal, marginTop: 6 }} />
-          </button>
+          </TabLink>
           <nav className="nav-links" style={{ gap: 22, alignItems: "center", flex: 1 }}>
             {tabs.map(([k, label]) => (
-              <button key={k} onClick={() => setTab(k)} style={{ background: "none", border: "none", padding: "4px 0", cursor: "pointer", fontFamily: FONT, fontSize: 14.5, fontWeight: tab === k ? 600 : 450, color: tab === k ? C.ink : C.muted, borderBottom: "2px solid " + (tab === k ? C.signal : "transparent") }}>{label}</button>
+              <TabLink key={k} to={k} setTab={setTab} aria-current={tab === k ? "page" : undefined} style={{ background: "none", border: "none", padding: "4px 0", cursor: "pointer", fontFamily: FONT, fontSize: 14.5, fontWeight: tab === k ? 600 : 450, color: tab === k ? C.ink : C.muted, borderBottom: "2px solid " + (tab === k ? C.signal : "transparent") }}>{label}</TabLink>
             ))}
           </nav>
           <div className="nav-cta" style={{ gap: 10, marginLeft: "auto" }}>
@@ -495,7 +549,7 @@ function Header({ tab, setTab }) {
         {open && (
           <div className="nav-mobile" style={{ paddingBottom: 14, gap: 2 }}>
             {tabs.map(([k, label]) => (
-              <button key={k} onClick={() => { setTab(k); setOpen(false); }} style={{ textAlign: "left", background: tab === k ? C.surface : "transparent", border: "none", borderRadius: 5, padding: "11px 12px", fontFamily: FONT, fontSize: 15, fontWeight: tab === k ? 600 : 450, color: tab === k ? C.ink : C.body, cursor: "pointer" }}>{label}</button>
+              <TabLink key={k} to={k} setTab={setTab} onNavigate={() => setOpen(false)} aria-current={tab === k ? "page" : undefined} style={{ textAlign: "left", background: tab === k ? C.surface : "transparent", border: "none", borderRadius: 5, padding: "11px 12px", fontFamily: FONT, fontSize: 15, fontWeight: tab === k ? 600 : 450, color: tab === k ? C.ink : C.body, cursor: "pointer" }}>{label}</TabLink>
             ))}
           </div>
         )}
@@ -588,7 +642,7 @@ function JobRow({ job, open, toggle, last }) {
           )}
 
           <div style={{ marginTop: 26, display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
-            <Button href={job.applyUrl}>Apply for this role</Button>
+            <Button href={job.applyUrl} onClick={() => track("Apply", applyData(job))}>Apply for this role</Button>
             {job.companySite && <Button href={job.companySite} kind="ghost">Company site</Button>}
           </div>
           <p style={{ fontSize: 13, color: C.muted, margin: "12px 0 0", lineHeight: 1.5 }}>
@@ -607,7 +661,7 @@ function AdUnit({ slot, setTab }) {
       <div style={{ fontSize: 12.5, color: C.flag, fontWeight: 600 }}>Available ad space</div>
       <div style={{ fontSize: 15, color: C.ink, fontWeight: 600, margin: "8px 0 4px" }}>{slot.size}</div>
       <p style={{ fontSize: 13.5, color: C.body, lineHeight: 1.5, margin: "0 0 14px" }}>Reaches customer success people actively changing jobs.</p>
-      <Button kind="dark" onClick={() => setTab("advertise")} wide>See the rate card</Button>
+      <Button kind="dark" onClick={() => { track("Rate card click", { slot: slot.label }); setTab("advertise"); }} wide>See the rate card</Button>
     </div>
   );
 }
@@ -765,9 +819,14 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
     <>
       <div style={{ marginBottom: 22 }}>
         <h1 style={{ fontSize: 34, fontWeight: 800, letterSpacing: "-0.035em", color: C.ink, margin: 0, lineHeight: 1.1, maxWidth: "20ch" }}>{BRAND.line}</h1>
+        {/* The sentence is already full length while the board loads (a grey
+            placeholder stands in for the count), so nothing below it jumps. */}
         <p style={{ margin: "10px 0 0", fontSize: 15.5, color: C.body, maxWidth: "60ch", lineHeight: 1.55 }}>
-          {feed.loading ? "Loading the board…" : `${jobs.length} open roles across customer success, account management, onboarding, renewals and CS ops.`}{" "}
-          {!feed.loading && "Salary, book size and tooling are shown only where the employer published them — nothing on this board is estimated."}
+          {feed.loading
+            ? <span aria-hidden="true" style={{ display: "inline-block", width: "2.2ch", height: "0.95em", verticalAlign: "-0.12em", background: C.ruleSoft, borderRadius: 3 }} />
+            : jobs.length}
+          {" open roles across customer success, account management, onboarding, renewals and CS ops. "}
+          Salary, book size and tooling are shown only where the employer published them — nothing on this board is estimated.
         </p>
         {feed.sample && !feed.loading && (
           <p style={{ margin: "10px 0 0", fontSize: 13.5, color: C.flag, background: C.flagSoft, border: "1px solid #EADFBC", borderRadius: 5, padding: "9px 12px", display: "inline-block" }}>
@@ -779,12 +838,12 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
       <div style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 14, marginBottom: 16 }}>
         <div style={{ display: "flex", gap: 9, flexWrap: "wrap" }}>
           <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search title, company, or tool" style={{ flex: "1 1 240px", padding: "9px 12px", border: "1px solid " + C.rule, borderRadius: 5, fontSize: 14, fontFamily: FONT, color: C.ink }} />
-          <select value={mode} onChange={(e) => setMode(e.target.value)} style={selectStyle}>{["Any", "Remote", "Hybrid", "Onsite"].map((o) => <option key={o}>{o}</option>)}</select>
-          <select value={segment} onChange={(e) => setSegment(e.target.value)} style={selectStyle}>{["Any", "Enterprise", "Mid-Market", "SMB"].map((o) => <option key={o}>{o}</option>)}</select>
-          <select value={minPay} onChange={(e) => setMinPay(Number(e.target.value))} style={selectStyle}>
+          <select aria-label="Work mode" value={mode} onChange={(e) => setMode(e.target.value)} style={selectStyle}>{["Any", "Remote", "Hybrid", "Onsite"].map((o) => <option key={o}>{o}</option>)}</select>
+          <select aria-label="Segment" value={segment} onChange={(e) => setSegment(e.target.value)} style={selectStyle}>{["Any", "Enterprise", "Mid-Market", "SMB"].map((o) => <option key={o}>{o}</option>)}</select>
+          <select aria-label="Minimum base pay" value={minPay} onChange={(e) => setMinPay(Number(e.target.value))} style={selectStyle}>
             <option value={0}>Any base</option><option value={80000}>$80k+</option><option value={100000}>$100k+</option><option value={130000}>$130k+</option><option value={160000}>$160k+</option>
           </select>
-          <select value={sort} onChange={(e) => setSort(e.target.value)} style={selectStyle}>
+          <select aria-label="Sort" value={sort} onChange={(e) => setSort(e.target.value)} style={selectStyle}>
             <option value="newest">Newest first</option><option value="pay">Highest pay</option>
           </select>
         </div>
@@ -815,9 +874,12 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
               {pinnedRows.map((job, i) => <JobRow key={job.id} job={job} last={i === pinnedRows.length - 1} open={openId === job.id} toggle={() => setOpenId(openId === job.id ? null : job.id)} />)}
             </div>
           )}
-          <div style={{ border: "1px solid " + C.rule, borderRadius: 6, overflow: "hidden" }}>
+          {/* A fresh box once the board arrives, so a pinned featured box
+              appearing above it replaces the placeholders rather than
+              pushing a list you might be reading down the page. */}
+          <div key={feed.loading ? "loading" : "board"} style={{ border: "1px solid " + C.rule, borderRadius: 6, overflow: "hidden" }}>
             {feed.loading ? (
-              [0, 1, 2].map((i) => (
+              Array.from({ length: PAGE_SIZE }, (_, i) => i).map((i) => (
                 <div key={i} style={{ background: C.surface, padding: "22px 20px", borderBottom: "1px solid " + C.ruleSoft, display: "flex", gap: 15 }}>
                   <div style={{ width: 40, height: 40, background: C.ruleSoft, borderRadius: 3 }} />
                   <div style={{ flex: 1 }}>
@@ -970,7 +1032,7 @@ function TemplatesPage() {
             {BUNDLE.contains.map((c) => <li key={c} style={{ breakInside: "avoid" }}>{c}</li>)}
           </ul>
           <p style={{ fontSize: 14, color: C.muted, lineHeight: 1.55, margin: "14px 0 18px", maxWidth: "60ch" }}>{BUNDLE.why}</p>
-          <Button href={SHOP.buildUrl(BUNDLE)}>Get the toolkit — ${BUNDLE.price}</Button>
+          <Button href={SHOP.buildUrl(BUNDLE)} onClick={() => track("Template buy", { product: BUNDLE.name, price: BUNDLE.price })}>Get the toolkit — ${BUNDLE.price}</Button>
         </div>
       </div>
 
@@ -1001,7 +1063,7 @@ function TemplatesPage() {
               {p.stats.map((st) => <Tag key={st}>{st}</Tag>)}
             </div>
             <div style={{ marginTop: "auto" }}>
-              <Button href={SHOP.buildUrl(p)} kind="ghost" wide>Buy — ${p.price}</Button>
+              <Button href={SHOP.buildUrl(p)} onClick={() => track("Template buy", { product: p.name, price: p.price })} kind="ghost" wide>Buy — ${p.price}</Button>
             </div>
           </div>
         ))}
@@ -1165,6 +1227,7 @@ function ListingForm({ onClose }) {
         });
         if (!res.ok) throw new Error(String(res.status));
         setState("sent");
+        track("Free listing submitted", { family: payload.family });
         return;
       } catch {
         setState("editing");
@@ -1414,7 +1477,7 @@ function AdvertisePage() {
             <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.6, margin: "12px 0 14px" }}>{p.what}</p>
             <ul style={{ margin: "0 0 18px", paddingLeft: 17, fontSize: 14, color: C.body, lineHeight: 1.7 }}>{p.stats.map((s) => <li key={s}>{s}</li>)}</ul>
             <div style={{ marginTop: "auto" }}>
-              <Button kind="ghost" href={p.checkout ? featuredHref() : "mailto:" + BRAND.contactEmail + "?subject=" + encodeURIComponent(p.name)} wide>Book this slot</Button>
+              <Button kind="ghost" href={p.checkout ? featuredHref() : "mailto:" + BRAND.contactEmail + "?subject=" + encodeURIComponent(p.name)} onClick={() => track(p.checkout ? "Featured checkout" : "Board rail inquiry", { from: "Rate card" })} wide>Book this slot</Button>
               <ContactReveal topic={p.name} />
             </div>
           </div>
@@ -1447,12 +1510,37 @@ function AdvertisePage() {
             </p>
             <div style={{ display: "flex", gap: 11, flexWrap: "wrap" }}>
               <Button onClick={() => setShowForm(true)}>Submit a free listing</Button>
-              <a href={featuredHref()} target="_blank" rel="noopener noreferrer" style={{ color: "#fff", border: "1px solid #3A4B44", borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, textDecoration: "none", fontFamily: FONT }}>Feature a role — $39</a>
+              <a href={featuredHref()} target="_blank" rel="noopener noreferrer" onClick={() => track("Featured checkout", { from: "Hiring box" })} style={{ color: "#fff", border: "1px solid #3A4B44", borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, textDecoration: "none", fontFamily: FONT }}>Feature a role — $39</a>
             </div>
             <ContactReveal topic="Featured listing" dark />
           </>
         )}
       </div>
+    </div>
+  );
+}
+
+/* --- privacy ------------------------------------------------------------- */
+/* Plain-language privacy notice, linked from the footer. */
+function PrivacyPage() {
+  const h2 = { fontSize: 19, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em", margin: "30px 0 0" };
+  const p = { fontSize: 15, color: C.body, lineHeight: 1.65, margin: "8px 0 0", maxWidth: "68ch" };
+  return (
+    <div style={{ maxWidth: 780 }}>
+      <PageHead title="Privacy" sub="What this site collects, why, and who holds it. The short version: very little, and nothing is sold." />
+      <h2 style={h2}>Browsing the board</h2>
+      <p style={p}>You can search and read every listing without an account, and the site sets no cookies. To see which pages are useful, we count visits and clicks with Umami, an analytics tool that uses no cookies and doesn't identify you.</p>
+      <h2 style={h2}>Applying for a job</h2>
+      <p style={p}>Apply buttons take you to the employer's own posting. Anything you send there goes to the employer, under their privacy policy, not ours.</p>
+      <h2 style={h2}>Posting a job</h2>
+      <p style={p}>When you submit a free listing, what you enter, including your email address, goes through Formspree, a form service, to our inbox. We use it to check and publish the listing and to reply to you.</p>
+      <h2 style={h2}>Buying a featured listing or a template</h2>
+      <p style={p}>Payments are handled by Gumroad, so we never see your card details. Gumroad shares your name, email address and order with us so we can deliver what you bought.</p>
+      <h2 style={h2}>The newsletter</h2>
+      <p style={p}>If you subscribe, your email address is held by our email provider and used only to send the newsletter. Every issue has a one-click unsubscribe link, and your address is never sold or shared.</p>
+      <h2 style={h2}>Your information</h2>
+      <p style={p}>Email <a href={"mailto:" + BRAND.contactEmail} style={{ color: C.signal, fontWeight: 600 }}>{BRAND.contactEmail}</a> to ask what we hold about you, to correct it, or to have it deleted.</p>
+      <p style={{ ...p, fontSize: 13.5, color: C.muted, marginTop: 30 }}>Last updated October 2026.</p>
     </div>
   );
 }
@@ -1474,16 +1562,16 @@ function Footer({ setTab }) {
           <div>
             <h4 style={{ fontSize: 13.5, fontWeight: 650, color: C.ink, margin: "0 0 10px" }}>Site</h4>
             <div style={{ display: "grid", gap: 7 }}>
-              {[["jobs", "Jobs"], ["newsletter", "Newsletter"], ["templates", "Templates"], ["resources", "Free resources"]].filter(([k]) => k !== "resources" || SHOW_FREE_RESOURCES).map(([k, l]) => (
-                <button key={k} onClick={() => setTab(k)} style={linkBtn}>{l}</button>
+              {[["jobs", "Jobs"], ["newsletter", "Newsletter"], ["templates", "Templates"], ["resources", "Free resources"], ["privacy", "Privacy"]].filter(([k]) => k !== "resources" || SHOW_FREE_RESOURCES).map(([k, l]) => (
+                <TabLink key={k} to={k} setTab={setTab} style={linkBtn}>{l}</TabLink>
               ))}
             </div>
           </div>
           <div>
             <h4 style={{ fontSize: 13.5, fontWeight: 650, color: C.ink, margin: "0 0 10px" }}>Business</h4>
             <div style={{ display: "grid", gap: 7 }}>
-              <button onClick={() => setTab("advertise")} style={linkBtn}>Advertise</button>
-              <button onClick={() => setTab("advertise")} style={linkBtn}>Post a job</button>
+              <TabLink to="advertise" setTab={setTab} style={linkBtn}>Advertise</TabLink>
+              <TabLink to="advertise" setTab={setTab} style={linkBtn}>Post a job</TabLink>
               <a href={"mailto:" + BRAND.contactEmail} style={{ fontSize: 13.5, color: C.body, textDecoration: "none" }}>{BRAND.contactEmail}</a>
             </div>
           </div>
@@ -1495,7 +1583,37 @@ function Footer({ setTab }) {
 
 /* --- app ----------------------------------------------------------------- */
 export default function App() {
-  const [tab, setTab] = useState("jobs");
+  const [tab, setTabState] = useState(() => tabFromPath(window.location.pathname));
+
+  // Switching tabs updates the address bar, so the link can be copied or
+  // shared, and opens the new page at the top.
+  const setTab = useCallback((k) => {
+    const next = PATHS[k] ? k : "jobs";
+    setTabState(next);
+    if (window.location.pathname !== PATHS[next]) window.history.pushState(null, "", PATHS[next]);
+    window.scrollTo(0, 0);
+  }, []);
+
+  // The browser's back and forward buttons move between tabs.
+  useEffect(() => {
+    const onPop = () => setTabState(tabFromPath(window.location.pathname));
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, []);
+
+  // Each tab gets its own page title and canonical address for search
+  // engines; odd addresses (/Advertise/, /jobs) are tidied to the real one.
+  useEffect(() => {
+    document.title = TITLES[tab] || TITLES.jobs;
+    let link = document.querySelector('link[rel="canonical"]');
+    if (!link) {
+      link = document.createElement("link");
+      link.setAttribute("rel", "canonical");
+      document.head.appendChild(link);
+    }
+    link.setAttribute("href", SITE_URL + PATHS[tab]);
+    if (window.location.pathname !== PATHS[tab]) window.history.replaceState(null, "", PATHS[tab] + window.location.search + window.location.hash);
+  }, [tab]);
   const [subbed, setSubbed] = useState(false);
   const [feed, setFeed] = useState({ jobs: [], loading: true, sample: false, generatedAt: null });
   const [content, setContent] = useState({ issues: ISSUES, resources: RESOURCE_GROUPS });
@@ -1539,17 +1657,18 @@ export default function App() {
   }, []);
 
   const pages = {
-    jobs: <JobsPage setTab={setTab} onSub={() => setSubbed(true)} subbed={subbed} feed={feed} />,
-    newsletter: <NewsletterPage onSub={() => setSubbed(true)} subbed={subbed} issues={content.issues} />,
+    jobs: <JobsPage setTab={setTab} onSub={() => { track("Newsletter signup"); setSubbed(true); }} subbed={subbed} feed={feed} />,
+    newsletter: <NewsletterPage onSub={() => { track("Newsletter signup"); setSubbed(true); }} subbed={subbed} issues={content.issues} />,
     templates: <TemplatesPage />,
     resources: SHOW_FREE_RESOURCES ? <ResourcesPage setTab={setTab} groups={content.resources} /> : null,
     advertise: <AdvertisePage />,
+    privacy: <PrivacyPage />,
   };
 
   return (
     <div style={{ background: C.paper, minHeight: "100vh", fontFamily: FONT, color: C.ink }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap');
+        /* Archivo is served from this site: see the @font-face rules in index.html. */
         * { box-sizing: border-box; }
 
         /* Responsive layout. This app has no Tailwind, so these are real
