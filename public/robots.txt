@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://renewalcsm.netlify.app/sitemap.xml
+Sitemap: https://www.renewalcs.com/sitemap.xml

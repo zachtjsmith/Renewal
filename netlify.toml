@@ -2,6 +2,21 @@
   command = "npm run build"
   publish = "dist"
 
+# The old address forwards to www.renewalcs.com with the same page path, so
+# links shared before the move keep working and Google moves its listings.
+# These must stay above the single-page-app rule: the first match wins.
+[[redirects]]
+  from = "https://renewalcsm.netlify.app/*"
+  to = "https://www.renewalcs.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://renewalcsm.netlify.app/*"
+  to = "https://www.renewalcs.com/:splat"
+  status = 301
+  force = true
+
 # Single-page app: every route serves index.html
 [[redirects]]
   from = "/*"

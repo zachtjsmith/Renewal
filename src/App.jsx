@@ -484,11 +484,12 @@ function PageHead({ title, sub }) {
 
 /* --- addresses ------------------------------------------------------------- */
 /* Every tab has its own address, so a link can go straight to it: send an
-   employer renewalcsm.netlify.app/advertise. netlify.toml already serves the
-   app at every path, so these work on refresh and when shared. If the site
-   moves to its own domain, change SITE_URL here, and the address in
-   index.html, public/robots.txt and public/sitemap.xml. */
-const SITE_URL = "https://renewalcsm.netlify.app";
+   employer www.renewalcs.com/advertise. netlify.toml already serves the app
+   at every path, so these work on refresh and when shared. If the domain
+   ever changes, change SITE_URL here, the address in index.html (preview
+   image and analytics), public/robots.txt and public/sitemap.xml, and the
+   redirect at the top of netlify.toml. */
+const SITE_URL = "https://www.renewalcs.com";
 const PATHS = { jobs: "/", newsletter: "/newsletter", templates: "/templates", resources: "/resources", advertise: "/advertise", privacy: "/privacy" };
 const TITLES = {
   jobs: "Renewal — customer success jobs, nothing invented",
