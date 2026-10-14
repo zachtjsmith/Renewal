@@ -983,11 +983,14 @@ function NewsletterPage({ onSub, subbed, issues }) {
 }
 
 /* --- templates ----------------------------------------------------------- */
-function Cover({ src, stage, height = 168 }) {
+/* The covers are square, so the box is square too: the whole cover shows,
+   from the title down to the format tags, with nothing cropped. */
+function Cover({ src, stage }) {
   const [failed, setFailed] = useState(false);
+  const box = { width: "100%", aspectRatio: "1 / 1", borderRadius: 4, border: "1px solid " + C.ruleSoft };
   if (failed || !src) {
     return (
-      <div style={{ height, background: C.signalSoft, border: "1px solid " + C.ruleSoft, borderRadius: 4, display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div style={{ ...box, background: C.signalSoft, display: "flex", alignItems: "center", justifyContent: "center" }}>
         <span style={{ fontSize: 15, fontWeight: 600, color: C.signal, letterSpacing: "-0.01em" }}>{stage}</span>
       </div>
     );
@@ -996,8 +999,10 @@ function Cover({ src, stage, height = 168 }) {
     <img
       src={src}
       alt=""
+      width={680}
+      height={680}
       onError={() => setFailed(true)}
-      style={{ width: "100%", height, objectFit: "cover", borderRadius: 4, border: "1px solid " + C.ruleSoft, display: "block", background: C.ruleSoft }}
+      style={{ ...box, height: "auto", objectFit: "cover", display: "block", background: C.ruleSoft }}
     />
   );
 }
@@ -1013,7 +1018,7 @@ function TemplatesPage() {
       {/* bundle */}
       <div style={{ background: C.surface, border: "2px solid " + C.signal, borderRadius: 6, padding: 24, marginBottom: 36, display: "flex", gap: 26, flexWrap: "wrap" }}>
         <div style={{ flex: "0 0 230px", minWidth: 200 }}>
-          <Cover src={BUNDLE.cover} stage="Complete toolkit" height={210} />
+          <Cover src={BUNDLE.cover} stage="Complete toolkit" />
         </div>
         <div style={{ flex: "1 1 340px" }}>
           <div style={{ display: "flex", gap: 7, marginBottom: 10, flexWrap: "wrap" }}>
