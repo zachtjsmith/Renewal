@@ -1,12 +1,68 @@
 {
-  "generatedAt": "2026-10-14T11:25:18.698Z",
-  "count": 70,
+  "generatedAt": "2026-10-15T11:02:02.161Z",
+  "count": 64,
   "sources": [
     "Greenhouse",
     "Ashby",
     "Lever"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:samsara:8226209",
+      "title": "Customer Success Manager",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": "Mid-Market",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 65599,
+      "max": 88200,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-10-14T12:43:04-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8226209?gh_jid=8226209",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8226209?gh_jid=8226209",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Flexible Working",
+          "paras": [
+            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Our Commitment to Authenticity",
+          "paras": [
+            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Fraudulent Employment Offers",
+          "paras": [
+            "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
+          ],
+          "bullets": []
+        }
+      ]
+    },
     {
       "id": "greenhouse:gusto:8257865",
       "title": "Senior Commercial Lines Account Manager",
@@ -23,7 +79,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-13T23:05:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -90,7 +146,7 @@
         "Tableau",
         "SQL"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-13T13:22:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -161,7 +217,7 @@
         "Tableau",
         "SQL"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-13T13:22:45-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -227,7 +283,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-13T13:23:13-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -293,7 +349,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-13T15:07:59.917+00:00",
       "source": "Ashby",
       "featured": false,
@@ -365,7 +421,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-12T11:10:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -411,237 +467,6 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8268370",
-      "title": "Digital Adoption & Lifecycle Manager",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Leadership",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Gainsight",
-        "Totango",
-        "HubSpot"
-      ],
-      "posted": 4,
-      "postedAt": "2026-10-09T16:26:26-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Customer Digital Experience Team",
-          "paras": [
-            "Customer Digital Experience sits within Customer Engineering, the technical arm of Mixpanel's Customer organization.",
-            "A Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
-            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
-            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
-            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
-            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
-            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
-            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
-            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
-            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
-            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
-            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Is:",
-          "paras": [],
-          "bullets": [
-            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
-            "An excellent writer who can be concise, specific, and useful to a technical audience",
-            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
-            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
-            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
-            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
-            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
-            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:mixpanel:8269024",
-      "title": "Digital Adoption & Lifecycle Manager",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Leadership",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — New York City ()",
-      "mode": "Remote",
-      "min": 132000,
-      "max": 162750,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Gainsight",
-        "Totango",
-        "HubSpot"
-      ],
-      "posted": 4,
-      "postedAt": "2026-10-09T19:24:38-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Customer Digital Experience Team",
-          "paras": [
-            "Customer Digital Experience sits within Customer Engineering, the technical arm of Mixpanel's Customer organization.",
-            "A Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
-            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
-            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
-            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
-            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
-            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
-            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
-            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
-            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
-            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
-            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Is:",
-          "paras": [],
-          "bullets": [
-            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
-            "An excellent writer who can be concise, specific, and useful to a technical audience",
-            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
-            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
-            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
-            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
-            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
-            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:mixpanel:8260692",
-      "title": "Digital Adoption & Lifecycle Manager",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Leadership",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — San Francisco ()",
-      "mode": "Remote",
-      "min": 132000,
-      "max": 162750,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Gainsight",
-        "Totango",
-        "HubSpot"
-      ],
-      "posted": 4,
-      "postedAt": "2026-10-09T17:58:48-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Customer Digital Experience Team",
-          "paras": [
-            "Customer Digital Experience sits within Customer Engineering, the technical arm of Mixpanel's Customer organization.",
-            "A Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
-            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
-            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
-            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
-            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
-            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
-            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
-            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
-            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
-            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
-            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Is:",
-          "paras": [],
-          "bullets": [
-            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
-            "An excellent writer who can be concise, specific, and useful to a technical audience",
-            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
-            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
-            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
-            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
-            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
-            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:webflow:8265958",
       "title": "Senior Manager, AI Customer Success",
       "company": "Webflow",
@@ -657,7 +482,7 @@
       "variable": "+ commission + equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-09T10:32:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -735,7 +560,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-08T16:54:28.448Z",
       "source": "Lever",
       "featured": false,
@@ -796,7 +621,7 @@
       "variable": "",
       "book": "12 customers",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-08T22:52:16.432+00:00",
       "source": "Ashby",
       "featured": false,
@@ -867,7 +692,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-10-07T14:53:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -939,7 +764,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-10-07T20:23:27-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -997,7 +822,7 @@
       "stack": [
         "Intercom"
       ],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-10-07T16:06:36.133+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1074,7 +899,7 @@
         "Salesforce",
         "SQL"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-06T13:40:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1146,7 +971,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-10-05T18:35:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1219,7 +1044,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-10-02T19:10:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1289,7 +1114,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-10-02T16:09:31.879Z",
       "source": "Lever",
       "featured": false,
@@ -1356,7 +1181,7 @@
       "stack": [
         "Linear"
       ],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-10-02T15:46:27.936+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1422,7 +1247,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1496,7 +1321,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1541,83 +1366,6 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8248501",
-      "title": "Senior Customer Engineer - LATAM",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote —  ()",
-      "mode": "Remote",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Snowflake",
-        "dbt",
-        "SQL",
-        "Python"
-      ],
-      "posted": 12,
-      "postedAt": "2026-10-01T21:19:23-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8248501",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8248501",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Customer Engineering Team",
-          "paras": [
-            "Mixpanel's Customer Engineering teams are analytics consultants who embed themselves within our enterprise customer teams to drive business outcomes. We work with prospects and customers throughout the customer journey to understand what drives value, and serve as the technical counterpart to our Sales organisation to deliver on that value.",
-            "You will partner closely with Account Executives, Customer Value Architects, Product, Engineering, and Support to successfully roll out self-serve analytics within our customers' organisations, help manage change, execute on technical projects and services that delight our customers, and ultimately drive ROI on the customer's Mixpanel investment."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "Our Customer Engineers are inquisitive, nimble, and able to clearly articulate the technical benefits and requirements of Mixpanel to developers and product managers, while also communicating the business value of our product to senior executives.",
-            "In your first month, you'll become a Mixpanel expert—both in features and functionality as well as implementation. You'll shadow customer calls and demos with current Customer Engineers and Account Executives while learning to articulate our value proposition, and be trained on Mixpanel's internal systems and tools.",
-            "Within your first three months, you'll be directly involved in deal cycles with Account Executives. You'll lead the technical qualification for customer use cases and deliver customised demos for prospects and existing customers, working directly with leadership at the prospect's organisation to understand business challenges that can be solved through an analytics platform."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Serve as a trusted technical advisor for prospects, providing strategic consultation on data architecture, governance, instrumentation, and business outcomes",
-            "Communicate and consult effectively at all levels of the customer's organisation to earn trust and influence buying decisions",
-            "Bridge the technical-business gap—working with senior stakeholders to define success for proofs-of-concept and ensuring successful execution and outcomes",
-            "Leverage your Mixpanel expertise and technical/consultative skills to impart best practices throughout proof-of-concept projects",
-            "Partner with Account Executives to drive revenue growth, serving as the key technical contact for customers",
-            "Partner with post-sales teams to ensure that pre-sales value propositions translate into tangible post-sales results",
-            "Develop relationships and uncover the needs of key technical stakeholders within your assigned book of business",
-            "Be the \"Voice of the Prospect\" by collecting feedback from potential Mixpanel customers and sharing it with the Product team"
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Has",
-          "paras": [],
-          "bullets": [
-            "Fluency in business and conversational Spanish and English.",
-            "The ability to communicate with stakeholders at all levels—from discussing APIs with developers to organisational efficiency with CIOs.",
-            "A demonstrated track record of qualifying and selling technical solutions to executive stakeholders",
-            "6+ years of experience in a Software-as-a-Service Sales Engineering or related role",
-            "Experience in data querying, modelling, and transformation using tools such as SQL, dbt, Python, Business Intelligence platforms, or Product Analytics tools",
-            "Familiarity with databases and cloud data warehouses (e.g., Google Cloud, Amazon Redshift, Microsoft Azure, Snowflake, Databricks)",
-            "A successful record of experience in sales engineering, consulting, or technical project management",
-            "Excellent written, analytical, communication, and presentation skills"
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:gitlab:8857185002",
       "title": "Associate Renewals Manager",
       "company": "GitLab",
@@ -1633,7 +1381,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1702,7 +1450,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1767,7 +1515,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-29T12:31:34-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1841,7 +1589,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-09-29T12:33:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1915,7 +1663,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1986,7 +1734,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2053,7 +1801,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2123,7 +1871,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2168,160 +1916,6 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8222214",
-      "title": "Senior Customer Engineer - LATAM",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — Texas ()",
-      "mode": "Remote",
-      "min": 206500,
-      "max": 243000,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Snowflake",
-        "dbt",
-        "SQL",
-        "Python"
-      ],
-      "posted": 15,
-      "postedAt": "2026-09-28T14:16:12-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8222214",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8222214",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Customer Engineering Team",
-          "paras": [
-            "Mixpanel's Customer Engineering teams are analytics consultants who embed themselves within our enterprise customer teams to drive business outcomes. We work with prospects and customers throughout the customer journey to understand what drives value, and serve as the technical counterpart to our Sales organisation to deliver on that value.",
-            "You will partner closely with Account Executives, Customer Value Architects, Product, Engineering, and Support to successfully roll out self-serve analytics within our customers' organisations, help manage change, execute on technical projects and services that delight our customers, and ultimately drive ROI on the customer's Mixpanel investment."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "Our Customer Engineers are inquisitive, nimble, and able to clearly articulate the technical benefits and requirements of Mixpanel to developers and product managers, while also communicating the business value of our product to senior executives.",
-            "In your first month, you'll become a Mixpanel expert—both in features and functionality as well as implementation. You'll shadow customer calls and demos with current Customer Engineers and Account Executives while learning to articulate our value proposition, and be trained on Mixpanel's internal systems and tools.",
-            "Within your first three months, you'll be directly involved in deal cycles with Account Executives. You'll lead the technical qualification for customer use cases and deliver customised demos for prospects and existing customers, working directly with leadership at the prospect's organisation to understand business challenges that can be solved through an analytics platform."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Serve as a trusted technical advisor for prospects, providing strategic consultation on data architecture, governance, instrumentation, and business outcomes",
-            "Communicate and consult effectively at all levels of the customer's organisation to earn trust and influence buying decisions",
-            "Bridge the technical-business gap—working with senior stakeholders to define success for proofs-of-concept and ensuring successful execution and outcomes",
-            "Leverage your Mixpanel expertise and technical/consultative skills to impart best practices throughout proof-of-concept projects",
-            "Partner with Account Executives to drive revenue growth, serving as the key technical contact for customers",
-            "Partner with post-sales teams to ensure that pre-sales value propositions translate into tangible post-sales results",
-            "Develop relationships and uncover the needs of key technical stakeholders within your assigned book of business",
-            "Be the \"Voice of the Prospect\" by collecting feedback from potential Mixpanel customers and sharing it with the Product team"
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Has",
-          "paras": [],
-          "bullets": [
-            "Fluency in business and conversational Spanish and English.",
-            "The ability to communicate with stakeholders at all levels—from discussing APIs with developers to organisational efficiency with CIOs.",
-            "A demonstrated track record of qualifying and selling technical solutions to executive stakeholders",
-            "6+ years of experience in a Software-as-a-Service Sales Engineering or related role",
-            "Experience in data querying, modelling, and transformation using tools such as SQL, dbt, Python, Business Intelligence platforms, or Product Analytics tools",
-            "Familiarity with databases and cloud data warehouses (e.g., Google Cloud, Amazon Redshift, Microsoft Azure, Snowflake, Databricks)",
-            "A successful record of experience in sales engineering, consulting, or technical project management",
-            "Excellent written, analytical, communication, and presentation skills"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:mixpanel:8237751",
-      "title": "Senior Customer Engineer - LATAM",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Customer Success",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — Florida ()",
-      "mode": "Remote",
-      "min": 206500,
-      "max": 243000,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Snowflake",
-        "dbt",
-        "SQL",
-        "Python"
-      ],
-      "posted": 15,
-      "postedAt": "2026-09-28T14:18:35-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8237751",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8237751",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Customer Engineering Team",
-          "paras": [
-            "Mixpanel's Customer Engineering teams are analytics consultants who embed themselves within our enterprise customer teams to drive business outcomes. We work with prospects and customers throughout the customer journey to understand what drives value, and serve as the technical counterpart to our Sales organisation to deliver on that value.",
-            "You will partner closely with Account Executives, Customer Value Architects, Product, Engineering, and Support to successfully roll out self-serve analytics within our customers' organisations, help manage change, execute on technical projects and services that delight our customers, and ultimately drive ROI on the customer's Mixpanel investment."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "Our Customer Engineers are inquisitive, nimble, and able to clearly articulate the technical benefits and requirements of Mixpanel to developers and product managers, while also communicating the business value of our product to senior executives.",
-            "In your first month, you'll become a Mixpanel expert—both in features and functionality as well as implementation. You'll shadow customer calls and demos with current Customer Engineers and Account Executives while learning to articulate our value proposition, and be trained on Mixpanel's internal systems and tools.",
-            "Within your first three months, you'll be directly involved in deal cycles with Account Executives. You'll lead the technical qualification for customer use cases and deliver customised demos for prospects and existing customers, working directly with leadership at the prospect's organisation to understand business challenges that can be solved through an analytics platform."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Serve as a trusted technical advisor for prospects, providing strategic consultation on data architecture, governance, instrumentation, and business outcomes",
-            "Communicate and consult effectively at all levels of the customer's organisation to earn trust and influence buying decisions",
-            "Bridge the technical-business gap—working with senior stakeholders to define success for proofs-of-concept and ensuring successful execution and outcomes",
-            "Leverage your Mixpanel expertise and technical/consultative skills to impart best practices throughout proof-of-concept projects",
-            "Partner with Account Executives to drive revenue growth, serving as the key technical contact for customers",
-            "Partner with post-sales teams to ensure that pre-sales value propositions translate into tangible post-sales results",
-            "Develop relationships and uncover the needs of key technical stakeholders within your assigned book of business",
-            "Be the \"Voice of the Prospect\" by collecting feedback from potential Mixpanel customers and sharing it with the Product team"
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Has",
-          "paras": [],
-          "bullets": [
-            "Fluency in business and conversational Spanish and English.",
-            "The ability to communicate with stakeholders at all levels—from discussing APIs with developers to organisational efficiency with CIOs.",
-            "A demonstrated track record of qualifying and selling technical solutions to executive stakeholders",
-            "6+ years of experience in a Software-as-a-Service Sales Engineering or related role",
-            "Experience in data querying, modelling, and transformation using tools such as SQL, dbt, Python, Business Intelligence platforms, or Product Analytics tools",
-            "Familiarity with databases and cloud data warehouses (e.g., Google Cloud, Amazon Redshift, Microsoft Azure, Snowflake, Databricks)",
-            "A successful record of experience in sales engineering, consulting, or technical project management",
-            "Excellent written, analytical, communication, and presentation skills"
-          ]
-        }
-      ]
-    },
-    {
       "id": "ashby:ramp:b4908db8-ac21-4c7f-b544-a66fffbfb97e",
       "title": "Senior Channel Partner Manager, Global Advisory / GSI",
       "company": "Ramp",
@@ -2337,7 +1931,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2407,7 +2001,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2475,7 +2069,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2549,7 +2143,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2624,7 +2218,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2690,7 +2284,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2765,7 +2359,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2840,7 +2434,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2912,7 +2506,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2983,7 +2577,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-22T13:03:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3032,62 +2626,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8064913",
-      "title": "Customer Success Manager",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": "Mid-Market",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 65599,
-      "max": 88200,
-      "variable": "+ equity + bonus",
-      "book": "100 accounts",
-      "stack": [],
-      "posted": 21,
-      "postedAt": "2026-09-22T09:23:26-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8064913?gh_jid=8064913",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8064913?gh_jid=8064913",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Flexible Working",
-          "paras": [
-            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Our Commitment to Authenticity",
-          "paras": [
-            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Fraudulent Employment Offers",
-          "paras": [
-            "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:flexport:8213809",
       "title": "Senior Account Manager, Fulfillment",
       "company": "Flexport",
@@ -3103,7 +2641,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3166,7 +2704,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3236,7 +2774,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3306,7 +2844,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3372,7 +2910,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3436,7 +2974,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3508,7 +3046,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3569,7 +3107,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3637,7 +3175,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3711,7 +3249,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-11T11:02:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3783,7 +3321,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3847,7 +3385,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3909,7 +3447,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3974,7 +3512,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4039,7 +3577,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4109,7 +3647,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4178,7 +3716,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4250,7 +3788,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4320,7 +3858,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4356,7 +3894,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4425,7 +3963,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4496,7 +4034,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4566,7 +4104,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4638,7 +4176,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4710,7 +4248,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4773,7 +4311,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
