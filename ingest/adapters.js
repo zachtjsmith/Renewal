@@ -11,7 +11,7 @@
        postedAt, url, pay }
    ========================================================================== */
 
-const UA = "RenewalJobBoard/1.0 (contact: zach@baselinecsm.com)";
+const UA = "RenewalJobBoard/1.0 (contact: supportrenewalcs@gmail.com)";
 
 /* Base URLs are overridable so the pipeline can be exercised against a local
    fixture server without touching anybody's production API. Leave unset in

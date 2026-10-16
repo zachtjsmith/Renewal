@@ -11,7 +11,7 @@ import React, { useState, useMemo, useEffect, useRef, useCallback } from "react"
 const BRAND = {
   name: "renewal",
   line: "Customer success jobs, nothing invented.",
-  contactEmail: "zach@baselinecsm.com",
+  contactEmail: "supportrenewalcs@gmail.com",
   etsyShop: "https://www.etsy.com/shop/YOURSHOPNAME",
 };
 
@@ -1047,7 +1047,7 @@ function TemplatesPage() {
         <div style={{ height: 1, background: C.rule, flex: 1 }} />
       </div>
 
-      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fill, minmax(310px, 1fr))" }}>
+      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fill, minmax(min(310px, 100%), 1fr))" }}>
         {PRODUCTS.map((p) => (
           <div key={p.slug} style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 18, display: "flex", flexDirection: "column" }}>
             <Cover src={p.cover} stage={p.stage} />
@@ -1105,7 +1105,7 @@ function ResourcesPage({ setTab, groups }) {
         {groups.map((g) => (
           <section key={g.goal}>
             <h2 style={{ fontSize: 20, fontWeight: 700, color: C.ink, letterSpacing: "-0.025em", margin: "0 0 12px", paddingBottom: 9, borderBottom: "1px solid " + C.rule }}>{g.goal}</h2>
-            <div style={{ display: "grid", gap: 12, gridTemplateColumns: "repeat(auto-fill, minmax(290px, 1fr))" }}>
+            <div style={{ display: "grid", gap: 12, gridTemplateColumns: "repeat(auto-fill, minmax(min(290px, 100%), 1fr))" }}>
               {g.items.map((it) => {
                 const thumb = videoThumb(it.url);
                 const live = !!it.url;
@@ -1294,7 +1294,7 @@ function ListingForm({ onClose }) {
         </p>
       </div>
 
-      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))" }}>
+      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(min(230px, 100%), 1fr))" }}>
         <Field label="Company" error={errors.company}>
           <input value={f.company} onChange={set("company")} placeholder="Northloop" style={inputStyle(errors.company)} />
         </Field>
@@ -1309,7 +1309,7 @@ function ListingForm({ onClose }) {
         </Field>
       </div>
 
-      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", marginTop: 16 }}>
+      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(min(200px, 100%), 1fr))", marginTop: 16 }}>
         <Field label="Location" error={errors.location}>
           <input value={f.location} onChange={set("location")} placeholder="Remote — US, or Austin, TX" style={inputStyle(errors.location)} />
         </Field>
@@ -1325,7 +1325,7 @@ function ListingForm({ onClose }) {
         </Field>
       </div>
 
-      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", marginTop: 16 }}>
+      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(min(200px, 100%), 1fr))", marginTop: 16 }}>
         <Field label="Base salary, bottom" error={errors.min} hint="Annual, in USD.">
           <input value={f.min} onChange={set("min")} inputMode="numeric" placeholder="130000" style={inputStyle(errors.min)} />
         </Field>
@@ -1389,6 +1389,7 @@ async function copyText(text) {
 function CopyEmail({ dark = false }) {
   const [state, setState] = useState("idle"); // idle | copied | failed
   const email = BRAND.contactEmail;
+  const at = email.indexOf("@") + 1; // where a narrow screen may wrap it
 
   const onCopy = async () => {
     const ok = await copyText(email);
@@ -1406,11 +1407,11 @@ function CopyEmail({ dark = false }) {
         style={{
           fontSize: 14, fontWeight: 600, color: fg, fontFamily: FONT,
           background: bg, border: "1px solid " + bd, borderRadius: 5,
-          padding: "7px 11px", userSelect: "all", wordBreak: "break-all",
+          padding: "7px 11px", userSelect: "all", overflowWrap: "anywhere",
         }}
         title="Click to select"
       >
-        {email}
+        {email.slice(0, at)}<wbr />{email.slice(at)}
       </span>
       <button
         onClick={onCopy}
@@ -1472,7 +1473,7 @@ function AdvertisePage() {
   return (
     <div>
       <PageHead title="Reach customer success people who are actually looking" sub={`A narrow audience: CSMs, account managers, renewals and CS ops, most of them mid-career and actively changing jobs. ${NUMBER_WORDS[AD_OFFERS.length]} ways to reach them, and a hard cap on how much of the site is for sale.`} />
-      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", marginBottom: 40 }}>
+      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))", marginBottom: 40 }}>
         {AD_OFFERS.map((p) => (
           <div key={p.name} style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 22, display: "flex", flexDirection: "column" }}>
             <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em" }}>{p.name}</h3>
