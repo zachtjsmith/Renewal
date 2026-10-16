@@ -1,12 +1,144 @@
 {
-  "generatedAt": "2026-10-15T11:02:02.161Z",
-  "count": 64,
+  "generatedAt": "2026-10-16T10:57:53.973Z",
+  "count": 63,
   "sources": [
     "Greenhouse",
     "Ashby",
     "Lever"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:gitlab:8856724002",
+      "title": "Manager, Customer Success Engineering",
+      "company": "GitLab",
+      "companySite": "https://about.gitlab.com",
+      "industry": "Developer tools",
+      "family": "Leadership",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-10-15T16:53:32-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8856724002",
+      "postingUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8856724002",
+      "blurb": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million…",
+      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\n\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to…",
+      "sections": [
+        {
+          "title": "How GitLab will support you",
+          "paras": [
+            "Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from underrepresented groups are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application."
+          ],
+          "bullets": [
+            "Benefits to support your health, finances, and well-being",
+            "Flexible Paid Time Off",
+            "Team Member Resource Groups",
+            "Equity Compensation & Employee Stock Purchase Plan",
+            "Growth and Development Fund",
+            "Parental leave",
+            "Home office support"
+          ]
+        },
+        {
+          "title": "How GitLab Supports Full-Time Employees",
+          "paras": [
+            "Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from underrepresented groups are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application.",
+            "Country Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process.",
+            "Privacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us."
+          ],
+          "bullets": [
+            "Benefits to support your health, finances, and well-being",
+            "Flexible Paid Time Off",
+            "Team Member Resource Groups",
+            "Equity Compensation & Employee Stock Purchase Plan",
+            "Growth and Development Fund",
+            "Parental Leave"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:96250bac-465c-4524-bc7c-ba0f0b05310f",
+      "title": "Senior Manager, Account Manager, Enterprise",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Account Management",
+      "seniority": "Manager",
+      "segment": "Enterprise",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 315000,
+      "max": 415000,
+      "variable": "",
+      "book": "60 customers",
+      "stack": [
+        "Salesforce",
+        "Looker"
+      ],
+      "posted": 0,
+      "postedAt": "2026-10-15T21:33:08.330+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/96250bac-465c-4524-bc7c-ba0f0b05310f/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/96250bac-465c-4524-bc7c-ba0f0b05310f",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "In this role, you will be a front-line manager to a group of Account Managers who are responsible for hunting, pitching, and expanding the existing customer base at Ramp.",
+            "You'll lead a group of 6-8 Account Managers, each carrying a book of 60-70 Enterprise customers with real latitude over how they grow it. This is a build role, not a maintain role: the playbooks, coaching systems, and performance bar you set are the ones this team runs on next year. Your ceiling is set by how well you turn individual AM judgment into a repeatable, scalable motion that grows the segment."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You'll Do",
+          "paras": [],
+          "bullets": [
+            "Build and run a high-performing team of 6-8 Account Managers - setting the bar for culture, morale, and daily execution.",
+            "Get embedded in the relationships that matter. Engage directly with key customers and top accounts alongside your team, building trust and long-term partnership.",
+            "Own the number. Manage quota performance and pipeline generation across your team to hit spend activation, product activation, retention, and expansion goals.",
+            "Forecast and report team performance to senior leadership with clear-eyed visibility into what's working and what isn't.",
+            "Hire and develop the next generation of AMs - training on product, buyer personas, competition, and tooling through role-plays, game film, and real deal work.",
+            "Coach relentlessly. Run daily 1:1s, dissect call feedback, lead enablement sessions, and build career paths for every rep on your team.",
+            "Turn what works into a system. Continuously refine team processes and tooling to improve output and efficiency as the segment scales.",
+            "Represent Account Management cross-functionally, partnering with Sales, CX, CSM, Risk, and Product to remove blockers and drive outcomes."
+          ]
+        },
+        {
+          "title": "What You Need",
+          "paras": [],
+          "bullets": [
+            "Minimum 5 years of quota-carrying sales or account management experience as an individual contributor, with a proven, consistent track record of exceeding goals (new business or cross-sell/upsell experience mandatory)",
+            "Minimum 5 years building and leading account management or sales teams, with a track record of exceeding goal (new business or cross-sell/upsell experience mandatory)",
+            "Prior success in fast-paced, results-oriented GTM environments, ideally at SaaS or AI companies",
+            "A genuine passion for hiring, with a thoughtful approach to talent development",
+            "Ability to articulate contractual, technical, and financial value to customers, including C-Suite and executive leaders",
+            "Strong track record negotiating, structuring, and executing complex agreements",
+            "Proficiency with data analytics tools (Salesforce, Looker, Excel) and a bias toward using data to drive decisions",
+            "Strong collaboration and influencing skills, backed by excellent communication and presentation ability."
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:samsara:8226209",
       "title": "Customer Success Manager",
@@ -23,7 +155,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-14T12:43:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -79,7 +211,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-13T23:05:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -126,148 +258,6 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8275378",
-      "title": "Associate Product Operations Manager",
-      "company": "Instacart",
-      "companySite": "https://www.instacart.com",
-      "industry": "Grocery delivery",
-      "family": "CS Operations",
-      "seniority": "Entry",
-      "segment": null,
-      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
-      "mode": "Remote",
-      "min": 98000,
-      "max": 103500,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [
-        "Jira",
-        "Looker",
-        "Tableau",
-        "SQL"
-      ],
-      "posted": 1,
-      "postedAt": "2026-10-13T13:22:47-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8275378",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8275378",
-      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
-      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
-      "sections": [
-        {
-          "title": "Instacart is a Flex First team",
-          "paras": [
-            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Why this role is on the menu",
-          "paras": [
-            "The Associate Product Operations Manager (APOM) is the delivery layer of Product Ops. That means you own your workstreams from intake to handoff, with the kind of discipline and rigor that makes downstream teams trust what comes from you.",
-            "The core scope includes: PCR intake and triage, Product Enablement Package (PEP) production, and launch readiness. You run the PCR lifecycle with quality and care. You write PEPs that people actually use. You take pride in clean handoffs.",
-            "This is a rotation-based role. Every 6-12 months you move to a new vertical pod: Consumer, Shopper, Enterprise. You build real product sense across all of them. Each rotation is a workstream you own end-to-end, not a support assignment. That breadth is what sets you up for the next level."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team",
-          "paras": [
-            "Product Operations is organized into three pillars: Vertical Partnership Pods, Intelligence & Systems (the Horizontal), and the Enablement Team. This role is within the Enablement Team.",
-            "The Enablement Team is the shared engine that keeps launches moving. It's a centralized pool of team members, deployed to wherever priorities are highest. We execute inside the verticals, use the infrastructure the Horizontal builds, and feed back the cross-domain patterns we see across rotations. Our work is foundational to the team's promise of making outcomes more likely, faster, and more durable.",
-            "Your manager manages your deployments and development. Your pod partners are your day-to-day collaborators. The Horizontal is the infrastructure team and your systems partner."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you'll cook up in your first year",
-          "paras": [],
-          "bullets": [
-            "Own PCR intake end-to-end: validate problem statements, assess routing, and make sure everything is clean before it hits a vertical pod",
-            "Handle Tier 2 triage, the judgment calls that go beyond what the automated system can resolve on its own",
-            "Write and maintain PEPs, using AI-assisted drafts as your starting point and owning the quality, accuracy, and stakeholder fit of the final version",
-            "Drive launch readiness in your assigned area, coordinating with stakeholders so the people who depend on launches aren't caught off guard",
-            "Pull together customer signal and quality data into structured summaries that feed the Horizontal's intelligence work",
-            "Run PRDs through the PRD enabler and deliver results to POMs and Product with clear framing, not just raw output",
-            "Surface at least one cross-domain insight to the Horizontal per deployment — you're in a unique position to see patterns across pods, and that's part of the job",
-            "Use AI as a real part of your workflow: for triage, drafting, research, onboarding — and always edit before you share"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:instacart:8275352",
-      "title": "Associate Product Operations Manager",
-      "company": "Instacart",
-      "companySite": "https://www.instacart.com",
-      "industry": "Grocery delivery",
-      "family": "CS Operations",
-      "seniority": "Entry",
-      "segment": null,
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 133000,
-      "max": 140500,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [
-        "Jira",
-        "Looker",
-        "Tableau",
-        "SQL"
-      ],
-      "posted": 1,
-      "postedAt": "2026-10-13T13:22:45-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8275352",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8275352",
-      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
-      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
-      "sections": [
-        {
-          "title": "Instacart is a Flex First team",
-          "paras": [
-            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Why this role is on the menu",
-          "paras": [
-            "The Associate Product Operations Manager (APOM) is the delivery layer of Product Ops. That means you own your workstreams from intake to handoff, with the kind of discipline and rigor that makes downstream teams trust what comes from you.",
-            "The core scope includes: PCR intake and triage, Product Enablement Package (PEP) production, and launch readiness. You run the PCR lifecycle with quality and care. You write PEPs that people actually use. You take pride in clean handoffs.",
-            "This is a rotation-based role. Every 6-12 months you move to a new vertical pod: Consumer, Shopper, Enterprise. You build real product sense across all of them. Each rotation is a workstream you own end-to-end, not a support assignment. That breadth is what sets you up for the next level."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team",
-          "paras": [
-            "Product Operations is organized into three pillars: Vertical Partnership Pods, Intelligence & Systems (the Horizontal), and the Enablement Team. This role is within the Enablement Team.",
-            "The Enablement Team is the shared engine that keeps launches moving. It's a centralized pool of team members, deployed to wherever priorities are highest. We execute inside the verticals, use the infrastructure the Horizontal builds, and feed back the cross-domain patterns we see across rotations. Our work is foundational to the team's promise of making outcomes more likely, faster, and more durable.",
-            "Your manager manages your deployments and development. Your pod partners are your day-to-day collaborators. The Horizontal is the infrastructure team and your systems partner."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you'll cook up in your first year",
-          "paras": [],
-          "bullets": [
-            "Own PCR intake end-to-end: validate problem statements, assess routing, and make sure everything is clean before it hits a vertical pod",
-            "Handle Tier 2 triage, the judgment calls that go beyond what the automated system can resolve on its own",
-            "Write and maintain PEPs, using AI-assisted drafts as your starting point and owning the quality, accuracy, and stakeholder fit of the final version",
-            "Drive launch readiness in your assigned area, coordinating with stakeholders so the people who depend on launches aren't caught off guard",
-            "Pull together customer signal and quality data into structured summaries that feed the Horizontal's intelligence work",
-            "Run PRDs through the PRD enabler and deliver results to POMs and Product with clear framing, not just raw output",
-            "Surface at least one cross-domain insight to the Horizontal per deployment — you're in a unique position to see patterns across pods, and that's part of the job",
-            "Use AI as a real part of your workflow: for triage, drafting, research, onboarding — and always edit before you share"
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:instacart:8275403",
       "title": "Senior Manager, CPG Customer Success",
       "company": "Instacart",
@@ -283,7 +273,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-13T13:23:13-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -349,7 +339,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-13T15:07:59.917+00:00",
       "source": "Ashby",
       "featured": false,
@@ -421,7 +411,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-10-12T11:10:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -482,7 +472,7 @@
       "variable": "+ commission + equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-09T10:32:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -560,7 +550,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-10-08T16:54:28.448Z",
       "source": "Lever",
       "featured": false,
@@ -621,7 +611,7 @@
       "variable": "",
       "book": "12 customers",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-10-08T22:52:16.432+00:00",
       "source": "Ashby",
       "featured": false,
@@ -692,7 +682,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-07T14:53:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -764,7 +754,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-07T20:23:27-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -805,82 +795,6 @@
       ]
     },
     {
-      "id": "ashby:vanta:f987d41a-d0e1-4260-9129-f64aee6122ae",
-      "title": "AI Agent Operations Specialist, Support",
-      "company": "Vanta",
-      "companySite": "https://www.vanta.com",
-      "industry": "Compliance",
-      "family": "CS Operations",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — U.S.",
-      "mode": "Remote",
-      "min": 129000,
-      "max": 152000,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [
-        "Intercom"
-      ],
-      "posted": 7,
-      "postedAt": "2026-10-07T16:06:36.133+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/vanta/f987d41a-d0e1-4260-9129-f64aee6122ae/application",
-      "postingUrl": "https://jobs.ashbyhq.com/vanta/f987d41a-d0e1-4260-9129-f64aee6122ae",
-      "blurb": "At Vanta, our mission is to help businesses earn and prove trust. We believe that security should be monitored and verified continuously, and we empower companies to practice better security and prove it with ease. Vanta has a kind and talented team, and…",
-      "summary": "At Vanta, our mission is to help businesses earn and prove trust. We believe that security should be monitored and verified continuously, and we empower companies to practice better security and prove it with ease. Vanta has a kind and talented team, and while some have prior security experience, many have been successful at Vanta without it.\n\nAt Vanta, our mission is to secure the internet and protect consumer data. We believe that security should be monitored and verified continuously, and we empower companies to practice better security and prove it with ease. Vanta has a kind and talented team, and while some have prior security experience, many have been successful at Vanta without it.",
-      "sections": [
-        {
-          "title": "Performance: Own how well Fin works",
-          "paras": [
-            "An AI agent's performance drifts without a clear owner, and that owner is you. You'll have a bias for action, shipping improvements quickly and learning from the results. You'll also decide with frameworks, so the team always understands why one fix came before another."
-          ],
-          "bullets": [
-            "Review Fin conversations weekly to find wrong answers, self-service gaps, and avoidable escalations.",
-            "Make changes in Fin yourself (guidance, content, workflows). Treat most as two-way doors: ship, measure, adjust.",
-            "Keep a ranked list of improvements based on customer impact, volume, and risk.",
-            "Set and document Fin's guardrails: what it must never answer, when it asks a clarifying question, and when it escalates."
-          ]
-        },
-        {
-          "title": "Knowledge: Own what Fin knows",
-          "paras": [
-            "Fin is only as accurate as what it knows. Our customers trust Vanta to get compliance right, and we do what it says on the tin, so Fin's knowledge has to be correct and current."
-          ],
-          "bullets": [
-            "Own the knowledge Fin draws from: snippets, internal content, and our help center.",
-            "Set the governance: every topic has an owner and a review cadence, and outdated or conflicting content gets retired.",
-            "When a support engineer answers something Fin couldn't, turn it into reusable knowledge so we only answer it once.",
-            "Set AI-ready content standards, and partner with Customer Education to bring help-center articles up to them."
-          ]
-        },
-        {
-          "title": "Customer Experience: Own how Fin feels to customers",
-          "paras": [
-            "For many customers, Fin is the first Vanta \"teammate\" they talk to. Because we put our customers first, how Fin makes them feel matters as much as what it says."
-          ],
-          "bullets": [
-            "Shape how Fin sounds, including how it says \"I don't know\" without leaving customers stuck.",
-            "Own handoffs: when Fin escalates, where it routes, and what context it passes so customers never repeat themselves.",
-            "Dig into low CSAT ratings and dead ends, and fix the root cause.",
-            "Handle a small volume of tickets to stay close to real customer problems."
-          ]
-        },
-        {
-          "title": "Launch Readiness: Own Fin's readiness for every launch",
-          "paras": [
-            "Vanta ships fast, and customers ask about new features the day they launch. We win as one team and lead with resilience, so Fin is ready on day one, even when plans change late."
-          ],
-          "bullets": [
-            "Partner early with Product, Engineering, and Customer Education to get source-of-truth content before features ship.",
-            "Have Fin tested and ready on launch day, then watch closely and close gaps fast.",
-            "Evaluate new Fin capabilities and recommend which to adopt."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:gitlab:8868652002",
       "title": "Staff Renewals Operations Manager",
       "company": "GitLab",
@@ -899,7 +813,7 @@
         "Salesforce",
         "SQL"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-10-06T13:40:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -971,7 +885,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-10-05T18:35:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1044,7 +958,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-02T19:10:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1114,7 +1028,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-02T16:09:31.879Z",
       "source": "Lever",
       "featured": false,
@@ -1181,7 +1095,7 @@
       "stack": [
         "Linear"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-02T15:46:27.936+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1247,7 +1161,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1321,7 +1235,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1381,7 +1295,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1450,7 +1364,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1515,7 +1429,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-29T12:31:34-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1589,7 +1503,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-09-29T12:33:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1663,7 +1577,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1734,7 +1648,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1801,7 +1715,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1871,7 +1785,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1931,7 +1845,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2001,7 +1915,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2069,7 +1983,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2143,7 +2057,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2218,7 +2132,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2284,7 +2198,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2359,7 +2273,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2434,7 +2348,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2506,7 +2420,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2577,7 +2491,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-22T13:03:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2641,7 +2555,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2689,76 +2603,6 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8214941",
-      "title": "Senior Account Manager, Retail Media",
-      "company": "Instacart",
-      "companySite": "https://www.instacart.com",
-      "industry": "Grocery delivery",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 138000,
-      "max": 145500,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [],
-      "posted": 23,
-      "postedAt": "2026-09-21T12:45:22-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8214941",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8214941",
-      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
-      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
-      "sections": [
-        {
-          "title": "Instacart is a Flex First team",
-          "paras": [
-            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Why this role is on the menu",
-          "paras": [
-            "Instacart’s retail media platform, Carrot Ads, is scaling fast — and the strategic retail partners who power it need more than a point of contact. They need a trusted advisor who knows their business, knows ours, and can translate that into advertising performance that grows over time. Without this role, we risk leaving adoption on the table, missing signals from partners who could shape our product roadmap, and letting high-potential relationships stagnate. We’re hiring a Senior Account Manager to own a portfolio of enterprise retail partners end-to-end — from onboarding through growth — and make Carrot Ads an indispensable part of how they compete. This role sits at the center of Instacart’s retail media expansion, with a direct line of sight to partner revenue, product adoption, and the future of how we go to market."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you’ll cook up in your first year",
-          "paras": [],
-          "bullets": [
-            "A portfolio of strategic enterprise retail partners is measurably healthier — adoption is up, revenue is growing, and partners are pointing to Carrot Ads as a competitive advantage.",
-            "New retail partners are onboarded smoothly and confidently — trained on campaign tooling, demand sourcing, reporting, and invoicing — so they hit the ground running and don’t stall out early.",
-            "Partners are adopting expanded placements and new product capabilities because you’ve made the incremental revenue case clearly — and Product teams have better data to work with because of the feedback loops you’ve built.",
-            "The account management practice is sharper than when you arrived — playbooks are tighter, QBR formats are more compelling, and the team has better tools for tracking partner KPIs and scaling what works.",
-            "Cross-functional partners — from Business Development to Finance to Ads Quality — know who to call when something involves the retail partner book, because you’ve become the connective tissue across teams."
-          ]
-        },
-        {
-          "title": "The secret ingredients we’re looking for",
-          "paras": [
-            "Must-have pantry staples (Minimum Qualifications)",
-            "Optional garnishes (Preferred Qualifications)",
-            "Instacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here ."
-          ],
-          "bullets": [
-            "5+ years in Account Management or a related field, with experience in ad tech, publishers, or retail media.",
-            "Proven experience supporting enterprise solutions in the advertising space, including managing complex partner relationships end-to-end.",
-            "Strong technical acumen — able to understand and explain complex product capabilities to partners who may not be technical.",
-            "Proficient in data analysis with the ability to derive actionable insights and make strategic recommendations from partner KPI data.",
-            "Comfortable navigating billing, invoicing, and revenue reconciliation workflows in partnership with Finance.",
-            "Outstanding communication skills, with the ability to distill complex concepts for varied audiences — from technical teams to executive stakeholders.",
-            "Proven project and program management skills, with the ability to juggle multiple partner relationships and internal workstreams simultaneously.",
-            "Experienced in cross-functional collaboration and executive-level presentations."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:instacart:8214962",
       "title": "Senior Account Manager, Retail Media",
       "company": "Instacart",
@@ -2774,7 +2618,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2829,6 +2673,76 @@
       ]
     },
     {
+      "id": "greenhouse:instacart:8214941",
+      "title": "Senior Account Manager, Retail Media",
+      "company": "Instacart",
+      "companySite": "https://www.instacart.com",
+      "industry": "Grocery delivery",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 138000,
+      "max": 145500,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [],
+      "posted": 24,
+      "postedAt": "2026-09-21T12:45:22-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8214941",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8214941",
+      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
+      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
+      "sections": [
+        {
+          "title": "Instacart is a Flex First team",
+          "paras": [
+            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Why this role is on the menu",
+          "paras": [
+            "Instacart’s retail media platform, Carrot Ads, is scaling fast — and the strategic retail partners who power it need more than a point of contact. They need a trusted advisor who knows their business, knows ours, and can translate that into advertising performance that grows over time. Without this role, we risk leaving adoption on the table, missing signals from partners who could shape our product roadmap, and letting high-potential relationships stagnate. We’re hiring a Senior Account Manager to own a portfolio of enterprise retail partners end-to-end — from onboarding through growth — and make Carrot Ads an indispensable part of how they compete. This role sits at the center of Instacart’s retail media expansion, with a direct line of sight to partner revenue, product adoption, and the future of how we go to market."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What you’ll cook up in your first year",
+          "paras": [],
+          "bullets": [
+            "A portfolio of strategic enterprise retail partners is measurably healthier — adoption is up, revenue is growing, and partners are pointing to Carrot Ads as a competitive advantage.",
+            "New retail partners are onboarded smoothly and confidently — trained on campaign tooling, demand sourcing, reporting, and invoicing — so they hit the ground running and don’t stall out early.",
+            "Partners are adopting expanded placements and new product capabilities because you’ve made the incremental revenue case clearly — and Product teams have better data to work with because of the feedback loops you’ve built.",
+            "The account management practice is sharper than when you arrived — playbooks are tighter, QBR formats are more compelling, and the team has better tools for tracking partner KPIs and scaling what works.",
+            "Cross-functional partners — from Business Development to Finance to Ads Quality — know who to call when something involves the retail partner book, because you’ve become the connective tissue across teams."
+          ]
+        },
+        {
+          "title": "The secret ingredients we’re looking for",
+          "paras": [
+            "Must-have pantry staples (Minimum Qualifications)",
+            "Optional garnishes (Preferred Qualifications)",
+            "Instacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here ."
+          ],
+          "bullets": [
+            "5+ years in Account Management or a related field, with experience in ad tech, publishers, or retail media.",
+            "Proven experience supporting enterprise solutions in the advertising space, including managing complex partner relationships end-to-end.",
+            "Strong technical acumen — able to understand and explain complex product capabilities to partners who may not be technical.",
+            "Proficient in data analysis with the ability to derive actionable insights and make strategic recommendations from partner KPI data.",
+            "Comfortable navigating billing, invoicing, and revenue reconciliation workflows in partnership with Finance.",
+            "Outstanding communication skills, with the ability to distill complex concepts for varied audiences — from technical teams to executive stakeholders.",
+            "Proven project and program management skills, with the ability to juggle multiple partner relationships and internal workstreams simultaneously.",
+            "Experienced in cross-functional collaboration and executive-level presentations."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:samsara:8195432",
       "title": "Enterprise Customer Success Manager",
       "company": "Samsara",
@@ -2844,7 +2758,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2910,7 +2824,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2974,7 +2888,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3046,7 +2960,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3107,7 +3021,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3175,7 +3089,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3249,7 +3163,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-11T11:02:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3321,7 +3235,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-11T11:57:25-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3385,7 +3299,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-11T16:41:14-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3447,7 +3361,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3512,7 +3426,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3577,7 +3491,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3647,7 +3561,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3716,7 +3630,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3788,7 +3702,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-09-04T17:12:28.532+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3858,7 +3772,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-03T11:30:01-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3894,7 +3808,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-03T13:09:30-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3963,7 +3877,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-03T13:12:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4034,7 +3948,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-02T14:53:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4104,7 +4018,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-02T10:30:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4176,7 +4090,7 @@
       "stack": [
         "Python"
       ],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-09-01T09:18:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4248,7 +4162,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-09-01T15:09:58-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4311,7 +4225,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-09-01T15:10:01-04:00",
       "source": "Greenhouse",
       "featured": false,
