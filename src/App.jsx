@@ -12,6 +12,7 @@ const BRAND = {
   name: "renewal",
   line: "Customer success jobs, nothing invented.",
   contactEmail: "supportrenewalcs@gmail.com",
+  founder: "Zach Smith", // shown on the About page; "" leaves the name out
   etsyShop: "https://www.etsy.com/shop/YOURSHOPNAME",
 };
 
@@ -490,7 +491,7 @@ function PageHead({ title, sub }) {
    image and analytics), public/robots.txt and public/sitemap.xml, and the
    redirect at the top of netlify.toml. */
 const SITE_URL = "https://www.renewalcs.com";
-const PATHS = { jobs: "/", newsletter: "/newsletter", templates: "/templates", resources: "/resources", advertise: "/advertise", privacy: "/privacy" };
+const PATHS = { jobs: "/", newsletter: "/newsletter", templates: "/templates", resources: "/resources", advertise: "/advertise", privacy: "/privacy", about: "/about" };
 const TITLES = {
   jobs: "Renewal — customer success jobs, nothing invented",
   newsletter: "The Friday roundup newsletter — Renewal",
@@ -498,6 +499,44 @@ const TITLES = {
   resources: "Free resources — Renewal",
   advertise: "Advertise or post a customer success job — Renewal",
   privacy: "Privacy — Renewal",
+  about: "About Renewal — a customer success job board built by a CSM",
+};
+
+/* What search engines show under each page's title. The home page's matches
+   the description in index.html. Keep each under about 155 characters. */
+const DESCRIPTIONS = {
+  jobs: "A job board for customer success managers, account managers and client success leads. Salary, book size and tooling shown wherever the employer published them.",
+  newsletter: "The Friday roundup: one email a week with the customer success roles worth a look, which CS orgs are restructuring, and one thing to use on Monday.",
+  templates: "Customer success templates from Baseline: health scorecards, QBR decks, onboarding playbooks, renewal scripts and success plans that work as one system.",
+  resources: "Free customer success resources, sorted by what you're trying to do. Nothing gated.",
+  advertise: "Post a customer success job free, or feature it for $39. Reach CSMs, account managers, renewals and CS ops people who are actively looking.",
+  privacy: "What Renewal collects, why, and who holds it. No accounts, no cookies, and nothing sold.",
+  about: "Renewal is a curated job board for customer success managers, account managers and CS leaders. Roles come straight from the employer. Nothing is estimated.",
+};
+
+/* Structured data for the About page: tells search engines who runs the site.
+   Google reads it from the page once the app has drawn it. */
+const ABOUT_LD = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": SITE_URL + "/about#page",
+  url: SITE_URL + "/about",
+  name: "About Renewal",
+  description: DESCRIPTIONS.about,
+  inLanguage: "en-US",
+  isPartOf: { "@type": "WebSite", "@id": SITE_URL + "/#website", name: "Renewal", url: SITE_URL + "/" },
+  mainEntity: {
+    "@type": "Organization",
+    "@id": SITE_URL + "/#organization",
+    name: "Renewal",
+    url: SITE_URL + "/",
+    email: BRAND.contactEmail,
+    slogan: BRAND.line,
+    description: "A curated job board for customer success roles: customer success managers, account managers, onboarding, renewals, CS operations and CS leadership.",
+    parentOrganization: { "@type": "Organization", name: "Baseline" },
+    founder: BRAND.founder ? { "@type": "Person", name: BRAND.founder, jobTitle: "Founder", knowsAbout: ["Customer success", "Education", "Education technology"] } : undefined,
+    knowsAbout: ["Customer success", "Customer success management", "Account management", "Customer onboarding", "Renewals", "Customer success operations"],
+  },
 };
 
 function tabFromPath(pathname) {
@@ -528,7 +567,7 @@ function TabLink({ to, setTab, onNavigate, style, children, ...rest }) {
 /* --- header -------------------------------------------------------------- */
 function Header({ tab, setTab }) {
   const [open, setOpen] = useState(false);
-  const tabs = [["jobs", "Jobs"], ["newsletter", "Newsletter"], ["templates", "Templates"], ["resources", "Free resources"], ["advertise", "Advertise"]].filter(([k]) => k !== "resources" || SHOW_FREE_RESOURCES);
+  const tabs = [["jobs", "Jobs"], ["newsletter", "Newsletter"], ["templates", "Templates"], ["resources", "Free resources"], ["advertise", "Advertise"], ["about", "About"]].filter(([k]) => k !== "resources" || SHOW_FREE_RESOURCES);
   return (
     <header style={{ position: "sticky", top: 0, zIndex: 40, background: C.paper, borderBottom: "1px solid " + C.rule }}>
       <div style={{ maxWidth: 1180, margin: "0 auto", padding: "0 20px" }}>
@@ -1290,7 +1329,7 @@ function ListingForm({ onClose }) {
       <div style={{ background: C.flagSoft, border: "1px solid #EADFBC", borderRadius: 5, padding: "12px 14px", marginBottom: 22 }}>
         <p style={{ fontSize: 13.5, color: C.body, lineHeight: 1.55, margin: 0 }}>
           <span style={{ fontWeight: 600, color: C.ink }}>The salary range is required.</span>{" "}
-          Every role on this board shows one. It's the rule the whole site runs on, and we can't make an exception.
+          Every role you send us needs one, so people see the pay before they apply. We can't make an exception.
         </p>
       </div>
 
@@ -1552,6 +1591,195 @@ function PrivacyPage() {
   );
 }
 
+/* --- about --------------------------------------------------------------- */
+/* Who we are and why the board exists, at www.renewalcs.com/about. App gives
+   it its own title, search description and structured data, so it can rank
+   on its own. Every claim here describes how the board really works: if the
+   rules in ingest/ change (sources, roles, salary), change this page too. */
+const ABOUT_SOURCES = {
+  greenhouse: "https://www.greenhouse.com/blog/greenhouse-2024-state-of-job-hunting-report",
+  ftc: "https://www.ftc.gov/node/87602",
+  indeed: "https://www.indeed.com/news/releases/pay-transparency-across-high-earning-sectors",
+};
+
+const ABOUT_COMPARE = [
+  ["What's listed",
+    "Customer success roles only: CSMs, account managers, onboarding, renewals, CS operations and CS leadership.",
+    "Every job in every field. You do the filtering."],
+  ["Where listings come from",
+    "The employer's own hiring system, such as Greenhouse, Lever, Ashby or Workable, or the employer directly.",
+    "Employers mixed in with reposts, staffing agencies and third-party recruiters."],
+  ["Pay, book of business and tools",
+    "Shown whenever the employer published them. Never estimated.",
+    "Pay is often missing, or estimated by the site."],
+  ["Old and closed roles",
+    "Stale postings are dropped, and a role the employer closes leaves at the next daily refresh.",
+    "Can stay up long after the job is filled."],
+  ["Applying",
+    "One click to the posting on the employer's own site.",
+    "Often through the board's own profile and application forms first."],
+  ["Your information",
+    "No account, no resume upload, no cookies.",
+    "Often an account and a resume upload before you can apply."],
+];
+
+const ABOUT_STEPS = [
+  "Every day, we read the job boards employers run on their own hiring systems, such as Greenhouse, Lever, Ashby and Workable.",
+  "We keep customer success roles: CSM, account management, onboarding, renewals, CS operations and leadership. Everything else is dropped.",
+  "We check that every Apply button opens the posting itself, not a careers homepage or a list of openings.",
+  "We drop postings that have gone stale, and when an employer closes a role, it leaves Renewal at the next refresh.",
+  "Employers can also send us a role directly. Those need a salary range, and we check each one by hand before it goes live.",
+];
+
+const ABOUT_CSS = `
+  .about-cmp { width: 100%; border-collapse: separate; border-spacing: 0; background: ${C.surface}; border: 1px solid ${C.rule}; border-radius: 6px; overflow: hidden; margin-top: 18px; font-size: 14.5px; }
+  .about-cmp th, .about-cmp td { text-align: left; vertical-align: top; padding: 14px 16px; border-top: 1px solid ${C.ruleSoft}; line-height: 1.5; }
+  .about-cmp thead th { border-top: none; background: #F6F8F7; font-size: 13.5px; font-weight: 650; color: ${C.body}; }
+  .about-cmp thead th.us { color: ${C.signal}; background: #EAF3EE; }
+  .about-cmp tbody th { width: 24%; font-weight: 600; color: ${C.ink}; }
+  .about-cmp td.us { background: #F3F8F5; color: ${C.ink}; }
+  .about-cmp td.them { color: ${C.body}; }
+  .about-cmp .who { display: none; }
+  .about-steps { margin: 14px 0 0; padding-left: 24px; max-width: 66ch; }
+  .about-steps li { font-size: 15.5px; color: ${C.body}; line-height: 1.6; margin-top: 9px; padding-left: 6px; }
+  .about-steps li::marker { color: ${C.signal}; font-weight: 700; }
+  @media (max-width: 640px) {
+    .about-cmp, .about-cmp tbody, .about-cmp tr, .about-cmp th, .about-cmp td { display: block; width: auto; }
+    .about-cmp thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+    .about-cmp tbody tr { padding: 14px 14px 16px; border-top: 1px solid ${C.rule}; }
+    .about-cmp tbody tr:first-child { border-top: none; }
+    .about-cmp tbody th { width: auto; padding: 0 0 4px; border: none; font-size: 15px; }
+    .about-cmp td { padding: 9px 11px; margin-top: 6px; border: none; border-radius: 5px; }
+    .about-cmp td.them { padding-left: 0; padding-right: 0; }
+    .about-cmp .who { display: block; font-size: 12.5px; font-weight: 650; margin-bottom: 2px; }
+    .about-cmp td.us .who { color: ${C.signal}; }
+    .about-cmp td.them .who { color: ${C.body}; }
+  }
+`;
+
+function AboutPage({ setTab }) {
+  const h2 = { fontSize: 22, fontWeight: 700, color: C.ink, letterSpacing: "-0.025em", lineHeight: 1.2, margin: "52px 0 0" };
+  const p = { fontSize: 15.5, color: C.body, lineHeight: 1.65, margin: "10px 0 0", maxWidth: "66ch" };
+  const inText = { color: C.signal, fontWeight: 600, textDecoration: "underline", textUnderlineOffset: 2 };
+  const src = { color: C.muted, fontSize: 13, textDecoration: "underline", textUnderlineOffset: 2, whiteSpace: "nowrap" };
+  const featured = AD_OFFERS.find((o) => o.checkout);
+  const featuredPrice = featured ? featured.price : "$39";
+  const faq = [
+    ["What is Renewal?",
+      "Renewal is a free job board for customer success professionals: customer success managers (CSMs), account managers, onboarding and renewals specialists, CS operations and CS leaders. It's built and run by Baseline."],
+    ["Are the jobs on Renewal real?",
+      "Every listing comes from the employer's own hiring system or from the employer directly, and its Apply button opens the employer's posting. No job board can see inside a company's plans, but we drop stale postings and remove closed roles every day."],
+    ["What is a ghost job?",
+      "A job ad with no real intent to hire behind it: a role that's already filled, on hold, or posted to collect resumes. A posting that's been up for months is one warning sign, which is why old listings leave Renewal automatically."],
+    ["Why do some listings have no salary?",
+      "We show what the employer published and nothing else. When a posting leaves out pay, we leave it blank rather than guess."],
+    ["Do you list remote customer success jobs?",
+      "Yes. Filter the board by remote, hybrid or on-site, and by role type, segment and minimum salary."],
+    ["Is Renewal free?",
+      `Yes, for job seekers. Employers can post a role free or feature one for ${featuredPrice}, and sales of our templates help keep the board running.`],
+    ["How do I post a customer success job?",
+      <>Send it from the <TabLink to="advertise" setTab={setTab} style={inText}>Advertise page</TabLink> with a salary range. Free listings are checked by hand and go live within a day.</>],
+  ];
+
+  return (
+    <div style={{ maxWidth: 860 }}>
+      <style>{ABOUT_CSS}</style>
+      <PageHead
+        title="We built the customer success job board we couldn't find"
+        sub="Renewal lists customer success, account management, onboarding, renewals and CS operations jobs, and nothing else. Every listing comes straight from the employer, and nothing on it is estimated."
+      />
+
+      <section aria-labelledby="about-mission" style={{ maxWidth: 720, background: C.signalSoft, border: "1px solid #CBE2D8", borderRadius: 6, padding: "22px 24px" }}>
+        <h2 id="about-mission" style={{ fontSize: 14, fontWeight: 650, color: C.signal, margin: 0 }}>Our mission</h2>
+        <p style={{ fontSize: 21, fontWeight: 650, color: C.ink, letterSpacing: "-0.02em", lineHeight: 1.38, margin: "8px 0 0", maxWidth: "46ch" }}>
+          Make the customer success job search simple: fewer, better listings, the details that matter up front, and nothing between you and the employer.
+        </p>
+      </section>
+
+      <h2 style={h2}>Why we built Renewal</h2>
+      <p style={p}>
+        A customer success job search shouldn't feel like a second job. On the big boards it often does: the same role reposted by recruiters you've never heard of, listings that closed months ago, "customer success" titles that turn out to be support or sales, and resumes sent into forms that never answer.
+      </p>
+      <p style={p}>It isn't just bad luck.</p>
+      <ul style={{ listStyle: "none", padding: 0, margin: "14px 0 0", maxWidth: 720, background: C.surface, border: "1px solid " + C.rule, borderRadius: 6 }}>
+        {[
+          ["3 in 5", " job seekers suspect they've run into a ghost job, a role advertised with no intent to hire. ", ABOUT_SOURCES.greenhouse, "Greenhouse, 2024"],
+          ["$501 million", " was reported lost to job scams and fake employment agencies in 2024, up from $90 million in 2020. ", ABOUT_SOURCES.ftc, "FTC, 2025"],
+          ["41%", " of US job postings left out pay, as of May 2025. ", ABOUT_SOURCES.indeed, "Indeed, 2025"],
+        ].map(([fig, text, href, label], i) => (
+          <li key={label} style={{ padding: "14px 18px", borderTop: i ? "1px solid " + C.ruleSoft : "none", fontSize: 15, color: C.body, lineHeight: 1.55 }}>
+            <strong style={{ color: C.ink, fontWeight: 750 }}>{fig}</strong>{text}
+            <a href={href} target="_blank" rel="noopener noreferrer" style={src}>{label}</a>
+          </li>
+        ))}
+      </ul>
+      <p style={p}>So we built a board that does less, on purpose: fewer listings, each one worth your time.</p>
+
+      <h2 style={h2}>Who we are</h2>
+      <p style={p}>
+        Renewal is built by Baseline. We make the <TabLink to="templates" setTab={setTab} style={inText}>templates behind the job</TabLink>: health scorecards, QBR decks, onboarding playbooks, renewal scripts and success plans for customer success teams.
+      </p>
+      <p style={p}>
+        Our founder{BRAND.founder ? ", " + BRAND.founder + "," : ""} started his career in education, moved into ed tech, and has spent many years as a customer success manager. When a layoff sent him back into the job market, he went looking for a board that listed only customer success roles, straight from the employer, with nothing made up. He couldn't find one, so we built it.
+      </p>
+      <p style={p}>
+        From education to ed tech to customer success, the work has always been helping people get where they're going with less friction. Every change we make to Renewal still has to pass one test: would it have helped on that search?
+      </p>
+
+      <h2 style={h2}>How Renewal is different from the big job boards</h2>
+      <p style={p}>General job boards are built for every job in every field. Here's what changes when a board is built for customer success alone.</p>
+      <table className="about-cmp">
+        <caption style={{ position: "absolute", width: 1, height: 1, overflow: "hidden", clip: "rect(0 0 0 0)" }}>Renewal compared with most big job boards</caption>
+        <thead>
+          <tr>
+            <th scope="col"><span style={{ position: "absolute", width: 1, height: 1, overflow: "hidden", clip: "rect(0 0 0 0)" }}>What you get</span></th>
+            <th scope="col" className="us">Renewal</th>
+            <th scope="col">Most big job boards</th>
+          </tr>
+        </thead>
+        <tbody>
+          {ABOUT_COMPARE.map(([label, us, them]) => (
+            <tr key={label}>
+              <th scope="row">{label}</th>
+              <td className="us"><span className="who">Renewal</span>{us}</td>
+              <td className="them"><span className="who">Most big job boards</span>{them}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      <h2 style={h2}>How a role gets on Renewal</h2>
+      <ol className="about-steps">
+        {ABOUT_STEPS.map((s) => <li key={s}>{s}</li>)}
+      </ol>
+
+      <h2 style={h2}>Questions about Renewal</h2>
+      <div style={{ marginTop: 8, maxWidth: 720 }}>
+        {faq.map(([q, a], i) => (
+          <div key={q} style={{ padding: "16px 0", borderTop: i ? "1px solid " + C.rule : "none" }}>
+            <h3 style={{ fontSize: 16.5, fontWeight: 700, color: C.ink, letterSpacing: "-0.015em", margin: 0 }}>{q}</h3>
+            <p style={{ ...p, fontSize: 15, margin: "6px 0 0" }}>{a}</p>
+          </div>
+        ))}
+      </div>
+
+      <div style={{ background: C.ink, borderRadius: 6, padding: 30, marginTop: 44, color: "#fff" }}>
+        <h2 style={{ fontSize: 22, fontWeight: 700, letterSpacing: "-0.03em", margin: 0, color: "#fff" }}>Find your next customer success role</h2>
+        <p style={{ fontSize: 15.5, lineHeight: 1.6, margin: "10px 0 20px", color: "#C6D2CD", maxWidth: "60ch" }}>
+          Browse the board, or send us a role if you're hiring.
+        </p>
+        <div style={{ display: "flex", gap: 11, flexWrap: "wrap" }}>
+          <TabLink to="jobs" setTab={setTab} style={{ background: C.signal, color: "#fff", border: "1px solid " + C.signal, borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, fontFamily: FONT }}>Browse customer success jobs</TabLink>
+          <TabLink to="advertise" setTab={setTab} style={{ color: "#fff", border: "1px solid #3A4B44", borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, fontFamily: FONT }}>Post a job</TabLink>
+        </div>
+        <p style={{ fontSize: 13.5, lineHeight: 1.6, margin: "18px 0 0", color: "#C6D2CD" }}>
+          Spot a listing that looks wrong, or want to say hello? Email <a href={"mailto:" + BRAND.contactEmail} style={{ color: "#fff", fontWeight: 600, textUnderlineOffset: 2 }}>{BRAND.contactEmail}</a>.
+        </p>
+      </div>
+    </div>
+  );
+}
+
 /* --- footer -------------------------------------------------------------- */
 function Footer({ setTab }) {
   const linkBtn = { background: "none", border: "none", padding: 0, textAlign: "left", fontFamily: FONT, fontSize: 13.5, color: C.body, cursor: "pointer" };
@@ -1569,7 +1797,7 @@ function Footer({ setTab }) {
           <div>
             <h4 style={{ fontSize: 13.5, fontWeight: 650, color: C.ink, margin: "0 0 10px" }}>Site</h4>
             <div style={{ display: "grid", gap: 7 }}>
-              {[["jobs", "Jobs"], ["newsletter", "Newsletter"], ["templates", "Templates"], ["resources", "Free resources"], ["privacy", "Privacy"]].filter(([k]) => k !== "resources" || SHOW_FREE_RESOURCES).map(([k, l]) => (
+              {[["jobs", "Jobs"], ["newsletter", "Newsletter"], ["templates", "Templates"], ["resources", "Free resources"], ["about", "About"], ["privacy", "Privacy"]].filter(([k]) => k !== "resources" || SHOW_FREE_RESOURCES).map(([k, l]) => (
                 <TabLink key={k} to={k} setTab={setTab} style={linkBtn}>{l}</TabLink>
               ))}
             </div>
@@ -1619,6 +1847,17 @@ export default function App() {
       document.head.appendChild(link);
     }
     link.setAttribute("href", SITE_URL + PATHS[tab]);
+    const desc = document.querySelector('meta[name="description"]');
+    if (desc) desc.setAttribute("content", DESCRIPTIONS[tab] || DESCRIPTIONS.jobs);
+    const oldLd = document.getElementById("ld-about");
+    if (oldLd) oldLd.remove();
+    if (tab === "about") {
+      const ld = document.createElement("script");
+      ld.type = "application/ld+json";
+      ld.id = "ld-about";
+      ld.textContent = JSON.stringify(ABOUT_LD);
+      document.head.appendChild(ld);
+    }
     if (window.location.pathname !== PATHS[tab]) window.history.replaceState(null, "", PATHS[tab] + window.location.search + window.location.hash);
   }, [tab]);
   const [subbed, setSubbed] = useState(false);
@@ -1670,6 +1909,7 @@ export default function App() {
     resources: SHOW_FREE_RESOURCES ? <ResourcesPage setTab={setTab} groups={content.resources} /> : null,
     advertise: <AdvertisePage />,
     privacy: <PrivacyPage />,
+    about: <AboutPage setTab={setTab} />,
   };
 
   return (
