@@ -1,12 +1,88 @@
 {
-  "generatedAt": "2026-10-21T11:23:10.782Z",
-  "count": 58,
+  "generatedAt": "2026-10-22T11:22:52.105Z",
+  "count": 63,
   "sources": [
     "Greenhouse",
     "Ashby",
     "Lever"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:samsara:8306612",
+      "title": "Digital Customer Success Manager, AI & Automation",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 105910,
+      "max": 160200,
+      "variable": "+ equity + bonus",
+      "book": "100 accounts",
+      "stack": [
+        "Salesforce",
+        "Python"
+      ],
+      "posted": 0,
+      "postedAt": "2026-10-21T13:11:15-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "About the role:",
+          "paras": [
+            "The Commercial Customer Success team supports hundreds to thousands of customers who depend on the Samsara platform daily. This team is dedicated to equipping every customer with the necessary resources to achieve rapid value, regardless of their background or expertise.\nTo scale this impact, we are seeking a Digital Customer Success Manager, AI & Automation to be a hands-on developer responsible for designing, testing, deploying, and maintaining agentic systems to support a digital-first post-sales strategy.",
+            "This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
+          ],
+          "bullets": [
+            "Customer Journey Optimization: Pinpoint friction points in the customer experience, create proactive interventions, and turn interactions into automated, personalized journeys.",
+            "End-to-End Execution: Write code, execute experimental tests, and continuously maintain production solutions.",
+            "Cross-Functional Alignment: Partner across teams to ensure a cohesive experience for all users."
+          ]
+        },
+        {
+          "title": "Minimum requirements for the role:",
+          "paras": [],
+          "bullets": [
+            "Hands-on experience building and maintaining production LLM-based agents or automations, with at least 1 year working directly with LLMs or AI agents in production",
+            "Ability to code rapidly with Python proficiency or skilled at using AI to code; have a track record of connecting AI to external systems: CRMs, APIs, customer data, and operational tools",
+            "Experience using product usage data to spot risk and opportunity (health signals, activation milestones, usage floors) and acting on it before it surfaces in a renewal conversation",
+            "Comfort running experiments and drawing sound conclusions from the data in order to improve the performance",
+            "A systems mindset for managing a high-volume book of business: you build repeatable playbooks and motions, not just manage individual relationships",
+            "3+ years of experience, preferably in a B2B SaaS environment"
+          ]
+        },
+        {
+          "title": "An ideal candidate also has:",
+          "paras": [],
+          "bullets": [
+            "Direct experience with Anthropic Claude or similar LLM APIs",
+            "Experience building programs to support NRR, retention, or expansion outcomes on a digital or long-tail book of business (100+ accounts)",
+            "Experience building regression test suites or eval frameworks for non-deterministic AI systems",
+            "Experience in a product-led or high-velocity customer environment"
+          ]
+        },
+        {
+          "title": "WHY THIS ROLE, WHY NOW",
+          "paras": [
+            "The compensation range shown spans approved pay zones for this role. Your primary work location determines the range applicable to you, which may be narrower than the full range displayed.",
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "You’ll be first. This function doesn’t exist yet. You’ll define the role, the standard, and the playbook for digital customer success at Samsara.",
+            "The problem is real. A CSM managing 350+ accounts can’t do everything manually. Digital and agentic motions are what make this segment sustainable at Samsara’s scale.",
+            "The timing is right. The models have caught up to the use cases, and Samsara has the customer data, platform context, and Customer Success team to make these systems genuinely powerful."
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:databricks:8824166002",
       "title": "Public Sector Field Enablement Manager",
@@ -23,7 +99,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-20T09:19:28-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -89,7 +165,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-20T19:49:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -149,7 +225,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-21T03:51:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -218,7 +294,7 @@
         "Zendesk",
         "Looker"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-20T18:50:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -288,19 +364,19 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-20T18:32:31.155+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/6ac50530-ce1c-4375-9cc1-c56f8b5925fd/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/6ac50530-ce1c-4375-9cc1-c56f8b5925fd",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -356,7 +432,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-19T17:04:29-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -433,7 +509,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-10-18T21:59:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -502,7 +578,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-16T15:58:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -572,7 +648,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-16T22:12:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -652,7 +728,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-15T16:53:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -724,19 +800,19 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-15T21:33:08.330+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/96250bac-465c-4524-bc7c-ba0f0b05310f/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/96250bac-465c-4524-bc7c-ba0f0b05310f",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -795,7 +871,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-10-14T12:43:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -851,7 +927,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-13T23:05:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -913,7 +989,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-13T13:23:13-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -979,19 +1055,19 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-13T15:07:59.917+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/190c265a-ca4f-48b7-b2a4-13412299249d/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/190c265a-ca4f-48b7-b2a4-13412299249d",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -1034,6 +1110,237 @@
       ]
     },
     {
+      "id": "greenhouse:mixpanel:8260692",
+      "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — San Francisco ()",
+      "mode": "Remote",
+      "min": 132000,
+      "max": 162750,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Gainsight",
+        "Totango",
+        "HubSpot"
+      ],
+      "posted": 12,
+      "postedAt": "2026-10-09T17:58:48-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Customer Digital Experience Team",
+          "paras": [
+            "Customer Digital Experience sits within the technical arm of Mixpanel's Customer Success organization.",
+            "Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
+            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
+            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
+            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
+            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
+            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
+            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
+            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
+            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
+            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
+            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Is:",
+          "paras": [],
+          "bullets": [
+            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
+            "An excellent writer who can be concise, specific, and useful to a technical audience",
+            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
+            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
+            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
+            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
+            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
+            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:mixpanel:8268370",
+      "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Gainsight",
+        "Totango",
+        "HubSpot"
+      ],
+      "posted": 12,
+      "postedAt": "2026-10-09T16:26:26-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Customer Digital Experience Team",
+          "paras": [
+            "Customer Digital Experience sits within the technical arm of Mixpanel's Customer Success organization.",
+            "Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
+            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
+            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
+            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
+            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
+            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
+            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
+            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
+            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
+            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
+            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Is:",
+          "paras": [],
+          "bullets": [
+            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
+            "An excellent writer who can be concise, specific, and useful to a technical audience",
+            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
+            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
+            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
+            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
+            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
+            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:mixpanel:8269024",
+      "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — New York City ()",
+      "mode": "Remote",
+      "min": 132000,
+      "max": 162750,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Gainsight",
+        "Totango",
+        "HubSpot"
+      ],
+      "posted": 12,
+      "postedAt": "2026-10-09T19:24:38-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Customer Digital Experience Team",
+          "paras": [
+            "Customer Digital Experience sits within the technical arm of Mixpanel's Customer Success organization.",
+            "Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
+            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
+            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
+            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
+            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
+            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
+            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
+            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
+            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
+            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
+            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Is:",
+          "paras": [],
+          "bullets": [
+            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
+            "An excellent writer who can be concise, specific, and useful to a technical audience",
+            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
+            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
+            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
+            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
+            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
+            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
+          ]
+        }
+      ]
+    },
+    {
       "id": "lever:spotify:29252640-3fc6-4ba9-8dac-2838093bab96",
       "title": "Performance Marketing Activation Specialist",
       "company": "Spotify",
@@ -1049,7 +1356,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-08T16:54:28.448Z",
       "source": "Lever",
       "featured": false,
@@ -1110,19 +1417,19 @@
       "variable": "",
       "book": "12 customers",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-08T22:52:16.432+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/40295bb5-3b56-4544-b7fb-5c1b20383525/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/40295bb5-3b56-4544-b7fb-5c1b20383525",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -1181,7 +1488,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-10-07T14:53:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1238,62 +1545,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8236004",
-      "title": "Implementation Consultant",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": "Mid-Market",
-      "location": "Remote — CA",
-      "mode": "Remote",
-      "min": 79205,
-      "max": 102500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 13,
-      "postedAt": "2026-10-07T20:23:27-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Flexible Working",
-          "paras": [
-            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Our Commitment to Authenticity",
-          "paras": [
-            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Fraudulent Employment Offers",
-          "paras": [
-            "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:gitlab:8868652002",
       "title": "Staff Renewals Operations Manager",
       "company": "GitLab",
@@ -1312,7 +1563,7 @@
         "Salesforce",
         "SQL"
       ],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-10-06T13:40:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1366,6 +1617,69 @@
       ]
     },
     {
+      "id": "greenhouse:gusto:8248245",
+      "title": "Retirement Onboarding Specialist (New Plans)",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": "Enterprise",
+      "location": "Denver, CO",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce"
+      ],
+      "posted": 16,
+      "postedAt": "2026-10-05T15:38:19-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8248245",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8248245",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role:",
+          "paras": [
+            "The Onboarding Specialist manages the end-to-end onboarding experience for new enterprise 401(k) plans on the Gusto 401(k) platform. This role becomes the dedicated point of contact for plan sponsors and administrators after a new plan signs, guiding them through setup and ensuring first contributions are processed successfully. The ideal candidate is proactive, organized, and experienced in client-facing implementation — comfortable managing a high-volume book of business while keeping employers on track to meet their plan start date. They work exclusively with plan sponsors and administrators and bring both operational rigor and a client-first mindset to every interaction."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Team:",
+          "paras": [
+            "The New Onboarding team is the first team a client experiences on their journey with Gusto 401(k). We design a seamless implementation process for a complex employee benefit, instilling trust and transparency from day one and laying the foundation for long-term client success. Our goal is to make plan sponsors feel confident and supported from the moment they sign."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Here’s what you’ll do day-to-day:",
+          "paras": [],
+          "bullets": [
+            "Manage a dedicated book of business of new enterprise and starter 401(k) plans from signing through activation, ensuring timely plan setup and first contribution processing",
+            "Serve as the primary point of contact for plan sponsors and administrators via email, phone, and video — including inbound scheduling through Calendly",
+            "Guide employers through pre-ready task dashboards, proactively following up to prevent stalls and keep plans on track for their plan start date",
+            "Monitor and drive performance against key benchmarks including time to activation, time to ready, CSAT, and average response time",
+            "Partner cross-functionally with Sales, Operations, and Legal to resolve setup issues and align on client expectations",
+            "Surface client feedback to product and leadership to inform platform improvements, and stay current on 401(k) regulations and best practices to provide accurate, confident guidance to employers",
+            "Use AI tools to streamline workflows, improve client communications, and increase efficiency across your book of business"
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:instacart:8257641",
       "title": "Bilingual CX Specialist (French)",
       "company": "Instacart",
@@ -1384,7 +1698,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-10-05T18:35:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1457,7 +1771,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-02T19:10:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1527,7 +1841,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-02T16:09:31.879Z",
       "source": "Lever",
       "featured": false,
@@ -1594,7 +1908,7 @@
       "stack": [
         "Linear"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-02T15:46:27.936+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1660,7 +1974,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1734,7 +2048,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1794,7 +2108,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1863,7 +2177,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1913,7 +2227,7 @@
       ]
     },
     {
-      "id": "greenhouse:flexport:8240062",
+      "id": "greenhouse:flexport:8240063",
       "title": "Global Aid Account Manager",
       "company": "Flexport",
       "companySite": "https://www.flexport.com",
@@ -1921,19 +2235,19 @@
       "family": "Account Management",
       "seniority": "Mid",
       "segment": null,
-      "location": "Chicago, IL + more",
+      "location": "Bellevue, WA + more",
       "mode": "Onsite",
-      "min": 83600,
-      "max": 104500,
+      "min": 91200,
+      "max": 114000,
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
-      "postedAt": "2026-09-29T12:31:34-04:00",
+      "posted": 22,
+      "postedAt": "2026-09-29T12:33:07-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
-      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
+      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
+      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
       "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
       "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
       "sections": [
@@ -1987,7 +2301,7 @@
       ]
     },
     {
-      "id": "greenhouse:flexport:8240063",
+      "id": "greenhouse:flexport:8240062",
       "title": "Global Aid Account Manager",
       "company": "Flexport",
       "companySite": "https://www.flexport.com",
@@ -1995,19 +2309,19 @@
       "family": "Account Management",
       "seniority": "Mid",
       "segment": null,
-      "location": "Bellevue, WA + more",
+      "location": "Chicago, IL + more",
       "mode": "Onsite",
-      "min": 91200,
-      "max": 114000,
+      "min": 83600,
+      "max": 104500,
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
-      "postedAt": "2026-09-29T12:33:07-04:00",
+      "posted": 22,
+      "postedAt": "2026-09-29T12:31:34-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
-      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
+      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
+      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
       "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
       "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
       "sections": [
@@ -2076,7 +2390,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2147,7 +2461,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2214,7 +2528,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2284,7 +2598,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2344,19 +2658,19 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/b4908db8-ac21-4c7f-b544-a66fffbfb97e/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/b4908db8-ac21-4c7f-b544-a66fffbfb97e",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -2414,19 +2728,19 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/d2beca4a-7409-404b-8382-761e5db6e917/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/d2beca4a-7409-404b-8382-761e5db6e917",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -2482,7 +2796,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2557,7 +2871,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2623,7 +2937,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2698,7 +3012,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2772,7 +3086,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2847,19 +3161,19 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/d84bbf19-572a-499c-9c87-0c154ce85caf/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/d84bbf19-572a-499c-9c87-0c154ce85caf",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -2919,19 +3233,19 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/baf0a4d2-e07e-4f76-af85-d85c91f479a4/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/baf0a4d2-e07e-4f76-af85-d85c91f479a4",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -2990,7 +3304,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3053,7 +3367,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-21T12:45:22-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3123,7 +3437,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-21T12:45:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3193,7 +3507,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3259,7 +3573,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3323,7 +3637,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3380,6 +3694,71 @@
       ]
     },
     {
+      "id": "greenhouse:gusto:8203030",
+      "title": "Premier Account Partner",
+      "company": "Gusto",
+      "companySite": "https://gusto.com",
+      "industry": "Payroll / HR",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Atlanta, GA - ; Scottsdale, AZ",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce"
+      ],
+      "posted": 36,
+      "postedAt": "2026-09-15T17:58:37-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8203030",
+      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8203030",
+      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
+      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
+      "sections": [
+        {
+          "title": "About Gusto",
+          "paras": [
+            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role:",
+          "paras": [
+            "As a Premier Account Partner, you will act as the single point of contact for all support inquiries, enhancing their user experience and serving as a subject matter expert for Gusto’s core products. You will guide customers through our newest product features, provide proactive customer education and support, partner cross-functionally, move quickly to strategize and creatively solve problems, act as their advocate internally to influence our product decisions and roadmap, and holistically support the customer/Gusto partnership. You’ll address and solve real problems and deliver an exceptional customer experience to some of our most valued companies to build trust and loyalty to Gusto for the book of business.",
+            "This role requires leveraging AI-assisted tools to accelerate research and communication by demonstrating fluency in delegating repetitive work, crafting structured prompts, and critically reviewing outputs for accuracy, tone, and empathy, all while consistently applying compliance and data-privacy guardrails, delivering measurable efficiency gains, and exercising sound judgment on when to avoid AI or escalate edge cases."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Team:",
+          "paras": [
+            "The Premier Account Partner team is a segment of our Care team dedicated to building and expanding relationships with our high-value customers. The team manages an assigned book of customer accounts, serving as product experts, and providing trusted and efficient service."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Here’s what you’ll do day-to-day:",
+          "paras": [],
+          "bullets": [
+            "Own the customer journey by building trust, rapport, and partnership with your book of business through inbound and outbound phone, email, and Google Meet interactions.",
+            "Act as a dedicated advisor, building trust in the support you provide to contain most customer interactions from your dedicated customers.",
+            "Provide passionate, opinionated, consistent, expert, reliable support as a dedicated point of contact for payroll and benefits inquiries .",
+            "Proactively connect with customers to build a deep understanding of their business, your support model, and their preferred connection style.",
+            "Identify churn risk and quickly act to deliver solutions to mitigate the risk of churn, using your product knowledge and unique understanding of each individual customer.",
+            "Partner with your customers and cross-functionally to unblock points of friction, proactively address potential concerns, and build an understanding of individual team needs and processes.",
+            "Think creatively, pivot quickly, live in ambiguity, and collaborate strategically. You will be required to expand your critical thinking skills and creatively problem-solve across all areas of the business, with an understanding of a variety of stakeholders and needs.",
+            "Display strong product knowledge, including a deep understanding of the competitive landscape to protect against customer churn."
+          ]
+        }
+      ]
+    },
+    {
       "id": "ashby:ramp:ab74a687-4545-47c9-870d-bfd7e7cde576",
       "title": "Enterprise Customer Activation Manager | Bill Pay & Procurement",
       "company": "Ramp",
@@ -3395,19 +3774,19 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/ab74a687-4545-47c9-870d-bfd7e7cde576/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/ab74a687-4545-47c9-870d-bfd7e7cde576",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -3456,19 +3835,19 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/40f43993-21e8-4db1-a9f4-7a3e6098a9ba/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/40f43993-21e8-4db1-a9f4-7a3e6098a9ba",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -3524,7 +3903,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3598,7 +3977,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-09-11T11:02:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3670,7 +4049,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-09T12:10:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3735,7 +4114,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-09T18:01:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3800,19 +4179,19 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-09T12:19:47.141+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/fc971889-db1d-4a20-a25e-f282f9296936/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/fc971889-db1d-4a20-a25e-f282f9296936",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
@@ -3870,7 +4249,7 @@
       "stack": [
         "Jira"
       ],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-08T20:48:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3939,19 +4318,19 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-08T19:01:52.588+00:00",
       "source": "Ashby",
       "featured": false,
       "applyUrl": "https://jobs.ashbyhq.com/ramp/ad9d3118-1ab4-488a-a6e8-3784082f92a4/application",
       "postingUrl": "https://jobs.ashbyhq.com/ramp/ad9d3118-1ab4-488a-a6e8-3784082f92a4",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
           "title": "About Ramp",
           "paras": [
-            "The median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
             "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
