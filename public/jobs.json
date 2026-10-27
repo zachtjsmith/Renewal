@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-26T12:28:25.785Z",
-  "count": 65,
+  "generatedAt": "2026-10-27T11:47:02.421Z",
+  "count": 68,
   "sources": [
     "Greenhouse",
     "Ashby",
@@ -8,74 +8,273 @@
   ],
   "jobs": [
     {
-      "id": "greenhouse:databricks:8910846002",
-      "title": "Associate Forward Deployed Engineer",
-      "company": "Databricks",
-      "companySite": "https://www.databricks.com",
-      "industry": "Data platform",
-      "family": "Customer Success",
-      "seniority": "Entry",
+      "id": "greenhouse:samsara:8304710",
+      "title": "Enterprise Implementation Consultant - Public Sector",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Onboarding",
+      "seniority": "Senior",
       "segment": "Enterprise",
-      "location": "Mountain View, CA",
-      "mode": "Hybrid",
+      "location": "Remote — GA",
+      "mode": "Remote",
+      "min": 88980,
+      "max": 119636,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-10-26T16:11:51-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8304710?gh_jid=8304710",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8304710?gh_jid=8304710",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "Who we are",
+          "paras": [
+            "Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, Equipment Monitoring, and Site Visibility. As part of a recently public company, you’ll have the autonomy and support to make an impact as we build for the long term.",
+            "We see a profound opportunity for data to improve the safety, efficiency, and sustainability of operations, and hope you consider joining us on this exciting journey."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the role:",
+          "paras": [
+            "In this role, you will be part of our Public Sector Customer Success team, responsible for helping Enterprise customers deploy and adopt our IoT solutions for their assets. Picking up where our sales teams leave off, you will own the customer relationship and ensure a successful deployment of Samsara's solution. Your customers span the entire range of state, city, and local government, as well as K12 Education.",
+            "Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering and Product, enabling you to experience multiple aspects of a fast growing company from within.",
+            "This role requires exceptional customer-facing communication skills, the ability to quickly understand a customer's business, and comfort explaining technology products to both executives and day-to-day users. In addition to this, you will champion, role model, and embed Samsara’s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "In this role, you will:",
+          "paras": [],
+          "bullets": [
+            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform",
+            "Manage the deployment of Samsara technology to large-scale customers, enabling customers to achieve quick time to value in their investment",
+            "Create launch plans and a roadmap to increase product usage",
+            "Track implementation progress, participation, product adoption, and account health",
+            "Run training sessions, demonstrate Samsara’s technology, and work through challenges with executives and day-to-day users of the system across numerous use cases",
+            "Juggle multiple customer engagements in parallel and work cross-functionally to deliver an exceptional experience for our customers",
+            "Serve as a mentor to the wider Customer Success and Support teams",
+            "Deeply understand the Samsara platform’s capabilities and explain them to customers of all types"
+          ]
+        },
+        {
+          "title": "Minimum requirements for the role:",
+          "paras": [],
+          "bullets": [
+            "3+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred.",
+            "This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence",
+            "Experience supporting or working with technical products",
+            "Solutions-oriented with strong problem solving skills",
+            "Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software",
+            "Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment",
+            "Diplomacy, tact, and poise under pressure when working through customer issues",
+            "Bachelor’s degree from a 4-year institution"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:cloudflare:8306651",
+      "title": "Senior Partner Account Manager, Southeast & MidAtlantic Region",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — Distributed",
+      "mode": "Onsite",
       "min": null,
       "max": null,
       "variable": "",
       "book": "",
-      "stack": [
-        "Python"
-      ],
-      "posted": 2,
-      "postedAt": "2026-10-23T11:19:31-04:00",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-10-26T18:29:33-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
-      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
-      "blurb": "Hub Cities: NYC | Mountain View | up to 20% travel to customer sites + Hybrid office expectation",
-      "summary": "As an Associate Forward Deployed Engineer (FDE) at Databricks, you'll be in a hands-on, customer-facing role for builders who thrive at the intersection of technology and business impact. You'll work directly with enterprise customers to build and productionize data & AI solutions on the Databricks platform. This early-career role is ideal for a strong software engineer looking to grow into a technical leader. You will embed with customer teams, ship production-grade systems, and learn the Databricks platform deeply alongside senior FDEs and our engineering organization.",
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
       "sections": [
         {
-          "title": "The impact you will have:",
+          "title": "Open to any of the listed location(s):",
           "paras": [],
           "bullets": [
-            "Production Solution Delivery: Deliver production-grade systems and reference architectures, contributing reusable frameworks, tools, and best practices along the way.",
-            "Transformational Impact: Support strategic customers through transformational data & AI projects, from prototype through production deployment.",
-            "Own the Architecture: Contribute to architecture and design decisions for secure, scalable, full-stack solutions on the Databricks platform.",
-            "Embed with customer teams to understand their technical and business challenges and help deliver measurable impact.",
-            "Collaborate closely with senior FDEs, Databricks engineering, and customer support to unblock customers and feed learnings back into the product.",
-            "Manage technical scope and timelines for your workstreams, growing toward end-to-end delivery ownership.",
-            "Work with the Databricks technical team, Project Manager, Architect and Customer team to ensure the technical components of the engagement are delivered to meet customer's needs."
+            "Florida: Miami (MIA), Tampa (TPA)",
+            "Georgia: Atlanta (ATL)",
+            "North Carolina: Charlotte (CLT), Raleigh (RDU)",
+            "Tennessee: Nashville (BNA)"
           ]
         },
         {
-          "title": "What we look for:",
-          "paras": [],
-          "bullets": [
-            "2+ years of experience in software engineering, data engineering, or data platforms & analytics.",
-            "Strong full-stack software engineering skills proficiency in Python and JavaScript/TypeScript, and comfort working across back-end services, APIs, and modern front-end frameworks.",
-            "Solid computer science fundamentals: data structures, algorithms, testing, and version control.",
-            "Experience with at least one major cloud platform (AWS, Azure, or GCP), or a strong desire to develop cloud expertise quickly.",
-            "Familiarity with CI/CD, and an interest in production data architectures and MLOps, ML/AI models and AI APIs.",
-            "Excellent communication skills and a genuine interest in customer-facing engineering work.",
-            "Build skills in technical areas, and demonstrate curiosity, adaptability, and eagerness to explore new technologies which support the deployment and integration of Databricks-based solutions to complete customer projects.",
-            "Experience with Apache Spark or distributed data processing is a plus. We'll help you build platform depth on the job."
-          ]
-        },
-        {
-          "title": "About Databricks",
+          "title": "About the Department",
           "paras": [
-            "Databricks is a data and AI company. More than 10,000 organizations worldwide rely on Databricks to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe, and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow.",
-            "Recent graduate?: We’d love for you to explore our current internship openings on our careers page and submit your application for our roles designed for new college graduates.",
-            "This role is based in our Mountain View, CA office. Travel to customers is expected approximately 20% of the time."
+            "Partner Account Managers, Account Executives, Business Development Representatives, Solution Engineers, Customer Success, and Sales Operations - all working together help our customers adopt Cloudflare and create great Internet-enabled experiences. The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community."
           ],
           "bullets": []
         },
         {
-          "title": "Compliance",
+          "title": "What you'll do",
           "paras": [
-            "If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone."
+            "We are looking for a seasoned channel sales professional to help us build out the channel organization in the Southeast and MidAtlantic regions.",
+            "In this role, you’ll identify and operationalize varied types of partner organizations to help expand Cloudflare’s sales team reach within an assigned territory. You will build a regional partner business plan with quantified goals and milestones to achieve partner sourced revenue metrics to meet all quarterly sales requirements.",
+            "As a Partner Account Manager, you will work with a strategic group of partners in your territory and build a plan to drive alignment, enablement and pipeline generation efforts. You will work with partner stakeholders to drive sales enablement and coordinate technical training of Cloudflare’s solutions, work with respective field teams on demand gen initiatives and campaigns, as well as working with direct sales on various Channel oriented opps."
           ],
           "bullets": []
+        },
+        {
+          "title": "Additional responsibilities will include:",
+          "paras": [],
+          "bullets": [
+            "Lead business planning and execution with partners and internal sales teams (e.g., QBRs, health checks, annual planning).",
+            "Conduct joint partner territory planning with aligned sales segments.",
+            "Deliver internal partner training to direct sales teams to foster collaborative selling.",
+            "Drive pipeline creation and revenue through creative joint GTM activity with our channel and direct sales teams.",
+            "Build product and sales competency within core regional and national partners, influencing their GTM strategies to maximize partner-sourced pipeline.",
+            "Leverage data analytics and AI tooling to optimize and scale partner growth."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:flexport:8325948",
+      "title": "Account Manager III, Fulfillment",
+      "company": "Flexport",
+      "companySite": "https://www.flexport.com",
+      "industry": "Logistics",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Atlanta, GA + more",
+      "mode": "Onsite",
+      "min": 70000,
+      "max": 93000,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-10-26T18:40:37-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8325948",
+      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8325948",
+      "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
+      "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
+      "sections": [
+        {
+          "title": "The Opportunity:",
+          "paras": [
+            "We are seeking a seasoned and proactive Account Manager III, Fulfillment to join Flexport’s dynamic team. This role is pivotal to our mission of ensuring merchant success and driving sustainable growth in our fulfillment services. As a Fulfillment Account Manager, you will act as a trusted liaison between our merchants and all internal Flexport teams, ensuring seamless communication, strategic alignment, and operational excellence. Your primary responsibility is to support merchant retention and satisfaction, working collaboratively across departments to build and implement strategies that drive value for our clients and strengthen long-term relationships. This position requires both high-level strategic insight and hands-on execution skills, ideal for a professional eager to make a meaningful impact on client success."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "You Will:",
+          "paras": [],
+          "bullets": [
+            "Strategic Leadership and Team Collaboration:",
+            "Support the account management team by following established frameworks and processes to deliver consistent service across accounts",
+            "Share best practices and customer insights with teammates",
+            "Participate and lead in cross-functional projects to help deliver strong client outcomes",
+            "Client Portfolio Management:",
+            "Lead strategic relationships with Flexport's significant accounts, ensuring exceptional service delivery and partnership at various stakeholder levels",
+            "Manage relationships with key client decision-makers, positioning yourself as a trusted strategic advisor who understands their business challenges and opportunities",
+            "Build strong working relationships with day-to-day client contacts and grow connections with senior stakeholders over time"
+          ]
+        },
+        {
+          "title": "You should have:",
+          "paras": [],
+          "bullets": [
+            "Bachelor's degree in Business, Supply Chain Management, or a related field",
+            "Extensive experience (3-5+ years) in account management or client success, with demonstrated success leading projects and driving strategic initiatives",
+            "Proven track record of managing and growing significant client relationships, with demonstrated success managing a substantial book of business ($15M -$30M)",
+            "Exceptional strategic thinking capabilities with the ability to translate complex business needs into actionable solutions",
+            "Experience leading cross-functional project teams that consistently deliver exceptional results",
+            "Deep understanding of supply chain, logistics, or fulfillment industries, with keen awareness of emerging trends and competitive dynamics",
+            "Exceptional communication skills and ability to influence at multiple levels both internally and externally",
+            "A \"compliance-first\" mindset, with a commitment to maintaining the highest standards of integrity and regulatory adherence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:9bdecd09-5a15-47d1-83bc-21cf86a54d02",
+      "title": "Senior Channel Partner Manager | Private Equity",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 194000,
+      "max": 297000,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-10-26T16:34:00.360+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/9bdecd09-5a15-47d1-83bc-21cf86a54d02/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/9bdecd09-5a15-47d1-83bc-21cf86a54d02",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "Ramp is building the Private Equity channel into one of the company's most significant sources of enterprise growth. Sponsors and their operating teams shape how portfolio companies run finance, and when they standardize on a platform, they do it across dozens of companies at once.",
+            "This role will be focused on managing the largest funds in the market. You will own a book of the most strategic PE firms Ramp works with, many of which have multiple investment investment strategies, fund vehicles, and GP stakes businesses under a single name. Each one likely has a different operating partner for each strategy, a deal team with its own relationships, and portfolio CFOs who make the final call. Your job is to know all of them, keep every thread moving, and turn that access into measurable adoption across their portfolios.",
+            "It is a high-volume, high-stakes book. The work is relentless relationship management paired with genuine commercial discipline, and it carries the highest CP goal on the channel team. There are only a handful of these seats at Ramp, and real executive visibility comes with them."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You'll Do",
+          "paras": [],
+          "bullets": [
+            "Own a book of upmarket and megafund PE partners, serving as their primary relationship owner at Ramp.",
+            "Multi-thread across each firm: operating partners by strategy, deal teams, platform and portfolio operations leaders, and portfolio-company CFOs.",
+            "Run disciplined portfolio analysis to find where Ramp can create value, and work with Account Executives to convert that into pipeline.",
+            "Generate and own qualified pipeline against an aggressive CP target, prioritizing the large opportunities that move the number.",
+            "Negotiate custom partnership structures where they make sense, including adoption commitments, and hold the line where terms do not work for Ramp.",
+            "Partner with Events, Growth, Marketing, and Finance to deliver sponsorships, webinars, executive dinners and the collateral your partners ask for.",
+            "Build and maintain the operating system behind the book: relationship maps, portfolio analysis, follow-ups and next steps across a large partner set on a tight touch cycle",
+            "Use AI to automate research, portfolio mapping, call prep and follow-through so the book scales beyond what manual effort allows"
+          ]
+        },
+        {
+          "title": "What You Need",
+          "paras": [],
+          "bullets": [
+            "A track record of carrying and hitting a high quota in a commercial role. Outbound sales development, account executive, or partnerships backgrounds all work.",
+            "Deep working knowledge of how a private equity firm is structured, including the distinct roles of operating partners, deal teams, and portfolio leadership.",
+            "Demonstrated ability to build and expand relationships across a large, complex organization.",
+            "Exceptional organization and agency. History of managing a large book without dropping threads, continual follow-up, and navigating complex organizations.",
+            "Comfort negotiating directly with sophisticated counterparts, and the judgment to know when to walk away.",
+            "A practical, self-directed approach to AI. You build your own workflows rather than waiting for tooling.",
+            "Strong cross-functional instincts across events, growth, marketing and finance. Ability to work dynamically with others internally to drive results.",
+            "Willingness to travel frequently and to work from our New York office. CT or NJ with an in-office commitment also works, and we are open to relocation"
+          ]
         }
       ]
     },
@@ -102,7 +301,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-10-23T13:28:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -171,6 +370,78 @@
       ]
     },
     {
+      "id": "greenhouse:databricks:8910846002",
+      "title": "Associate Forward Deployed Engineer",
+      "company": "Databricks",
+      "companySite": "https://www.databricks.com",
+      "industry": "Data platform",
+      "family": "Customer Success",
+      "seniority": "Entry",
+      "segment": "Enterprise",
+      "location": "Mountain View, CA",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Python"
+      ],
+      "posted": 3,
+      "postedAt": "2026-10-23T11:19:31-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
+      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
+      "blurb": "Hub Cities: NYC | Mountain View | up to 20% travel to customer sites + Hybrid office expectation",
+      "summary": "As an Associate Forward Deployed Engineer (FDE) at Databricks, you'll be in a hands-on, customer-facing role for builders who thrive at the intersection of technology and business impact. You'll work directly with enterprise customers to build and productionize data & AI solutions on the Databricks platform. This early-career role is ideal for a strong software engineer looking to grow into a technical leader. You will embed with customer teams, ship production-grade systems, and learn the Databricks platform deeply alongside senior FDEs and our engineering organization.",
+      "sections": [
+        {
+          "title": "The impact you will have:",
+          "paras": [],
+          "bullets": [
+            "Production Solution Delivery: Deliver production-grade systems and reference architectures, contributing reusable frameworks, tools, and best practices along the way.",
+            "Transformational Impact: Support strategic customers through transformational data & AI projects, from prototype through production deployment.",
+            "Own the Architecture: Contribute to architecture and design decisions for secure, scalable, full-stack solutions on the Databricks platform.",
+            "Embed with customer teams to understand their technical and business challenges and help deliver measurable impact.",
+            "Collaborate closely with senior FDEs, Databricks engineering, and customer support to unblock customers and feed learnings back into the product.",
+            "Manage technical scope and timelines for your workstreams, growing toward end-to-end delivery ownership.",
+            "Work with the Databricks technical team, Project Manager, Architect and Customer team to ensure the technical components of the engagement are delivered to meet customer's needs."
+          ]
+        },
+        {
+          "title": "What we look for:",
+          "paras": [],
+          "bullets": [
+            "2+ years of experience in software engineering, data engineering, or data platforms & analytics.",
+            "Strong full-stack software engineering skills proficiency in Python and JavaScript/TypeScript, and comfort working across back-end services, APIs, and modern front-end frameworks.",
+            "Solid computer science fundamentals: data structures, algorithms, testing, and version control.",
+            "Experience with at least one major cloud platform (AWS, Azure, or GCP), or a strong desire to develop cloud expertise quickly.",
+            "Familiarity with CI/CD, and an interest in production data architectures and MLOps, ML/AI models and AI APIs.",
+            "Excellent communication skills and a genuine interest in customer-facing engineering work.",
+            "Build skills in technical areas, and demonstrate curiosity, adaptability, and eagerness to explore new technologies which support the deployment and integration of Databricks-based solutions to complete customer projects.",
+            "Experience with Apache Spark or distributed data processing is a plus. We'll help you build platform depth on the job."
+          ]
+        },
+        {
+          "title": "About Databricks",
+          "paras": [
+            "Databricks is a data and AI company. More than 10,000 organizations worldwide rely on Databricks to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe, and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow.",
+            "Recent graduate?: We’d love for you to explore our current internship openings on our careers page and submit your application for our roles designed for new college graduates.",
+            "This role is based in our Mountain View, CA office. Travel to customers is expected approximately 20% of the time."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Compliance",
+          "paras": [
+            "If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:airbnb:8316843",
       "title": "Connectivity Partner Manager",
       "company": "Airbnb",
@@ -193,7 +464,7 @@
         "Tableau",
         "SQL"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-10-23T13:22:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -238,7 +509,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-10-22T10:22:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -303,7 +574,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-10-22T10:20:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -363,6 +634,78 @@
       ]
     },
     {
+      "id": "greenhouse:databricks:8907988002",
+      "title": "Associate Forward Deployed Engineer",
+      "company": "Databricks",
+      "companySite": "https://www.databricks.com",
+      "industry": "Data platform",
+      "family": "Customer Success",
+      "seniority": "Entry",
+      "segment": "Enterprise",
+      "location": "New York City, NY",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Python"
+      ],
+      "posted": 4,
+      "postedAt": "2026-10-22T09:31:19-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002",
+      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002",
+      "blurb": "Hub Cities: NYC | Mountain View | up to 20% travel to customer sites + Hybrid office expectation",
+      "summary": "As an Associate Forward Deployed Engineer (FDE) at Databricks, you'll be in a hands-on, customer-facing role for builders who thrive at the intersection of technology and business impact. You'll work directly with enterprise customers to build and productionize data & AI solutions on the Databricks platform. This early-career role is ideal for a strong software engineer looking to grow into a technical leader. You will embed with customer teams, ship production-grade systems, and learn the Databricks platform deeply alongside senior FDEs and our engineering organization.",
+      "sections": [
+        {
+          "title": "The impact you will have:",
+          "paras": [],
+          "bullets": [
+            "Production Solution Delivery: Deliver production-grade systems and reference architectures, contributing reusable frameworks, tools, and best practices along the way.",
+            "Transformational Impact: Support strategic customers through transformational data & AI projects, from prototype through production deployment.",
+            "Own the Architecture: Contribute to architecture and design decisions for secure, scalable, full-stack solutions on the Databricks platform.",
+            "Embed with customer teams to understand their technical and business challenges and help deliver measurable impact.",
+            "Collaborate closely with senior FDEs, Databricks engineering, and customer support to unblock customers and feed learnings back into the product.",
+            "Manage technical scope and timelines for your workstreams, growing toward end-to-end delivery ownership.",
+            "Work with the Databricks technical team, Project Manager, Architect and Customer team to ensure the technical components of the engagement are delivered to meet customer's needs."
+          ]
+        },
+        {
+          "title": "What we look for:",
+          "paras": [],
+          "bullets": [
+            "2+ years of experience in software engineering, data engineering, or data platforms & analytics.",
+            "Strong full-stack software engineering skills proficiency in Python and JavaScript/TypeScript, and comfort working across back-end services, APIs, and modern front-end frameworks.",
+            "Solid computer science fundamentals: data structures, algorithms, testing, and version control.",
+            "Experience with at least one major cloud platform (AWS, Azure, or GCP), or a strong desire to develop cloud expertise quickly.",
+            "Familiarity with CI/CD, and an interest in production data architectures and MLOps, ML/AI models and AI APIs.",
+            "Excellent communication skills and a genuine interest in customer-facing engineering work.",
+            "Build skills in technical areas, and demonstrate curiosity, adaptability, and eagerness to explore new technologies which support the deployment and integration of Databricks-based solutions to complete customer projects.",
+            "Experience with Apache Spark or distributed data processing is a plus. We'll help you build platform depth on the job."
+          ]
+        },
+        {
+          "title": "About Databricks",
+          "paras": [
+            "Databricks is a data and AI company. More than 10,000 organizations worldwide rely on Databricks to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe, and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow.",
+            "Recent graduate?: We’d love for you to explore our current internship openings on our careers page and submit your application for our roles designed for new college graduates.",
+            "This role is based in our New York (Midtown location) office. Travel to customers is expected approximately 20% of the time."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Compliance",
+          "paras": [
+            "If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "ashby:ramp:6a508863-352b-4f39-b299-5a3b6693605a",
       "title": "Manager, Customer Activation, Mid-Market",
       "company": "Ramp",
@@ -381,7 +724,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-10-22T22:24:53.127+00:00",
       "source": "Ashby",
       "featured": false,
@@ -454,7 +797,7 @@
         "Salesforce",
         "Python"
       ],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-21T13:11:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -512,6 +855,131 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8300580",
+      "title": "Senior Strategy & Ops Lead, Post-Sale Product Adoption",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "CS Operations",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — SF Bay Area",
+      "mode": "Remote",
+      "min": 145000,
+      "max": 212500,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 6,
+      "postedAt": "2026-10-20T19:49:10-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "Role Summary",
+          "paras": [
+            "This role owns new product adoption as a company metric across Samsara's post-sale organization. It exists to proactively integrate every new product into post-sale processes — reviewing adoption data, developing and executing strategies to close adoption gaps, and reading out results — by driving action across the cross-functional teams that already touch post-sale customers today: Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing.",
+            "This is an individual-contributor role built for someone who can execute directly, not just delegate. The person in this seat needs to personally drive work forward — running analysis, building plans, and closing gaps themselves — in addition to coordinating action across teams that don't report into this role."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Integrate new products into post-sale processes",
+          "paras": [],
+          "bullets": [
+            "Proactively build the process for embedding every new product into existing post-sale workflows as it ships — sponsorship, enablement, and defined success metrics — so no new product launches into a vacuum.",
+            "Partner with Product/R&D early in the launch cycle so adoption is designed for up front, not addressed after the fact."
+          ]
+        },
+        {
+          "title": "Diagnose and close adoption gaps",
+          "paras": [],
+          "bullets": [
+            "Review adoption data on an ongoing basis to identify where, and why, customers aren't adopting new products.",
+            "Develop strategies to close identified adoption gaps, and personally execute against those strategies rather than only assigning them to others.",
+            "Run a standing cross-functional cadence with Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing to turn adoption data into agreed, tracked action."
+          ]
+        },
+        {
+          "title": "Drive execution across teams without direct authority",
+          "paras": [],
+          "bullets": [
+            "Influence and coordinate action across the five post-sale teams above, none of which report into this role, using shared data, a standing cadence, and escalation through the VP of Customer Success when needed.",
+            "Build and maintain relationships with leaders across each function to keep adoption a shared, prioritized outcome rather than a side project."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:cloudflare:8300499",
+      "title": "Customer Experience Manager - Dutch or Swedish Speaking",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 6,
+      "postedAt": "2026-10-21T03:51:55-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8300499?gh_jid=8300499",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8300499?gh_jid=8300499",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "About the Department",
+          "paras": [
+            "Renewals Account Managers, Customer Success Managers, Account Executives, Business Development Representatives, Solution Engineers, and Sales Operations - all working together help our customers adopt Cloudflare and create great Internet-enabled experiences.",
+            "The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [
+            "The Customer Experience Manager leads the post-sale customer journey, managing everything from onboarding to long-term retention and contract renewals . Acting as both a trusted business advisor and a commercial owner of the account, you will build strategic relationships with stakeholders to clearly articulate ROI and business value and ultimately successfully close renewals maximizing upsells and minimizing churn. You will collaborate tightly with the Sales team to maintain accurate weekly forecasts and contribute to critical engagements like Executive Business Reviews. In addition, you will embed AI-driven optimization into your daily workflows—using advanced data analysis to uncover selling opportunities and automating routine tasks to accelerate customer outcomes and maximize operational efficiency."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Customer Lifecycle & Success",
+          "paras": [],
+          "bullets": [
+            "Manage customer engagement across the entire customer lifecycle, from onboarding through renewal.",
+            "Be a Trusted Advisor to your customers by helping them adopt the Cloudflare products and services to meet their needs and make them successful",
+            "Work with your account teams to plan and execute long term Success Plans with our largest customers to facilitate retention and growth via product and new business unit expansion.",
+            "Maintain a deep understanding of our solutions and present to customers about the most relevant features/functionality for their specific business needs.",
+            "Own or be an active participant in several customer touch points including: Business Value Justification meetings, Business Reviews, and Renewal Meetings, with a track record of successful planning and execution of Executive Business Reviews.",
+            "Demonstrate how your customer engagement directly impacts revenue growth and adoption of Cloudflare solutions and services."
+          ]
+        },
+        {
+          "title": "Commercial & Renewals",
+          "paras": [],
+          "bullets": [
+            "You are ultimately responsible for the retention and growth of your book of business. You will own and drive the renewal including maintaining and reporting an accurate weekly forecast.",
+            "Negotiate and execute renewal contracts in accordance with customer objectives.",
+            "You will be an expert in deal construction and pricing strategy. You will directly be designing renewals to create a win-win for customers and Cloudflare.",
+            "Analyze data and leverage tools to identify selling opportunities and business value.",
+            "Drive strong alignment with the Sales team, contributing to team forecasting, planning, and targets."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:databricks:8824166002",
       "title": "Public Sector Field Enablement Manager",
       "company": "Databricks",
@@ -527,7 +995,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-20T09:19:28-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -578,131 +1046,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8300499",
-      "title": "Customer Experience Manager - Dutch or Swedish Speaking",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 5,
-      "postedAt": "2026-10-21T03:51:55-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8300499?gh_jid=8300499",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8300499?gh_jid=8300499",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "About the Department",
-          "paras": [
-            "Renewals Account Managers, Customer Success Managers, Account Executives, Business Development Representatives, Solution Engineers, and Sales Operations - all working together help our customers adopt Cloudflare and create great Internet-enabled experiences.",
-            "The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You’ll Do",
-          "paras": [
-            "The Customer Experience Manager leads the post-sale customer journey, managing everything from onboarding to long-term retention and contract renewals . Acting as both a trusted business advisor and a commercial owner of the account, you will build strategic relationships with stakeholders to clearly articulate ROI and business value and ultimately successfully close renewals maximizing upsells and minimizing churn. You will collaborate tightly with the Sales team to maintain accurate weekly forecasts and contribute to critical engagements like Executive Business Reviews. In addition, you will embed AI-driven optimization into your daily workflows—using advanced data analysis to uncover selling opportunities and automating routine tasks to accelerate customer outcomes and maximize operational efficiency."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Customer Lifecycle & Success",
-          "paras": [],
-          "bullets": [
-            "Manage customer engagement across the entire customer lifecycle, from onboarding through renewal.",
-            "Be a Trusted Advisor to your customers by helping them adopt the Cloudflare products and services to meet their needs and make them successful",
-            "Work with your account teams to plan and execute long term Success Plans with our largest customers to facilitate retention and growth via product and new business unit expansion.",
-            "Maintain a deep understanding of our solutions and present to customers about the most relevant features/functionality for their specific business needs.",
-            "Own or be an active participant in several customer touch points including: Business Value Justification meetings, Business Reviews, and Renewal Meetings, with a track record of successful planning and execution of Executive Business Reviews.",
-            "Demonstrate how your customer engagement directly impacts revenue growth and adoption of Cloudflare solutions and services."
-          ]
-        },
-        {
-          "title": "Commercial & Renewals",
-          "paras": [],
-          "bullets": [
-            "You are ultimately responsible for the retention and growth of your book of business. You will own and drive the renewal including maintaining and reporting an accurate weekly forecast.",
-            "Negotiate and execute renewal contracts in accordance with customer objectives.",
-            "You will be an expert in deal construction and pricing strategy. You will directly be designing renewals to create a win-win for customers and Cloudflare.",
-            "Analyze data and leverage tools to identify selling opportunities and business value.",
-            "Drive strong alignment with the Sales team, contributing to team forecasting, planning, and targets."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:samsara:8300580",
-      "title": "Senior Strategy & Ops Lead, Post-Sale Product Adoption",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "CS Operations",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — SF Bay Area",
-      "mode": "Remote",
-      "min": 145000,
-      "max": 212500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 5,
-      "postedAt": "2026-10-20T19:49:10-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "Role Summary",
-          "paras": [
-            "This role owns new product adoption as a company metric across Samsara's post-sale organization. It exists to proactively integrate every new product into post-sale processes — reviewing adoption data, developing and executing strategies to close adoption gaps, and reading out results — by driving action across the cross-functional teams that already touch post-sale customers today: Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing.",
-            "This is an individual-contributor role built for someone who can execute directly, not just delegate. The person in this seat needs to personally drive work forward — running analysis, building plans, and closing gaps themselves — in addition to coordinating action across teams that don't report into this role."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Integrate new products into post-sale processes",
-          "paras": [],
-          "bullets": [
-            "Proactively build the process for embedding every new product into existing post-sale workflows as it ships — sponsorship, enablement, and defined success metrics — so no new product launches into a vacuum.",
-            "Partner with Product/R&D early in the launch cycle so adoption is designed for up front, not addressed after the fact."
-          ]
-        },
-        {
-          "title": "Diagnose and close adoption gaps",
-          "paras": [],
-          "bullets": [
-            "Review adoption data on an ongoing basis to identify where, and why, customers aren't adopting new products.",
-            "Develop strategies to close identified adoption gaps, and personally execute against those strategies rather than only assigning them to others.",
-            "Run a standing cross-functional cadence with Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing to turn adoption data into agreed, tracked action."
-          ]
-        },
-        {
-          "title": "Drive execution across teams without direct authority",
-          "paras": [],
-          "bullets": [
-            "Influence and coordinate action across the five post-sale teams above, none of which report into this role, using shared data, a standing cadence, and escalation through the VP of Customer Success when needed.",
-            "Build and maintain relationships with leaders across each function to keep adoption a shared, prioritized outcome rather than a side project."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:checkr:8302350",
       "title": "Staff Customer Success Manager",
       "company": "Checkr",
@@ -722,7 +1065,7 @@
         "Zendesk",
         "Looker"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-20T18:50:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -792,7 +1135,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-20T18:32:31.155+00:00",
       "source": "Ashby",
       "featured": false,
@@ -860,7 +1203,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-10-19T17:04:29-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -937,7 +1280,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-18T21:59:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1006,7 +1349,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-10-16T15:58:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1076,7 +1419,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-10-16T22:12:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1156,7 +1499,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-10-15T16:53:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1228,7 +1571,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-10-15T21:33:08.330+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1299,7 +1642,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-10-14T12:43:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1355,7 +1698,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-13T23:05:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1417,7 +1760,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-13T13:23:13-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1483,7 +1826,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-13T15:07:59.917+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1538,7 +1881,7 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8260692",
+      "id": "greenhouse:mixpanel:8268370",
       "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
       "company": "Mixpanel",
       "companySite": "https://mixpanel.com",
@@ -1546,23 +1889,23 @@
       "family": "Customer Success",
       "seniority": "Mid",
       "segment": null,
-      "location": "Remote — San Francisco ()",
+      "location": "Remote — US",
       "mode": "Remote",
-      "min": 132000,
-      "max": 162750,
-      "variable": "+ equity + bonus",
+      "min": null,
+      "max": null,
+      "variable": "",
       "book": "",
       "stack": [
         "Gainsight",
         "Totango",
         "HubSpot"
       ],
-      "posted": 16,
-      "postedAt": "2026-10-09T17:58:48-04:00",
+      "posted": 17,
+      "postedAt": "2026-10-09T16:26:26-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -1615,7 +1958,7 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8268370",
+      "id": "greenhouse:mixpanel:8260692",
       "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
       "company": "Mixpanel",
       "companySite": "https://mixpanel.com",
@@ -1623,23 +1966,23 @@
       "family": "Customer Success",
       "seniority": "Mid",
       "segment": null,
-      "location": "Remote — US",
+      "location": "Remote — San Francisco ()",
       "mode": "Remote",
-      "min": null,
-      "max": null,
-      "variable": "",
+      "min": 132000,
+      "max": 162750,
+      "variable": "+ equity + bonus",
       "book": "",
       "stack": [
         "Gainsight",
         "Totango",
         "HubSpot"
       ],
-      "posted": 16,
-      "postedAt": "2026-10-09T16:26:26-04:00",
+      "posted": 17,
+      "postedAt": "2026-10-09T17:58:48-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -1711,7 +2054,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-10-09T19:24:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1784,7 +2127,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-10-08T16:54:28.448Z",
       "source": "Lever",
       "featured": false,
@@ -1845,7 +2188,7 @@
       "variable": "",
       "book": "12 customers",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-10-08T22:52:16.432+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1916,7 +2259,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-07T14:53:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1988,7 +2331,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-07T20:23:27-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2029,6 +2372,74 @@
       ]
     },
     {
+      "id": "greenhouse:cloudflare:8257165",
+      "title": "Mid-Market Account Manager. Mexico and Central America.",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": "Mid-Market",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 19,
+      "postedAt": "2026-10-07T14:53:57-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8257165?gh_jid=8257165",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8257165?gh_jid=8257165",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "About the Department",
+          "paras": [
+            "Account Executives, Channel Account Managers, Business Development Representatives, Solution Engineers, Customer Success, and Sales Operations - all working together help our customers adopt Cloudflare and create great Internet-enabled experiences. The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What you'll do",
+          "paras": [
+            "We are looking for a seasoned sales professional to join our Field Sales Team responsible for covering Mid-market accounts in Central America.",
+            "Based in Mexico, the ideal candidate will possess both a sales and technical background that enables them to drive engagement at all levels with technical and non-technical buyers.",
+            "As an Account Executive, you'll be responsible for developing and executing against a comprehensive account/territory plan as well as driving sales in a defined territory and/or account list to achieve revenue targets. The person in this role will also assist in creating and articulating compelling value propositions for Cloudflare services."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Additional responsibilities will include:",
+          "paras": [],
+          "bullets": [
+            "Manage contract negotiations.",
+            "Maintain a robust sales pipeline.",
+            "Develop long-term strategic relationships with key accounts.",
+            "Prospecting into target accounts to generate new sales opportunities.",
+            "Aligning with channel partners on go-to-market strategy."
+          ]
+        },
+        {
+          "title": "Examples of desirable skills, knowledge and experience",
+          "paras": [],
+          "bullets": [
+            "Bachelor's degree required",
+            "Minimum 6 years experience selling technology solutions in a B2B model, 3+ years selling to large enterprise accounts",
+            "Experience managing longer, complex sales cycles",
+            "Experience supporting and building relationships in Colombia highly preferred",
+            "Basic understanding of computer networking and “how the internet works”",
+            "Aptitude for learning technical concepts/terms (Technical background in engineering, computer science, or MIS a plus)",
+            "Strong interpersonal communication (verbal and written) and organizational skills",
+            "Bilingual in Spanish and English"
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:gitlab:8868652002",
       "title": "Staff Renewals Operations Manager",
       "company": "GitLab",
@@ -2047,7 +2458,7 @@
         "Salesforce",
         "SQL"
       ],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-10-06T13:40:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2118,7 +2529,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-10-05T15:38:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2182,7 +2593,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-10-05T18:35:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2255,7 +2666,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-10-02T19:10:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2325,7 +2736,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-10-02T16:09:31.879Z",
       "source": "Lever",
       "featured": false,
@@ -2375,74 +2786,6 @@
       ]
     },
     {
-      "id": "ashby:warp:733d0d82-6798-4407-8f15-28022fb74750",
-      "title": "Customer Experience Specialist",
-      "company": "Warp",
-      "companySite": "https://www.warp.dev",
-      "industry": "Developer tools",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — New York",
-      "mode": "Remote",
-      "min": 60000,
-      "max": 85000,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Linear"
-      ],
-      "posted": 23,
-      "postedAt": "2026-10-02T15:46:27.936+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/warp/733d0d82-6798-4407-8f15-28022fb74750/application",
-      "postingUrl": "https://jobs.ashbyhq.com/warp/733d0d82-6798-4407-8f15-28022fb74750",
-      "blurb": "Warp is the AI-native Employee Management Platform for ambitious companies. HRIS, payroll, benefits, IT, tax compliance, and more, all built from scratch on one AI-native platform.",
-      "summary": "Warp is the AI-native Employee Management Platform for ambitious companies. HRIS, payroll, benefits, IT, tax compliance, and more, all built from scratch on one AI-native platform.\n\nEvery company runs on its people, and the software that manages them is some of the oldest in the enterprise. Incumbents like ADP and Workday built their businesses on complexity and large ops teams. Warp is built for AI to be the primary operator. Every advance in LLM capability widens our lead.\n\nWe process $X billion in annual payments for high-growth companies across all 50 US states + globally.\n\nWe've raised $85M from Battery Ventures, Sapphire Ventures, Peak XV, Sound Ventures (Ashton Kutcher), and Y Combinator, alongside operators including Tobi Lütke (Shopify), Claire Hughes Johnson (Stripe), and the founders of Dropbox and Replit. Our team comes from MIT, Ramp, Brex, Google, Gusto, Rippling, and more.",
-      "sections": [
-        {
-          "title": "About Warp",
-          "paras": [
-            "We hire people who ship constantly, own outcomes, and care about craft. If you want to automate an entire category of work that every company depends on, this is the place."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About The Role",
-          "paras": [
-            "As a Customer Experience Specialist at Warp, you'll be the frontline advocate for our customers and a deep product expert on the Warp platform. You'll join our growing Customer Experience team — reporting to the Head of Customer Success — and serve as the go-to person when customers need guidance, answers, or hands-on support. This isn't a ticket-submitting role. You'll be a true partner in resolving customer cases end-to-end, translating real customer pain into actionable insights for our engineering and product teams, and getting ahead of issues before they become patterns."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You’ll Do",
-          "paras": [],
-          "bullets": [
-            "Own real-time customer engagement via chat, Slack, and email — maintaining high service quality and fast response times",
-            "Resolve complex payroll challenges including tax notices and payment issues",
-            "Develop deep product expertise in Warp and serve as the team's internal resource for how the platform works",
-            "Partner with engineering on customer cases — context-setting, reproducing issues, and seeing them through to resolution rather than simply escalating",
-            "Translate customer-reported issues into clear, well-documented technical briefs that engineering and product can act on",
-            "Identify recurring or deep-rooted issues and bring them to leadership with recommendations — shifting from reactive resolution to proactive prevention",
-            "Communicate with third-party partners integrated with Warp on behalf of customers",
-            "Build and maintain a customer-facing knowledge base that evolves with product rollouts and common queries"
-          ]
-        },
-        {
-          "title": "You'll Be a Great Fit if You:",
-          "paras": [],
-          "bullets": [
-            "Are genuinely curious about how products work and motivated to become a subject matter expert",
-            "Can translate complex or technical issues into plain language — for customers and internal teams alike",
-            "Spot patterns in customer feedback and think about root causes, not just quick fixes",
-            "Take ownership of customer cases from first touch to full resolution",
-            "Thrive in a fast-paced environment where processes are still being built"
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8247289",
       "title": "Sr Customer Experience Specialist - Finance",
       "company": "Samsara",
@@ -2458,7 +2801,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2532,7 +2875,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2592,7 +2935,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2661,7 +3004,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2726,7 +3069,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-29T12:33:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2800,7 +3143,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-09-29T12:31:34-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2859,77 +3202,6 @@
       ]
     },
     {
-      "id": "greenhouse:databricks:8593373002",
-      "title": "Customer Enablement Architect",
-      "company": "Databricks",
-      "companySite": "https://www.databricks.com",
-      "industry": "Data platform",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": "Enterprise",
-      "location": "Location not listed",
-      "mode": "Onsite",
-      "min": 143700,
-      "max": 197550,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 27,
-      "postedAt": "2026-09-28T14:45:47-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593373002",
-      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593373002",
-      "blurb": "At Databricks, we’re on a mission to help data and AI teams solve the world’s toughest problems and that starts with empowering our customers.",
-      "summary": "At Databricks, we’re on a mission to help data and AI teams solve the world’s toughest problems and that starts with empowering our customers.\n\nThe Customer Enablement team drives this mission forward by helping enterprise organizations develop the skills they need to accelerate adoption, transformation, and measurable business outcomes. As a Customer Enablement Architect, you’ll own the commercial success of Databricks’ training and enablement portfolio across the Americas Business Units.\n\nReporting to the Americas Customer and User Enablement Leader, we are looking for a US-based Customer Enablement Architect to work with cross-functional teams, including Sales, Field Engineering, Professional Services and Scaled User Enablement to position the value of Databricks training, develop custom enterprise learning plans and drive talent transformation with strategic accounts.",
-      "sections": [
-        {
-          "title": "The impact you will have:",
-          "paras": [],
-          "bullets": [
-            "Drive the commercial success of Databricks’ learning and enablement offerings across enterprise accounts for the assigned Americas Business Unit.",
-            "Partner with sales and customer success teams to position learning as a key lever of customer adoption, renewal, and expansion.",
-            "Translate customer goals into tailored enablement programs that accelerate transformation and ROI.",
-            "Lead the end-to-end lifecycle of customer training programs—from discovery and design through execution and post-program analysis.",
-            "Conduct learning diagnostics to identify skill gaps and adoption blockers, using data to design impactful training strategies.",
-            "Deliver high-quality, blended learning experiences (virtual, classroom, and on-demand) that achieve measurable customer outcomes.",
-            "Track and report on enablement success metrics, including adoption, renewal influence, and revenue impact.",
-            "Mentor colleagues across the Learning & Enablement organization, sharing best practices and driving excellence in customer engagement."
-          ]
-        },
-        {
-          "title": "What we look for:",
-          "paras": [
-            "We are looking for a 'Builder'—someone who pairs a deep curiosity for the evolving Data & AI landscape with a relentless drive for execution. You don't just deliver existing programs; you identify whitespace and pilot creative enablement strategies that challenge the status quo. You will transform vision into reality by staying curious about customer roadblocks and innovating new ways to bridge the gap between technical potential and tangible business value."
-          ],
-          "bullets": [
-            "Proven track record of selling and implementing learning solutions into enterprise accounts, ideally in the software or cloud technology space. Quota carrying experience is required.",
-            "Deep understanding of the Americas enterprise landscape, industry verticals, and cultural nuances in driving customer engagement and training adoption.",
-            "Strong background in program management, enablement strategy, and learning & development design.",
-            "Demonstrated ability to influence executive stakeholders and gain buy-in for training as a critical lever of digital transformation and ROI.",
-            "Excellent communication, relationship building, and consultative sales skills with fluency in English.",
-            "Results-driven mindset with the ability to balance customer satisfaction and revenue goals.",
-            "Demonstrated ability to learn new technologies quickly and apply creative solutions to territory-specific customer roadblocks.",
-            "Proven track record of identifying regional whitespace and building scalable enablement frameworks that influence the broader organization."
-          ]
-        },
-        {
-          "title": "Pay Range Transparency",
-          "paras": [
-            "Databricks is committed to fair and equitable compensation practices. The pay range(s) for this role is listed below and represents the expected base salary range for non-commissionable roles or on-target earnings for commissionable roles. Actual compensation packages are based on several factors that are unique to each candidate, including but not limited to job-related skills, depth of experience, relevant certifications and training, and specific work location. Based on the factors above, Databricks anticipated utilizing the full width of the range. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits listed above. For more information regarding which range your location is in visit our page here ."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About Databricks",
-          "paras": [
-            "Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn , X , YouTube , and Instagram .\n\nBenefits\n\nAt Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here ."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:cloudflare:8237119",
       "title": "Customer Experience Manager - Hebrew Speaking",
       "company": "Cloudflare",
@@ -2945,7 +3217,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3012,7 +3284,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3067,6 +3339,77 @@
       ]
     },
     {
+      "id": "greenhouse:databricks:8593373002",
+      "title": "Customer Enablement Architect",
+      "company": "Databricks",
+      "companySite": "https://www.databricks.com",
+      "industry": "Data platform",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Onsite",
+      "min": 143700,
+      "max": 197550,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 28,
+      "postedAt": "2026-09-28T14:45:47-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593373002",
+      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593373002",
+      "blurb": "At Databricks, we’re on a mission to help data and AI teams solve the world’s toughest problems and that starts with empowering our customers.",
+      "summary": "At Databricks, we’re on a mission to help data and AI teams solve the world’s toughest problems and that starts with empowering our customers.\n\nThe Customer Enablement team drives this mission forward by helping enterprise organizations develop the skills they need to accelerate adoption, transformation, and measurable business outcomes. As a Customer Enablement Architect, you’ll own the commercial success of Databricks’ training and enablement portfolio across the Americas Business Units.\n\nReporting to the Americas Customer and User Enablement Leader, we are looking for a US-based Customer Enablement Architect to work with cross-functional teams, including Sales, Field Engineering, Professional Services and Scaled User Enablement to position the value of Databricks training, develop custom enterprise learning plans and drive talent transformation with strategic accounts.",
+      "sections": [
+        {
+          "title": "The impact you will have:",
+          "paras": [],
+          "bullets": [
+            "Drive the commercial success of Databricks’ learning and enablement offerings across enterprise accounts for the assigned Americas Business Unit.",
+            "Partner with sales and customer success teams to position learning as a key lever of customer adoption, renewal, and expansion.",
+            "Translate customer goals into tailored enablement programs that accelerate transformation and ROI.",
+            "Lead the end-to-end lifecycle of customer training programs—from discovery and design through execution and post-program analysis.",
+            "Conduct learning diagnostics to identify skill gaps and adoption blockers, using data to design impactful training strategies.",
+            "Deliver high-quality, blended learning experiences (virtual, classroom, and on-demand) that achieve measurable customer outcomes.",
+            "Track and report on enablement success metrics, including adoption, renewal influence, and revenue impact.",
+            "Mentor colleagues across the Learning & Enablement organization, sharing best practices and driving excellence in customer engagement."
+          ]
+        },
+        {
+          "title": "What we look for:",
+          "paras": [
+            "We are looking for a 'Builder'—someone who pairs a deep curiosity for the evolving Data & AI landscape with a relentless drive for execution. You don't just deliver existing programs; you identify whitespace and pilot creative enablement strategies that challenge the status quo. You will transform vision into reality by staying curious about customer roadblocks and innovating new ways to bridge the gap between technical potential and tangible business value."
+          ],
+          "bullets": [
+            "Proven track record of selling and implementing learning solutions into enterprise accounts, ideally in the software or cloud technology space. Quota carrying experience is required.",
+            "Deep understanding of the Americas enterprise landscape, industry verticals, and cultural nuances in driving customer engagement and training adoption.",
+            "Strong background in program management, enablement strategy, and learning & development design.",
+            "Demonstrated ability to influence executive stakeholders and gain buy-in for training as a critical lever of digital transformation and ROI.",
+            "Excellent communication, relationship building, and consultative sales skills with fluency in English.",
+            "Results-driven mindset with the ability to balance customer satisfaction and revenue goals.",
+            "Demonstrated ability to learn new technologies quickly and apply creative solutions to territory-specific customer roadblocks.",
+            "Proven track record of identifying regional whitespace and building scalable enablement frameworks that influence the broader organization."
+          ]
+        },
+        {
+          "title": "Pay Range Transparency",
+          "paras": [
+            "Databricks is committed to fair and equitable compensation practices. The pay range(s) for this role is listed below and represents the expected base salary range for non-commissionable roles or on-target earnings for commissionable roles. Actual compensation packages are based on several factors that are unique to each candidate, including but not limited to job-related skills, depth of experience, relevant certifications and training, and specific work location. Based on the factors above, Databricks anticipated utilizing the full width of the range. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits listed above. For more information regarding which range your location is in visit our page here ."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About Databricks",
+          "paras": [
+            "Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn , X , YouTube , and Instagram .\n\nBenefits\n\nAt Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here ."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:checkr:8237603",
       "title": "Director of Customer Success",
       "company": "Checkr",
@@ -3082,7 +3425,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3142,7 +3485,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3212,7 +3555,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3265,80 +3608,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8222614",
-      "title": "Sales Enablement Specialist - EMEA",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": "Enterprise",
-      "location": "Location not listed",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 31,
-      "postedAt": "2026-09-24T11:09:42-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8222614?gh_jid=8222614",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8222614?gh_jid=8222614",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "What you'll do",
-          "paras": [
-            "Program Management and AI-native operating model"
-          ],
-          "bullets": [
-            "Sales Outcome Ownership\n\n\n\n• Identify and close productivity gaps by cohort; measure success by deal velocity, win rate, and quota attainment, not completion rates",
-            "Own 90/180-day new hire outcomes using data and field observation",
-            "Support competitive deal reviews; help create structure and tools for improvements",
-            "Design repetitive solutions starting from ad-hoc micro-interventions (30-day improvement plans, peer coaching) in addition to broad programs",
-            "Redesign and operate with AI regional onboarding with structured curriculum (MEDDPICC, SFDC, competitive positioning) plus embedded field support",
-            "Master MEDDPICC; audit discovery quality and coach on methodology adoption",
-            "Work with managers in 1:1s to diagnose rep-specific barriers and enable managers to coach their teams",
-            "Manage regional onboarding timelines and content rollouts"
-          ]
-        },
-        {
-          "title": "Desirable Skills, Knowledge, and Experience:",
-          "paras": [],
-          "bullets": [
-            "5-7 years sales enablement focused on field rep coaching and behavior change",
-            "Direct enterprise sales experience; complex multi-stakeholder deals",
-            "Proven track record diagnosing and closing rep skill gaps",
-            "MEDDPICC or equivalent sales methodology mastery",
-            "SFDC and AI fluency: comfortable pulling reports and modelling productivity signals",
-            "Strong program management and stakeholder communication skills"
-          ]
-        },
-        {
-          "title": "Preferred Qualifications",
-          "paras": [],
-          "bullets": [
-            "Sales manager coaching and 1:1 development experience",
-            "Competitive win/loss analysis and field ride-along experience",
-            "Productivity metrics and quota attainment analysis",
-            "GTM or sales operations partnership in high-growth SaaS background"
-          ]
-        },
-        {
-          "title": "What Makes Cloudflare Special?",
-          "paras": [
-            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
-            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
-            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8227725",
       "title": "Enterprise Customer Success Manager - Public Sector",
       "company": "Samsara",
@@ -3354,7 +3623,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3429,7 +3698,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3495,7 +3764,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3555,6 +3824,80 @@
       ]
     },
     {
+      "id": "greenhouse:cloudflare:8222614",
+      "title": "Sales Enablement Specialist - EMEA",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 32,
+      "postedAt": "2026-09-24T11:09:42-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8222614?gh_jid=8222614",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8222614?gh_jid=8222614",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "What you'll do",
+          "paras": [
+            "Program Management and AI-native operating model"
+          ],
+          "bullets": [
+            "Sales Outcome Ownership\n\n\n\n• Identify and close productivity gaps by cohort; measure success by deal velocity, win rate, and quota attainment, not completion rates",
+            "Own 90/180-day new hire outcomes using data and field observation",
+            "Support competitive deal reviews; help create structure and tools for improvements",
+            "Design repetitive solutions starting from ad-hoc micro-interventions (30-day improvement plans, peer coaching) in addition to broad programs",
+            "Redesign and operate with AI regional onboarding with structured curriculum (MEDDPICC, SFDC, competitive positioning) plus embedded field support",
+            "Master MEDDPICC; audit discovery quality and coach on methodology adoption",
+            "Work with managers in 1:1s to diagnose rep-specific barriers and enable managers to coach their teams",
+            "Manage regional onboarding timelines and content rollouts"
+          ]
+        },
+        {
+          "title": "Desirable Skills, Knowledge, and Experience:",
+          "paras": [],
+          "bullets": [
+            "5-7 years sales enablement focused on field rep coaching and behavior change",
+            "Direct enterprise sales experience; complex multi-stakeholder deals",
+            "Proven track record diagnosing and closing rep skill gaps",
+            "MEDDPICC or equivalent sales methodology mastery",
+            "SFDC and AI fluency: comfortable pulling reports and modelling productivity signals",
+            "Strong program management and stakeholder communication skills"
+          ]
+        },
+        {
+          "title": "Preferred Qualifications",
+          "paras": [],
+          "bullets": [
+            "Sales manager coaching and 1:1 development experience",
+            "Competitive win/loss analysis and field ride-along experience",
+            "Productivity metrics and quota attainment analysis",
+            "GTM or sales operations partnership in high-growth SaaS background"
+          ]
+        },
+        {
+          "title": "What Makes Cloudflare Special?",
+          "paras": [
+            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
+            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
+            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:gusto:8227773",
       "title": "Future Opportunities: Sales Onboarding Advocate",
       "company": "Gusto",
@@ -3570,7 +3913,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3645,7 +3988,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3717,7 +4060,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3788,7 +4131,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3836,146 +4179,6 @@
       ]
     },
     {
-      "id": "greenhouse:instacart:8214941",
-      "title": "Senior Account Manager, Retail Media",
-      "company": "Instacart",
-      "companySite": "https://www.instacart.com",
-      "industry": "Grocery delivery",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 138000,
-      "max": 145500,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [],
-      "posted": 34,
-      "postedAt": "2026-09-21T12:45:22-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8214941",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8214941",
-      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
-      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
-      "sections": [
-        {
-          "title": "Instacart is a Flex First team",
-          "paras": [
-            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Why this role is on the menu",
-          "paras": [
-            "Instacart’s retail media platform, Carrot Ads, is scaling fast — and the strategic retail partners who power it need more than a point of contact. They need a trusted advisor who knows their business, knows ours, and can translate that into advertising performance that grows over time. Without this role, we risk leaving adoption on the table, missing signals from partners who could shape our product roadmap, and letting high-potential relationships stagnate. We’re hiring a Senior Account Manager to own a portfolio of enterprise retail partners end-to-end — from onboarding through growth — and make Carrot Ads an indispensable part of how they compete. This role sits at the center of Instacart’s retail media expansion, with a direct line of sight to partner revenue, product adoption, and the future of how we go to market."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you’ll cook up in your first year",
-          "paras": [],
-          "bullets": [
-            "A portfolio of strategic enterprise retail partners is measurably healthier — adoption is up, revenue is growing, and partners are pointing to Carrot Ads as a competitive advantage.",
-            "New retail partners are onboarded smoothly and confidently — trained on campaign tooling, demand sourcing, reporting, and invoicing — so they hit the ground running and don’t stall out early.",
-            "Partners are adopting expanded placements and new product capabilities because you’ve made the incremental revenue case clearly — and Product teams have better data to work with because of the feedback loops you’ve built.",
-            "The account management practice is sharper than when you arrived — playbooks are tighter, QBR formats are more compelling, and the team has better tools for tracking partner KPIs and scaling what works.",
-            "Cross-functional partners — from Business Development to Finance to Ads Quality — know who to call when something involves the retail partner book, because you’ve become the connective tissue across teams."
-          ]
-        },
-        {
-          "title": "The secret ingredients we’re looking for",
-          "paras": [
-            "Must-have pantry staples (Minimum Qualifications)",
-            "Optional garnishes (Preferred Qualifications)",
-            "Instacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here ."
-          ],
-          "bullets": [
-            "5+ years in Account Management or a related field, with experience in ad tech, publishers, or retail media.",
-            "Proven experience supporting enterprise solutions in the advertising space, including managing complex partner relationships end-to-end.",
-            "Strong technical acumen — able to understand and explain complex product capabilities to partners who may not be technical.",
-            "Proficient in data analysis with the ability to derive actionable insights and make strategic recommendations from partner KPI data.",
-            "Comfortable navigating billing, invoicing, and revenue reconciliation workflows in partnership with Finance.",
-            "Outstanding communication skills, with the ability to distill complex concepts for varied audiences — from technical teams to executive stakeholders.",
-            "Proven project and program management skills, with the ability to juggle multiple partner relationships and internal workstreams simultaneously.",
-            "Experienced in cross-functional collaboration and executive-level presentations."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:instacart:8214962",
-      "title": "Senior Account Manager, Retail Media",
-      "company": "Instacart",
-      "companySite": "https://www.instacart.com",
-      "industry": "Grocery delivery",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — Canada - (ON, AB, BC, or NS Only)",
-      "mode": "Remote",
-      "min": 151000,
-      "max": 159500,
-      "variable": "+ equity",
-      "book": "",
-      "stack": [],
-      "posted": 34,
-      "postedAt": "2026-09-21T12:45:24-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8214962",
-      "postingUrl": "https://instacart.careers/job/?gh_jid=8214962",
-      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
-      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
-      "sections": [
-        {
-          "title": "Instacart is a Flex First team",
-          "paras": [
-            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Why this role is on the menu",
-          "paras": [
-            "Instacart’s retail media platform, Carrot Ads, is scaling fast — and the strategic retail partners who power it need more than a point of contact. They need a trusted advisor who knows their business, knows ours, and can translate that into advertising performance that grows over time. Without this role, we risk leaving adoption on the table, missing signals from partners who could shape our product roadmap, and letting high-potential relationships stagnate. We’re hiring a Senior Account Manager to own a portfolio of enterprise retail partners end-to-end — from onboarding through growth — and make Carrot Ads an indispensable part of how they compete. This role sits at the center of Instacart’s retail media expansion, with a direct line of sight to partner revenue, product adoption, and the future of how we go to market."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you’ll cook up in your first year",
-          "paras": [],
-          "bullets": [
-            "A portfolio of strategic enterprise retail partners is measurably healthier — adoption is up, revenue is growing, and partners are pointing to Carrot Ads as a competitive advantage.",
-            "New retail partners are onboarded smoothly and confidently — trained on campaign tooling, demand sourcing, reporting, and invoicing — so they hit the ground running and don’t stall out early.",
-            "Partners are adopting expanded placements and new product capabilities because you’ve made the incremental revenue case clearly — and Product teams have better data to work with because of the feedback loops you’ve built.",
-            "The account management practice is sharper than when you arrived — playbooks are tighter, QBR formats are more compelling, and the team has better tools for tracking partner KPIs and scaling what works.",
-            "Cross-functional partners — from Business Development to Finance to Ads Quality — know who to call when something involves the retail partner book, because you’ve become the connective tissue across teams."
-          ]
-        },
-        {
-          "title": "The secret ingredients we’re looking for",
-          "paras": [
-            "Must-have pantry staples (Minimum Qualifications)",
-            "Optional garnishes (Preferred Qualifications)",
-            "Instacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here . Currently, we are only hiring in the following provinces: Ontario, Alberta, British Columbia, and Nova Scotia."
-          ],
-          "bullets": [
-            "5+ years in Account Management or a related field, with experience in ad tech, publishers, or retail media.",
-            "Proven experience supporting enterprise solutions in the advertising space, including managing complex partner relationships end-to-end.",
-            "Strong technical acumen — able to understand and explain complex product capabilities to partners who may not be technical.",
-            "Proficient in data analysis with the ability to derive actionable insights and make strategic recommendations from partner KPI data.",
-            "Comfortable navigating billing, invoicing, and revenue reconciliation workflows in partnership with Finance.",
-            "Outstanding communication skills, with the ability to distill complex concepts for varied audiences — from technical teams to executive stakeholders.",
-            "Proven project and program management skills, with the ability to juggle multiple partner relationships and internal workstreams simultaneously.",
-            "Experienced in cross-functional collaboration and executive-level presentations."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8195432",
       "title": "Enterprise Customer Success Manager",
       "company": "Samsara",
@@ -3991,7 +4194,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4057,7 +4260,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4121,7 +4324,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4195,7 +4398,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4258,7 +4461,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4319,7 +4522,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-14T23:22:19.531+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4387,7 +4590,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4461,7 +4664,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-09-11T11:02:33-04:00",
       "source": "Greenhouse",
       "featured": false,
