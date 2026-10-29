@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T12:20:50.881Z",
+  "generatedAt": "2026-10-29T12:30:02.466Z",
   "count": 70,
   "sources": [
     "Greenhouse",
@@ -7,6 +7,132 @@
     "Lever"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:airtable:8905022002",
+      "title": "Renewals Associate",
+      "company": "Airtable",
+      "companySite": "https://www.airtable.com",
+      "industry": "Productivity",
+      "family": "Renewals",
+      "seniority": "Entry",
+      "segment": "Enterprise",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 98000,
+      "max": 127700,
+      "variable": "$98K–$128K OTE",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-10-28T13:48:52-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/airtable/jobs/8905022002",
+      "postingUrl": "https://job-boards.greenhouse.io/airtable/jobs/8905022002",
+      "blurb": "Airtable helps organizations build the applications and workflows they need to run their most important business processes, without being constrained by off-the-shelf software. Its flexible platform combines a relational database, custom applications…",
+      "summary": "Airtable helps organizations build the applications and workflows they need to run their most important business processes, without being constrained by off-the-shelf software. Its flexible platform combines a relational database, custom applications, automations, and AI, giving teams the building blocks to create solutions around the way they actually work.\n\nJust like Lego blocks, what our customers can build with Airtable is virtually limitless. That flexibility is why more than 500,000 organizations, including 80% of the Fortune 100, use Airtable to power critical work across their businesses.\n\nWe’re builders at heart, and we’re looking for builders who want to expand what’s possible in Airtable and what the world can build with it.",
+      "sections": [
+        {
+          "title": "What you'll do",
+          "paras": [],
+          "bullets": [
+            "You will own, drive, and lead the renewals process in collaboration with the account team to preserve and enhance customer contracts and relationships",
+            "You will be a primary stakeholder (along with XFN partners) in building the foundational processes and playbooks for this new role",
+            "You will actively engage with key decision-makers to identify customer requirements and uncover roadblocks to ensure on-time commitments",
+            "You will maintain and report an accurate rolling 90-day forecast of renewals in your territory",
+            "You will negotiate and execute renewal contracts (in partnership with legal) that align to customer goals",
+            "You will discover and identify upsell/cross-sell opportunities upon contract renewal to maximize customer growth",
+            "Develop playbook for renewal engagement maximizing revenue retention"
+          ]
+        },
+        {
+          "title": "Who you are",
+          "paras": [],
+          "bullets": [
+            "2+ years of quota-carrying Post-Sales / Customer Success / Account Management experience, preferably within an Enterprise SaaS organization",
+            "Strong negotiation skills and demonstrated capability closing large, complex contracts",
+            "Strong collaboration skills and successful experiences working with internal XFN partners (Rev Ops, Biz Tech) as well as customer facing counterparts (Sales & Success)",
+            "Ability and eagerness to grow business in a strategic manner, i.e. creating new processes and initiatives",
+            "Approaches work with empathy, craftsmanship, and a growth mindset - you are a self motivated and proactive team player",
+            "Solid understanding of Enterprise SaaS applications and collaboration technology",
+            "Consistent track record of achieving personal and team goals",
+            "History of thriving in a rapidly changing environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:8f1aa562-5599-491b-b94c-128511ac40b2",
+      "title": "Manager, Account Manager, Commercial",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 230000,
+      "max": 305000,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce"
+      ],
+      "posted": 0,
+      "postedAt": "2026-10-28T21:16:53.953+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/8f1aa562-5599-491b-b94c-128511ac40b2/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/8f1aa562-5599-491b-b94c-128511ac40b2",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "As a Manager on the Commercial Account Management team, you will lead a team of Account Managers who serve as the dedicated, named partners for some of Ramp's fastest growing customers. Your team drives revenue through expansion, renewal and retention across a high-volume book of business, while delivering the white-glove experience of a trusted advisor. You will coach your team to uncover and close multi-product expansion opportunities and help sharpen a proven account management motion as the segment scales."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You'll Do",
+          "paras": [],
+          "bullets": [
+            "Lead, coach, and develop a team of Commercial Account Managers focused on expansion and retention across a scaled customer portfolio",
+            "Own team-level pipeline, forecasting, and revenue targets — driving accountability through clear metrics and performance frameworks",
+            "Develop and execute scalable upsell/cross-sell strategies and ensure the team maintains a robust, healthy expansion pipeline",
+            "Build a deep understanding of Ramp customer personas and instill a consultative, trusted-advisor approach across your team",
+            "Equip your team with sales methodologies to uncover customer needs and pain points effectively",
+            "Stay close to changes in Ramp's product and go-to-market motion, and translate those shifts into how your team sells, prioritizes, and talks to customers",
+            "Synthesize customer feedback from your team to inform Ramp's product roadmap and customer communication strategy",
+            "Partner cross-functionally with Sales, Marketing, Product, and Operations to continuously improve efficiency and advocate for your customers"
+          ]
+        },
+        {
+          "title": "What You'll Need",
+          "paras": [],
+          "bullets": [
+            "Minimum 6 years of customer-facing or direct sales experience, with at least 2 years in a people management role",
+            "Proven track record of leading high-performing teams in a high-velocity sales environment",
+            "Experience with CRM tools (Salesforce preferred) and the ability to build and maintain team-level reporting and dashboards",
+            "Background in outbound prospecting, product demonstrations, and hands-on experience with sales tools and processes",
+            "Consultative sales mindset with strong analytical skills and the ability to coach others to engage with business challenges at a strategic level",
+            "Comfort engaging with and enabling your team to sell to C-level executives, finance teams, and key decision makers",
+            "Consistent track record of hitting or exceeding team-level sales targets with strong team distribution in a fast-paced, metrics-driven environment",
+            "Strong operational rigor — data-driven approach to tracking team performance and identifying coaching opportunities"
+          ]
+        }
+      ]
+    },
     {
       "id": "greenhouse:figma:6232541004",
       "title": "Customer Enablement Manager - Figma Weave (New York, United States)",
@@ -23,7 +149,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-27T16:24:36-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -82,7 +208,7 @@
       "variable": "+ equity + bonus",
       "book": "50 partners",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-27T12:25:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -143,7 +269,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-27T12:49:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -222,7 +348,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-27T17:42:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -298,7 +424,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-26T18:29:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -363,7 +489,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-26T16:11:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -435,7 +561,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-26T18:40:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -497,7 +623,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-10-26T16:34:00.360+00:00",
       "source": "Ashby",
       "featured": false,
@@ -554,78 +680,6 @@
       ]
     },
     {
-      "id": "greenhouse:databricks:8910846002",
-      "title": "Associate Forward Deployed Engineer",
-      "company": "Databricks",
-      "companySite": "https://www.databricks.com",
-      "industry": "Data platform",
-      "family": "Customer Success",
-      "seniority": "Entry",
-      "segment": "Enterprise",
-      "location": "Mountain View, CA",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Python"
-      ],
-      "posted": 4,
-      "postedAt": "2026-10-23T11:19:31-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
-      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
-      "blurb": "Hub Cities: NYC | Mountain View | up to 20% travel to customer sites + Hybrid office expectation",
-      "summary": "As an Associate Forward Deployed Engineer (FDE) at Databricks, you'll be in a hands-on, customer-facing role for builders who thrive at the intersection of technology and business impact. You'll work directly with enterprise customers to build and productionize data & AI solutions on the Databricks platform. This early-career role is ideal for a strong software engineer looking to grow into a technical leader. You will embed with customer teams, ship production-grade systems, and learn the Databricks platform deeply alongside senior FDEs and our engineering organization.",
-      "sections": [
-        {
-          "title": "The impact you will have:",
-          "paras": [],
-          "bullets": [
-            "Production Solution Delivery: Deliver production-grade systems and reference architectures, contributing reusable frameworks, tools, and best practices along the way.",
-            "Transformational Impact: Support strategic customers through transformational data & AI projects, from prototype through production deployment.",
-            "Own the Architecture: Contribute to architecture and design decisions for secure, scalable, full-stack solutions on the Databricks platform.",
-            "Embed with customer teams to understand their technical and business challenges and help deliver measurable impact.",
-            "Collaborate closely with senior FDEs, Databricks engineering, and customer support to unblock customers and feed learnings back into the product.",
-            "Manage technical scope and timelines for your workstreams, growing toward end-to-end delivery ownership.",
-            "Work with the Databricks technical team, Project Manager, Architect and Customer team to ensure the technical components of the engagement are delivered to meet customer's needs."
-          ]
-        },
-        {
-          "title": "What we look for:",
-          "paras": [],
-          "bullets": [
-            "2+ years of experience in software engineering, data engineering, or data platforms & analytics.",
-            "Strong full-stack software engineering skills proficiency in Python and JavaScript/TypeScript, and comfort working across back-end services, APIs, and modern front-end frameworks.",
-            "Solid computer science fundamentals: data structures, algorithms, testing, and version control.",
-            "Experience with at least one major cloud platform (AWS, Azure, or GCP), or a strong desire to develop cloud expertise quickly.",
-            "Familiarity with CI/CD, and an interest in production data architectures and MLOps, ML/AI models and AI APIs.",
-            "Excellent communication skills and a genuine interest in customer-facing engineering work.",
-            "Build skills in technical areas, and demonstrate curiosity, adaptability, and eagerness to explore new technologies which support the deployment and integration of Databricks-based solutions to complete customer projects.",
-            "Experience with Apache Spark or distributed data processing is a plus. We'll help you build platform depth on the job."
-          ]
-        },
-        {
-          "title": "About Databricks",
-          "paras": [
-            "Databricks is a data and AI company. More than 10,000 organizations worldwide rely on Databricks to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe, and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow.",
-            "Recent graduate?: We’d love for you to explore our current internship openings on our careers page and submit your application for our roles designed for new college graduates.",
-            "This role is based in our Mountain View, CA office. Travel to customers is expected approximately 20% of the time."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Compliance",
-          "paras": [
-            "If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8281716",
       "title": "Technical Account Manager",
       "company": "Samsara",
@@ -648,7 +702,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-23T13:28:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -739,7 +793,7 @@
         "Tableau",
         "SQL"
       ],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-23T13:22:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -784,7 +838,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-22T10:22:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -849,7 +903,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-22T10:20:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -927,7 +981,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-10-22T22:24:53.127+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1000,7 +1054,7 @@
         "Salesforce",
         "Python"
       ],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-10-21T13:11:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1073,7 +1127,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-20T09:19:28-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1139,7 +1193,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-21T03:51:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1204,7 +1258,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-20T19:49:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1268,7 +1322,7 @@
         "Zendesk",
         "Looker"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-20T18:50:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1338,7 +1392,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-20T18:32:31.155+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1406,7 +1460,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-10-19T17:04:29-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1483,7 +1537,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-10-18T21:59:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1552,7 +1606,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-10-16T15:58:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1622,7 +1676,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-10-16T22:12:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1702,7 +1756,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-15T16:53:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1774,7 +1828,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-15T21:33:08.330+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1845,7 +1899,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-10-14T12:43:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1901,7 +1955,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-10-13T23:05:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1963,7 +2017,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-10-13T13:23:13-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2029,7 +2083,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-10-13T15:07:59.917+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2084,83 +2138,6 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8268370",
-      "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Gainsight",
-        "Totango",
-        "HubSpot"
-      ],
-      "posted": 18,
-      "postedAt": "2026-10-09T16:26:26-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Customer Digital Experience Team",
-          "paras": [
-            "Customer Digital Experience sits within the technical arm of Mixpanel's Customer Success organization.",
-            "Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
-            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
-            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
-            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
-            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
-            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
-            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
-            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
-            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
-            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
-            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Is:",
-          "paras": [],
-          "bullets": [
-            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
-            "An excellent writer who can be concise, specific, and useful to a technical audience",
-            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
-            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
-            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
-            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
-            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
-            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:mixpanel:8260692",
       "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
       "company": "Mixpanel",
@@ -2180,7 +2157,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-09T17:58:48-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2257,12 +2234,89 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-09T19:24:38-04:00",
       "source": "Greenhouse",
       "featured": false,
       "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
       "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Customer Digital Experience Team",
+          "paras": [
+            "Customer Digital Experience sits within the technical arm of Mixpanel's Customer Success organization.",
+            "Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
+            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
+            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
+            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
+            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
+            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
+            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
+            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
+            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
+            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
+            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Is:",
+          "paras": [],
+          "bullets": [
+            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
+            "An excellent writer who can be concise, specific, and useful to a technical audience",
+            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
+            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
+            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
+            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
+            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
+            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:mixpanel:8268370",
+      "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Gainsight",
+        "Totango",
+        "HubSpot"
+      ],
+      "posted": 19,
+      "postedAt": "2026-10-09T16:26:26-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -2330,7 +2384,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-10-08T16:54:28.448Z",
       "source": "Lever",
       "featured": false,
@@ -2391,7 +2445,7 @@
       "variable": "",
       "book": "12 customers",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-10-08T22:52:16.432+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2462,7 +2516,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-10-07T14:53:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2534,7 +2588,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-10-07T14:53:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2595,7 +2649,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-10-07T20:23:27-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2654,7 +2708,7 @@
         "Salesforce",
         "SQL"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-10-06T13:40:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2725,7 +2779,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-05T15:38:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2789,7 +2843,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-05T18:35:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2862,7 +2916,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-10-02T19:10:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2932,7 +2986,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-10-02T16:09:31.879Z",
       "source": "Lever",
       "featured": false,
@@ -2997,7 +3051,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3071,7 +3125,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3131,7 +3185,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3200,7 +3254,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3250,7 +3304,7 @@
       ]
     },
     {
-      "id": "greenhouse:flexport:8240063",
+      "id": "greenhouse:flexport:8240062",
       "title": "Global Aid Account Manager",
       "company": "Flexport",
       "companySite": "https://www.flexport.com",
@@ -3258,19 +3312,19 @@
       "family": "Account Management",
       "seniority": "Mid",
       "segment": null,
-      "location": "Bellevue, WA + more",
+      "location": "Chicago, IL + more",
       "mode": "Onsite",
-      "min": 91200,
-      "max": 114000,
+      "min": 83600,
+      "max": 104500,
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
-      "postedAt": "2026-09-29T12:33:07-04:00",
+      "posted": 29,
+      "postedAt": "2026-09-29T12:31:34-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
-      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
+      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
+      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
       "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
       "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
       "sections": [
@@ -3324,7 +3378,7 @@
       ]
     },
     {
-      "id": "greenhouse:flexport:8240062",
+      "id": "greenhouse:flexport:8240063",
       "title": "Global Aid Account Manager",
       "company": "Flexport",
       "companySite": "https://www.flexport.com",
@@ -3332,19 +3386,19 @@
       "family": "Account Management",
       "seniority": "Mid",
       "segment": null,
-      "location": "Chicago, IL + more",
+      "location": "Bellevue, WA + more",
       "mode": "Onsite",
-      "min": 83600,
-      "max": 104500,
+      "min": 91200,
+      "max": 114000,
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
-      "postedAt": "2026-09-29T12:31:34-04:00",
+      "posted": 29,
+      "postedAt": "2026-09-29T12:33:07-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
-      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240062",
+      "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
+      "postingUrl": "https://job-boards.greenhouse.io/flexport/jobs/8240063",
       "blurb": "The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people.…",
       "summary": "At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year.\n\nThe recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.",
       "sections": [
@@ -3413,7 +3467,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3484,7 +3538,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3551,7 +3605,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3621,7 +3675,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3681,7 +3735,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3751,7 +3805,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3819,7 +3873,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3893,7 +3947,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3968,7 +4022,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-24T17:18:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4034,7 +4088,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4109,7 +4163,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4175,7 +4229,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4247,7 +4301,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4318,7 +4372,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4381,7 +4435,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-09-18T09:16:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4447,7 +4501,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4511,7 +4565,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4585,7 +4639,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-15T17:58:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4648,7 +4702,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-15T22:24:08.782+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4691,77 +4745,6 @@
       ]
     },
     {
-      "id": "ashby:ramp:40f43993-21e8-4db1-a9f4-7a3e6098a9ba",
-      "title": "Customer Experience Associate (Evening Shift)",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Customer Success",
-      "seniority": "Entry",
-      "segment": null,
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 60000,
-      "max": 70000,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Zendesk",
-        "Notion"
-      ],
-      "posted": 43,
-      "postedAt": "2026-09-14T23:22:19.531+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/40f43993-21e8-4db1-a9f4-7a3e6098a9ba/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/40f43993-21e8-4db1-a9f4-7a3e6098a9ba",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "Ramp builds software that moves real money, from bill payments and corporate cards to reimbursements, accounting integrations, and travel. Our customers rely on us to keep their operations running: invoices get paid, books get closed, and finance leaders can trust the data behind every decision.",
-            "In this role, you will be the person who spots where customers are getting stuck and drives issues to a clear resolution. You will learn a complex product deeply enough to troubleshoot across payments, bank linking, accounting syncs, and card programs, then partner with teams across Engineering, Risk, Product, and Partnerships to get problems solved. This is not script-based support. You will triage, investigate, and make high-signal judgment calls throughout the day.",
-            "You will thrive in this role if you are a systems thinker and deeply customer obsessed. Support is the baseline. How you think about improving processes, tools, and outcomes is what sets you apart."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You’ll Do",
-          "paras": [],
-          "bullets": [
-            "Be the voice of Ramp's Customer Support. You'll spend your day engaging with customers, primarily via live calls, email, and chat.",
-            "Diagnose across a broad product surface. Ramp isn't one product — it's payments, cards, travel, accounting integrations, and more. You'll need to understand how they connect and where they break.",
-            "Build and shape AI tools, not just use them. Ramp is building AI into CX operations. You'll use AI-powered research tools and proprietary tools like Glass daily, provide direct feedback on what's working, and play an active role in how these tools evolve. You're not just a user — you're a builder. We are all builders at Ramp.",
-            "Communicate with precision and empathy. Our customers are financially sophisticated. You need to explain what's happening, what you're doing about it, and what they should expect — clearly and without filler."
-          ]
-        },
-        {
-          "title": "What You Need",
-          "paras": [],
-          "bullets": [
-            "You're a systems thinker: you don't just solve the ticket in front of you, you ask why the problem exists and how to prevent it from happening again.",
-            "You actively use AI tools — Claude, Notion AI, research and workflow tools — and can demonstrate how you've applied them to get real work done. This is a hard requirement.",
-            "You're fast-moving while holding yourself to a high bar for execution: you balance speed, accuracy, and thoroughness in every interaction.",
-            "You can hold a technical conversation about how systems connect (APIs, bank integrations, accounting software) even if you're not writing code.",
-            "You manage competing priorities without dropping things. When you have 15 open issues across 4 internal teams, nothing falls through.",
-            "You write clearly and concisely. You can explain a payment reconciliation issue to a CFO without jargon.",
-            "You're comfortable on the phone. Many interactions start there.",
-            "You have a demonstrated track record of exceeding key performance standards, including CSAT, QA, and speed-of-service metrics."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:flexport:8160593",
       "title": "Global Aid Account Manager",
       "company": "Flexport",
@@ -4777,7 +4760,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-09-13T10:59:12-04:00",
       "source": "Greenhouse",
       "featured": false,
