@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T11:52:56.958Z",
-  "count": 69,
+  "generatedAt": "2026-11-01T12:51:35.061Z",
+  "count": 68,
   "sources": [
     "Greenhouse",
     "Ashby",
@@ -26,7 +26,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-30T16:04:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -105,7 +105,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-30T15:34:50-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -173,7 +173,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-30T12:33:54-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -241,7 +241,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-30T12:34:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -306,7 +306,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-10-30T19:35:07.164+00:00",
       "source": "Ashby",
       "featured": false,
@@ -372,7 +372,7 @@
       "variable": "$98K–$128K OTE",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-10-28T13:48:52-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -428,7 +428,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-10-28T21:16:53.953+00:00",
       "source": "Ashby",
       "featured": false,
@@ -498,7 +498,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-10-27T16:24:36-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -557,7 +557,7 @@
       "variable": "+ equity + bonus",
       "book": "50 partners",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-10-27T12:25:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -618,7 +618,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-10-27T12:49:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -697,7 +697,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-10-27T17:42:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -773,7 +773,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-26T18:29:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -838,7 +838,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-26T16:11:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -910,7 +910,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-26T18:40:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -972,7 +972,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-10-26T16:34:00.360+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1051,7 +1051,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-23T13:28:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1142,7 +1142,7 @@
         "Tableau",
         "SQL"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-10-23T13:22:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1187,7 +1187,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-10-22T10:22:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1252,7 +1252,7 @@
       "stack": [
         "Gainsight"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-10-22T10:20:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1330,7 +1330,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-10-22T22:24:53.127+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1403,7 +1403,7 @@
         "Salesforce",
         "Python"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-10-21T13:11:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1476,7 +1476,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-10-20T09:19:28-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1542,7 +1542,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-10-21T03:51:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1607,7 +1607,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-10-20T19:49:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1671,7 +1671,7 @@
         "Zendesk",
         "Looker"
       ],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-10-20T18:50:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1741,7 +1741,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-10-20T18:32:31.155+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1809,7 +1809,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-10-19T17:04:29-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1886,7 +1886,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-18T21:59:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1955,7 +1955,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-10-16T15:58:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2025,7 +2025,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-10-16T22:12:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2105,7 +2105,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-10-15T16:53:32-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2177,7 +2177,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-10-15T21:33:08.330+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2248,7 +2248,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-10-14T12:43:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2304,7 +2304,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-10-13T23:05:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2366,7 +2366,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-10-13T13:23:13-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2432,7 +2432,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-10-13T15:07:59.917+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2487,7 +2487,7 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8260692",
+      "id": "greenhouse:mixpanel:8268370",
       "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
       "company": "Mixpanel",
       "companySite": "https://mixpanel.com",
@@ -2495,23 +2495,23 @@
       "family": "Customer Success",
       "seniority": "Mid",
       "segment": null,
-      "location": "Remote — San Francisco ()",
+      "location": "Remote — US",
       "mode": "Remote",
-      "min": 132000,
-      "max": 162750,
-      "variable": "+ equity + bonus",
+      "min": null,
+      "max": null,
+      "variable": "",
       "book": "",
       "stack": [
         "Gainsight",
         "Totango",
         "HubSpot"
       ],
-      "posted": 21,
-      "postedAt": "2026-10-09T17:58:48-04:00",
+      "posted": 22,
+      "postedAt": "2026-10-09T16:26:26-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -2583,7 +2583,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-10-09T19:24:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2641,7 +2641,7 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8268370",
+      "id": "greenhouse:mixpanel:8260692",
       "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
       "company": "Mixpanel",
       "companySite": "https://mixpanel.com",
@@ -2649,23 +2649,23 @@
       "family": "Customer Success",
       "seniority": "Mid",
       "segment": null,
-      "location": "Remote — US",
+      "location": "Remote — San Francisco ()",
       "mode": "Remote",
-      "min": null,
-      "max": null,
-      "variable": "",
+      "min": 132000,
+      "max": 162750,
+      "variable": "+ equity + bonus",
       "book": "",
       "stack": [
         "Gainsight",
         "Totango",
         "HubSpot"
       ],
-      "posted": 21,
-      "postedAt": "2026-10-09T16:26:26-04:00",
+      "posted": 22,
+      "postedAt": "2026-10-09T17:58:48-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -2733,7 +2733,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-08T16:54:28.448Z",
       "source": "Lever",
       "featured": false,
@@ -2794,7 +2794,7 @@
       "variable": "",
       "book": "12 customers",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-08T22:52:16.432+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2865,7 +2865,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-10-07T14:53:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2937,7 +2937,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-10-07T14:53:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2998,7 +2998,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-10-07T20:23:27-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3057,7 +3057,7 @@
         "Salesforce",
         "SQL"
       ],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-10-06T13:40:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3129,7 +3129,7 @@
         "Salesforce",
         "Zendesk"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-10-05T18:35:23-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3202,7 +3202,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-10-02T19:10:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3272,7 +3272,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-10-02T16:09:31.879Z",
       "source": "Lever",
       "featured": false,
@@ -3337,7 +3337,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3411,7 +3411,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3471,7 +3471,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3540,7 +3540,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3605,7 +3605,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3676,7 +3676,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-28T10:47:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3743,7 +3743,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-28T12:17:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3813,7 +3813,7 @@
       "variable": "+ equity",
       "book": "Team of 5",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-09-28T13:35:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3873,7 +3873,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-09-25T17:54:58.408+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3943,7 +3943,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-09-25T17:58:44.966+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4011,7 +4011,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-09-24T11:09:42-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4085,7 +4085,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-09-24T12:03:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4145,6 +4145,72 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8121968",
+      "title": "Senior Enterprise Implementation Consultant",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Onboarding",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 100406,
+      "max": 165600,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 37,
+      "postedAt": "2026-09-24T17:18:37-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "In this role, you will:",
+          "paras": [
+            "The compensation range shown spans approved pay zones for this role. Your primary work location determines the range applicable to you, which may be narrower than the full range displayed.",
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform.",
+            "Manage the deployment of Samsara technology to large-scale customers, enabling customers to achieve quick time to value in their investment.",
+            "Create launch plans and a roadmap to increase product usage.",
+            "Track implementation progress, participation, product adoption, and account health.",
+            "Run training sessions, demonstrate Samsara’s technology, and work through challenges with executives and day-to-day users of the system across numerous use cases.",
+            "Juggle multiple customer engagements in parallel and work cross-functionally to deliver an exceptional experience for our customers.",
+            "Serve as a mentor to the wider Customer Success and Support teams.",
+            "Deeply understand the Samsara platform’s capabilities and explain them to customers of all types."
+          ]
+        },
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Flexible Working",
+          "paras": [
+            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Our Commitment to Authenticity",
+          "paras": [
+            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:samsara:8220469",
       "title": "Strategic Customer Success Manager - US Public Sector",
       "company": "Samsara",
@@ -4160,7 +4226,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-09-24T11:16:18-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4235,7 +4301,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-09-23T18:26:40-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4301,7 +4367,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-09-23T16:15:40.412+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4373,7 +4439,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-09-23T16:31:53.863+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4444,7 +4510,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-09-22T12:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4507,7 +4573,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 42,
+      "posted": 43,
       "postedAt": "2026-09-18T11:50:07-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4571,7 +4637,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-09-16T14:39:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4624,129 +4690,6 @@
             "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
           ],
           "bullets": []
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:gusto:8203030",
-      "title": "Premier Account Partner",
-      "company": "Gusto",
-      "companySite": "https://gusto.com",
-      "industry": "Payroll / HR",
-      "family": "Account Management",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Atlanta, GA - ; Scottsdale, AZ",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Salesforce"
-      ],
-      "posted": 45,
-      "postedAt": "2026-09-15T17:58:37-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8203030",
-      "postingUrl": "https://job-boards.greenhouse.io/gusto/jobs/8203030",
-      "blurb": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more…",
-      "summary": "At Gusto, we're on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers. With teams in Denver, San Francisco, and New York, we support more than 500,000 small businesses nationwide and are building a workplace that reflects the people we serve.\n\nAll full-time employees receive competitive base pay, benefits, and equity (RSUs) — because everyone who helps build Gusto should share in its success. Offer amounts are determined by role, level, and location. Learn more about our Total Rewards philosophy .",
-      "sections": [
-        {
-          "title": "About Gusto",
-          "paras": [
-            "AI is a fundamental part of how work gets done at Gusto. We expect all team members to actively engage with AI tools relevant to their role and grow their fluency as the technology evolves. AI experience requirements vary by role and will be assessed during the interview process."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role:",
-          "paras": [
-            "As a Premier Account Partner, you will act as the single point of contact for all support inquiries, enhancing their user experience and serving as a subject matter expert for Gusto’s core products. You will guide customers through our newest product features, provide proactive customer education and support, partner cross-functionally, move quickly to strategize and creatively solve problems, act as their advocate internally to influence our product decisions and roadmap, and holistically support the customer/Gusto partnership. You’ll address and solve real problems and deliver an exceptional customer experience to some of our most valued companies to build trust and loyalty to Gusto for the book of business.",
-            "This role requires leveraging AI-assisted tools to accelerate research and communication by demonstrating fluency in delegating repetitive work, crafting structured prompts, and critically reviewing outputs for accuracy, tone, and empathy, all while consistently applying compliance and data-privacy guardrails, delivering measurable efficiency gains, and exercising sound judgment on when to avoid AI or escalate edge cases."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Team:",
-          "paras": [
-            "The Premier Account Partner team is a segment of our Care team dedicated to building and expanding relationships with our high-value customers. The team manages an assigned book of customer accounts, serving as product experts, and providing trusted and efficient service."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Here’s what you’ll do day-to-day:",
-          "paras": [],
-          "bullets": [
-            "Own the customer journey by building trust, rapport, and partnership with your book of business through inbound and outbound phone, email, and Google Meet interactions.",
-            "Act as a dedicated advisor, building trust in the support you provide to contain most customer interactions from your dedicated customers.",
-            "Provide passionate, opinionated, consistent, expert, reliable support as a dedicated point of contact for payroll and benefits inquiries .",
-            "Proactively connect with customers to build a deep understanding of their business, your support model, and their preferred connection style.",
-            "Identify churn risk and quickly act to deliver solutions to mitigate the risk of churn, using your product knowledge and unique understanding of each individual customer.",
-            "Partner with your customers and cross-functionally to unblock points of friction, proactively address potential concerns, and build an understanding of individual team needs and processes.",
-            "Think creatively, pivot quickly, live in ambiguity, and collaborate strategically. You will be required to expand your critical thinking skills and creatively problem-solve across all areas of the business, with an understanding of a variety of stakeholders and needs.",
-            "Display strong product knowledge, including a deep understanding of the competitive landscape to protect against customer churn."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ashby:ramp:ab74a687-4545-47c9-870d-bfd7e7cde576",
-      "title": "Enterprise Customer Activation Manager | Bill Pay & Procurement",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Onboarding",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 115000,
-      "max": 212500,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 45,
-      "postedAt": "2026-09-15T22:24:08.782+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/ab74a687-4545-47c9-870d-bfd7e7cde576/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/ab74a687-4545-47c9-870d-bfd7e7cde576",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "The Enterprise CSM, Bill Pay & Procurement Specialist, ensures Ramp’s upmarket customers quickly unlock value from our AP Automation and Procurement products. As part of the Customer Activation team, you’ll guide customers through implementation, configure workflows aligned to their internal processes, and help them operationalize Ramp’s tools to drive efficiency and compliance. In this role, you will help shape Ramp’s Enterprise activation motion for Bill Pay & Procurement and influence the strategy that accelerates customer adoption and business impact."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Deliver High-Quality Implementations",
-          "paras": [],
-          "bullets": [
-            "Lead Enterprise customers through the end-to-end onboarding of Ramp Bill Pay and Procurement, ensuring fast, accurate, and complete deployment",
-            "Educate customers on Ramp’s AP workflows, procurement best practices, approval logic, vendor management, and policy configuration"
-          ]
-        },
-        {
-          "title": "Drive Customer Adoption & Business Outcomes",
-          "paras": [],
-          "bullets": [
-            "Prevent delays in implementation by proactively identifying blockers and reinforcing the value of adopting Ramp’s AP & Procurement solutions",
-            "Understand customers’ current AP, purchasing, and approval processes to identify pain points, recommend improvements, and guide them toward an optimized rollout"
-          ]
         }
       ]
     }
