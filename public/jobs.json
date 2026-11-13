@@ -1,11 +1,428 @@
 {
-  "generatedAt": "2026-11-12T14:49:46.865Z",
-  "count": 77,
+  "generatedAt": "2026-11-13T14:09:15.448Z",
+  "count": 83,
   "sources": [
-    "Ashby",
-    "Greenhouse"
+    "Greenhouse",
+    "Ashby"
   ],
   "jobs": [
+    {
+      "id": "greenhouse:gitlab:8931313002",
+      "title": "Customer Success Architect - East",
+      "company": "GitLab",
+      "companySite": "https://about.gitlab.com",
+      "industry": "Developer tools",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 93600,
+      "max": 158400,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-11-12T12:31:31-05:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8931313002",
+      "postingUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8931313002",
+      "blurb": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million…",
+      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\n\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to…",
+      "sections": [
+        {
+          "title": "An overview of this role",
+          "paras": [
+            "As a Customer Success Architect, you’ll be a strategic advisor to some of GitLab’s most important customers, helping them connect our DevSecOps platform to their business goals and realize meaningful, long-term outcomes. You’ll partner closely with customers after the sale to turn pre-sales command plans into concrete success plans, guide them along the customer journey, and drive hands-on enablement, adoption, utilization, and maturity. Reporting into a Senior Manager within our North America Customer Success organization, you’ll own a book of customers, act as their primary GitLab liaison for questions and escalations, and coordinate with Product Management, Engineering, Sales, Professional Services, and Support so customers can navigate complex technical and organizational challenges with confidence.",
+            "You’ll use your understanding of Git, software development lifecycles, and continuous integration, continuous deployment, and DevSecOps practices to help customers adopt best practices and stay current with new GitLab capabilities. In your first year, success looks like building strong, consultative relationships with key stakeholders, increasing adoption of the GitLab platform, and strengthening retention, growth, and customer satisfaction across your portfolio."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What you’ll do",
+          "paras": [],
+          "bullets": [
+            "Partner with customers to translate pre-sales command plans and desired business outcomes into actionable objectives and clear success criteria.",
+            "Guide customers on how to best use the GitLab platform, including common DevSecOps best practices, Git workflows, CI/CD, and adoption patterns.",
+            "Own a book of customers and drive adoption, retention, expansion, and overall satisfaction through ongoing strategic and technical engagement.",
+            "Build and maintain Customer Success Plans, define critical goals and key performance indicators, and track progress with customers over time.",
+            "Act as the primary GitLab liaison for assigned accounts, coordinating responses to questions, issues, and escalations across Support, Product Management, Sales, and Professional Services.",
+            "Provide hands-on technical enablement and onboarding, including education on new GitLab features, releases, and relevant use cases.",
+            "Program manage account escalations, ensuring root causes are understood, follow-up actions are owned, and stakeholders are informed.",
+            "Collaborate with Services and other internal teams to identify and recommend training, enablement, and maturity opportunities aligned to customer needs."
+          ]
+        },
+        {
+          "title": "What you’ll bring",
+          "paras": [],
+          "bullets": [
+            "Practical understanding of Git, common branching strategies, and modern software development lifecycles.",
+            "Working knowledge of continuous integration, continuous deployment, and DevSecOps practices.",
+            "Experience partnering with customers to define business outcomes and translate them into actionable success plans, key goals, and measures.",
+            "Background in customer success, post-sales, or professional services roles focused on adoption, retention, and satisfaction.",
+            "Ability to manage a portfolio of customers, including handling escalations and coordinating across Support, Product Management, Sales, and Professional Services.",
+            "Strong communication, presentation, and organizational skills, with attention to detail and analytical thinking.",
+            "Experience planning and managing projects or initiatives in technical environments, including identifying training and enablement needs.",
+            "Alignment with GitLab’s values and interest in applying transferable skills from related roles or industries, with flexibility to travel as needed according to company policy."
+          ]
+        },
+        {
+          "title": "About the team",
+          "paras": [
+            "We are part of GitLab’s Customer Success organization. Our mission is to help customers align the GitLab platform with their business objectives through hands-on technical enablement, driving adoption, utilization, and DevSecOps maturity while building strong, consultative relationships. As Customer Success Architects, we act as trusted advisors and key liaisons between customers and the broader GitLab ecosystem, collaborating closely with Product Management, Engineering, Sales, Support, and Professional Services to address questions, guide roadmaps, and navigate escalations. We work in an all-remote, asynchronous way, coordinating across time zones to support a focused set of strategic accounts and ensure long-term customer success.",
+            "The base salary range for this role’s listed level is currently for residents of the United States only. This range is intended to reflect the role's base salary rate in locations throughout the US. Grade level and salary ranges are determined through interviews and a review of education, experience, knowledge, skills, abilities of the applicant, equity with other team members, alignment with market data, and geographic location. The base salary range does not include any bonuses, equity, or benefits. See more information on our benefits and equity . Sales roles are also eligible for incentive pay targeted at up to 100% of the offered base salary."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:gitlab:8926653002",
+      "title": "Renewals Manager - Italy/ Spain",
+      "company": "GitLab",
+      "companySite": "https://about.gitlab.com",
+      "industry": "Developer tools",
+      "family": "Renewals",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-11-13T08:11:49-05:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8926653002",
+      "postingUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8926653002",
+      "blurb": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million…",
+      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\n\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to…",
+      "sections": [
+        {
+          "title": "An overview of this role",
+          "paras": [
+            "This is an individual-contributor, tactical role focused on timely, accurate execution rather than strategic decision-making. The Associate Renewals Manager works under the general direction of Senior Renewals Managers and their manager, following specific instructions and frameworks in day-to-day work. Solutions and outputs are reviewed by more senior team members and/or the direct manager."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Manage an assigned portfolio of customer renewals tracking key dates and driving them to on-time closure.",
+            "Have real, consultative conversations with customers throughout the renewal cycle to understand how they're actually using the product and where they're headed next.",
+            "Identify and surface expansion opportunities — additional seats, tiers, or modules — that come out of those conversations.",
+            "Probe for new use cases and unmet needs within existing accounts, connecting what customers describe to relevant GitLab capabilities they aren't yet using.",
+            "Prepare and send renewal quotes, order forms, and related documentation accurately and on schedule, structuring them to reflect any expansion identified.",
+            "Prepare and send renewal quotes, order forms, and related documentation accurately and on schedule.",
+            "Analyze moderately complex renewal situations (usage trends, contract terms, pricing) by reviewing existing account factors, escalating anything unusual to a senior team member or manager and helping to mitigate any risk identified.",
+            "Explain moderately complex renewal terms and issues to customers and internal stakeholders, working to build alignment."
+          ]
+        },
+        {
+          "title": "What You’ll Bring",
+          "paras": [],
+          "bullets": [
+            "Can execute basic renewal processes independently (\"basic knots\") and has been introduced to more advanced scenarios (\"complex knots\") such as multi-year deals, upsell-attached renewals, or non-standard terms.",
+            "Developing understanding of GitLab's way of working, values, and high-performance culture.",
+            "Awareness of GitLab's remote work best practices.",
+            "Growth mindset and sense of ownership — proactively seeks out ways to learn and improve, and takes action rather than waiting for direction.",
+            "Strong attention to detail and organizational skills; comfortable managing many renewals at once.",
+            "Clear written and verbal communication skills.",
+            "Ability to follow defined processes and frameworks while flagging exceptions appropriately.",
+            "Collaborative mindset and openness to feedback and coaching from senior teammates and manager."
+          ]
+        },
+        {
+          "title": "About the team",
+          "paras": [
+            "The Renewals team focuses on protecting and growing GitLab's recurring revenue by managing the full contract lifecycle for our subscription customers. As a Renewal Manager, you'll be part of a quota-carrying team that works closely with Sales, Customer Success, Finance, and Legal to ensure timely, accurate renewals and strong customer retention across regions in an all-remote, asynchronous environment. The team is responsible for forecasting renewal outcomes, identifying and addressing churn risk, and uncovering opportunities to expand GitLab adoption, while continuously improving processes and best practices that support predictable, sustainable growth."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:instacart:8374889",
+      "title": "Senior Customer Success Associate",
+      "company": "Instacart",
+      "companySite": "https://www.instacart.com",
+      "industry": "Grocery delivery",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 86000,
+      "max": 91000,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-11-12T17:12:06-05:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8374889",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8374889",
+      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
+      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
+      "sections": [
+        {
+          "title": "Instacart is a Flex First team",
+          "paras": [
+            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Overview",
+          "paras": [
+            "The Customer Success team partners with our CPG customers to drive value creation and satisfaction with Eversight's pioneering SaaS solutions. The Customer Success Senior Associate supports the complete customer journey. This includes onboarding clients, guiding them through the micro-testing and data mining process to generate valuable insights from our platforms, delivering impactful software demonstrations and trainings, and partnering closely with Product and Engineering to identify product bugs and enhancement opportunities. The ultimate goal is to help customers roll out optimal promotions and topline revenue driving strategies at scale. This is an opportunity to experience first-hand the excitement and challenge of introducing novel and demonstrably superior capabilities to transform the market.",
+            "Eversight by Instacart is Instacart's data and SaaS organization and recognized leader in AI-powered promotion optimization and insights. Global brands and retailers rely on the Eversight platform to optimize promotional strategies in response to market conditions and to deliver higher ROI on promotional spend. Eversight by Instacart's Data Solutions are driving strong margin and sales volume improvements for leading companies such as Coca-Cola, Frito-Lay, Haleon, and more. Eversight was founded in 2013 and acquired by Instacart in 2022."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Job",
+          "paras": [],
+          "bullets": [
+            "Forge and nurture strong relationships with key customer stakeholders, including power users and program managers.",
+            "Serve as the subject matter expert for customers, providing guidance to help them maximize Eversight's innovative capabilities.",
+            "Work directly with customers to implement promotional strategies and insights that deliver transformative outcomes.",
+            "Deliver a high-quality customer experience through strong project management, ensuring timely outputs and proactively addressing bottlenecks.",
+            "Manage multiple data-driven processes and schedules while maintaining a high standard of execution.",
+            "Standardize customer support materials and processes to improve scalability.",
+            "Represent the \"voice of the customer\" internally, working closely with Product, Engineering, and Data Science teams to recommend improvements and add new capabilities."
+          ]
+        },
+        {
+          "title": "Minimum Qualifications",
+          "paras": [],
+          "bullets": [
+            "You have 3+ years of work experience, ideally in an analyst or associate role.",
+            "Direct experience with CPG a plus.",
+            "You have a Bachelor's degree, ideally with a business degree or in a quantitative field.",
+            "You have strong analytical skills and advanced proficiency in Excel (e.g., pivot tables, lookups, and complex formulas). You’re comfortable using AI tools as a thought partner to sharpen client deliverables, while the core thinking and the work itself stay your own.",
+            "You're passionate about working directly with customers and excelling at relationship-building; experience in customer-facing or cross-functional roles is a plus.",
+            "You excel at managing multiple workstreams independently, have high attention to detail, and proactively recognize and address challenges."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:574f46a4-42b2-46be-ba5c-de07c5e173c5",
+      "title": "Customer Activation Manager, Public Sector",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — San Francisco, CA",
+      "mode": "Remote",
+      "min": 122000,
+      "max": 184000,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-11-12T19:10:17.611+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/574f46a4-42b2-46be-ba5c-de07c5e173c5/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/574f46a4-42b2-46be-ba5c-de07c5e173c5",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "Customer Success Managers at Ramp are responsible for successful implementation and adoption. This role partners with public-sector organizations to deliver measurable value, helps shape the approach to government agencies, educational institutions and nonprofits, guides onboarding and long-term success, and advises customers on modernizing financial workflows."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You’ll Do",
+          "paras": [],
+          "bullets": [
+            "Lead Onboarding & Implementation : Manage the onboarding and rollout of Ramp for newly signed public sector customers, ensuring compliance with government implementation and security requirements.",
+            "Drive Adoption Across Complex Stakeholders : Partner with multiple departments and decision-makers, such as finance, procurement, IT, and compliance, to align Ramp with organizational objectives.",
+            "Serve as a Trusted Advisor : Act as a strategic consultant and extension of your customers’ teams by advising on best practices, workflow optimization, and change management specific to the public sector.",
+            "Ensure Compliance & Security Alignment : Support customers in adhering to relevant regulations (e.g., FedRAMP, state procurement policies) while integrating Ramp into their ecosystem.",
+            "Maximize Utilization & Value : Proactively identify opportunities to expand Ramp adoption, drive product utilization, and deliver measurable ROI for public institutions.",
+            "Collaborate Cross-Functionally : Work closely with Account Executives, Product, Engineering, and Compliance teams to deliver tailored solutions and resolve customer needs.",
+            "Collect & Share Customer Insights : Surface feedback from public sector clients to influence product roadmaps and participate in workshops to shape Ramp’s long-term offering for this vertical.",
+            "Manage Multiple Priorities : Balance implementation, follow-ups, reporting, and proactive engagement across a portfolio of accounts with varying complexity and timelines."
+          ]
+        },
+        {
+          "title": "What You’ll Need",
+          "paras": [],
+          "bullets": [
+            "4+ years in implementation or engagement management in B2B SaaS or public-sector technology.",
+            "Public-sector experience highly preferred; experience with large-scale strategy/change management, preferably in Finance or Fintech.",
+            "AI fluency; strong program/project management for complex, multi-workstream technology deployments.",
+            "Excellent communication and relationship management, including translating technical concepts for diverse audiences.",
+            "Success working with Product, Engineering and Security to troubleshoot and co-develop solutions.",
+            "Ability to navigate public procurement, long sales/adoption cycles and organizational needs; adaptability in a fast-paced, mission-driven environment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:498d0fa0-d6e2-4755-9004-736dcae47d81",
+      "title": "CSM, Mid-Market | Lifecycle",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": "Mid-Market",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 142000,
+      "max": 216000,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-11-13T00:09:32.544+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/498d0fa0-d6e2-4755-9004-736dcae47d81/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/498d0fa0-d6e2-4755-9004-736dcae47d81",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "Ramp's Mid-Market Customer Success Managers on the Lifecycle team don't stop at go-live — they make sure customers keep getting more from Ramp as their business grows. Ramp has grown its product suite significantly over the last several years. As we've matured as an organization, our customer relationships have grown more complex too: customers are buying more of the platform at once, running it across more entities and teams, and relying on it for more of how their finance function operates. Hitting an activation milestone doesn't mean the job's finished. Too often, a feature that could solve a real problem goes unused because no one is there to show how it would work in that customer's business.",
+            "That's where you come in. This is a role for people who understand how finance teams actually run, who think in years rather than quarters, and who already use AI the way surgeons use instruments: not occasionally, not as an experiment, but as the default way they work. You'll own the customer experience after implementation for a book of mid-market customers, partnering with Account Management on long-term account strategy. You'll also be one of the first Lifecycle CSMs on a newly formed team, helping define how Ramp earns and keeps the trust of its customers."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You'll Do",
+          "paras": [],
+          "bullets": [
+            "Own the post-implementation experience for a book of mid-market customers, with clear accountability for sustained adoption, customer satisfaction, and renewal readiness",
+            "Drive sustained adoption by understanding each customer's goals and guiding them toward the workflows that improve outcomes for their business — including the products and features they've already purchased but haven't fully put to work",
+            "Act as each customer's expert in finance workflows: understand how they run their business, advise on decisions as their needs change, and make the value of new Ramp capabilities clear in their context",
+            "Build multi-threaded relationships in every account, including finance leadership relationships you own, so the account stays steady through change like a new Controller or CFO",
+            "Partner with Account Management on QBRs and business reviews, quantifying Ramp's impact in the language CFOs and Controllers care about — close cycle improvement, spend visibility, savings, and ROI — not just product usage metrics",
+            "Spot opportunities for growth and bring them to Account Management, who owns renewals and expansion; as customers add products, drive ongoing activation so they reach value quickly",
+            "Run your book on data: monitor usage, CP, and risk signals, prioritize where your time goes, and get ahead of challenges and escalations before they reach renewal",
+            "Use AI tools daily to prepare for customer calls, build materials, synthesize data, identify account risk, and operate at a pace traditional methods can't match"
+          ]
+        },
+        {
+          "title": "What You'll Need",
+          "paras": [],
+          "bullets": [
+            "5+ years of customer-facing experience in customer success, account management, or consulting, with a proven, consistent track record of retaining customers and exceeding goals",
+            "Experience owning a book of customers past launch and through renewal, with measurable retention, adoption, or satisfaction results; finance or fintech context is a plus but not required",
+            "A customer experience mindset — you get ahead of problems before customers raise them and own escalations through resolution",
+            "AI fluency as a daily habit — you already use AI tools habitually to prep for calls, synthesize information, build customer-facing materials, and automate repetitive tasks; this is how you work, not something you're exploring",
+            "Ability to communicate Ramp's impact in financial terms — walking a Controller through the value Ramp has delivered and connecting adoption to P&L outcomes",
+            "A data-driven approach to managing a book — you prioritize based on usage, revenue, and risk signals and can spot an at-risk account well before renewal",
+            "Technical and systems acumen to understand how Ramp fits into a customer's finance stack, diagnose what's blocking adoption, and bring in the right technical partner",
+            "A builder mindset — this team is new, and you're energized by shaping the playbooks, programs, and rituals that define how Lifecycle CSMs work while running your own book; you bring structure to ambiguity and iterate quickly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:ramp:4727e0b5-eafa-41ab-89ce-f6a1d19d3f0e",
+      "title": "CSM, Enterprise | Lifecycle",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Customer Success",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 182000,
+      "max": 278000,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-11-13T00:09:36.315+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/4727e0b5-eafa-41ab-89ce-f6a1d19d3f0e/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/4727e0b5-eafa-41ab-89ce-f6a1d19d3f0e",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "Ramp's Enterprise Customer Success Managers on the Lifecycle team don't stop at go-live — they make sure customers keep getting more from Ramp as their business grows. Ramp has grown its product suite significantly over the last several years. As we've matured as an organization, our customer relationships have grown more complex too: customers are buying more of the platform at once, running it across more entities and teams, and relying on it for more of how their finance function operates. Hitting an activation milestone doesn't mean the job's finished. Too often, a feature that could solve a real problem goes unused because no one is there to show how it would work in that customer's business.",
+            "That's where you come in. This is a role for people who understand how finance teams actually run, who think in years rather than quarters, and who already use AI the way surgeons use instruments: not occasionally, not as an experiment, but as the default way they work. You'll own the customer experience after implementation for a book of Ramp's highest-potential enterprise customers, partnering with Account Management on long-term account strategy. You'll also be one of the first Lifecycle CSMs on a newly formed team, helping define how Ramp earns and keeps the trust of its most important customers."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You'll Do",
+          "paras": [],
+          "bullets": [
+            "Own the post-implementation experience for a book of enterprise customers, with clear accountability for sustained adoption, customer satisfaction, and renewal readiness",
+            "Drive sustained adoption by understanding each customer's goals and guiding them toward the workflows that improve outcomes for their business — including the products and features they've already purchased but haven't fully put to work",
+            "Act as each customer's expert in finance workflows: understand how they run their business, advise on decisions as their needs change, and make the value of new Ramp capabilities clear in their context",
+            "Build multi-threaded relationships across every account and partner with Account Management on executive relationships, so the account stays steady through change like a new Controller or CFO",
+            "Partner with Account Management on QBRs and executive business reviews, quantifying Ramp's impact in the language CFOs and Controllers care about — close cycle improvement, spend visibility, savings, and ROI — not just product usage metrics",
+            "Spot opportunities for growth and bring them to Account Management, who owns renewals and expansion; as customers add products, drive ongoing activation so they reach value quickly",
+            "Run your book on data: monitor usage, CP, and risk signals, get ahead of challenges and escalations, and see them through to resolution well before renewal is on the calendar",
+            "Use AI tools daily to prepare for customer calls, build materials, synthesize data, identify account risk, and operate at a pace traditional methods can't match"
+          ]
+        },
+        {
+          "title": "Must-Haves",
+          "paras": [],
+          "bullets": [
+            "Long-term account ownership — You've owned a book of customers past launch and through renewal, and you have measurable retention, adoption, or satisfaction results to show for it. Finance or fintech context is a plus but not required.",
+            "Customer experience mindset — You measure success by how customers feel about working with you, not only by milestones hit. You get ahead of problems before customers raise them and own escalations through resolution.",
+            "Executive relationship building — You build multi-threaded relationships across finance, operations, and the C-suite. When your champion leaves, the account doesn't leave with them.",
+            "Financial impact communication — You can walk a CFO through the value Ramp has delivered, connect adoption to P&L outcomes, and help make the case for continued investment in financial terms, not product terms. A finance background is not required — fluency is.",
+            "Data-driven book management — You prioritize your time based on usage, revenue, and risk signals, not on who emailed last. You can spot an at-risk account months before renewal and know what to do about it.",
+            "Technical and systems acumen — You're comfortable around major ERP platforms (NetSuite, SAP S/4HANA, Workday, Sage Intacct, or similar) and understand how Ramp fits into a customer's finance stack. You don't need to code, but you can diagnose what's blocking adoption and bring in the right technical partner.",
+            "Builder mindset — You're energized by building something that doesn't exist yet. This team is new, and you'll help shape the playbooks, programs, and rituals that define how Lifecycle CSMs work, all while running your own book. You bring structure to ambiguity and iterate quickly when something isn't working.",
+            "7+ years in enterprise customer success, account management, or consulting — You've spent enough time with complex organizations and senior stakeholders that it's second nature. You know how to keep an enterprise customer successful long after the launch."
+          ]
+        }
+      ]
+    },
     {
       "id": "ashby:ramp:55bd9ab4-8edc-4493-b577-4277ad2f9ae6",
       "title": "Risk Operations Specialist, Onboarding",
@@ -25,7 +442,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-11-12T01:19:57.296+00:00",
       "source": "Ashby",
       "featured": false,
@@ -94,7 +511,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-11-10T16:47:36-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -176,7 +593,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-11-10T13:53:05-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -239,7 +656,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-11-10T11:56:36-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -313,7 +730,7 @@
       "stack": [
         "SQL"
       ],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-11-10T16:46:09-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -392,7 +809,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-11-10T16:37:35-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -449,12 +866,12 @@
       "segment": "Enterprise",
       "location": "Remote — New York, NY (HQ)",
       "mode": "Remote",
-      "min": 173000,
-      "max": 264000,
+      "min": 151000,
+      "max": 231000,
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-11-10T19:48:31.653+00:00",
       "source": "Ashby",
       "featured": false,
@@ -526,7 +943,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-11-09T13:21:28-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -569,7 +986,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-11-09T17:48:23-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -635,7 +1052,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-11-10T05:23:12-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -709,7 +1126,7 @@
         "Gong",
         "SQL"
       ],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-11-09T12:56:45-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -786,7 +1203,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T17:55:25-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -843,7 +1260,7 @@
     },
     {
       "id": "greenhouse:gitlab:8920764002",
-      "title": "Senior Professional Services Engineer - North Carolina",
+      "title": "Senior Professional Services Engineer - Charlotte, NC",
       "company": "GitLab",
       "companySite": "https://about.gitlab.com",
       "industry": "Developer tools",
@@ -857,7 +1274,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T16:25:46-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -896,20 +1313,22 @@
           "paras": [],
           "bullets": [
             "Professional exposure with one or more infrastructure as code or configuration as code technologies such as Terraform, Ansible, Packer, Puppet, or Chef.",
-            "Professional exposure with two or more cloud providers such as Amazon Web Services (AWS), Google Cloud Platform (GCP), or Microsoft Azure."
-          ]
-        },
-        {
-          "title": "This role has a location requirement - Charlotte, NC or nearby.",
-          "paras": [],
-          "bullets": [
+            "Professional exposure with two or more cloud providers such as Amazon Web Services (AWS), Google Cloud Platform (GCP), or Microsoft Azure.",
+            "This role has a location requirement - Charlotte, NC or nearby - on site at the Customer location in Charlotte, 5 days a week.",
             "Experience using, deploying, or configuring GitLab, including a solid understanding of Git and source control workflows.",
             "Experience delivering customer-facing services such as installation, migration, training, and advisory engagements across GitLab's feature set.",
             "Proven ability to independently manage one or more projects and to lead and provide direction to other Professional Services Engineers on complex engagements.",
             "Strong communication skills in English, written and verbal, with the ability to provide clear status updates and build consensus with peers and customers in a remote, largely asynchronous environment.",
-            "Demonstrated ability to take a solution-oriented approach by identifying root causes, proposing options and tradeoffs, and driving issues to resolution while balancing multiple customer engagements in a fast-paced environment.",
-            "Demonstrated ability to work effectively in a fully remote organization by communicating clearly in writing, documenting decisions, collaborating asynchronously across time zones, and working in ways consistent with GitLab's values."
+            "Demonstrated ability to take a solution-oriented approach by identifying root causes, proposing options and tradeoffs, and driving issues to resolution while balancing multiple customer engagements in a fast-paced environment."
           ]
+        },
+        {
+          "title": "About the team",
+          "paras": [
+            "Senior Professional Services Engineers are part of GitLab's Professional Services team. We partner closely with Engagement Managers and Project Managers to deliver consistent outcomes, and we work with GitLab's product and engineering teams to share customer feedback and improve GitLab. Professional Services operates in a fully remote and largely asynchronous environment, collaborating across regions and time zones. The team's challenge is to support customers with a wide range of architectures and deployment models while maintaining high-quality delivery and setting customers up for long-term success.",
+            "The base salary range for this role’s listed level is currently for residents of the United States only. This range is intended to reflect the role's base salary rate in locations throughout the US. Grade level and salary ranges are determined through interviews and a review of education, experience, knowledge, skills, abilities of the applicant, equity with other team members, alignment with market data, and geographic location. The base salary range does not include any bonuses, equity, or benefits. See more information on our benefits and equity . Sales roles are also eligible for incentive pay targeted at up to 100% of the offered base salary."
+          ],
+          "bullets": []
         }
       ]
     },
@@ -929,7 +1348,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T13:25:05-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1002,7 +1421,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T14:46:35-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1074,7 +1493,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T12:16:18-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1143,7 +1562,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T13:31:03-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1209,7 +1628,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T11:44:31-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1278,7 +1697,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T12:10:51-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1342,7 +1761,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T15:56:23.780+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1413,7 +1832,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T15:57:51.702+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1484,7 +1903,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-06T15:55:20.931+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1552,7 +1971,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-11-05T20:19:13-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1626,7 +2045,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-11-05T11:27:00-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1688,13 +2107,13 @@
       "location": "Remote — US",
       "mode": "Remote",
       "min": 72888,
-      "max": 98000,
+      "max": 110250,
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [
         "Salesforce"
       ],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-11-05T16:00:39-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1750,7 +2169,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-11-06T07:27:42-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1816,7 +2235,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-11-04T11:24:30-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1893,7 +2312,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-11-04T11:24:53-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1965,7 +2384,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-11-05T02:27:54.494+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2035,7 +2454,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-03T23:23:04.552+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2108,7 +2527,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-03T17:03:03.309+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2186,7 +2605,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-11-02T09:50:59-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2262,7 +2681,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-30T16:04:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2343,7 +2762,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-30T12:33:54-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2409,7 +2828,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-10-30T19:35:07.164+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2475,7 +2894,7 @@
       "variable": "$98K–$128K OTE",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-10-28T13:48:52-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2531,7 +2950,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-10-28T21:16:53.953+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2601,7 +3020,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-10-27T16:24:36-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2660,7 +3079,7 @@
       "variable": "+ equity + bonus",
       "book": "50 partners",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-10-27T12:25:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2721,7 +3140,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-10-27T12:49:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2800,7 +3219,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-10-27T17:42:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2861,6 +3280,71 @@
       ]
     },
     {
+      "id": "greenhouse:cloudflare:8306651",
+      "title": "Senior Partner Account Manager, Southeast & MidAtlantic Region",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — Distributed",
+      "mode": "Onsite",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 17,
+      "postedAt": "2026-10-26T18:29:33-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "Open to any of the listed location(s):",
+          "paras": [],
+          "bullets": [
+            "Florida: Miami (MIA), Tampa (TPA)",
+            "Georgia: Atlanta (ATL)",
+            "North Carolina: Charlotte (CLT), Raleigh (RDU)",
+            "Tennessee: Nashville (BNA)"
+          ]
+        },
+        {
+          "title": "About the Department",
+          "paras": [
+            "Partner Account Managers, Account Executives, Business Development Representatives, Solution Engineers, Customer Success, and Sales Operations - all working together help our customers adopt Cloudflare and create great Internet-enabled experiences. The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What you'll do",
+          "paras": [
+            "We are looking for a seasoned channel sales professional to help us build out the channel organization in the Southeast and MidAtlantic regions.",
+            "In this role, you’ll identify and operationalize varied types of partner organizations to help expand Cloudflare’s sales team reach within an assigned territory. You will build a regional partner business plan with quantified goals and milestones to achieve partner sourced revenue metrics to meet all quarterly sales requirements.",
+            "As a Partner Account Manager, you will work with a strategic group of partners in your territory and build a plan to drive alignment, enablement and pipeline generation efforts. You will work with partner stakeholders to drive sales enablement and coordinate technical training of Cloudflare’s solutions, work with respective field teams on demand gen initiatives and campaigns, as well as working with direct sales on various Channel oriented opps."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Additional responsibilities will include:",
+          "paras": [],
+          "bullets": [
+            "Lead business planning and execution with partners and internal sales teams (e.g., QBRs, health checks, annual planning).",
+            "Conduct joint partner territory planning with aligned sales segments.",
+            "Deliver internal partner training to direct sales teams to foster collaborative selling.",
+            "Drive pipeline creation and revenue through creative joint GTM activity with our channel and direct sales teams.",
+            "Build product and sales competency within core regional and national partners, influencing their GTM strategies to maximize partner-sourced pipeline.",
+            "Leverage data analytics and AI tooling to optimize and scale partner growth."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:samsara:8304710",
       "title": "Enterprise Implementation Consultant - Public Sector",
       "company": "Samsara",
@@ -2876,7 +3360,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-10-26T16:11:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2933,71 +3417,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8306651",
-      "title": "Senior Partner Account Manager, Southeast & MidAtlantic Region",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Remote — Distributed",
-      "mode": "Onsite",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 16,
-      "postedAt": "2026-10-26T18:29:33-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "Open to any of the listed location(s):",
-          "paras": [],
-          "bullets": [
-            "Florida: Miami (MIA), Tampa (TPA)",
-            "Georgia: Atlanta (ATL)",
-            "North Carolina: Charlotte (CLT), Raleigh (RDU)",
-            "Tennessee: Nashville (BNA)"
-          ]
-        },
-        {
-          "title": "About the Department",
-          "paras": [
-            "Partner Account Managers, Account Executives, Business Development Representatives, Solution Engineers, Customer Success, and Sales Operations - all working together help our customers adopt Cloudflare and create great Internet-enabled experiences. The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you'll do",
-          "paras": [
-            "We are looking for a seasoned channel sales professional to help us build out the channel organization in the Southeast and MidAtlantic regions.",
-            "In this role, you’ll identify and operationalize varied types of partner organizations to help expand Cloudflare’s sales team reach within an assigned territory. You will build a regional partner business plan with quantified goals and milestones to achieve partner sourced revenue metrics to meet all quarterly sales requirements.",
-            "As a Partner Account Manager, you will work with a strategic group of partners in your territory and build a plan to drive alignment, enablement and pipeline generation efforts. You will work with partner stakeholders to drive sales enablement and coordinate technical training of Cloudflare’s solutions, work with respective field teams on demand gen initiatives and campaigns, as well as working with direct sales on various Channel oriented opps."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Additional responsibilities will include:",
-          "paras": [],
-          "bullets": [
-            "Lead business planning and execution with partners and internal sales teams (e.g., QBRs, health checks, annual planning).",
-            "Conduct joint partner territory planning with aligned sales segments.",
-            "Deliver internal partner training to direct sales teams to foster collaborative selling.",
-            "Drive pipeline creation and revenue through creative joint GTM activity with our channel and direct sales teams.",
-            "Build product and sales competency within core regional and national partners, influencing their GTM strategies to maximize partner-sourced pipeline.",
-            "Leverage data analytics and AI tooling to optimize and scale partner growth."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:flexport:8325948",
       "title": "Account Manager III, Fulfillment",
       "company": "Flexport",
@@ -3013,7 +3432,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-10-26T18:40:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3075,7 +3494,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-10-26T16:34:00.360+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3154,7 +3573,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-10-23T13:28:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3245,7 +3664,7 @@
         "Tableau",
         "SQL"
       ],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-10-23T13:22:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3270,155 +3689,6 @@
             "Troubleshoot partner technical issues to ensure performance.",
             "Develop and maintain technical partner resources that support field teams to self-serve.",
             "Represent Airbnb at external meetings and industry events, engaging with connectivity and hotel partners."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ashby:ramp:6a508863-352b-4f39-b299-5a3b6693605a",
-      "title": "Manager, Customer Activation, Mid-Market",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": "Mid-Market",
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 174000,
-      "max": 266000,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Looker"
-      ],
-      "posted": 20,
-      "postedAt": "2026-10-22T22:24:53.127+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/6a508863-352b-4f39-b299-5a3b6693605a/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/6a508863-352b-4f39-b299-5a3b6693605a",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "You will be a front-line manager to a group of 6-8 CSMs, who each manage ~60 Activations at a given time in Ramp’s Mid Market portfolio. You will be responsible for developing and standardizing implementation best practices, 1:1 coaching and mentoring, building a repeatable and scalable customer activation motion that enables growth without proportional increases in team size, and working closely with leaders across Sales, Marketing, Operations, Risk, and Product to drive positive outcomes for this segment. As a key member of the Mid Market CSM leadership team, you will have the opportunity to help build and refine Ramp’s customer success and onboarding motion."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You'll Do",
-          "paras": [],
-          "bullets": [
-            "Set and maintain a high-performing culture and morale by managing a group of exceptional CSMs to drive thorough and efficient onboarding and product activation for Ramp’s medium/large customers",
-            "Oversee the daily activities and quota performance management of individual CSMs to ensure team exceeds product onboarding and spend activation goals, while maintaining strong CSAT",
-            "Refine best practice playbooks for the CSM team, and improve team output and efficiency over time by optimizing systems and processes",
-            "Develop and execute career development and leadership plans for direct reports; inclusive of but not limited to daily 1:1 mentoring, coaching on sales skills, enhancing product knowledge, providing call feedback, and running enablement sessions",
-            "Act as a voice of the customer and key contributor retaining and expanding Ramp’s Mid Market segment",
-            "Build and leverage internal AI tools and Salesforce dashboards to monitor the success of our customers and the performance of the team",
-            "Report on team performance and forecast to senior leadership",
-            "Represent the CSM team cross-functionally with leaders of other departments"
-          ]
-        },
-        {
-          "title": "What You Need",
-          "paras": [],
-          "bullets": [
-            "5+ years of implementation, CSM or AM experience as an individual contributor, with a proven, consistent track record exceeding goals",
-            "3+ years of experience building and leading implementation or CSM teams with a proven track record of exceeding goals",
-            "Prior demonstrated success in fast-paced, results-oriented GTM environments, ideally at SaaS companies",
-            "Ability to identify trends, translate company strategy into team-level priorities, and drive initiatives that improve team metrics and organizational outcomes",
-            "Proven ability to coach teams on selling the full platform, not just individual products; experience driving multi-product adoption, cross-sell, and upsell across a book of business",
-            "Track record of pushing pace on input metrics, building repeatable playbooks, and optimizing systems and processes to improve team output",
-            "Strong collaboration and influencing skills across Sales, Product, Operations, and other GTM teams; demonstrated ability to represent Customer Success at a leadership level",
-            "Comfort with and curiosity about AI tools and their application to CS workflows; ability to lead a team through AI-driven process transformation and evaluate how AI can augment CSM productivity and customer outcomes"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:samsara:8306612",
-      "title": "Digital Customer Success Manager, AI & Automation",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — Austin, CA + more",
-      "mode": "Remote",
-      "min": 105910,
-      "max": 160200,
-      "variable": "+ equity + bonus",
-      "book": "100 accounts",
-      "stack": [
-        "Salesforce",
-        "Python"
-      ],
-      "posted": 21,
-      "postedAt": "2026-10-21T13:11:15-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "About the role:",
-          "paras": [
-            "The Commercial Customer Success team supports hundreds to thousands of customers who depend on the Samsara platform daily. This team is dedicated to equipping every customer with the necessary resources to achieve rapid value, regardless of their background or expertise.\nTo scale this impact, we are seeking a Digital Customer Success Manager, AI & Automation to be a hands-on developer responsible for designing, testing, deploying, and maintaining agentic systems to support a digital-first post-sales strategy.",
-            "This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
-          ],
-          "bullets": [
-            "Customer Journey Optimization: Pinpoint friction points in the customer experience, create proactive interventions, and turn interactions into automated, personalized journeys.",
-            "End-to-End Execution: Write code, execute experimental tests, and continuously maintain production solutions.",
-            "Cross-Functional Alignment: Partner across teams to ensure a cohesive experience for all users."
-          ]
-        },
-        {
-          "title": "Minimum requirements for the role:",
-          "paras": [],
-          "bullets": [
-            "Hands-on experience building and maintaining production LLM-based agents or automations, with at least 1 year working directly with LLMs or AI agents in production",
-            "Ability to code rapidly with Python proficiency or skilled at using AI to code; have a track record of connecting AI to external systems: CRMs, APIs, customer data, and operational tools",
-            "Experience using product usage data to spot risk and opportunity (health signals, activation milestones, usage floors) and acting on it before it surfaces in a renewal conversation",
-            "Comfort running experiments and drawing sound conclusions from the data in order to improve the performance",
-            "A systems mindset for managing a high-volume book of business: you build repeatable playbooks and motions, not just manage individual relationships",
-            "3+ years of experience, preferably in a B2B SaaS environment"
-          ]
-        },
-        {
-          "title": "An ideal candidate also has:",
-          "paras": [],
-          "bullets": [
-            "Direct experience with Anthropic Claude or similar LLM APIs",
-            "Experience building programs to support NRR, retention, or expansion outcomes on a digital or long-tail book of business (100+ accounts)",
-            "Experience building regression test suites or eval frameworks for non-deterministic AI systems",
-            "Experience in a product-led or high-velocity customer environment"
-          ]
-        },
-        {
-          "title": "WHY THIS ROLE, WHY NOW",
-          "paras": [
-            "The compensation range shown spans approved pay zones for this role. Your primary work location determines the range applicable to you, which may be narrower than the full range displayed.",
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
-          "bullets": [
-            "You’ll be first. This function doesn’t exist yet. You’ll define the role, the standard, and the playbook for digital customer success at Samsara.",
-            "The problem is real. A CSM managing 350+ accounts can’t do everything manually. Digital and agentic motions are what make this segment sustainable at Samsara’s scale.",
-            "The timing is right. The models have caught up to the use cases, and Samsara has the customer data, platform context, and Customer Success team to make these systems genuinely powerful."
           ]
         }
       ]
@@ -3503,61 +3773,150 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8300580",
-      "title": "Sr. Customer Success Strategy Manager, New Products",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "CS Operations",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — SF Bay Area",
+      "id": "ashby:ramp:6a508863-352b-4f39-b299-5a3b6693605a",
+      "title": "Manager, Customer Activation, Mid-Market",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": "Mid-Market",
+      "location": "Remote — New York, NY (HQ)",
       "mode": "Remote",
-      "min": 145000,
-      "max": 212500,
-      "variable": "+ equity + bonus",
+      "min": 174000,
+      "max": 266000,
+      "variable": "",
       "book": "",
-      "stack": [],
-      "posted": 22,
-      "postedAt": "2026-10-20T19:49:10-04:00",
-      "source": "Greenhouse",
+      "stack": [
+        "Salesforce",
+        "Looker"
+      ],
+      "posted": 21,
+      "postedAt": "2026-10-22T22:24:53.127+00:00",
+      "source": "Ashby",
       "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/6a508863-352b-4f39-b299-5a3b6693605a/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/6a508863-352b-4f39-b299-5a3b6693605a",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
       "sections": [
         {
-          "title": "Role Summary",
+          "title": "About Ramp",
           "paras": [
-            "This role owns new product adoption as a company metric across Samsara's post-sale organization. It exists to proactively integrate every new product into post-sale processes — reviewing adoption data, developing and executing strategies to close adoption gaps, and reading out results — by driving action across the cross-functional teams that already touch post-sale customers today: Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing.",
-            "This is an individual-contributor role built for someone who can execute directly, not just delegate. The person in this seat needs to personally drive work forward — running analysis, building plans, and closing gaps themselves — in addition to coordinating action across teams that don't report into this role."
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
           ],
           "bullets": []
         },
         {
-          "title": "Integrate new products into post-sale processes",
+          "title": "About the Role",
+          "paras": [
+            "You will be a front-line manager to a group of 6-8 CSMs, who each manage ~60 Activations at a given time in Ramp’s Mid Market portfolio. You will be responsible for developing and standardizing implementation best practices, 1:1 coaching and mentoring, building a repeatable and scalable customer activation motion that enables growth without proportional increases in team size, and working closely with leaders across Sales, Marketing, Operations, Risk, and Product to drive positive outcomes for this segment. As a key member of the Mid Market CSM leadership team, you will have the opportunity to help build and refine Ramp’s customer success and onboarding motion."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You'll Do",
           "paras": [],
           "bullets": [
-            "Proactively build the process for embedding every new product into existing post-sale workflows as it ships — sponsorship, enablement, and defined success metrics — so no new product launches into a vacuum.",
-            "Partner with Product/R&D early in the launch cycle so adoption is designed for up front, not addressed after the fact."
+            "Set and maintain a high-performing culture and morale by managing a group of exceptional CSMs to drive thorough and efficient onboarding and product activation for Ramp’s medium/large customers",
+            "Oversee the daily activities and quota performance management of individual CSMs to ensure team exceeds product onboarding and spend activation goals, while maintaining strong CSAT",
+            "Refine best practice playbooks for the CSM team, and improve team output and efficiency over time by optimizing systems and processes",
+            "Develop and execute career development and leadership plans for direct reports; inclusive of but not limited to daily 1:1 mentoring, coaching on sales skills, enhancing product knowledge, providing call feedback, and running enablement sessions",
+            "Act as a voice of the customer and key contributor retaining and expanding Ramp’s Mid Market segment",
+            "Build and leverage internal AI tools and Salesforce dashboards to monitor the success of our customers and the performance of the team",
+            "Report on team performance and forecast to senior leadership",
+            "Represent the CSM team cross-functionally with leaders of other departments"
           ]
         },
         {
-          "title": "Diagnose and close adoption gaps",
+          "title": "What You Need",
           "paras": [],
           "bullets": [
-            "Review adoption data on an ongoing basis to identify where, and why, customers aren't adopting new products.",
-            "Develop strategies to close identified adoption gaps, and personally execute against those strategies rather than only assigning them to others.",
-            "Run a standing cross-functional cadence with Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing to turn adoption data into agreed, tracked action."
+            "5+ years of implementation, CSM or AM experience as an individual contributor, with a proven, consistent track record exceeding goals",
+            "3+ years of experience building and leading implementation or CSM teams with a proven track record of exceeding goals",
+            "Prior demonstrated success in fast-paced, results-oriented GTM environments, ideally at SaaS companies",
+            "Ability to identify trends, translate company strategy into team-level priorities, and drive initiatives that improve team metrics and organizational outcomes",
+            "Proven ability to coach teams on selling the full platform, not just individual products; experience driving multi-product adoption, cross-sell, and upsell across a book of business",
+            "Track record of pushing pace on input metrics, building repeatable playbooks, and optimizing systems and processes to improve team output",
+            "Strong collaboration and influencing skills across Sales, Product, Operations, and other GTM teams; demonstrated ability to represent Customer Success at a leadership level",
+            "Comfort with and curiosity about AI tools and their application to CS workflows; ability to lead a team through AI-driven process transformation and evaluate how AI can augment CSM productivity and customer outcomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:samsara:8306612",
+      "title": "Digital Customer Success Manager, AI & Automation",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — Austin, CA + more",
+      "mode": "Remote",
+      "min": 105910,
+      "max": 160200,
+      "variable": "+ equity + bonus",
+      "book": "100 accounts",
+      "stack": [
+        "Salesforce",
+        "Python"
+      ],
+      "posted": 22,
+      "postedAt": "2026-10-21T13:11:15-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "About the role:",
+          "paras": [
+            "The Commercial Customer Success team supports hundreds to thousands of customers who depend on the Samsara platform daily. This team is dedicated to equipping every customer with the necessary resources to achieve rapid value, regardless of their background or expertise.\nTo scale this impact, we are seeking a Digital Customer Success Manager, AI & Automation to be a hands-on developer responsible for designing, testing, deploying, and maintaining agentic systems to support a digital-first post-sales strategy.",
+            "This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
+          ],
+          "bullets": [
+            "Customer Journey Optimization: Pinpoint friction points in the customer experience, create proactive interventions, and turn interactions into automated, personalized journeys.",
+            "End-to-End Execution: Write code, execute experimental tests, and continuously maintain production solutions.",
+            "Cross-Functional Alignment: Partner across teams to ensure a cohesive experience for all users."
           ]
         },
         {
-          "title": "Drive execution across teams without direct authority",
+          "title": "Minimum requirements for the role:",
           "paras": [],
           "bullets": [
-            "Influence and coordinate action across the five post-sale teams above, none of which report into this role, using shared data, a standing cadence, and escalation through the VP of Customer Success when needed.",
-            "Build and maintain relationships with leaders across each function to keep adoption a shared, prioritized outcome rather than a side project."
+            "Hands-on experience building and maintaining production LLM-based agents or automations, with at least 1 year working directly with LLMs or AI agents in production",
+            "Ability to code rapidly with Python proficiency or skilled at using AI to code; have a track record of connecting AI to external systems: CRMs, APIs, customer data, and operational tools",
+            "Experience using product usage data to spot risk and opportunity (health signals, activation milestones, usage floors) and acting on it before it surfaces in a renewal conversation",
+            "Comfort running experiments and drawing sound conclusions from the data in order to improve the performance",
+            "A systems mindset for managing a high-volume book of business: you build repeatable playbooks and motions, not just manage individual relationships",
+            "3+ years of experience, preferably in a B2B SaaS environment"
+          ]
+        },
+        {
+          "title": "An ideal candidate also has:",
+          "paras": [],
+          "bullets": [
+            "Direct experience with Anthropic Claude or similar LLM APIs",
+            "Experience building programs to support NRR, retention, or expansion outcomes on a digital or long-tail book of business (100+ accounts)",
+            "Experience building regression test suites or eval frameworks for non-deterministic AI systems",
+            "Experience in a product-led or high-velocity customer environment"
+          ]
+        },
+        {
+          "title": "WHY THIS ROLE, WHY NOW",
+          "paras": [
+            "The compensation range shown spans approved pay zones for this role. Your primary work location determines the range applicable to you, which may be narrower than the full range displayed.",
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "You’ll be first. This function doesn’t exist yet. You’ll define the role, the standard, and the playbook for digital customer success at Samsara.",
+            "The problem is real. A CSM managing 350+ accounts can’t do everything manually. Digital and agentic motions are what make this segment sustainable at Samsara’s scale.",
+            "The timing is right. The models have caught up to the use cases, and Samsara has the customer data, platform context, and Customer Success team to make these systems genuinely powerful."
           ]
         }
       ]
@@ -3578,7 +3937,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-21T03:51:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3628,6 +3987,66 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8300580",
+      "title": "Sr. Customer Success Strategy Manager, New Products",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "CS Operations",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — SF Bay Area",
+      "mode": "Remote",
+      "min": 145000,
+      "max": 212500,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 23,
+      "postedAt": "2026-10-20T19:49:10-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "Role Summary",
+          "paras": [
+            "This role owns new product adoption as a company metric across Samsara's post-sale organization. It exists to proactively integrate every new product into post-sale processes — reviewing adoption data, developing and executing strategies to close adoption gaps, and reading out results — by driving action across the cross-functional teams that already touch post-sale customers today: Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing.",
+            "This is an individual-contributor role built for someone who can execute directly, not just delegate. The person in this seat needs to personally drive work forward — running analysis, building plans, and closing gaps themselves — in addition to coordinating action across teams that don't report into this role."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Integrate new products into post-sale processes",
+          "paras": [],
+          "bullets": [
+            "Proactively build the process for embedding every new product into existing post-sale workflows as it ships — sponsorship, enablement, and defined success metrics — so no new product launches into a vacuum.",
+            "Partner with Product/R&D early in the launch cycle so adoption is designed for up front, not addressed after the fact."
+          ]
+        },
+        {
+          "title": "Diagnose and close adoption gaps",
+          "paras": [],
+          "bullets": [
+            "Review adoption data on an ongoing basis to identify where, and why, customers aren't adopting new products.",
+            "Develop strategies to close identified adoption gaps, and personally execute against those strategies rather than only assigning them to others.",
+            "Run a standing cross-functional cadence with Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing to turn adoption data into agreed, tracked action."
+          ]
+        },
+        {
+          "title": "Drive execution across teams without direct authority",
+          "paras": [],
+          "bullets": [
+            "Influence and coordinate action across the five post-sale teams above, none of which report into this role, using shared data, a standing cadence, and escalation through the VP of Customer Success when needed.",
+            "Build and maintain relationships with leaders across each function to keep adoption a shared, prioritized outcome rather than a side project."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:checkr:8302350",
       "title": "Principal Customer Success Manager",
       "company": "Checkr",
@@ -3647,7 +4066,7 @@
         "Zendesk",
         "Looker"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-20T18:50:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3717,7 +4136,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-20T18:32:31.155+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3785,7 +4204,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-10-20T09:19:28-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3851,7 +4270,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 23,
+      "posted": 24,
       "postedAt": "2026-10-19T17:04:29-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3928,7 +4347,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 24,
+      "posted": 25,
       "postedAt": "2026-10-18T21:59:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3997,7 +4416,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-10-16T15:58:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4067,7 +4486,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-10-16T22:12:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4150,7 +4569,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-10-15T21:33:08.330+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4221,7 +4640,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-10-14T12:43:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4277,7 +4696,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-10-13T23:05:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4339,7 +4758,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-10-13T13:23:13-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4387,83 +4806,6 @@
       ]
     },
     {
-      "id": "greenhouse:mixpanel:8260692",
-      "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — San Francisco ()",
-      "mode": "Remote",
-      "min": 112000,
-      "max": 132000,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Gainsight",
-        "Totango",
-        "HubSpot"
-      ],
-      "posted": 33,
-      "postedAt": "2026-10-09T17:58:48-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Customer Digital Experience Team",
-          "paras": [
-            "Customer Digital Experience sits within the technical arm of Mixpanel's Customer Success organization.",
-            "Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
-            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
-            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
-            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
-            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
-            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
-            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
-            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
-            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
-            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
-            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Is:",
-          "paras": [],
-          "bullets": [
-            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
-            "An excellent writer who can be concise, specific, and useful to a technical audience",
-            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
-            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
-            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
-            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
-            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
-            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:mixpanel:8268370",
       "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
       "company": "Mixpanel",
@@ -4483,7 +4825,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-10-09T16:26:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4560,12 +4902,89 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-10-09T19:24:38-04:00",
       "source": "Greenhouse",
       "featured": false,
       "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
       "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Customer Digital Experience Team",
+          "paras": [
+            "Customer Digital Experience sits within the technical arm of Mixpanel's Customer Success organization.",
+            "Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
+            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
+            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
+            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
+            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
+            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
+            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
+            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
+            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
+            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
+            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Is:",
+          "paras": [],
+          "bullets": [
+            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
+            "An excellent writer who can be concise, specific, and useful to a technical audience",
+            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
+            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
+            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
+            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
+            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
+            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:mixpanel:8260692",
+      "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — San Francisco ()",
+      "mode": "Remote",
+      "min": 112000,
+      "max": 132000,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Gainsight",
+        "Totango",
+        "HubSpot"
+      ],
+      "posted": 34,
+      "postedAt": "2026-10-09T17:58:48-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8260692",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -4633,7 +5052,7 @@
       "variable": "",
       "book": "12 customers",
       "stack": [],
-      "posted": 34,
+      "posted": 35,
       "postedAt": "2026-10-08T22:52:16.432+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4689,62 +5108,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8236004",
-      "title": "Implementation Consultant",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": "Mid-Market",
-      "location": "Remote — Calgary, Canada + more",
-      "mode": "Remote",
-      "min": 79205,
-      "max": 102500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 35,
-      "postedAt": "2026-10-07T20:23:27-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Flexible Working",
-          "paras": [
-            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Our Commitment to Authenticity",
-          "paras": [
-            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Fraudulent Employment Offers",
-          "paras": [
-            "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:cloudflare:8257165",
       "title": "Mid-Market Account Manager. Mexico and Central America.",
       "company": "Cloudflare",
@@ -4760,7 +5123,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-10-07T14:53:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4806,6 +5169,62 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8236004",
+      "title": "Implementation Consultant",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": "Mid-Market",
+      "location": "Remote — Calgary, Canada + more",
+      "mode": "Remote",
+      "min": 79205,
+      "max": 102500,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 36,
+      "postedAt": "2026-10-07T20:23:27-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Flexible Working",
+          "paras": [
+            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Our Commitment to Authenticity",
+          "paras": [
+            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Fraudulent Employment Offers",
+          "paras": [
+            "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:instacart:8250324",
       "title": "Account Manager",
       "company": "Instacart",
@@ -4824,7 +5243,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-10-02T19:10:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4894,7 +5313,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4968,7 +5387,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5028,7 +5447,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-09-29T18:06:03-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5097,7 +5516,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-09-29T20:16:06-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5162,7 +5581,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-09-28T14:45:47-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5214,66 +5633,6 @@
             "Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn , X , YouTube , and Instagram .\n\nBenefits\n\nAt Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here ."
           ],
           "bullets": []
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:checkr:8237603",
-      "title": "Director of Customer Success",
-      "company": "Checkr",
-      "companySite": "https://checkr.com",
-      "industry": "Background checks",
-      "family": "Leadership",
-      "seniority": "Director",
-      "segment": null,
-      "location": "Denver, CO + more",
-      "mode": "Onsite",
-      "min": 233000,
-      "max": 274000,
-      "variable": "+ equity",
-      "book": "Team of 5",
-      "stack": [],
-      "posted": 44,
-      "postedAt": "2026-09-28T13:35:38-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/checkr/jobs/8237603",
-      "postingUrl": "https://job-boards.greenhouse.io/checkr/jobs/8237603",
-      "blurb": "Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a…",
-      "summary": "About Checkr\nCheckr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.\n\nWe’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company .",
-      "sections": [
-        {
-          "title": "About the team/role",
-          "paras": [
-            "As a Director of Checkr’s Strategic Customer Success team, you will lead a team of 5 experienced Customer Success Managers who are assigned to Checkr’s largest and most complex clients. You will be responsible for delivering exceptional value realization, fostering strong, executive-level customer relationships, and ensuring a delightful customer experience. This role reports to the Senior Director of Customer Success.",
-            "You will be accountable for achieving ambitious account goals, enhancing operational efficiency, and providing exceptional leadership and mentorship to your team members. You will collaborate closely with cross-functional professionals who thrive on collaboration, grit, and continuous learning. Your leadership will be vital in maintaining a culture of excellence, acting with integrity and transparency, and serving as a trusted advisor to your team and our customers. You will ensure the overall health and success of Checkr’s most strategic accounts, contributing to logo retention, gross dollar retention, and net revenue per check."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you'll do",
-          "paras": [],
-          "bullets": [
-            "Lead and develop a high-performing team: Recruit, mentor, and manage a team of experienced Customer Success Managers, fostering their professional growth, encouraging decentralized decision-making, and ensuring they have the tools and support to excel in a complex strategic environment.",
-            "Oversee strategic customer relationships: Ensure strategic alignment with customers, acting as an escalation point for critical issues and fostering strong, trust-based partnerships at SVP, VP, and Director levels within customer organizations.",
-            "Drive customer success strategy: Develop and implement strategies to maximize customer value realization, satisfaction, and retention across your portfolio. You will look beyond specific challenges to identify and address systemic improvement opportunities.",
-            "Collaborate cross-functionally: Partner with Sales, Account Management, Product, Engineering, Support, and Executive teams to advocate for customer needs, share information openly, and drive continuous improvement in our products and services.",
-            "Achieve operational excellence: Monitor team performance metrics, manage resources effectively, and ensure adherence to best practices while encouraging innovation and simplification in all processes.",
-            "Facilitate account expansion: Collaborate closely with Account Management to identify and pursue account growth and expansion opportunities, aligning with customer goals and delivering additional value."
-          ]
-        },
-        {
-          "title": "What you bring",
-          "paras": [],
-          "bullets": [
-            "Experience and Leadership: At least 10 years of experience in Customer Success, Account Management, or related roles, with a minimum of 6 years in a leadership or managerial position, preferably within the HR-Tech or consumptive SaaS markets.",
-            "Problem solving: Demonstrated ability to simplify and solve complex problems using critical thinking, creative approaches, and structure. You are proficient in using data and analytics to solve problems, identify systemic issues, and drive performance improvements.",
-            "Communication: Excellent written and verbal communication skills, able to articulate complex concepts clearly, adapt your communication style to different audiences, including executive leaders, and remain approachable.",
-            "Integrity and Inclusion: Known for candor, transparency, and treating everyone with respect. You work well with different backgrounds, identities, values, and cultures.",
-            "Passion and Drive: Inspire others with your drive for excellence, maintain a tenacious and optimistic attitude, and care deeply about winning and your teammates.",
-            "Willingness to travel: Ability to travel domestically up to 25% for customer engagements and team meetings.",
-            "An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes."
-          ]
         }
       ]
     },
@@ -5340,6 +5699,66 @@
             "Work cross-functionally with Product, Engineering, Support,Marketing and other teams to resolve customer business issues and work towards each customer’s stated goals.",
             "Manage customer feedback and product needs by providing feature requests to internal partner teams.",
             "Able to prioritize effectively to handle multiple deals at the same time."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:checkr:8237603",
+      "title": "Director of Customer Success",
+      "company": "Checkr",
+      "companySite": "https://checkr.com",
+      "industry": "Background checks",
+      "family": "Leadership",
+      "seniority": "Director",
+      "segment": null,
+      "location": "Denver, CO + more",
+      "mode": "Onsite",
+      "min": 233000,
+      "max": 274000,
+      "variable": "+ equity",
+      "book": "Team of 5",
+      "stack": [],
+      "posted": 45,
+      "postedAt": "2026-09-28T13:35:38-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/checkr/jobs/8237603",
+      "postingUrl": "https://job-boards.greenhouse.io/checkr/jobs/8237603",
+      "blurb": "Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a…",
+      "summary": "About Checkr\nCheckr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.\n\nWe’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company .",
+      "sections": [
+        {
+          "title": "About the team/role",
+          "paras": [
+            "As a Director of Checkr’s Strategic Customer Success team, you will lead a team of 5 experienced Customer Success Managers who are assigned to Checkr’s largest and most complex clients. You will be responsible for delivering exceptional value realization, fostering strong, executive-level customer relationships, and ensuring a delightful customer experience. This role reports to the Senior Director of Customer Success.",
+            "You will be accountable for achieving ambitious account goals, enhancing operational efficiency, and providing exceptional leadership and mentorship to your team members. You will collaborate closely with cross-functional professionals who thrive on collaboration, grit, and continuous learning. Your leadership will be vital in maintaining a culture of excellence, acting with integrity and transparency, and serving as a trusted advisor to your team and our customers. You will ensure the overall health and success of Checkr’s most strategic accounts, contributing to logo retention, gross dollar retention, and net revenue per check."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What you'll do",
+          "paras": [],
+          "bullets": [
+            "Lead and develop a high-performing team: Recruit, mentor, and manage a team of experienced Customer Success Managers, fostering their professional growth, encouraging decentralized decision-making, and ensuring they have the tools and support to excel in a complex strategic environment.",
+            "Oversee strategic customer relationships: Ensure strategic alignment with customers, acting as an escalation point for critical issues and fostering strong, trust-based partnerships at SVP, VP, and Director levels within customer organizations.",
+            "Drive customer success strategy: Develop and implement strategies to maximize customer value realization, satisfaction, and retention across your portfolio. You will look beyond specific challenges to identify and address systemic improvement opportunities.",
+            "Collaborate cross-functionally: Partner with Sales, Account Management, Product, Engineering, Support, and Executive teams to advocate for customer needs, share information openly, and drive continuous improvement in our products and services.",
+            "Achieve operational excellence: Monitor team performance metrics, manage resources effectively, and ensure adherence to best practices while encouraging innovation and simplification in all processes.",
+            "Facilitate account expansion: Collaborate closely with Account Management to identify and pursue account growth and expansion opportunities, aligning with customer goals and delivering additional value."
+          ]
+        },
+        {
+          "title": "What you bring",
+          "paras": [],
+          "bullets": [
+            "Experience and Leadership: At least 10 years of experience in Customer Success, Account Management, or related roles, with a minimum of 6 years in a leadership or managerial position, preferably within the HR-Tech or consumptive SaaS markets.",
+            "Problem solving: Demonstrated ability to simplify and solve complex problems using critical thinking, creative approaches, and structure. You are proficient in using data and analytics to solve problems, identify systemic issues, and drive performance improvements.",
+            "Communication: Excellent written and verbal communication skills, able to articulate complex concepts clearly, adapt your communication style to different audiences, including executive leaders, and remain approachable.",
+            "Integrity and Inclusion: Known for candor, transparency, and treating everyone with respect. You work well with different backgrounds, identities, values, and cultures.",
+            "Passion and Drive: Inspire others with your drive for excellence, maintain a tenacious and optimistic attitude, and care deeply about winning and your teammates.",
+            "Willingness to travel: Ability to travel domestically up to 25% for customer engagements and team meetings.",
+            "An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes."
           ]
         }
       ]
