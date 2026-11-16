@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T13:38:46.467Z",
-  "count": 79,
+  "generatedAt": "2026-11-16T15:09:39.670Z",
+  "count": 77,
   "sources": [
     "Greenhouse",
     "Ashby"
@@ -22,7 +22,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-11-12T12:31:31-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -93,7 +93,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-11-13T08:11:49-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -162,7 +162,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-11-12T17:12:06-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -229,7 +229,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-11-12T19:10:17.611+00:00",
       "source": "Ashby",
       "featured": false,
@@ -297,7 +297,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-11-13T00:09:32.544+00:00",
       "source": "Ashby",
       "featured": false,
@@ -368,7 +368,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 2,
+      "posted": 3,
       "postedAt": "2026-11-13T00:09:36.315+00:00",
       "source": "Ashby",
       "featured": false,
@@ -442,7 +442,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 3,
+      "posted": 4,
       "postedAt": "2026-11-12T01:19:57.296+00:00",
       "source": "Ashby",
       "featured": false,
@@ -511,7 +511,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-11-10T16:47:36-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -593,7 +593,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-11-10T13:53:05-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -656,7 +656,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-11-10T11:56:36-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -730,7 +730,7 @@
       "stack": [
         "SQL"
       ],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-11-10T16:46:09-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -809,7 +809,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-11-10T16:37:35-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -871,7 +871,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 4,
+      "posted": 5,
       "postedAt": "2026-11-10T19:48:31.653+00:00",
       "source": "Ashby",
       "featured": false,
@@ -943,7 +943,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-09T13:21:28-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -971,72 +971,6 @@
       ]
     },
     {
-      "id": "greenhouse:databricks:8920618002",
-      "title": "Delivery Partner Manager, FDE",
-      "company": "Databricks",
-      "companySite": "https://www.databricks.com",
-      "industry": "Data platform",
-      "family": "Account Management",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Northeast -, San Francisco + more",
-      "mode": "Onsite",
-      "min": 127000,
-      "max": 174700,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 5,
-      "postedAt": "2026-11-09T17:48:23-05:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8920618002",
-      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8920618002",
-      "blurb": "At Databricks we work on some of the most complex distributed processing and machine learning problems in the world and our customers challenge us with interesting new big data and AI use cases. You will shape the future of big data and the machine learning…",
-      "summary": "At Databricks we work on some of the most complex distributed processing and machine learning problems in the world and our customers challenge us with interesting new big data and AI use cases. You will shape the future of big data and the machine learning landscape for leading Fortune 500 organizations.\n\nForward Deployed Engineering (FDE) Delivery Partner Manager supports the mission of the FDE team, which is to accelerate and de-risk our customers' business outcomes through effective enablement and delivery of Databricks platform technology. This is an individual contributor role that will oversee the Databricks Delivery Partner Program which looks to use close partnerships with key system integrators to effectively co-deliver Databricks services engagements.",
-      "sections": [
-        {
-          "title": "The impact you will have:",
-          "paras": [],
-          "bullets": [
-            "You will work with the FDE team in order to use Databricks delivery partners to accelerate our customer project outcomes .",
-            "Build and develop FDE relationships with Global System Integrators (GSIs), Regional System Integrators (RSIs), regional Partner team to support bi-directional pipeline review and bi-directional engagements (subcontracting, and advisory) for company priorities.",
-            "Spearhead and lead efforts to incubate and ramp new partners with Gen AI capabilities.",
-            "Drive MBRs and QBRs with priority partners , and develop long term roadmaps for PS Partner delivery priorities. Develop scorecards and feedback loops to segment partners by focus areas, regions and company priorities.",
-            "Drive delivery governance to ensure partner quality and delivery on Services led and partner supported implementations. Support global programs to measure partner quality such as CSAT, Partner Survey and program governance.",
-            "Lead programs that align with our FDE & Partner strategy for Assurance and advisory services. Work with our cross-functional channel teams to enable GSIs, RSIs, SIs on Assurance services, and support bi-weekly reviews and deal governance",
-            "Support Partner IP efforts such as the creation of service delivery kits to better scale our ecosystem.",
-            "Build and maintain an effective onboarding process for partner resources ensuring effective utilization and quality of services across Databricks customer deliveries."
-          ]
-        },
-        {
-          "title": "What we look for:",
-          "paras": [],
-          "bullets": [
-            "Extensive industry experience including resource management and demand pipeline management and record of success in navigating and driving engagements with large enterprise organizations with a focus on FDE",
-            "Extensive experience within a FDE or consulting organization as a partner Manager, and/or Consulting Manager.",
-            "Experience managing partner or third-party organization enablement including upskilling teams to provide delivery capabilities.",
-            "Excel at working directly with Partners and customers to gather, prioritize, plan and execute solutions to customer business requirements as they relate to technology.",
-            "Experience managing commercial agreements with partners including statements of works to support services management."
-          ]
-        },
-        {
-          "title": "Pay Range Transparency",
-          "paras": [
-            "Databricks is committed to fair and equitable compensation practices. The pay range(s) for this role is listed below and represents the expected base salary range for non-commissionable roles or on-target earnings for commissionable roles. Actual compensation packages are based on several factors that are unique to each candidate, including but not limited to job-related skills, depth of experience, relevant certifications and training, and specific work location. Based on the factors above, Databricks anticipated utilizing the full width of the range. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits listed above. For more information regarding which range your location is in visit our page here ."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About Databricks",
-          "paras": [
-            "Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn , X , YouTube , and Instagram .\n\nBenefits\n\nAt Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here ."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:cloudflare:8245695",
       "title": "Technical Account Manager",
       "company": "Cloudflare",
@@ -1052,7 +986,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-10T05:23:12-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1107,6 +1041,72 @@
       ]
     },
     {
+      "id": "greenhouse:databricks:8920618002",
+      "title": "Delivery Partner Manager, FDE",
+      "company": "Databricks",
+      "companySite": "https://www.databricks.com",
+      "industry": "Data platform",
+      "family": "Account Management",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Northeast -, San Francisco + more",
+      "mode": "Onsite",
+      "min": 127000,
+      "max": 174700,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 6,
+      "postedAt": "2026-11-09T17:48:23-05:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8920618002",
+      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8920618002",
+      "blurb": "At Databricks we work on some of the most complex distributed processing and machine learning problems in the world and our customers challenge us with interesting new big data and AI use cases. You will shape the future of big data and the machine learning…",
+      "summary": "At Databricks we work on some of the most complex distributed processing and machine learning problems in the world and our customers challenge us with interesting new big data and AI use cases. You will shape the future of big data and the machine learning landscape for leading Fortune 500 organizations.\n\nForward Deployed Engineering (FDE) Delivery Partner Manager supports the mission of the FDE team, which is to accelerate and de-risk our customers' business outcomes through effective enablement and delivery of Databricks platform technology. This is an individual contributor role that will oversee the Databricks Delivery Partner Program which looks to use close partnerships with key system integrators to effectively co-deliver Databricks services engagements.",
+      "sections": [
+        {
+          "title": "The impact you will have:",
+          "paras": [],
+          "bullets": [
+            "You will work with the FDE team in order to use Databricks delivery partners to accelerate our customer project outcomes .",
+            "Build and develop FDE relationships with Global System Integrators (GSIs), Regional System Integrators (RSIs), regional Partner team to support bi-directional pipeline review and bi-directional engagements (subcontracting, and advisory) for company priorities.",
+            "Spearhead and lead efforts to incubate and ramp new partners with Gen AI capabilities.",
+            "Drive MBRs and QBRs with priority partners , and develop long term roadmaps for PS Partner delivery priorities. Develop scorecards and feedback loops to segment partners by focus areas, regions and company priorities.",
+            "Drive delivery governance to ensure partner quality and delivery on Services led and partner supported implementations. Support global programs to measure partner quality such as CSAT, Partner Survey and program governance.",
+            "Lead programs that align with our FDE & Partner strategy for Assurance and advisory services. Work with our cross-functional channel teams to enable GSIs, RSIs, SIs on Assurance services, and support bi-weekly reviews and deal governance",
+            "Support Partner IP efforts such as the creation of service delivery kits to better scale our ecosystem.",
+            "Build and maintain an effective onboarding process for partner resources ensuring effective utilization and quality of services across Databricks customer deliveries."
+          ]
+        },
+        {
+          "title": "What we look for:",
+          "paras": [],
+          "bullets": [
+            "Extensive industry experience including resource management and demand pipeline management and record of success in navigating and driving engagements with large enterprise organizations with a focus on FDE",
+            "Extensive experience within a FDE or consulting organization as a partner Manager, and/or Consulting Manager.",
+            "Experience managing partner or third-party organization enablement including upskilling teams to provide delivery capabilities.",
+            "Excel at working directly with Partners and customers to gather, prioritize, plan and execute solutions to customer business requirements as they relate to technology.",
+            "Experience managing commercial agreements with partners including statements of works to support services management."
+          ]
+        },
+        {
+          "title": "Pay Range Transparency",
+          "paras": [
+            "Databricks is committed to fair and equitable compensation practices. The pay range(s) for this role is listed below and represents the expected base salary range for non-commissionable roles or on-target earnings for commissionable roles. Actual compensation packages are based on several factors that are unique to each candidate, including but not limited to job-related skills, depth of experience, relevant certifications and training, and specific work location. Based on the factors above, Databricks anticipated utilizing the full width of the range. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits listed above. For more information regarding which range your location is in visit our page here ."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About Databricks",
+          "paras": [
+            "Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn , X , YouTube , and Instagram .\n\nBenefits\n\nAt Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here ."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:airbnb:8325761",
       "title": "Senior Enablement Manager - API",
       "company": "Airbnb",
@@ -1126,7 +1126,7 @@
         "Gong",
         "SQL"
       ],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-09T12:56:45-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1203,7 +1203,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T17:55:25-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1274,7 +1274,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T16:25:46-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1348,7 +1348,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T13:25:05-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1421,7 +1421,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T14:46:35-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1493,7 +1493,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T12:16:18-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1562,7 +1562,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T13:31:03-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1628,7 +1628,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T11:44:31-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1697,7 +1697,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T12:10:51-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1761,7 +1761,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T15:56:23.780+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1832,7 +1832,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T15:57:51.702+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1903,7 +1903,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-06T15:55:20.931+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1971,7 +1971,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-11-05T20:19:13-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2045,7 +2045,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-11-05T11:27:00-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2113,7 +2113,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-11-05T16:00:39-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2169,7 +2169,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 9,
+      "posted": 10,
       "postedAt": "2026-11-06T07:27:42-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2235,7 +2235,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-11-04T11:24:30-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2312,7 +2312,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-11-04T11:24:53-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2384,7 +2384,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 10,
+      "posted": 11,
       "postedAt": "2026-11-05T02:27:54.494+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2454,7 +2454,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-03T23:23:04.552+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2527,7 +2527,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-03T17:03:03.309+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2605,7 +2605,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 12,
+      "posted": 14,
       "postedAt": "2026-11-02T09:50:59-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2681,7 +2681,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-10-30T16:04:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2762,7 +2762,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 15,
+      "posted": 16,
       "postedAt": "2026-10-30T12:33:54-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2828,7 +2828,7 @@
       "variable": "$98K–$128K OTE",
       "book": "",
       "stack": [],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-10-28T13:48:52-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2884,7 +2884,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 17,
+      "posted": 18,
       "postedAt": "2026-10-28T21:16:53.953+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2954,7 +2954,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-27T16:24:36-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3013,7 +3013,7 @@
       "variable": "+ equity + bonus",
       "book": "50 partners",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-27T12:25:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3074,7 +3074,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-27T12:49:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3153,7 +3153,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-27T17:42:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3214,71 +3214,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8306651",
-      "title": "Senior Partner Account Manager, Southeast & MidAtlantic Region",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Remote — Distributed",
-      "mode": "Onsite",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 19,
-      "postedAt": "2026-10-26T18:29:33-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "Open to any of the listed location(s):",
-          "paras": [],
-          "bullets": [
-            "Florida: Miami (MIA), Tampa (TPA)",
-            "Georgia: Atlanta (ATL)",
-            "North Carolina: Charlotte (CLT), Raleigh (RDU)",
-            "Tennessee: Nashville (BNA)"
-          ]
-        },
-        {
-          "title": "About the Department",
-          "paras": [
-            "Partner Account Managers, Account Executives, Business Development Representatives, Solution Engineers, Customer Success, and Sales Operations - all working together help our customers adopt Cloudflare and create great Internet-enabled experiences. The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you'll do",
-          "paras": [
-            "We are looking for a seasoned channel sales professional to help us build out the channel organization in the Southeast and MidAtlantic regions.",
-            "In this role, you’ll identify and operationalize varied types of partner organizations to help expand Cloudflare’s sales team reach within an assigned territory. You will build a regional partner business plan with quantified goals and milestones to achieve partner sourced revenue metrics to meet all quarterly sales requirements.",
-            "As a Partner Account Manager, you will work with a strategic group of partners in your territory and build a plan to drive alignment, enablement and pipeline generation efforts. You will work with partner stakeholders to drive sales enablement and coordinate technical training of Cloudflare’s solutions, work with respective field teams on demand gen initiatives and campaigns, as well as working with direct sales on various Channel oriented opps."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Additional responsibilities will include:",
-          "paras": [],
-          "bullets": [
-            "Lead business planning and execution with partners and internal sales teams (e.g., QBRs, health checks, annual planning).",
-            "Conduct joint partner territory planning with aligned sales segments.",
-            "Deliver internal partner training to direct sales teams to foster collaborative selling.",
-            "Drive pipeline creation and revenue through creative joint GTM activity with our channel and direct sales teams.",
-            "Build product and sales competency within core regional and national partners, influencing their GTM strategies to maximize partner-sourced pipeline.",
-            "Leverage data analytics and AI tooling to optimize and scale partner growth."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8304710",
       "title": "Enterprise Implementation Consultant - Public Sector",
       "company": "Samsara",
@@ -3294,7 +3229,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-10-26T16:11:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3351,6 +3286,71 @@
       ]
     },
     {
+      "id": "greenhouse:cloudflare:8306651",
+      "title": "Senior Partner Account Manager, Southeast & MidAtlantic Region",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Remote — Distributed",
+      "mode": "Onsite",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 20,
+      "postedAt": "2026-10-26T18:29:33-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "Open to any of the listed location(s):",
+          "paras": [],
+          "bullets": [
+            "Florida: Miami (MIA), Tampa (TPA)",
+            "Georgia: Atlanta (ATL)",
+            "North Carolina: Charlotte (CLT), Raleigh (RDU)",
+            "Tennessee: Nashville (BNA)"
+          ]
+        },
+        {
+          "title": "About the Department",
+          "paras": [
+            "Partner Account Managers, Account Executives, Business Development Representatives, Solution Engineers, Customer Success, and Sales Operations - all working together help our customers adopt Cloudflare and create great Internet-enabled experiences. The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What you'll do",
+          "paras": [
+            "We are looking for a seasoned channel sales professional to help us build out the channel organization in the Southeast and MidAtlantic regions.",
+            "In this role, you’ll identify and operationalize varied types of partner organizations to help expand Cloudflare’s sales team reach within an assigned territory. You will build a regional partner business plan with quantified goals and milestones to achieve partner sourced revenue metrics to meet all quarterly sales requirements.",
+            "As a Partner Account Manager, you will work with a strategic group of partners in your territory and build a plan to drive alignment, enablement and pipeline generation efforts. You will work with partner stakeholders to drive sales enablement and coordinate technical training of Cloudflare’s solutions, work with respective field teams on demand gen initiatives and campaigns, as well as working with direct sales on various Channel oriented opps."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Additional responsibilities will include:",
+          "paras": [],
+          "bullets": [
+            "Lead business planning and execution with partners and internal sales teams (e.g., QBRs, health checks, annual planning).",
+            "Conduct joint partner territory planning with aligned sales segments.",
+            "Deliver internal partner training to direct sales teams to foster collaborative selling.",
+            "Drive pipeline creation and revenue through creative joint GTM activity with our channel and direct sales teams.",
+            "Build product and sales competency within core regional and national partners, influencing their GTM strategies to maximize partner-sourced pipeline.",
+            "Leverage data analytics and AI tooling to optimize and scale partner growth."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:flexport:8325948",
       "title": "Account Manager III, Fulfillment",
       "company": "Flexport",
@@ -3366,7 +3366,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-10-26T18:40:37-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3428,7 +3428,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 19,
+      "posted": 20,
       "postedAt": "2026-10-26T16:34:00.360+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3485,79 +3485,6 @@
       ]
     },
     {
-      "id": "greenhouse:databricks:8910846002",
-      "title": "Associate Forward Deployed Engineer",
-      "company": "Databricks",
-      "companySite": "https://www.databricks.com",
-      "industry": "Data platform",
-      "family": "Customer Success",
-      "seniority": "Entry",
-      "segment": "Enterprise",
-      "location": "Mountain View, CA",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Python"
-      ],
-      "posted": 22,
-      "postedAt": "2026-10-23T11:19:31-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
-      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
-      "blurb": "Hub Cities: NYC | Mountain View | up to 20% travel to customer sites + Hybrid office expectation",
-      "summary": "Hub Cities: NYC | Mountain View | up to 20% travel to customer sites + Hybrid office expectation\n\nAs an Associate Forward Deployed Engineer (FDE) at Databricks, you'll be in a hands-on, customer-facing role for builders who thrive at the intersection of technology and business impact. You'll work directly with enterprise customers to build and productionize Data & AI solutions on the Databricks platform. This early-career role is ideal for a strong Software Engineer looking to grow into a Forward Deployed Engineer. You will embed with customer teams, ship production-grade systems, and learn the Databricks platform deeply alongside Senior FDEs and our Engineering organization.",
-      "sections": [
-        {
-          "title": "The impact you will have:",
-          "paras": [],
-          "bullets": [
-            "Production Solution Delivery: Deliver production-grade systems and reference architectures, contributing reusable frameworks, tools, and best practices along the way.",
-            "Transformational Impact: Support strategic customers through transformational data & AI projects, from prototype through production deployment.",
-            "Own the Architecture: Contribute to architecture and design decisions for secure, scalable, full-stack solutions on the Databricks platform.",
-            "Embed with customer teams to understand their technical and business challenges and help deliver measurable impact.",
-            "Collaborate closely with senior FDEs, Databricks engineering, and customer support to unblock customers and feed learnings back into the product.",
-            "Manage technical scope and timelines for your workstreams, growing toward end-to-end delivery ownership.",
-            "Work with the Databricks technical team, Project Manager, Architect and Customer team to ensure the technical components of the engagement are delivered to meet customer's needs."
-          ]
-        },
-        {
-          "title": "What we look for:",
-          "paras": [
-            "Recent graduate?: We’d love for you to explore our current internship openings on our careers page and submit your application for our roles designed for new college graduates."
-          ],
-          "bullets": [
-            "2+ years of experience in a Software Engineering, Forward Deployed Engineering, or AI Engineering role",
-            "Bachelor’s degree in Computer Science, Data Science, Information Systems, Engineering",
-            "Strong full-stack software engineering skills proficiency in Python and JavaScript/TypeScript, and comfort working across back-end services, APIs, and modern front-end frameworks.",
-            "Solid Computer Science fundamentals: data structures, algorithms, testing, and version control.",
-            "Experience with at least one major cloud platform (AWS, Azure, or GCP), or a strong desire to develop cloud expertise quickly.",
-            "Familiarity with CI/CD, and an interest in production data architectures and MLOps, ML/AI models and AI APIs.",
-            "Excellent communication skills and a genuine interest in customer-facing engineering work.",
-            "Build skills in technical areas, and demonstrate curiosity, adaptability, and eagerness to explore new technologies which support the deployment and integration of Databricks-based solutions to complete customer projects."
-          ]
-        },
-        {
-          "title": "About Databricks",
-          "paras": [
-            "Databricks is a Data and AI company. More than 10,000 organizations worldwide rely on Databricks to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe, and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow.",
-            "This role is based in one of our US Hub cities. Travel to customers is expected approximately 20% of the time."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Compliance",
-          "paras": [
-            "If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8281716",
       "title": "Technical Account Manager",
       "company": "Samsara",
@@ -3580,7 +3507,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-23T13:28:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3671,7 +3598,7 @@
         "Tableau",
         "SQL"
       ],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-23T13:22:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3701,6 +3628,155 @@
       ]
     },
     {
+      "id": "ashby:ramp:6a508863-352b-4f39-b299-5a3b6693605a",
+      "title": "Manager, Customer Activation, Mid-Market",
+      "company": "Ramp",
+      "companySite": "https://ramp.com",
+      "industry": "Corporate cards",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": "Mid-Market",
+      "location": "Remote — New York, NY (HQ)",
+      "mode": "Remote",
+      "min": 174000,
+      "max": 266000,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce",
+        "Looker"
+      ],
+      "posted": 24,
+      "postedAt": "2026-10-22T22:24:53.127+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/6a508863-352b-4f39-b299-5a3b6693605a/application",
+      "postingUrl": "https://jobs.ashbyhq.com/ramp/6a508863-352b-4f39-b299-5a3b6693605a",
+      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
+      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
+      "sections": [
+        {
+          "title": "About Ramp",
+          "paras": [
+            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
+            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "You will be a front-line manager to a group of 6-8 CSMs, who each manage ~60 Activations at a given time in Ramp’s Mid Market portfolio. You will be responsible for developing and standardizing implementation best practices, 1:1 coaching and mentoring, building a repeatable and scalable customer activation motion that enables growth without proportional increases in team size, and working closely with leaders across Sales, Marketing, Operations, Risk, and Product to drive positive outcomes for this segment. As a key member of the Mid Market CSM leadership team, you will have the opportunity to help build and refine Ramp’s customer success and onboarding motion."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You'll Do",
+          "paras": [],
+          "bullets": [
+            "Set and maintain a high-performing culture and morale by managing a group of exceptional CSMs to drive thorough and efficient onboarding and product activation for Ramp’s medium/large customers",
+            "Oversee the daily activities and quota performance management of individual CSMs to ensure team exceeds product onboarding and spend activation goals, while maintaining strong CSAT",
+            "Refine best practice playbooks for the CSM team, and improve team output and efficiency over time by optimizing systems and processes",
+            "Develop and execute career development and leadership plans for direct reports; inclusive of but not limited to daily 1:1 mentoring, coaching on sales skills, enhancing product knowledge, providing call feedback, and running enablement sessions",
+            "Act as a voice of the customer and key contributor retaining and expanding Ramp’s Mid Market segment",
+            "Build and leverage internal AI tools and Salesforce dashboards to monitor the success of our customers and the performance of the team",
+            "Report on team performance and forecast to senior leadership",
+            "Represent the CSM team cross-functionally with leaders of other departments"
+          ]
+        },
+        {
+          "title": "What You Need",
+          "paras": [],
+          "bullets": [
+            "5+ years of implementation, CSM or AM experience as an individual contributor, with a proven, consistent track record exceeding goals",
+            "3+ years of experience building and leading implementation or CSM teams with a proven track record of exceeding goals",
+            "Prior demonstrated success in fast-paced, results-oriented GTM environments, ideally at SaaS companies",
+            "Ability to identify trends, translate company strategy into team-level priorities, and drive initiatives that improve team metrics and organizational outcomes",
+            "Proven ability to coach teams on selling the full platform, not just individual products; experience driving multi-product adoption, cross-sell, and upsell across a book of business",
+            "Track record of pushing pace on input metrics, building repeatable playbooks, and optimizing systems and processes to improve team output",
+            "Strong collaboration and influencing skills across Sales, Product, Operations, and other GTM teams; demonstrated ability to represent Customer Success at a leadership level",
+            "Comfort with and curiosity about AI tools and their application to CS workflows; ability to lead a team through AI-driven process transformation and evaluate how AI can augment CSM productivity and customer outcomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:samsara:8306612",
+      "title": "Digital Customer Success Manager, AI & Automation",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — Austin, CA + more",
+      "mode": "Remote",
+      "min": 105910,
+      "max": 160200,
+      "variable": "+ equity + bonus",
+      "book": "100 accounts",
+      "stack": [
+        "Salesforce",
+        "Python"
+      ],
+      "posted": 25,
+      "postedAt": "2026-10-21T13:11:15-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "About the role:",
+          "paras": [
+            "The Commercial Customer Success team supports hundreds to thousands of customers who depend on the Samsara platform daily. This team is dedicated to equipping every customer with the necessary resources to achieve rapid value, regardless of their background or expertise.\nTo scale this impact, we are seeking a Digital Customer Success Manager, AI & Automation to be a hands-on developer responsible for designing, testing, deploying, and maintaining agentic systems to support a digital-first post-sales strategy.",
+            "This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
+          ],
+          "bullets": [
+            "Customer Journey Optimization: Pinpoint friction points in the customer experience, create proactive interventions, and turn interactions into automated, personalized journeys.",
+            "End-to-End Execution: Write code, execute experimental tests, and continuously maintain production solutions.",
+            "Cross-Functional Alignment: Partner across teams to ensure a cohesive experience for all users."
+          ]
+        },
+        {
+          "title": "Minimum requirements for the role:",
+          "paras": [],
+          "bullets": [
+            "Hands-on experience building and maintaining production LLM-based agents or automations, with at least 1 year working directly with LLMs or AI agents in production",
+            "Ability to code rapidly with Python proficiency or skilled at using AI to code; have a track record of connecting AI to external systems: CRMs, APIs, customer data, and operational tools",
+            "Experience using product usage data to spot risk and opportunity (health signals, activation milestones, usage floors) and acting on it before it surfaces in a renewal conversation",
+            "Comfort running experiments and drawing sound conclusions from the data in order to improve the performance",
+            "A systems mindset for managing a high-volume book of business: you build repeatable playbooks and motions, not just manage individual relationships",
+            "3+ years of experience, preferably in a B2B SaaS environment"
+          ]
+        },
+        {
+          "title": "An ideal candidate also has:",
+          "paras": [],
+          "bullets": [
+            "Direct experience with Anthropic Claude or similar LLM APIs",
+            "Experience building programs to support NRR, retention, or expansion outcomes on a digital or long-tail book of business (100+ accounts)",
+            "Experience building regression test suites or eval frameworks for non-deterministic AI systems",
+            "Experience in a product-led or high-velocity customer environment"
+          ]
+        },
+        {
+          "title": "WHY THIS ROLE, WHY NOW",
+          "paras": [
+            "The compensation range shown spans approved pay zones for this role. Your primary work location determines the range applicable to you, which may be narrower than the full range displayed.",
+            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
+          ],
+          "bullets": [
+            "You’ll be first. This function doesn’t exist yet. You’ll define the role, the standard, and the playbook for digital customer success at Samsara.",
+            "The problem is real. A CSM managing 350+ accounts can’t do everything manually. Digital and agentic motions are what make this segment sustainable at Samsara’s scale.",
+            "The timing is right. The models have caught up to the use cases, and Samsara has the customer data, platform context, and Customer Success team to make these systems genuinely powerful."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:samsara:8232209",
       "title": "Manager II, Mid-Market Account Management",
       "company": "Samsara",
@@ -3719,7 +3795,7 @@
         "Gainsight",
         "Salesforce"
       ],
-      "posted": 23,
+      "posted": 25,
       "postedAt": "2026-10-22T10:20:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3780,223 +3856,61 @@
       ]
     },
     {
-      "id": "ashby:ramp:6a508863-352b-4f39-b299-5a3b6693605a",
-      "title": "Manager, Customer Activation, Mid-Market",
-      "company": "Ramp",
-      "companySite": "https://ramp.com",
-      "industry": "Corporate cards",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": "Mid-Market",
-      "location": "Remote — New York, NY (HQ)",
-      "mode": "Remote",
-      "min": 174000,
-      "max": 266000,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Looker"
-      ],
-      "posted": 23,
-      "postedAt": "2026-10-22T22:24:53.127+00:00",
-      "source": "Ashby",
-      "featured": false,
-      "applyUrl": "https://jobs.ashbyhq.com/ramp/6a508863-352b-4f39-b299-5a3b6693605a/application",
-      "postingUrl": "https://jobs.ashbyhq.com/ramp/6a508863-352b-4f39-b299-5a3b6693605a",
-      "blurb": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk…",
-      "summary": "Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.",
-      "sections": [
-        {
-          "title": "About Ramp",
-          "paras": [
-            "The median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.",
-            "If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "You will be a front-line manager to a group of 6-8 CSMs, who each manage ~60 Activations at a given time in Ramp’s Mid Market portfolio. You will be responsible for developing and standardizing implementation best practices, 1:1 coaching and mentoring, building a repeatable and scalable customer activation motion that enables growth without proportional increases in team size, and working closely with leaders across Sales, Marketing, Operations, Risk, and Product to drive positive outcomes for this segment. As a key member of the Mid Market CSM leadership team, you will have the opportunity to help build and refine Ramp’s customer success and onboarding motion."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You'll Do",
-          "paras": [],
-          "bullets": [
-            "Set and maintain a high-performing culture and morale by managing a group of exceptional CSMs to drive thorough and efficient onboarding and product activation for Ramp’s medium/large customers",
-            "Oversee the daily activities and quota performance management of individual CSMs to ensure team exceeds product onboarding and spend activation goals, while maintaining strong CSAT",
-            "Refine best practice playbooks for the CSM team, and improve team output and efficiency over time by optimizing systems and processes",
-            "Develop and execute career development and leadership plans for direct reports; inclusive of but not limited to daily 1:1 mentoring, coaching on sales skills, enhancing product knowledge, providing call feedback, and running enablement sessions",
-            "Act as a voice of the customer and key contributor retaining and expanding Ramp’s Mid Market segment",
-            "Build and leverage internal AI tools and Salesforce dashboards to monitor the success of our customers and the performance of the team",
-            "Report on team performance and forecast to senior leadership",
-            "Represent the CSM team cross-functionally with leaders of other departments"
-          ]
-        },
-        {
-          "title": "What You Need",
-          "paras": [],
-          "bullets": [
-            "5+ years of implementation, CSM or AM experience as an individual contributor, with a proven, consistent track record exceeding goals",
-            "3+ years of experience building and leading implementation or CSM teams with a proven track record of exceeding goals",
-            "Prior demonstrated success in fast-paced, results-oriented GTM environments, ideally at SaaS companies",
-            "Ability to identify trends, translate company strategy into team-level priorities, and drive initiatives that improve team metrics and organizational outcomes",
-            "Proven ability to coach teams on selling the full platform, not just individual products; experience driving multi-product adoption, cross-sell, and upsell across a book of business",
-            "Track record of pushing pace on input metrics, building repeatable playbooks, and optimizing systems and processes to improve team output",
-            "Strong collaboration and influencing skills across Sales, Product, Operations, and other GTM teams; demonstrated ability to represent Customer Success at a leadership level",
-            "Comfort with and curiosity about AI tools and their application to CS workflows; ability to lead a team through AI-driven process transformation and evaluate how AI can augment CSM productivity and customer outcomes"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:databricks:8907988002",
-      "title": "Associate Forward Deployed Engineer",
-      "company": "Databricks",
-      "companySite": "https://www.databricks.com",
-      "industry": "Data platform",
-      "family": "Customer Success",
-      "seniority": "Entry",
-      "segment": "Enterprise",
-      "location": "New York City, NY",
-      "mode": "Hybrid",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [
-        "Python"
-      ],
-      "posted": 24,
-      "postedAt": "2026-10-22T09:31:19-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002",
-      "postingUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002",
-      "blurb": "Hub Cities: NYC | Mountain View | up to 20% travel to customer sites + Hybrid office expectation",
-      "summary": "Hub Cities: NYC | Mountain View | up to 20% travel to customer sites + Hybrid office expectation\n\nAs an Associate Forward Deployed Engineer (FDE) at Databricks, you'll be in a hands-on, customer-facing role for builders who thrive at the intersection of technology and business impact. You'll work directly with enterprise customers to build and productionize Data & AI solutions on the Databricks platform. This early-career role is ideal for a strong Software Engineer looking to grow into a Forward Deployed Engineer. You will embed with customer teams, ship production-grade systems, and learn the Databricks platform deeply alongside Senior FDEs and our Engineering organization.",
-      "sections": [
-        {
-          "title": "The impact you will have:",
-          "paras": [],
-          "bullets": [
-            "Production Solution Delivery: Deliver production-grade systems and reference architectures, contributing reusable frameworks, tools, and best practices along the way.",
-            "Transformational Impact: Support strategic customers through transformational data & AI projects, from prototype through production deployment.",
-            "Own the Architecture: Contribute to architecture and design decisions for secure, scalable, full-stack solutions on the Databricks platform.",
-            "Embed with customer teams to understand their technical and business challenges and help deliver measurable impact.",
-            "Collaborate closely with senior FDEs, Databricks engineering, and customer support to unblock customers and feed learnings back into the product.",
-            "Manage technical scope and timelines for your workstreams, growing toward end-to-end delivery ownership.",
-            "Work with the Databricks technical team, Project Manager, Architect and Customer team to ensure the technical components of the engagement are delivered to meet customer's needs."
-          ]
-        },
-        {
-          "title": "What we look for:",
-          "paras": [
-            "Recent graduate?: We’d love for you to explore our current internship openings on our careers page and submit your application for our roles designed for new college graduates."
-          ],
-          "bullets": [
-            "2+ years of experience in a Software Engineering, Forward Deployed Engineering, or AI Engineering role",
-            "Bachelor’s degree in Computer Science, Data Science, Information Systems, Engineering",
-            "Strong full-stack software engineering skills proficiency in Python and JavaScript/TypeScript, and comfort working across back-end services, APIs, and modern front-end frameworks.",
-            "Solid Computer Science fundamentals: data structures, algorithms, testing, and version control.",
-            "Experience with at least one major cloud platform (AWS, Azure, or GCP), or a strong desire to develop cloud expertise quickly.",
-            "Familiarity with CI/CD, and an interest in production data architectures and MLOps, ML/AI models and AI APIs.",
-            "Excellent communication skills and a genuine interest in customer-facing engineering work.",
-            "Build skills in technical areas, and demonstrate curiosity, adaptability, and eagerness to explore new technologies which support the deployment and integration of Databricks-based solutions to complete customer projects."
-          ]
-        },
-        {
-          "title": "About Databricks",
-          "paras": [
-            "Databricks is a Data and AI company. More than 10,000 organizations worldwide rely on Databricks to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe, and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow.",
-            "This role is based in one of our US Hub cities. Travel to customers is expected approximately 20% of the time."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Compliance",
-          "paras": [
-            "If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:samsara:8306612",
-      "title": "Digital Customer Success Manager, AI & Automation",
+      "id": "greenhouse:samsara:8300580",
+      "title": "Sr. Customer Success Strategy Manager, New Products",
       "company": "Samsara",
       "companySite": "https://www.samsara.com",
       "industry": "IoT / fleet",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — Austin, CA + more",
+      "family": "CS Operations",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Remote — SF Bay Area",
       "mode": "Remote",
-      "min": 105910,
-      "max": 160200,
+      "min": 145000,
+      "max": 212500,
       "variable": "+ equity + bonus",
-      "book": "100 accounts",
-      "stack": [
-        "Salesforce",
-        "Python"
-      ],
-      "posted": 24,
-      "postedAt": "2026-10-21T13:11:15-04:00",
+      "book": "",
+      "stack": [],
+      "posted": 26,
+      "postedAt": "2026-10-20T19:49:10-04:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612",
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
       "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
       "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
       "sections": [
         {
-          "title": "About the role:",
+          "title": "Role Summary",
           "paras": [
-            "The Commercial Customer Success team supports hundreds to thousands of customers who depend on the Samsara platform daily. This team is dedicated to equipping every customer with the necessary resources to achieve rapid value, regardless of their background or expertise.\nTo scale this impact, we are seeking a Digital Customer Success Manager, AI & Automation to be a hands-on developer responsible for designing, testing, deploying, and maintaining agentic systems to support a digital-first post-sales strategy.",
-            "This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area."
+            "This role owns new product adoption as a company metric across Samsara's post-sale organization. It exists to proactively integrate every new product into post-sale processes — reviewing adoption data, developing and executing strategies to close adoption gaps, and reading out results — by driving action across the cross-functional teams that already touch post-sale customers today: Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing.",
+            "This is an individual-contributor role built for someone who can execute directly, not just delegate. The person in this seat needs to personally drive work forward — running analysis, building plans, and closing gaps themselves — in addition to coordinating action across teams that don't report into this role."
           ],
-          "bullets": [
-            "Customer Journey Optimization: Pinpoint friction points in the customer experience, create proactive interventions, and turn interactions into automated, personalized journeys.",
-            "End-to-End Execution: Write code, execute experimental tests, and continuously maintain production solutions.",
-            "Cross-Functional Alignment: Partner across teams to ensure a cohesive experience for all users."
-          ]
+          "bullets": []
         },
         {
-          "title": "Minimum requirements for the role:",
+          "title": "Integrate new products into post-sale processes",
           "paras": [],
           "bullets": [
-            "Hands-on experience building and maintaining production LLM-based agents or automations, with at least 1 year working directly with LLMs or AI agents in production",
-            "Ability to code rapidly with Python proficiency or skilled at using AI to code; have a track record of connecting AI to external systems: CRMs, APIs, customer data, and operational tools",
-            "Experience using product usage data to spot risk and opportunity (health signals, activation milestones, usage floors) and acting on it before it surfaces in a renewal conversation",
-            "Comfort running experiments and drawing sound conclusions from the data in order to improve the performance",
-            "A systems mindset for managing a high-volume book of business: you build repeatable playbooks and motions, not just manage individual relationships",
-            "3+ years of experience, preferably in a B2B SaaS environment"
+            "Proactively build the process for embedding every new product into existing post-sale workflows as it ships — sponsorship, enablement, and defined success metrics — so no new product launches into a vacuum.",
+            "Partner with Product/R&D early in the launch cycle so adoption is designed for up front, not addressed after the fact."
           ]
         },
         {
-          "title": "An ideal candidate also has:",
+          "title": "Diagnose and close adoption gaps",
           "paras": [],
           "bullets": [
-            "Direct experience with Anthropic Claude or similar LLM APIs",
-            "Experience building programs to support NRR, retention, or expansion outcomes on a digital or long-tail book of business (100+ accounts)",
-            "Experience building regression test suites or eval frameworks for non-deterministic AI systems",
-            "Experience in a product-led or high-velocity customer environment"
+            "Review adoption data on an ongoing basis to identify where, and why, customers aren't adopting new products.",
+            "Develop strategies to close identified adoption gaps, and personally execute against those strategies rather than only assigning them to others.",
+            "Run a standing cross-functional cadence with Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing to turn adoption data into agreed, tracked action."
           ]
         },
         {
-          "title": "WHY THIS ROLE, WHY NOW",
-          "paras": [
-            "The compensation range shown spans approved pay zones for this role. Your primary work location determines the range applicable to you, which may be narrower than the full range displayed.",
-            "The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below."
-          ],
+          "title": "Drive execution across teams without direct authority",
+          "paras": [],
           "bullets": [
-            "You’ll be first. This function doesn’t exist yet. You’ll define the role, the standard, and the playbook for digital customer success at Samsara.",
-            "The problem is real. A CSM managing 350+ accounts can’t do everything manually. Digital and agentic motions are what make this segment sustainable at Samsara’s scale.",
-            "The timing is right. The models have caught up to the use cases, and Samsara has the customer data, platform context, and Customer Success team to make these systems genuinely powerful."
+            "Influence and coordinate action across the five post-sale teams above, none of which report into this role, using shared data, a standing cadence, and escalation through the VP of Customer Success when needed.",
+            "Build and maintain relationships with leaders across each function to keep adoption a shared, prioritized outcome rather than a side project."
           ]
         }
       ]
@@ -4017,7 +3931,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-10-21T03:51:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4067,66 +3981,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8300580",
-      "title": "Sr. Customer Success Strategy Manager, New Products",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "CS Operations",
-      "seniority": "Senior",
-      "segment": "Enterprise",
-      "location": "Remote — SF Bay Area",
-      "mode": "Remote",
-      "min": 145000,
-      "max": 212500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 25,
-      "postedAt": "2026-10-20T19:49:10-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8300580?gh_jid=8300580",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "Role Summary",
-          "paras": [
-            "This role owns new product adoption as a company metric across Samsara's post-sale organization. It exists to proactively integrate every new product into post-sale processes — reviewing adoption data, developing and executing strategies to close adoption gaps, and reading out results — by driving action across the cross-functional teams that already touch post-sale customers today: Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing.",
-            "This is an individual-contributor role built for someone who can execute directly, not just delegate. The person in this seat needs to personally drive work forward — running analysis, building plans, and closing gaps themselves — in addition to coordinating action across teams that don't report into this role."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Integrate new products into post-sale processes",
-          "paras": [],
-          "bullets": [
-            "Proactively build the process for embedding every new product into existing post-sale workflows as it ships — sponsorship, enablement, and defined success metrics — so no new product launches into a vacuum.",
-            "Partner with Product/R&D early in the launch cycle so adoption is designed for up front, not addressed after the fact."
-          ]
-        },
-        {
-          "title": "Diagnose and close adoption gaps",
-          "paras": [],
-          "bullets": [
-            "Review adoption data on an ongoing basis to identify where, and why, customers aren't adopting new products.",
-            "Develop strategies to close identified adoption gaps, and personally execute against those strategies rather than only assigning them to others.",
-            "Run a standing cross-functional cadence with Scaled Implementation & Success, Enterprise Implementation & Success, Customer Education, Partnerships, and Lifecycle Marketing to turn adoption data into agreed, tracked action."
-          ]
-        },
-        {
-          "title": "Drive execution across teams without direct authority",
-          "paras": [],
-          "bullets": [
-            "Influence and coordinate action across the five post-sale teams above, none of which report into this role, using shared data, a standing cadence, and escalation through the VP of Customer Success when needed.",
-            "Build and maintain relationships with leaders across each function to keep adoption a shared, prioritized outcome rather than a side project."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:checkr:8302350",
       "title": "Principal Customer Success Manager",
       "company": "Checkr",
@@ -4146,7 +4000,7 @@
         "Zendesk",
         "Looker"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-10-20T18:50:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4216,7 +4070,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-10-20T18:32:31.155+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4284,7 +4138,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-10-20T09:19:28-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4350,7 +4204,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-10-19T17:04:29-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4427,7 +4281,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-10-18T21:59:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4496,7 +4350,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-10-16T15:58:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4566,7 +4420,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-10-16T22:12:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4649,7 +4503,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-10-15T21:33:08.330+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4720,7 +4574,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 31,
+      "posted": 32,
       "postedAt": "2026-10-14T12:43:04-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4776,7 +4630,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-10-13T23:05:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4838,7 +4692,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-10-13T13:23:13-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4905,7 +4759,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-10-09T17:58:48-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4982,7 +4836,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-10-09T16:26:26-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5059,7 +4913,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 36,
+      "posted": 37,
       "postedAt": "2026-10-09T19:24:38-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5132,7 +4986,7 @@
       "variable": "",
       "book": "12 customers",
       "stack": [],
-      "posted": 37,
+      "posted": 38,
       "postedAt": "2026-10-08T22:52:16.432+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5188,6 +5042,62 @@
       ]
     },
     {
+      "id": "greenhouse:samsara:8236004",
+      "title": "Implementation Consultant",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": "Mid-Market",
+      "location": "Remote — Calgary, Canada + more",
+      "mode": "Remote",
+      "min": 79205,
+      "max": 102500,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 39,
+      "postedAt": "2026-10-07T20:23:27-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Flexible Working",
+          "paras": [
+            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Our Commitment to Authenticity",
+          "paras": [
+            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Fraudulent Employment Offers",
+          "paras": [
+            "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
       "id": "greenhouse:cloudflare:8257165",
       "title": "Mid-Market Account Manager. Mexico and Central America.",
       "company": "Cloudflare",
@@ -5203,7 +5113,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 38,
+      "posted": 39,
       "postedAt": "2026-10-07T14:53:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5249,62 +5159,6 @@
       ]
     },
     {
-      "id": "greenhouse:samsara:8236004",
-      "title": "Implementation Consultant",
-      "company": "Samsara",
-      "companySite": "https://www.samsara.com",
-      "industry": "IoT / fleet",
-      "family": "Onboarding",
-      "seniority": "Mid",
-      "segment": "Mid-Market",
-      "location": "Remote — Calgary, Canada + more",
-      "mode": "Remote",
-      "min": 79205,
-      "max": 102500,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [],
-      "posted": 38,
-      "postedAt": "2026-10-07T20:23:27-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
-      "postingUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
-      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
-      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
-      "sections": [
-        {
-          "title": "Total Rewards",
-          "paras": [
-            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
-            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Flexible Working",
-          "paras": [
-            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Our Commitment to Authenticity",
-          "paras": [
-            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Fraudulent Employment Offers",
-          "paras": [
-            "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:instacart:8250324",
       "title": "Account Manager",
       "company": "Instacart",
@@ -5323,7 +5177,7 @@
         "Salesforce",
         "Tableau"
       ],
-      "posted": 43,
+      "posted": 44,
       "postedAt": "2026-10-02T19:10:53-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5393,7 +5247,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-10-01T13:59:33-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5467,7 +5321,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 44,
+      "posted": 45,
       "postedAt": "2026-10-01T15:13:11-04:00",
       "source": "Greenhouse",
       "featured": false,
