@@ -12,7 +12,7 @@ const BRAND = {
   name: "renewal",
   line: "Customer success jobs, nothing invented.",
   contactEmail: "supportrenewalcs@gmail.com",
-  founder: "Zach Smith", // shown on the About page; "" leaves the name out
+  founder: "", // a name here is shown on the About page and in its structured data; "" says just "our founder"
   etsyShop: "https://www.etsy.com/shop/YOURSHOPNAME",
 };
 
@@ -110,7 +110,45 @@ const C = {
 };
 const FONT = "'Archivo', 'Helvetica Neue', Helvetica, Arial, sans-serif";
 
-const FAMILIES = ["All roles", "Customer Success", "Account Management", "Onboarding", "Renewals", "CS Operations", "Leadership"];
+const FAMILIES = [
+  "All roles",
+  // customer success
+  "Customer Success", "Account Management", "Technical Account Management", "Onboarding", "Renewals", "CS Operations", "Leadership",
+  // the roles around it (added 19 November 2026)
+  "Solutions & Sales Engineering", "Product Management", "Product Marketing", "Product Specialist",
+];
+
+/* Links that open the board already filtered, for posts and messages:
+   www.renewalcs.com/?role=tam, /?role=product-management&mode=remote,
+   /?q=gainsight. Read once when the board opens; anything unknown is ignored. */
+const ROLE_SLUGS = {
+  "customer-success": "Customer Success", csm: "Customer Success",
+  "account-management": "Account Management", am: "Account Management",
+  tam: "Technical Account Management", "technical-account-management": "Technical Account Management",
+  onboarding: "Onboarding", implementation: "Onboarding",
+  renewals: "Renewals",
+  "cs-ops": "CS Operations", "cs-operations": "CS Operations",
+  leadership: "Leadership",
+  "solutions-engineering": "Solutions & Sales Engineering", "sales-engineering": "Solutions & Sales Engineering",
+  "solutions-consulting": "Solutions & Sales Engineering", presales: "Solutions & Sales Engineering",
+  "product-management": "Product Management", pm: "Product Management",
+  "product-marketing": "Product Marketing", pmm: "Product Marketing",
+  "product-specialist": "Product Specialist",
+};
+const MODE_SLUGS = { remote: "Remote", hybrid: "Hybrid", onsite: "Onsite", "on-site": "Onsite" };
+
+function filtersFromLink() {
+  try {
+    const p = new URLSearchParams(window.location.search);
+    return {
+      role: ROLE_SLUGS[String(p.get("role") || "").trim().toLowerCase()] || null,
+      mode: MODE_SLUGS[String(p.get("mode") || "").trim().toLowerCase()] || null,
+      q: String(p.get("q") || "").trim().slice(0, 80),
+    };
+  } catch {
+    return { role: null, mode: null, q: "" };
+  }
+}
 
 /* Shown only when /jobs.json can't be loaded. Real data replaces this.
    Deliberately mixed: some postings publish a salary, a book size, a segment
@@ -441,17 +479,6 @@ function track(event, data) {
 const applyData = (job) => ({ company: String(job.company || ""), role: String(job.title || ""), featured: !!job.featured });
 
 /* --- shared pieces ------------------------------------------------------- */
-function Chip({ children, active, onClick }) {
-  return (
-    <button onClick={onClick} style={{
-      background: active ? C.ink : C.surface, color: active ? "#fff" : C.body,
-      border: "1px solid " + (active ? C.ink : C.rule), borderRadius: 999,
-      padding: "6px 13px", fontSize: 13, fontWeight: 500, fontFamily: FONT,
-      cursor: "pointer", whiteSpace: "nowrap",
-    }}>{children}</button>
-  );
-}
-
 function Tag({ children, tone }) {
   const map = {
     signal: { bg: C.signalSoft, fg: C.signal, bd: "#CBE2D8" },
@@ -505,13 +532,13 @@ const TITLES = {
 /* What search engines show under each page's title. The home page's matches
    the description in index.html. Keep each under about 155 characters. */
 const DESCRIPTIONS = {
-  jobs: "A job board for customer success managers, account managers and client success leads. Salary, book size and tooling shown wherever the employer published them.",
-  newsletter: "The Friday roundup: one email a week with the customer success roles worth a look, which CS orgs are restructuring, and one thing to use on Monday.",
+  jobs: "Customer success jobs and the roles around them: account managers, TAMs, solutions engineers and product people. Pay shown wherever the employer published it.",
+  newsletter: "The Friday roundup, a weekly email of the customer success roles worth a look, is coming soon. Until then, every role is on the board.",
   templates: "Customer success templates from Baseline: health scorecards, QBR decks, onboarding playbooks, renewal scripts and success plans that work as one system.",
   resources: "Free customer success resources, sorted by what you're trying to do. Nothing gated.",
   advertise: "Post a customer success job free, or feature it for $39. Reach CSMs, account managers, renewals and CS ops people who are actively looking.",
   privacy: "What Renewal collects, why, and who holds it. No accounts, no cookies, and nothing sold.",
-  about: "Renewal is a curated job board for customer success managers, account managers and CS leaders. Roles come straight from the employer. Nothing is estimated.",
+  about: "Renewal is a curated job board for customer success and the roles around it, from TAMs to product managers. Roles come straight from the employer.",
 };
 
 /* Structured data for the About page: tells search engines who runs the site.
@@ -532,10 +559,10 @@ const ABOUT_LD = {
     url: SITE_URL + "/",
     email: BRAND.contactEmail,
     slogan: BRAND.line,
-    description: "A curated job board for customer success roles: customer success managers, account managers, onboarding, renewals, CS operations and CS leadership.",
+    description: "A curated job board for customer success and the roles around it: customer success managers, account managers, TAMs, onboarding, renewals, CS operations, CS leadership, solutions and sales engineering, product management, product marketing and product specialists.",
     parentOrganization: { "@type": "Organization", name: "Baseline" },
     founder: BRAND.founder ? { "@type": "Person", name: BRAND.founder, jobTitle: "Founder", knowsAbout: ["Customer success", "Education", "Education technology"] } : undefined,
-    knowsAbout: ["Customer success", "Customer success management", "Account management", "Customer onboarding", "Renewals", "Customer success operations"],
+    knowsAbout: ["Customer success", "Customer success management", "Account management", "Technical account management", "Customer onboarding", "Renewals", "Customer success operations", "Solutions engineering", "Sales engineering", "Product management", "Product marketing"],
   },
 };
 
@@ -769,9 +796,10 @@ function Pager({ page, pageCount, setPage, total }) {
 
 /* --- jobs page ----------------------------------------------------------- */
 function JobsPage({ setTab, onSub, subbed, feed }) {
-  const [q, setQ] = useState("");
-  const [family, setFamily] = useState("All roles");
-  const [mode, setMode] = useState("Any");
+  const fromLink = useMemo(filtersFromLink, []);
+  const [q, setQ] = useState(fromLink.q);
+  const [family, setFamily] = useState(fromLink.role || "All roles");
+  const [mode, setMode] = useState(fromLink.mode || "Any");
   const [segment, setSegment] = useState("Any");
   const [minPay, setMinPay] = useState(0);
   const [openId, setOpenId] = useState(null);
@@ -853,6 +881,13 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
   };
 
   const reset = () => { setQ(""); setFamily("All roles"); setMode("Any"); setSegment("Any"); setMinPay(0); };
+  // Role types with at least one live role (plus the one picked), with counts.
+  const familyCounts = useMemo(() => {
+    const c = {};
+    for (const j of jobs) c[j.family] = (c[j.family] || 0) + 1;
+    return c;
+  }, [jobs]);
+  const roleOptions = FAMILIES.filter((f) => f === "All roles" || f === family || feed.loading || familyCounts[f]);
   const selectStyle = { padding: "9px 11px", border: "1px solid " + C.rule, borderRadius: 5, fontSize: 13.5, fontFamily: FONT, background: C.surface, color: C.ink, cursor: "pointer" };
 
   return (
@@ -865,8 +900,9 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
           {feed.loading
             ? <span aria-hidden="true" style={{ display: "inline-block", width: "2.2ch", height: "0.95em", verticalAlign: "-0.12em", background: C.ruleSoft, borderRadius: 3 }} />
             : jobs.length}
-          {" open roles across customer success, account management, onboarding, renewals and CS ops. "}
-          Salary, book size and tooling are shown only where the employer published them — nothing on this board is estimated.
+          {" open roles in customer success and the jobs around it, from account management and TAM to solutions engineering and product. "}
+          Salary, book size and tooling are shown only where the employer published them — nothing on this board is estimated.{" "}
+          <TabLink to="about" setTab={setTab} style={{ color: C.signal, fontWeight: 600, textDecoration: "underline", textUnderlineOffset: 2 }}>How we pick roles</TabLink>
         </p>
         {feed.sample && !feed.loading && (
           <p style={{ margin: "10px 0 0", fontSize: 13.5, color: C.flag, background: C.flagSoft, border: "1px solid #EADFBC", borderRadius: 5, padding: "9px 12px", display: "inline-block" }}>
@@ -878,6 +914,13 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
       <div style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 14, marginBottom: 16 }}>
         <div style={{ display: "flex", gap: 9, flexWrap: "wrap" }}>
           <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search title, company, or tool" style={{ flex: "1 1 240px", padding: "9px 12px", border: "1px solid " + C.rule, borderRadius: 5, fontSize: 14, fontFamily: FONT, color: C.ink }} />
+          <select aria-label="Role type" value={family} onChange={(e) => setFamily(e.target.value)} style={selectStyle}>
+            {roleOptions.map((f) => (
+              <option key={f} value={f}>
+                {f}{feed.loading ? "" : ` (${f === "All roles" ? jobs.length : familyCounts[f] || 0})`}
+              </option>
+            ))}
+          </select>
           <select aria-label="Work mode" value={mode} onChange={(e) => setMode(e.target.value)} style={selectStyle}>{["Any", "Remote", "Hybrid", "Onsite"].map((o) => <option key={o}>{o}</option>)}</select>
           <select aria-label="Segment" value={segment} onChange={(e) => setSegment(e.target.value)} style={selectStyle}>{["Any", "Enterprise", "Mid-Market", "SMB"].map((o) => <option key={o}>{o}</option>)}</select>
           <select aria-label="Minimum base pay" value={minPay} onChange={(e) => setMinPay(Number(e.target.value))} style={selectStyle}>
@@ -886,9 +929,6 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
           <select aria-label="Sort" value={sort} onChange={(e) => setSort(e.target.value)} style={selectStyle}>
             <option value="newest">Newest first</option><option value="pay">Highest pay</option>
           </select>
-        </div>
-        <div style={{ display: "flex", gap: 7, flexWrap: "wrap", marginTop: 13 }}>
-          {FAMILIES.map((f) => <Chip key={f} active={family === f} onClick={() => setFamily(f)}>{f}</Chip>)}
         </div>
       </div>
 
@@ -965,29 +1005,15 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
 }
 
 /* --- newsletter ---------------------------------------------------------- */
-function NewsletterPage({ onSub, subbed, issues }) {
-  const [email, setEmail] = useState("");
+/* Coming soon until the first issue goes out. The signup box and the sponsor
+   offer were taken down on 17 October 2026: the box saved no addresses. Bring
+   them back when the newsletter has somewhere real to send people. */
+function NewsletterPage({ issues, setTab }) {
   // Only real, published issues: ones in content.json with a working link.
   const published = (issues || []).filter((i) => i && /^https?:\/\//.test(String(i.url || "")));
   return (
     <div style={{ maxWidth: 780 }}>
       <PageHead title="The Friday roundup" sub="One email a week. The roles worth a look, which CS orgs are restructuring, and one thing you can use in your own book on Monday. No sponsors disguised as advice." />
-      <div style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 26, marginBottom: 44 }}>
-        {subbed ? (
-          <div>
-            <p style={{ fontSize: 17, fontWeight: 650, color: C.signal, margin: 0 }}>You're on the list.</p>
-            <p style={{ fontSize: 14.5, color: C.body, margin: "7px 0 0" }}>The next issue goes out Friday morning. Nothing else arrives in between.</p>
-          </div>
-        ) : (
-          <>
-            <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-              <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@email.com" style={{ flex: "1 1 260px", padding: "12px 14px", border: "1px solid " + C.rule, borderRadius: 5, fontSize: 15, fontFamily: FONT, color: C.ink }} />
-              <Button onClick={() => email.includes("@") && onSub()}>Subscribe free</Button>
-            </div>
-            <p style={{ fontSize: 13, color: C.muted, margin: "12px 0 0" }}>Weekly. Unsubscribe in one click. Your address is never sold or shared.</p>
-          </>
-        )}
-      </div>
       {published.length > 0 ? (
         <>
           <h2 style={{ fontSize: 21, fontWeight: 700, color: C.ink, letterSpacing: "-0.025em", margin: "0 0 4px" }}>Past issues</h2>
@@ -1010,14 +1036,12 @@ function NewsletterPage({ onSub, subbed, issues }) {
       ) : (
         <div style={{ border: "1px dashed " + C.rule, borderRadius: 6, background: C.surface, padding: "34px 24px", textAlign: "center" }}>
           <h2 style={{ fontSize: 21, fontWeight: 700, color: C.ink, letterSpacing: "-0.025em", margin: 0 }}>Coming Soon!</h2>
-          <p style={{ fontSize: 14.5, color: C.muted, margin: "8px 0 0" }}>Past issues will appear here once the first Friday roundup goes out.</p>
+          <p style={{ fontSize: 14.5, color: C.muted, lineHeight: 1.55, margin: "8px auto 0", maxWidth: "46ch" }}>The first Friday roundup is on its way. Until it lands, every role we'd put in it is already on the board.</p>
+          <div style={{ marginTop: 18 }}>
+            <TabLink to="jobs" setTab={setTab} style={{ display: "inline-block", background: C.signal, color: "#fff", border: "1px solid " + C.signal, borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, fontFamily: FONT }}>Browse customer success jobs</TabLink>
+          </div>
         </div>
       )}
-      <div style={{ marginTop: 32, background: C.flagSoft, border: "1px solid #EADFBC", borderRadius: 6, padding: 22 }}>
-        <h3 style={{ margin: 0, fontSize: 16.5, fontWeight: 700, color: C.ink }}>One sponsor slot per issue</h3>
-        <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.55, margin: "8px 0 0" }}>Plain text, near the top, written in the newsletter's voice. $89 an issue.</p>
-        <div style={{ marginTop: 12 }}><CopyEmail /></div>
-      </div>
     </div>
   );
 }
@@ -1604,7 +1628,7 @@ const ABOUT_SOURCES = {
 
 const ABOUT_COMPARE = [
   ["What's listed",
-    "Customer success roles only: CSMs, account managers, onboarding, renewals, CS operations and CS leadership.",
+    "Customer success and the roles around it: CSMs, account managers, TAMs, onboarding, renewals, CS ops and leadership, plus solutions engineering and product roles.",
     "Every job in every field. You do the filtering."],
   ["Where listings come from",
     "The employer's own hiring system, such as Greenhouse, Lever, Ashby or Workable, or the employer directly.",
@@ -1625,7 +1649,7 @@ const ABOUT_COMPARE = [
 
 const ABOUT_STEPS = [
   "Every day, we read the job boards employers run on their own hiring systems, such as Greenhouse, Lever, Ashby and Workable.",
-  "We keep customer success roles: CSM, account management, onboarding, renewals, CS operations and leadership. Everything else is dropped.",
+  "We keep customer success roles and the ones around them: account management, TAM, onboarding, renewals, CS operations, leadership, solutions and sales engineering, product management, product marketing and product specialists. Everything else is dropped.",
   "We check that every Apply button opens the posting itself, not a careers homepage or a list of openings.",
   "We drop postings that have gone stale, and when an employer closes a role, it leaves Renewal at the next refresh.",
   "Employers can also send us a role directly. Those need a salary range, and we check each one by hand before it goes live.",
@@ -1666,7 +1690,9 @@ function AboutPage({ setTab }) {
   const featuredPrice = featured ? featured.price : "$39";
   const faq = [
     ["What is Renewal?",
-      "Renewal is a free job board for customer success professionals: customer success managers (CSMs), account managers, onboarding and renewals specialists, CS operations and CS leaders. It's built and run by Baseline."],
+      "Renewal is a free job board for customer success professionals and the roles around them: customer success managers (CSMs), account managers, technical account managers, onboarding and renewals specialists, CS operations and CS leaders, plus solutions consultants, sales engineers, product managers, product marketers and product specialists. It's built and run by Baseline."],
+    ["Why does a customer success board list product and solutions roles?",
+      "Because they're common next steps for people in customer success, and they hire for the same strengths: knowing customers, explaining value and turning feedback into decisions. Each has its own role type, so the CS roles stay easy to find."],
     ["Are the jobs on Renewal real?",
       "Every listing comes from the employer's own hiring system or from the employer directly, and its Apply button opens the employer's posting. No job board can see inside a company's plans, but we drop stale postings and remove closed roles every day."],
     ["What is a ghost job?",
@@ -1686,7 +1712,7 @@ function AboutPage({ setTab }) {
       <style>{ABOUT_CSS}</style>
       <PageHead
         title="We built the customer success job board we couldn't find"
-        sub="Renewal lists customer success, account management, onboarding, renewals and CS operations jobs, and nothing else. Every listing comes straight from the employer, and nothing on it is estimated."
+        sub="Renewal lists customer success jobs and the roles around them, from account management and TAM to solutions engineering and product. Every listing comes straight from the employer, and nothing on it is estimated."
       />
 
       <section aria-labelledby="about-mission" style={{ maxWidth: 720, background: C.signalSoft, border: "1px solid #CBE2D8", borderRadius: 6, padding: "22px 24px" }}>
@@ -1819,19 +1845,21 @@ function Footer({ setTab }) {
 /* --- app ----------------------------------------------------------------- */
 export default function App() {
   const [tab, setTabState] = useState(() => tabFromPath(window.location.pathname));
+  const [visit, setVisit] = useState(0); // bumps on every move, so the board re-reads its link
 
   // Switching tabs updates the address bar, so the link can be copied or
   // shared, and opens the new page at the top.
   const setTab = useCallback((k) => {
     const next = PATHS[k] ? k : "jobs";
     setTabState(next);
-    if (window.location.pathname !== PATHS[next]) window.history.pushState(null, "", PATHS[next]);
+    setVisit((v) => v + 1);
+    if (window.location.pathname !== PATHS[next] || window.location.search) window.history.pushState(null, "", PATHS[next]);
     window.scrollTo(0, 0);
   }, []);
 
   // The browser's back and forward buttons move between tabs.
   useEffect(() => {
-    const onPop = () => setTabState(tabFromPath(window.location.pathname));
+    const onPop = () => { setTabState(tabFromPath(window.location.pathname)); setVisit((v) => v + 1); };
     window.addEventListener("popstate", onPop);
     return () => window.removeEventListener("popstate", onPop);
   }, []);
@@ -1903,8 +1931,8 @@ export default function App() {
   }, []);
 
   const pages = {
-    jobs: <JobsPage setTab={setTab} onSub={() => { track("Newsletter signup"); setSubbed(true); }} subbed={subbed} feed={feed} />,
-    newsletter: <NewsletterPage onSub={() => { track("Newsletter signup"); setSubbed(true); }} subbed={subbed} issues={content.issues} />,
+    jobs: <JobsPage key={"jobs-" + visit} setTab={setTab} onSub={() => { track("Newsletter signup"); setSubbed(true); }} subbed={subbed} feed={feed} />,
+    newsletter: <NewsletterPage issues={content.issues} setTab={setTab} />,
     templates: <TemplatesPage />,
     resources: SHOW_FREE_RESOURCES ? <ResourcesPage setTab={setTab} groups={content.resources} /> : null,
     advertise: <AdvertisePage />,

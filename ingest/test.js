@@ -65,13 +65,33 @@ for (const [title, family] of [
   ["CSM - Mid Market", "Customer Success"],
   ["Client Success Lead", "Customer Success"],
   ["Strategic Account Manager", "Account Management"],
-  ["Technical Account Manager", "Account Management"],
+  ["Technical Account Manager", "Technical Account Management"],
+  ["Senior TAM, Enterprise", "Technical Account Management"],
+  ["Director, Technical Account Management", "Technical Account Management"],
   ["Renewals Manager", "Renewals"],
   ["Customer Onboarding Specialist", "Onboarding"],
   ["Implementation Consultant", "Onboarding"],
   ["Customer Success Operations Manager", "CS Operations"],
   ["Director of Customer Success", "Leadership"],
   ["VP, Customer Experience", "Leadership"],
+  // the roles around customer success, added 19 November 2026
+  ["Customer Success Operations Specialist", "CS Operations"],
+  ["Solutions Consultant", "Solutions & Sales Engineering"],
+  ["Senior Sales Engineer", "Solutions & Sales Engineering"],
+  ["Solutions Engineer, Enterprise", "Solutions & Sales Engineering"],
+  ["Pre-Sales Consultant", "Solutions & Sales Engineering"],
+  ["Solutions Engineering Manager", "Solutions & Sales Engineering"],
+  ["Head of Presales", "Solutions & Sales Engineering"],
+  ["Product Marketing Manager", "Product Marketing"],
+  ["Director of Product Marketing", "Product Marketing"],
+  ["Product Manager", "Product Management"],
+  ["Senior Product Manager - Customer Success", "Product Management"],
+  ["Group Product Manager, Payments", "Product Management"],
+  ["VP of Product", "Product Management"],
+  ["Product Owner", "Product Management"],
+  ["Product Specialist", "Product Specialist"],
+  ["Senior Product Expert", "Product Specialist"],
+  ["Director of Customer Success, Product-Led Growth", "Leadership"],
 ]) {
   const v = classify({ title });
   ok(`keep "${title}" → ${family}`, v.keep && v.family === family, v.keep ? `got ${v.family}` : `dropped: ${v.reason}`);
@@ -80,7 +100,6 @@ for (const [title, family] of [
 console.log("── classify: reject ──");
 for (const title of [
   "Software Engineer, Customer Success Platform",
-  "Senior Product Manager - Customer Success",
   "Account Executive, Enterprise",
   "Sales Development Representative",
   "Customer Support Specialist",
@@ -88,6 +107,24 @@ for (const title of [
   "UX Designer, Customer Experience",
   "Customer Success Manager (Intern)",
   "Recruiter, Customer Success Team",
+  // next to the new role types, but not them
+  "Engineering Manager, Solutions",
+  "Software Engineering Manager",
+  "Product Designer",
+  "Head of Product Design",
+  "Product Analyst",
+  "Product Support Specialist",
+  "Director, Product Support",
+  "Product Engineer",
+  "Marketing Manager",
+  "Customer Marketing Manager",
+  "Program Manager",
+  "Sales Consultant",
+  "Product Sales Specialist",
+  "Support Engineer",
+  "Software Engineer, Product",
+  "Solutions Architect",
+  "Product Manager Intern",
 ]) {
   ok(`reject "${title}"`, !classify({ title }).keep, "wrongly kept");
 }

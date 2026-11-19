@@ -5,8 +5,11 @@
 
      1. EXCLUDE_TITLE    other functions that happen to contain our keywords.
                          Runs first and always wins.
-     2. FAMILY_RULES     titles that are unambiguously customer success.
-                         First match wins, so the order of families matters.
+     2. FAMILY_RULES     titles that are unambiguously customer success, or one
+                         of the roles around it the board also lists (TAMs,
+                         solutions and sales engineers, product managers,
+                         product marketers, product specialists). First match
+                         wins, so the order of families matters.
      3. DEPARTMENT_GATED generic titles that only count when the posting says
                          they sit in a customer-facing org.
 
@@ -20,14 +23,17 @@
 
 const EXCLUDE_TITLE = [
   // other functions that happen to contain our keywords
-  /\b(software|staff|senior staff|principal|backend|front-?end|full-?stack|platform|data|ml|qa|test|security|devops|site reliability|sre|sales|solutions|solution|support)\s+engineer\b/i,
-  /\bengineer(ing)?\s+(manager|lead|director)\b/i,
-  /\b(product|program|project|engineering|marketing|brand|content|community|social|events?|product marketing)\s+manager\b/i,
+  /\b(software|staff|senior staff|principal|backend|front-?end|full-?stack|platform|data|ml|qa|test|security|devops|site reliability|sre|support)\s+engineer\b/i,
+  // engineering managers stay out; sales and solutions engineering managers are listed
+  /\b(?<!(?:sales|solutions?|pre-?sales|presales)\s)engineer(ing)?\s+(manager|lead|director)\b/i,
+  // product managers and product marketers are listed (see FAMILY_RULES); other managers of these kinds are not
+  /\b(program|project|(?<!(?:sales|solutions?|pre-?sales|presales)\s)engineering|(?<!product\s)marketing|brand|content|community|social|events?)\s+manager\b/i,
   /\b(ux|ui|product|graphic|visual|web)\s+designer\b/i,
-  /\b(data|business|financial|research|marketing|security|systems)\s+analyst\b/i,
+  /\bproduct\s+design\b/i,
+  /\b(data|business|financial|research|marketing|security|systems|product)\s+analyst\b/i,
   /\baccount executive\b/i,
   /\b(sdr|bdr|sales development|business development)\b/i,
-  /\bsales\s+(rep|representative|manager|director|lead|associate|specialist|consultant)\b/i,
+  /\b(?<!pre-?)sales\s+(rep|representative|manager|director|lead|associate|specialist|consultant)\b/i,
   /\brecruiter\b|\btalent\b|\bpeople partner\b|\bhr business partner\b/i,
   /\b(accounting|accounts payable|accounts receivable|payroll|bookkeep)/i,
 
@@ -50,6 +56,41 @@ const EXCLUDE_TITLE = [
    Operations before the broad Customer Success rule swallows it.            */
 
 const FAMILY_RULES = [
+  /* The roles around customer success, added 19 November 2026. They come
+     first because "Product Manager, Onboarding" is a product job and
+     "Solutions Engineer, Customer Success" a pre-sales one: the job title
+     beats the team it serves.                                               */
+  {
+    family: "Product Marketing",
+    patterns: [
+      /\bproduct marketing\b/i,
+      /\bpmm\b/i,
+    ],
+  },
+  {
+    family: "Product Management",
+    patterns: [
+      /\bproduct\s+(manager|management|owner|lead)\b/i,
+      // product leadership, only when "product" ends the title or a clause:
+      // "VP of Product", "Director, Product Management" — not "Director, Product Support"
+      /\b(head|vp|svp|vice president|director|senior director)\b,?\s+(of\s+)?product(\s+management)?(?=\s*($|[,(|/&\u2013-]))/i,
+      /\bchief product officer\b/i,
+    ],
+  },
+  {
+    family: "Product Specialist",
+    patterns: [
+      /\bproduct\s+(specialist|expert)s?\b/i,
+    ],
+  },
+  {
+    family: "Solutions & Sales Engineering",
+    patterns: [
+      /\b(sales|solutions?|pre-?sales|presales)\s+engineer(ing|s)?\b/i,
+      /\bsolutions?\s+consult(ant|ants|ing)\b/i,
+      /\bpre-?sales\b/i,
+    ],
+  },
   {
     family: "CS Operations",
     patterns: [
@@ -96,6 +137,13 @@ const FAMILY_RULES = [
       /\b(senior )?manager,?\s+(of\s+)?(customer|client|merchant|partner)\s*(success|experience|services?|operations|outcomes?)\b/i,
       /\b(customer|client) success\s+(manager of managers|senior manager)\b/i,
       /\bdirector,?\s+(of\s+)?(account management|renewals?|onboarding|implementation)\b/i,
+    ],
+  },
+  {
+    family: "Technical Account Management",
+    patterns: [
+      /\btechnical account (manager|management|lead|director|specialist|partner)s?\b/i,
+      /\bTAMs?\b/, // capitals only: "tam" inside other words or names stays out
     ],
   },
   {
