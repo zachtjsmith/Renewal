@@ -1,80 +1,457 @@
 {
-  "generatedAt": "2026-11-18T15:18:38.867Z",
-  "count": 77,
+  "generatedAt": "2026-11-19T15:25:51.031Z",
+  "count": 81,
   "sources": [
     "Greenhouse",
     "Ashby"
   ],
   "jobs": [
     {
-      "id": "greenhouse:gitlab:8945143002",
-      "title": "Renewals Manager, Commercial",
-      "company": "GitLab",
-      "companySite": "https://about.gitlab.com",
-      "industry": "Developer tools",
-      "family": "Renewals",
-      "seniority": "Mid",
+      "id": "greenhouse:cloudflare:8398613",
+      "title": "Principal Customer Experience Manager",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Customer Success",
+      "seniority": "Senior",
       "segment": null,
-      "location": "Remote — US",
-      "mode": "Remote",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-11-19T01:08:17-05:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8398613?gh_jid=8398613",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8398613?gh_jid=8398613",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "About the Role",
+          "paras": [
+            "The Customer Experience Manager leads the post-sale customer journey, managing everything from onboarding to long-term retention and contract renewals. Acting as both a trusted advisor and a commercial owner of the account, you will build strategic relationships with stakeholders to clearly articulate ROI and business value. You will collaborate tightly with the Sales team to maintain accurate weekly forecasts and lead critical engagements like Executive Business Reviews. In addition, you will embed AI-driven optimization into your daily workflows—using advanced data analysis to uncover selling opportunities and automating routine tasks to accelerate customer outcomes and maximize operational efficiency."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Customer Lifecycle & Success",
+          "paras": [],
+          "bullets": [
+            "Manage customer engagement across the entire customer lifecycle, from onboarding through renewal.",
+            "Be a Trusted Advisor to your customers.",
+            "Work with your account teams to plan and execute long term Success Plans with our largest customers to facilitate retention and growth via product and new business unit expansion.",
+            "Maintain a deep understanding of our solutions and present to customers about the most relevant features/functionality for their specific business needs.",
+            "Own or be an active participant in several customer touch points including: Business Value Justification meetings, Business Reviews, and Renewal Meetings, with a track record of successful planning and execution of Executive Business Reviews.",
+            "Demonstrate how your customer engagement directly revenue growth and adoption of Cloudflare solutions and services."
+          ]
+        },
+        {
+          "title": "Commercial & Renewals",
+          "paras": [],
+          "bullets": [
+            "Act as the commercial owner and driver of renewal including maintaining and reporting an accurate weekly forecast.",
+            "You are ultimately responsible for the retention and growth of your book of business, taking responsibility for owning and maximizing renewal value of a book of business of existing customers.",
+            "Negotiate and execute renewal contracts in accordance with customer objectives.",
+            "Analyze data and leverage tools to identify selling opportunities and business value.",
+            "Drive strong alignment with the Sales team, contributing to team forecasting, planning, and targets."
+          ]
+        },
+        {
+          "title": "Cross-Functional & Operational Management",
+          "paras": [],
+          "bullets": [
+            "Develop and maintain long-term relationships with stakeholders in your account portfolio.",
+            "Work cross-functionally with Product, Engineering, Support,Marketing and other teams to resolve customer business issues and work towards each customer’s stated goals.",
+            "Manage customer feedback and product needs by providing feature requests to internal partner teams.",
+            "Able to prioritize effectively to handle multiple deals at the same time."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:cloudflare:8393704",
+      "title": "Senior Majors Account Manager",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Hybrid",
       "min": null,
       "max": null,
       "variable": "",
       "book": "",
       "stack": [
         "Salesforce",
-        "HubSpot"
+        "Tableau"
       ],
       "posted": 0,
-      "postedAt": "2026-11-17T12:03:07-05:00",
+      "postedAt": "2026-11-19T09:30:20-05:00",
       "source": "Greenhouse",
       "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8945143002",
-      "postingUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8945143002",
-      "blurb": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million…",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\n\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to…",
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8393704?gh_jid=8393704",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8393704?gh_jid=8393704",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
       "sections": [
         {
-          "title": "An overview of this role",
+          "title": "About the Role",
           "paras": [
-            "As a Renewal Manager, you'll own the end-to-end renewal lifecycle for a defined portfolio of GitLab customers, protecting and growing recurring revenue while ensuring a smooth, transparent experience at every contract touchpoint. You'll engage customers well ahead of renewal, lead pricing and commercial discussions, negotiate complex agreements, and proactively address risk so customers can continue to rely on GitLab's DevSecOps platform without disruption. In this quota-carrying role within the Renewals team, you'll work closely with Sales, Customer Success, Finance, Legal, and Product to forecast outcomes, reduce churn, and uncover expansion opportunities. In your first year, you'll be focused on building strong relationships with key stakeholders in your accounts, consistently delivering on-time renewals, and contributing to scalable renewal processes that support GitLab's long-term growth."
+            "We are seeking a highly accomplished and strategic Senior Majors Account Manager to join our Strategic Sales Team, responsible for a portfolio of Cloudflare’s largest and most strategic existing customers. Your primary mission is to retain, develop, and expand these relationships by deepening executive alignment, accelerating platform adoption, and identifying significant growth opportunities across customer divisions, business units, and international operations. Success requires a sophisticated blend of strategic account management, enterprise sales execution, customer advocacy, and genuine technical fluency, enabling credible engagement from the boardroom to CISOs, CIOs, CTOs, and Heads of Infrastructure.",
+            "As a Senior Majors Account Manager, you will own your customer portfolio end-to-end, acting as the single accountable leader for long-term account strategy, retention, renewals, and expansion. You will build multi-year account plans, establish trusted executive relationships, lead strategic business reviews, and orchestrate virtual teams across Customer Engineering, Customer Success, Product, Deal Desk, Legal, and Partners. You will connect Cloudflare’s capabilities to each customer’s most important business and technology priorities, positioning Cloudflare as an indispensable long-term platform partner. In line with Cloudflare’s AI-native culture, you will actively leverage AI tools across account research, planning, executive engagement, value analysis, meeting preparation, and pipeline management—using them to improve both customer outcomes and the effectiveness of your own execution."
           ],
           "bullets": []
         },
         {
-          "title": "What you'll do",
-          "paras": [],
-          "bullets": [
-            "Own the end-to-end renewal lifecycle for an assigned portfolio of customer contracts, from early engagement through signed agreement.",
-            "Develop and execute account-level renewal strategies that protect recurring revenue and reduce customer churn.",
-            "Prepare renewal proposals, pricing quotes, and contract documentation in line with customer needs and internal guidelines.",
-            "Lead commercial and contractual negotiations with customer stakeholders, managing pricing discussions, terms, and timelines.",
-            "Identify and qualify opportunities to expand footprint through upsell and cross-sell in partnership with Sales and Customer Success.",
-            "Monitor customer health, usage, and satisfaction signals to surface at-risk renewals early and drive mitigation plans.",
-            "Maintain accurate renewal pipeline, forecasts, and activity tracking in CRM and related systems to enable clear reporting and planning.",
-            "Collaborate with Sales, Customer Success, Finance, Legal, and Product teams to remove obstacles, align on strategy, and ensure timely, smooth renewals."
-          ]
-        },
-        {
-          "title": "What you'll bring",
-          "paras": [],
-          "bullets": [
-            "Fluency in Portuguese and Spanish",
-            "Experience owning an end-to-end renewal motion for subscription or SaaS contracts, including forecasting, negotiation, and closing.",
-            "Background in B2B subscription-based businesses with a track record of meeting or exceeding renewal and retention goals.",
-            "Skill in managing a portfolio of renewal accounts at scale while prioritizing high-impact opportunities and risks.",
-            "Proficiency working with CRM platforms such as Salesforce or HubSpot, along with strong Excel or Google Sheets skills for analysis and reporting.",
-            "Ability to build productive relationships with customer stakeholders, navigate complex procurement processes, and lead commercial discussions.",
-            "Experience partnering with Sales, Customer Success, Finance, and Legal to structure renewals, address adoption gaps, and manage contract terms.",
-            "Strength in identifying renewal risks early, using customer health and usage data, and developing practical mitigation plans."
-          ]
-        },
-        {
-          "title": "About the team",
+          "title": "Responsibilities",
           "paras": [
-            "The Renewals team focuses on protecting and growing GitLab's recurring revenue by managing the full contract lifecycle for our subscription customers. As a Renewal Manager, you'll be part of a quota-carrying team that works closely with Sales, Customer Success, Finance, and Legal to ensure timely, accurate renewals and strong customer retention across regions in an all-remote, asynchronous environment. The team is responsible for forecasting renewal outcomes, identifying and addressing churn risk, and uncovering opportunities to expand GitLab adoption, while continuously improving processes and best practices that support predictable, sustainable growth."
+            "Strategic Account Growth & Retention: Own the retention, renewal, and expansion of a defined portfolio of strategic Majors accounts. Develop and execute growth strategies across products, divisions, subsidiaries, geographies, and use cases. Maintain strong visibility into renewal risk, competitive threats, and customer sentiment while consistently achieving retention and expansion targets.",
+            "Strategic Account Planning: Develop and maintain comprehensive, multi-year account plans grounded in each customer’s business strategy, technology roadmap, organisational structure, buying processes, and competitive landscape. Identify whitespace and prioritise opportunities according to customer value, platform fit, and revenue potential. Ensure account plans remain current, actionable, and aligned across the wider Cloudflare team.",
+            "Executive Relationship Management: Build and sustain broad, multi-threaded relationships at CISO, CIO, CTO, and board level. Establish yourself as a trusted strategic advisor by bringing relevant industry insight, a clear point of view, and thoughtful recommendations. Lead executive business reviews that demonstrate value delivered, align on future priorities, and create a shared multi-year vision."
           ],
           "bullets": []
+        },
+        {
+          "title": "Desirable Skills, Knowledge, and Experience",
+          "paras": [],
+          "bullets": [
+            "8+ years of experience in strategic enterprise technology sales or account management, with a substantial track record of achieving multi-million-euro retention, renewal, and expansion targets within Majors, strategic, or named accounts.",
+            "Proven strategic account farmer: Demonstrated success expanding large existing customers through deeper platform adoption, new use cases, additional products, new buying centres, business units, subsidiaries, and international operations—not simply managing renewals.",
+            "A strong record of building and executing multi-year account strategies that deliver durable customer relationships, high retention, predictable renewals, and sustained revenue growth.",
+            "Deep expertise and fluency in Cloud Networking, Security (Zero Trust, SASE, SSE), Connectivity, Developer Platforms, and Edge Computing , with the ability to engage credibly with CISOs, CIOs, CTOs, and senior infrastructure leaders.",
+            "Proven ability to understand complex enterprise IT architectures and map them to Cloudflare Reference Architectures, connecting technical capabilities and realised value to measurable business outcomes.",
+            "Demonstrated success leading complex expansion and renewal cycles across procurement, legal, information security, technical, financial, and executive stakeholders.",
+            "Experience identifying customer adoption or relationship risks early and coordinating cross-functional action to protect retention and improve customer outcomes.",
+            "Demonstrated use of AI tools in a sales or account management context, such as customer research, account planning, executive communication, stakeholder mapping, meeting preparation, value analysis, or pipeline management. You can explain specifically how AI has made your customer engagement or execution more effective."
+          ]
+        },
+        {
+          "title": "What Makes Cloudflare Special?",
+          "paras": [
+            "We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.",
+            "Project Galileo : Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.",
+            "Athenian Project : In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:cloudflare:8375925",
+      "title": "Strategic Account Director, Developer Platform",
+      "company": "Cloudflare",
+      "companySite": "https://www.cloudflare.com",
+      "industry": "Internet infrastructure",
+      "family": "Account Management",
+      "seniority": "Director",
+      "segment": "Enterprise",
+      "location": "Location not listed",
+      "mode": "Hybrid",
+      "min": 326000,
+      "max": 449000,
+      "variable": "+ equity + bonus",
+      "book": "10 accounts",
+      "stack": [
+        "Snowflake",
+        "SQL"
+      ],
+      "posted": 0,
+      "postedAt": "2026-11-18T12:27:46-05:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8375925?gh_jid=8375925",
+      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8375925?gh_jid=8375925",
+      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
+      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
+      "sections": [
+        {
+          "title": "About the Team",
+          "paras": [
+            "Developer GTM is changing how Cloudflare wins and grows the next generation of builders, at a time when AI and agents are reshaping the application stack. We turn developer activity into lasting commercial outcomes. That means shaping usage into clear proposals, aligning pricing and packaging, giving the field repeatable motions, and feeding real-world signals back into Product. We work closely with Sales, Product, Finance, Legal, RevOps, and Marketing."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "Frontier labs hire former CTOs as senior Members of Technical Staff: high-impact individual contributors tasked with solving the hardest problems without the overhead of team management. This role applies that model to go-to-market. We are seeking former sales leaders and founders to own Cloudflare's Developer Platform growth inside a select portfolio of the most important technology companies in the world.",
+            "As a Strategic Account Director, you will own the long-term Developer Platform strategy and consumption growth for one to three of Cloudflare's top 10 accounts including frontier AI labs and the most innovative software companies. Over time, the largest of these accounts will move to a dedicated 1:1 model. You'll partner with the account team to guide strategic decisions, lead engagement with key executives, and bring developer fluency married to deep business acumen.",
+            "You'll collaborate as a peer with Cloudflare's sales leadership and work closely with Solutions Architects, Forward-Deployed Engineers, and Product. You are fluent in both developer workloads and commercial mechanics. You can set a multi-year account strategy in the morning and work through a live deal in the afternoon."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What You Will Do",
+          "paras": [],
+          "bullets": [
+            "Architect the account strategy. Build and execute a multi-year Developer Platform plan for each account: defining priority workloads, how adoption grows, competitive position, and the commercial path to get there.",
+            "Accelerate the customer journey (drive activation → expansion → commercial structure): Use usage telemetry to find next-best actions, expansion paths, and risks. Remove technical, commercial, and organizational blockers so real workloads land and scale.",
+            "Structure strategic deals. Work with the account executive, Deal Desk, Pricing, Finance, and Legal to design commit structures and consumption-based agreements that match how the customer actually builds. Compete credibly against hyperscalers and other platforms.",
+            "Lead executive engagement. Build trusted relationships with CTOs and heads of infrastructure, AI, and engineering, as well as the commercial decision makers. Run impactful executive business reviews and leverage Cloudflare leadership at the right moments.",
+            "Mobilize Cloudflare. Align the account team, Solutions Architects, FDEs, Product, and Support on the account's priorities, establishing clear owners and driving flawless follow-through. Run GTM motions in step with the workloads where we've proven fit.",
+            "Close the loop with Product. Turn what you see in the account into clear, quantified recommendations on positioning, packaging, limits, and roadmap.",
+            "Elevate the field: Turn your account experience into workload blueprints, deal patterns, and playbooks. Coach sales leaders and account teams in a train-the-trainer model to scale your impact globally.."
+          ]
+        },
+        {
+          "title": "Who You Are",
+          "paras": [],
+          "bullets": [
+            "12+ years in technology sales, including senior sales leadership (Director, VP, or CRO) or strategic named-account roles at developer-platform or consumption-based companies, such as AWS, GCP, Vercel, MongoDB, Databricks, Snowflake, or an AI lab.",
+            "A track record of growing consumption and revenue in large, complex, highly technical accounts over consecutive years.",
+            "Executive presence and credibility with C-level and VP audiences at the fastest-moving technology companies.",
+            "The ability to turn technical workloads into compelling commercial outcomes, and to navigate complex deal approvals with Sales, Finance, Legal, and Security.",
+            "Deep experience with usage-based pricing and commit structures.",
+            "Analytical rigor: you can read product usage telemetry and size opportunities at the level of Sheets or SQL.",
+            "A clear persuasive writer and presenter, equally effective with developer ICs and executive sponsors.",
+            "A builder's mindset: you lead through influence and get cross-functional work done without relying on hierarchy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:samsara:8367418",
+      "title": "Implementation Consultant",
+      "company": "Samsara",
+      "companySite": "https://www.samsara.com",
+      "industry": "IoT / fleet",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": "Mid-Market",
+      "location": "Remote — CA, Chicago + more",
+      "mode": "Remote",
+      "min": 66261,
+      "max": 100227,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Python"
+      ],
+      "posted": 0,
+      "postedAt": "2026-11-18T20:46:57-05:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://www.samsara.com/company/careers/roles/8367418?gh_jid=8367418",
+      "postingUrl": "https://www.samsara.com/company/careers/roles/8367418?gh_jid=8367418",
+      "blurb": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At…",
+      "summary": "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.",
+      "sections": [
+        {
+          "title": "Total Rewards",
+          "paras": [
+            "At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.",
+            "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Flexible Working",
+          "paras": [
+            "At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Our Commitment to Authenticity",
+          "paras": [
+            "We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s Candidate Privacy Notice for more information."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Fraudulent Employment Offers",
+          "paras": [
+            "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:checkr:8399435",
+      "title": "Customer Success Implementation Specialist",
+      "company": "Checkr",
+      "companySite": "https://checkr.com",
+      "industry": "Background checks",
+      "family": "Onboarding",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Denver, CO + more",
+      "mode": "Onsite",
+      "min": 88000,
+      "max": 103000,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-11-18T17:21:38-05:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/checkr/jobs/8399435",
+      "postingUrl": "https://job-boards.greenhouse.io/checkr/jobs/8399435",
+      "blurb": "Checkr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a…",
+      "summary": "About Checkr\nCheckr is building the data platform to power safe and fair decisions. Over 140,000 companies and millions of people rely on Checkr for AI verification in the moments that matter most: getting a new job, a new place to live, a car ride, childcare, even a date. Customers include Uber, Pennymac, Airbnb, Doordash, and Anthropic.\n\nWe’re a team that thrives on solving complex problems with innovative solutions that advance our mission. Checkr is recognized on Forbes Cloud 100 2025 List and is a Y Combinator 2024 Breakthrough Company .",
+      "sections": [
+        {
+          "title": "About the team/role",
+          "paras": [
+            "Reporting to the Director of Implementations, you will help drive successful implementations for our commercial customers and partners, getting them activated and seeing value quickly. You will support the day-to-day execution of multiple customer deployments at once, from sales handoff through first invoice, while educating and enabling new and existing customers on our products and services. You will partner closely with Sales and Solutions Engineers and coordinate across Product, Revenue, and Operations to turn closed deals into successful, activated customers and support Checkr’s growth."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "What you’ll do",
+          "paras": [],
+          "bullets": [
+            "Manage timelines, dependencies, and stakeholders across multiple customer deployments at the same time",
+            "Partner with Sales and Solutions Engineers to understand each customer’s buying decision, configuration criteria, KPI, and carry it through the deployment lifecycle",
+            "Execute credentialing, Checkr account setup, and post-solutioning tasks with a high level of accuracy and attention to detail",
+            "Lead implementation meetings, track customer progress, and hand off to Support or Customer Success",
+            "Help customers activate within 60 days and reach 5% of EACV by delivering training and driving adoption of product features",
+            "Report deployment progress to management using reporting tools and dashboards, and flag risks and quality issues early"
+          ]
+        },
+        {
+          "title": "What you bring",
+          "paras": [],
+          "bullets": [
+            "2+ years of implementation, onboarding, customer service or customer success experience",
+            "Excellent written, oral, and presentation skills, and comfort communicating at multiple levels of an organization",
+            "Strong attention to detail and a customer-centric approach",
+            "Ability to multitask and juggle multiple projects and stakeholders (internal and external) in a fast-paced environment",
+            "Ability to move with urgency, take ownership to deliver meaningful results",
+            "Comfort taking on new challenges, and openness to guidance and coaching while working with cross-functional GTM teams",
+            "An A-player mindset with a strong bias for action: you raise the bar, move with urgency, stay resilient through ambiguity, and take ownership to deliver meaningful outcomes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:airbnb:8383877",
+      "title": "Senior Connectivity Partner Manager",
+      "company": "Airbnb",
+      "companySite": "https://www.airbnb.com",
+      "industry": "Travel",
+      "family": "Account Management",
+      "seniority": "Senior",
+      "segment": null,
+      "location": "Location not listed",
+      "mode": "Onsite",
+      "min": 139000,
+      "max": 163000,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [],
+      "posted": 0,
+      "postedAt": "2026-11-18T11:46:18-05:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://careers.airbnb.com/positions/8383877?gh_jid=8383877",
+      "postingUrl": "https://careers.airbnb.com/positions/8383877?gh_jid=8383877",
+      "blurb": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays…",
+      "summary": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nEvery day, Airbnb hosts provide unique Stays and Experiences that connect guests with local communities in authentic and meaningful ways. These offerings are the core of what makes Airbnb special — creating connections and unforgettable memories for travelers worldwide.",
+      "sections": [
+        {
+          "title": "From the job description",
+          "paras": [
+            "The Connectivity team sits at the heart of Airbnb’s Supply strategy, managing the API Partners that power a significant share of our global inventory. Our connectivity partners — property management software providers, channel managers, and distribution platforms — unlock access to millions of listings and directly shape the quality and reliability of the host and guest experience. This team plays a critical role in growing, deepening, and shaping Airbnb’s partner ecosystem.",
+            "As a Senior Partner Program Manager, you will run program management for Airbnb's Tier 3 connectivity book, including the long tail of unmanaged partners, and build the ecosystem partner program from the ground up. You are not managing a handful of accounts; you are designing and running the program that lets a small team credibly cover a big portfolio, and you are shaping how those partners show up on Airbnb.",
+            "You will bring a global view of the partner ecosystem, define success through Airbnb’s outcomes, and act as the connective tissue between partners, product teams, and internal stakeholders. You are someone who earns trust, moves fast, and holds yourself accountable for results.",
+            "This role goes beyond traditional account management. You will operate at the intersection of:"
+          ],
+          "bullets": [
+            "Program design",
+            "Commercial incentives",
+            "Ecosystem partnerships, including third-party tools that Hosts use",
+            "AI-assisted coverage",
+            "Marketplace dynamics",
+            "Hold a portfolio view of the Tier 3 book and the long tail: which partners are growing, which are stalling, and which levers move the most nights, and set coverage accordingly rather than by relationship depth.",
+            "Define success through Airbnb's outcomes, not activity: partner productivity, feature adoption and program retention across the portfolio.",
+            "Design incentive mechanics for long-tail API partners that move portfolio goals at scale"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashby:replit:9b211cc2-dcb2-4902-b84f-a5a2d5d0705f",
+      "title": "Business Operations Analyst",
+      "company": "Replit",
+      "companySite": "https://replit.com",
+      "industry": "Developer tools",
+      "family": "CS Operations",
+      "seniority": "Entry",
+      "segment": null,
+      "location": "Remote — Foster City, CA",
+      "mode": "Remote",
+      "min": 138000,
+      "max": 158000,
+      "variable": "+ equity",
+      "book": "",
+      "stack": [
+        "SQL",
+        "Python"
+      ],
+      "posted": 0,
+      "postedAt": "2026-11-18T18:19:54.945+00:00",
+      "source": "Ashby",
+      "featured": false,
+      "applyUrl": "https://jobs.ashbyhq.com/replit/9b211cc2-dcb2-4902-b84f-a5a2d5d0705f/application",
+      "postingUrl": "https://jobs.ashbyhq.com/replit/9b211cc2-dcb2-4902-b84f-a5a2d5d0705f",
+      "blurb": "Replit is the agentic software creation platform that enables anyone to build applications using natural language. With millions of users worldwide, Replit is democratizing software development by removing traditional barriers to application creation.",
+      "summary": "Replit is the agentic software creation platform that enables anyone to build applications using natural language. With millions of users worldwide, Replit is democratizing software development by removing traditional barriers to application creation.",
+      "sections": [
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Drive end-to-end analysis of product data, market research, and competitor analysis to help drive understanding of key business lines and future company planning.",
+            "Work cross-functionally with senior leadership and product teams to identify, assess, and execute key opportunities.",
+            "Scope and execute zero-to-one projects to determine long-term value for the company.",
+            "Support new go-to-market initiatives, including product launches and influencer campaigns.",
+            "Manage vendor relationships by combining strategic analysis, execution, and operational rigor to help scale business.",
+            "Manage and monitor vendor contracts, including both initial procurement and the renewal process."
+          ]
+        },
+        {
+          "title": "Requirements:",
+          "paras": [],
+          "bullets": [
+            "Bachelor’s degree, or foreign degree equivalent, in Finance, Business Administration, or a related field.",
+            "Four (4) years of experience in job offered, Associate Analyst, Associate Consultant, or in a related occupation.",
+            "Must be authorized to work in the United States. Sponsorship and/or relocation are not available for this position."
+          ]
+        },
+        {
+          "title": "Academic training or work experience must include:",
+          "paras": [
+            "This is a full-time role that can be held from our Foster City, CA office. The role has an in-office requirement of Monday, Wednesday, and Friday.",
+            "Applicants should email resume/cover letter to resumes@replit.com. Must reference REQ #R458 when applying."
+          ],
+          "bullets": [
+            "Large-scale data analysis using SQL on Google Cloud BigQuery.",
+            "Data mining using Braintrust.",
+            "Building dashboards and data analysis using Hex with Python.",
+            "Advanced Microsoft Excel analytics including pivot table, XLOOKUP, and data modeling.",
+            "Regression Modeling.",
+            "AI usage analytics and business outcome modeling using Python and SQL."
+          ]
+        },
+        {
+          "title": "Want to learn more about what we are up to?",
+          "paras": [],
+          "bullets": [
+            "Self-driving Company",
+            "Replit Agent at Scale",
+            "AI Adoption",
+            "Build Open-Source Apps"
+          ]
         }
       ]
     },
@@ -94,7 +471,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-11-17T20:44:58-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -163,7 +540,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 0,
+      "posted": 1,
       "postedAt": "2026-11-18T03:54:25-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -219,7 +596,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-11-16T18:19:42-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -290,7 +667,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-11-16T19:19:38-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -361,7 +738,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 1,
+      "posted": 2,
       "postedAt": "2026-11-16T22:38:33.564+00:00",
       "source": "Ashby",
       "featured": false,
@@ -426,7 +803,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-12T12:31:31-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -482,75 +859,6 @@
       ]
     },
     {
-      "id": "greenhouse:gitlab:8926653002",
-      "title": "Renewals Manager - Italy/ Spain",
-      "company": "GitLab",
-      "companySite": "https://about.gitlab.com",
-      "industry": "Developer tools",
-      "family": "Renewals",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 5,
-      "postedAt": "2026-11-13T08:11:49-05:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8926653002",
-      "postingUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8926653002",
-      "blurb": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million…",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\n\nThe same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to…",
-      "sections": [
-        {
-          "title": "An overview of this role",
-          "paras": [
-            "This is an individual-contributor, tactical role focused on timely, accurate execution rather than strategic decision-making. The Associate Renewals Manager works under the general direction of Senior Renewals Managers and their manager, following specific instructions and frameworks in day-to-day work. Solutions and outputs are reviewed by more senior team members and/or the direct manager."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What You’ll Do",
-          "paras": [],
-          "bullets": [
-            "Manage an assigned portfolio of customer renewals tracking key dates and driving them to on-time closure.",
-            "Have real, consultative conversations with customers throughout the renewal cycle to understand how they're actually using the product and where they're headed next.",
-            "Identify and surface expansion opportunities — additional seats, tiers, or modules — that come out of those conversations.",
-            "Probe for new use cases and unmet needs within existing accounts, connecting what customers describe to relevant GitLab capabilities they aren't yet using.",
-            "Prepare and send renewal quotes, order forms, and related documentation accurately and on schedule, structuring them to reflect any expansion identified.",
-            "Prepare and send renewal quotes, order forms, and related documentation accurately and on schedule.",
-            "Analyze moderately complex renewal situations (usage trends, contract terms, pricing) by reviewing existing account factors, escalating anything unusual to a senior team member or manager and helping to mitigate any risk identified.",
-            "Explain moderately complex renewal terms and issues to customers and internal stakeholders, working to build alignment."
-          ]
-        },
-        {
-          "title": "What You’ll Bring",
-          "paras": [],
-          "bullets": [
-            "Can execute basic renewal processes independently (\"basic knots\") and has been introduced to more advanced scenarios (\"complex knots\") such as multi-year deals, upsell-attached renewals, or non-standard terms.",
-            "Developing understanding of GitLab's way of working, values, and high-performance culture.",
-            "Awareness of GitLab's remote work best practices.",
-            "Growth mindset and sense of ownership — proactively seeks out ways to learn and improve, and takes action rather than waiting for direction.",
-            "Strong attention to detail and organizational skills; comfortable managing many renewals at once.",
-            "Clear written and verbal communication skills.",
-            "Ability to follow defined processes and frameworks while flagging exceptions appropriately.",
-            "Collaborative mindset and openness to feedback and coaching from senior teammates and manager."
-          ]
-        },
-        {
-          "title": "About the team",
-          "paras": [
-            "The Renewals team focuses on protecting and growing GitLab's recurring revenue by managing the full contract lifecycle for our subscription customers. As a Renewal Manager, you'll be part of a quota-carrying team that works closely with Sales, Customer Success, Finance, and Legal to ensure timely, accurate renewals and strong customer retention across regions in an all-remote, asynchronous environment. The team is responsible for forecasting renewal outcomes, identifying and addressing churn risk, and uncovering opportunities to expand GitLab adoption, while continuously improving processes and best practices that support predictable, sustainable growth."
-          ],
-          "bullets": []
-        }
-      ]
-    },
-    {
       "id": "greenhouse:instacart:8374889",
       "title": "Senior Customer Success Associate",
       "company": "Instacart",
@@ -566,7 +874,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-12T17:12:06-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -607,7 +915,7 @@
           "title": "Minimum Qualifications",
           "paras": [],
           "bullets": [
-            "You have 3+ years of work experience, ideally in an analyst or associate role.",
+            "You have 3+ years of work experience, ideally in a customer-facing or commercial role.",
             "Direct experience with CPG a plus.",
             "You have a Bachelor's degree, ideally with a business degree or in a quantitative field.",
             "You have strong analytical skills and advanced proficiency in Excel (e.g., pivot tables, lookups, and complex formulas). You’re comfortable using AI tools as a thought partner to sharpen client deliverables, while the core thinking and the work itself stay your own.",
@@ -633,7 +941,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-12T19:10:17.611+00:00",
       "source": "Ashby",
       "featured": false,
@@ -701,7 +1009,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-13T00:09:32.544+00:00",
       "source": "Ashby",
       "featured": false,
@@ -772,7 +1080,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 5,
+      "posted": 6,
       "postedAt": "2026-11-13T00:09:36.315+00:00",
       "source": "Ashby",
       "featured": false,
@@ -846,7 +1154,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 6,
+      "posted": 7,
       "postedAt": "2026-11-12T01:19:57.296+00:00",
       "source": "Ashby",
       "featured": false,
@@ -915,7 +1223,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-11-10T16:47:36-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -997,7 +1305,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-11-10T13:53:05-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1060,7 +1368,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-11-10T11:56:36-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1134,7 +1442,7 @@
       "stack": [
         "SQL"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-11-10T16:46:09-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1213,7 +1521,7 @@
         "SQL",
         "Python"
       ],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-11-10T16:37:35-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1275,7 +1583,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 7,
+      "posted": 8,
       "postedAt": "2026-11-10T19:48:31.653+00:00",
       "source": "Ashby",
       "featured": false,
@@ -1347,7 +1655,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-09T13:21:28-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1390,7 +1698,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-09T17:48:23-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1460,7 +1768,7 @@
         "Gong",
         "SQL"
       ],
-      "posted": 8,
+      "posted": 9,
       "postedAt": "2026-11-09T12:56:45-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1537,7 +1845,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T17:55:25-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1611,7 +1919,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T16:25:46-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1685,7 +1993,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T13:25:05-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1758,7 +2066,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T14:46:35-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1830,7 +2138,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T12:16:18-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1899,7 +2207,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T13:31:03-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -1965,7 +2273,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T13:31:05-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2034,7 +2342,7 @@
         "Salesforce",
         "Outreach"
       ],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T12:10:51-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2098,7 +2406,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T15:56:23.780+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2169,7 +2477,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T15:57:51.702+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2240,7 +2548,7 @@
         "Zendesk",
         "Notion"
       ],
-      "posted": 11,
+      "posted": 12,
       "postedAt": "2026-11-06T15:55:20.931+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2308,7 +2616,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-11-05T20:19:13-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2382,7 +2690,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-11-05T11:27:00-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2450,7 +2758,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-11-05T16:00:39-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2506,7 +2814,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 12,
+      "posted": 13,
       "postedAt": "2026-11-06T07:27:42-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2572,7 +2880,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-11-04T11:24:30-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2649,7 +2957,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-11-04T11:24:53-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -2721,7 +3029,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 13,
+      "posted": 14,
       "postedAt": "2026-11-05T02:27:54.494+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2791,7 +3099,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-11-03T23:23:04.552+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2864,7 +3172,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 14,
+      "posted": 15,
       "postedAt": "2026-11-03T17:03:03.309+00:00",
       "source": "Ashby",
       "featured": false,
@@ -2942,7 +3250,7 @@
         "Jira",
         "Confluence"
       ],
-      "posted": 16,
+      "posted": 17,
       "postedAt": "2026-11-02T09:50:59-05:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3018,7 +3326,7 @@
         "Salesforce",
         "Gong"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-30T16:04:41-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3099,7 +3407,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 18,
+      "posted": 19,
       "postedAt": "2026-10-30T12:33:54-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3165,7 +3473,7 @@
       "variable": "$98K–$128K OTE",
       "book": "",
       "stack": [],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-10-28T13:48:52-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3221,7 +3529,7 @@
       "stack": [
         "Salesforce"
       ],
-      "posted": 20,
+      "posted": 21,
       "postedAt": "2026-10-28T21:16:53.953+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3291,7 +3599,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-10-27T16:24:36-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3350,7 +3658,7 @@
       "variable": "+ equity + bonus",
       "book": "50 partners",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-10-27T12:25:21-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3411,7 +3719,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-10-27T12:49:08-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3490,7 +3798,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 21,
+      "posted": 22,
       "postedAt": "2026-10-27T17:42:00-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3566,7 +3874,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-26T16:03:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3612,71 +3920,6 @@
       ]
     },
     {
-      "id": "greenhouse:cloudflare:8306651",
-      "title": "Senior Partner Account Manager, Southeast & MidAtlantic Region",
-      "company": "Cloudflare",
-      "companySite": "https://www.cloudflare.com",
-      "industry": "Internet infrastructure",
-      "family": "Account Management",
-      "seniority": "Senior",
-      "segment": null,
-      "location": "Remote — Distributed",
-      "mode": "Onsite",
-      "min": null,
-      "max": null,
-      "variable": "",
-      "book": "",
-      "stack": [],
-      "posted": 22,
-      "postedAt": "2026-10-26T18:29:33-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
-      "postingUrl": "https://boards.greenhouse.io/cloudflare/jobs/8306651?gh_jid=8306651",
-      "blurb": "At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\"…",
-      "summary": "At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.",
-      "sections": [
-        {
-          "title": "Open to any of the listed location(s):",
-          "paras": [],
-          "bullets": [
-            "Florida: Miami (MIA), Tampa (TPA)",
-            "Georgia: Atlanta (ATL)",
-            "North Carolina: Charlotte (CLT), Raleigh (RDU)",
-            "Tennessee: Nashville (BNA)"
-          ]
-        },
-        {
-          "title": "About the Department",
-          "paras": [
-            "Partner Account Managers, Account Executives, Business Development Representatives, Solution Engineers, Customer Success, and Sales Operations - all working together help our customers adopt Cloudflare and create great Internet-enabled experiences. The sales team at Cloudflare helps customers solve real, technical problems while creating the revenue streams that help the company provide free service to millions in our community."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "What you'll do",
-          "paras": [
-            "We are looking for a seasoned channel sales professional to help us build out the channel organization in the Southeast and MidAtlantic regions.",
-            "In this role, you’ll identify and operationalize varied types of partner organizations to help expand Cloudflare’s sales team reach within an assigned territory. You will build a regional partner business plan with quantified goals and milestones to achieve partner sourced revenue metrics to meet all quarterly sales requirements.",
-            "As a Partner Account Manager, you will work with a strategic group of partners in your territory and build a plan to drive alignment, enablement and pipeline generation efforts. You will work with partner stakeholders to drive sales enablement and coordinate technical training of Cloudflare’s solutions, work with respective field teams on demand gen initiatives and campaigns, as well as working with direct sales on various Channel oriented opps."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Additional responsibilities will include:",
-          "paras": [],
-          "bullets": [
-            "Lead business planning and execution with partners and internal sales teams (e.g., QBRs, health checks, annual planning).",
-            "Conduct joint partner territory planning with aligned sales segments.",
-            "Deliver internal partner training to direct sales teams to foster collaborative selling.",
-            "Drive pipeline creation and revenue through creative joint GTM activity with our channel and direct sales teams.",
-            "Build product and sales competency within core regional and national partners, influencing their GTM strategies to maximize partner-sourced pipeline.",
-            "Leverage data analytics and AI tooling to optimize and scale partner growth."
-          ]
-        }
-      ]
-    },
-    {
       "id": "greenhouse:samsara:8304710",
       "title": "Enterprise Implementation Consultant - Public Sector",
       "company": "Samsara",
@@ -3692,7 +3935,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-26T16:11:51-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3764,7 +4007,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 22,
+      "posted": 23,
       "postedAt": "2026-10-26T16:34:00.360+00:00",
       "source": "Ashby",
       "featured": false,
@@ -3843,7 +4086,7 @@
         "Tableau",
         "Python"
       ],
-      "posted": 25,
+      "posted": 26,
       "postedAt": "2026-10-23T13:28:56-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -3912,58 +4155,6 @@
       ]
     },
     {
-      "id": "greenhouse:airbnb:8316843",
-      "title": "Connectivity Partner Manager",
-      "company": "Airbnb",
-      "companySite": "https://www.airbnb.com",
-      "industry": "Travel",
-      "family": "Account Management",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Location not listed",
-      "mode": "Onsite",
-      "min": 111000,
-      "max": 123000,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Salesforce",
-        "Jira",
-        "Asana",
-        "Looker",
-        "Tableau",
-        "SQL"
-      ],
-      "posted": 25,
-      "postedAt": "2026-10-23T13:22:56-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://careers.airbnb.com/positions/8316843?gh_jid=8316843",
-      "postingUrl": "https://careers.airbnb.com/positions/8316843?gh_jid=8316843",
-      "blurb": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays…",
-      "summary": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Airbnb Hotels team is a fun, fast-growing group leading Airbnb’s expansion into the hotel sector. Operating with an entrepreneurial spirit, this team combines the simplicity, product excellence, and guest-centered ethos that define Airbnb. This team’s mission is to deliver the smoothest, most intuitive hotel booking experience for guests, while helping hotels easily drive incremental bookings so they can focus on delivering the best hospitality. The ultimate aim is to help more people discover high-quality hotels, creating…",
-      "sections": [
-        {
-          "title": "The Difference You Will Make:",
-          "paras": [
-            "We’re looking for an experienced Connectivity Partner Manager to own the health and growth of our network of connectivity providers, including channel managers, property management systems (PMS), central reservation systems (CRS) and other integration partners. You’ll join the Global Hotels Connectivity team, which owns Airbnb’s global relationships with hotel connectivity providers. Using data, automation, and scaled programs, you’ll keep your portfolio integrated and compliant, improving connection quality and operations in close partnership with internal stakeholders.",
-            "The ideal candidate is a technical expert with strong project management experience, analytical acumen, and excellent communication skills.",
-            "Due to the nature of this position, the successful applicant will need to be based in EST time zone to be able to conduct their work. If your position is employed by another Airbnb entity, your recruiter will inform you what states you are eligible to work from."
-          ],
-          "bullets": [
-            "Own end-to-end connection performance across a network of connectivity partners, delivering day-to-day support through scaled programs.",
-            "Build deep knowledge of technical integrations across PMS, CRS and Channel Managers, to provide targeted partner support.",
-            "Use data to identify strategic opportunities and drive growth.",
-            "Own scaled communications to all partners on feature updates, mandatory API changes, and deprecations, with clear timelines and next steps.",
-            "Educate partners on product updates and share partner feedback with internal stakeholders.",
-            "Troubleshoot partner technical issues to ensure performance.",
-            "Develop and maintain technical partner resources that support field teams to self-serve.",
-            "Represent Airbnb at external meetings and industry events, engaging with connectivity and hotel partners."
-          ]
-        }
-      ]
-    },
-    {
       "id": "ashby:ramp:6a508863-352b-4f39-b299-5a3b6693605a",
       "title": "Manager, Customer Activation, Mid-Market",
       "company": "Ramp",
@@ -3982,7 +4173,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 26,
+      "posted": 27,
       "postedAt": "2026-10-22T22:24:53.127+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4055,7 +4246,7 @@
         "Salesforce",
         "Python"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-10-21T13:11:15-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4131,7 +4322,7 @@
         "Gainsight",
         "Salesforce"
       ],
-      "posted": 27,
+      "posted": 28,
       "postedAt": "2026-10-22T10:20:31-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4207,7 +4398,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-10-21T03:51:55-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4272,7 +4463,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-10-20T19:49:10-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4336,7 +4527,7 @@
         "Zendesk",
         "Looker"
       ],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-10-20T18:50:39-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4399,14 +4590,14 @@
       "segment": null,
       "location": "Remote — New York, NY (HQ)",
       "mode": "Remote",
-      "min": 97920,
-      "max": 146000,
+      "min": 140000,
+      "max": 155000,
       "variable": "",
       "book": "",
       "stack": [
         "Salesforce"
       ],
-      "posted": 28,
+      "posted": 29,
       "postedAt": "2026-10-20T18:32:31.155+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4474,7 +4665,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-10-20T09:19:28-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4540,7 +4731,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 29,
+      "posted": 30,
       "postedAt": "2026-10-19T17:04:29-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4617,7 +4808,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 30,
+      "posted": 31,
       "postedAt": "2026-10-18T21:59:44-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4686,7 +4877,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 32,
+      "posted": 33,
       "postedAt": "2026-10-16T15:58:24-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4760,7 +4951,7 @@
         "Salesforce",
         "Looker"
       ],
-      "posted": 33,
+      "posted": 34,
       "postedAt": "2026-10-15T21:33:08.330+00:00",
       "source": "Ashby",
       "featured": false,
@@ -4831,7 +5022,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-10-13T23:05:19-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4893,7 +5084,7 @@
       "variable": "+ equity",
       "book": "",
       "stack": [],
-      "posted": 35,
+      "posted": 36,
       "postedAt": "2026-10-13T13:23:13-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -4941,6 +5132,83 @@
       ]
     },
     {
+      "id": "greenhouse:mixpanel:8268370",
+      "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
+      "company": "Mixpanel",
+      "companySite": "https://mixpanel.com",
+      "industry": "Product analytics",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": 112000,
+      "max": 132000,
+      "variable": "+ equity + bonus",
+      "book": "",
+      "stack": [
+        "Gainsight",
+        "Totango",
+        "HubSpot"
+      ],
+      "posted": 40,
+      "postedAt": "2026-10-09T16:26:26-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
+      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
+      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
+      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
+      "sections": [
+        {
+          "title": "About the Customer Digital Experience Team",
+          "paras": [
+            "Customer Digital Experience sits within the technical arm of Mixpanel's Customer Success organization.",
+            "Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
+            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Role",
+          "paras": [
+            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
+            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
+            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Responsibilities",
+          "paras": [],
+          "bullets": [
+            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
+            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
+            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
+            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
+            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
+            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
+            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
+            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
+          ]
+        },
+        {
+          "title": "We're Looking For Someone Who Is:",
+          "paras": [],
+          "bullets": [
+            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
+            "An excellent writer who can be concise, specific, and useful to a technical audience",
+            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
+            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
+            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
+            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
+            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
+            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
+          ]
+        }
+      ]
+    },
+    {
       "id": "greenhouse:mixpanel:8260692",
       "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
       "company": "Mixpanel",
@@ -4960,7 +5228,7 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-10-09T17:58:48-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5037,89 +5305,12 @@
         "Totango",
         "HubSpot"
       ],
-      "posted": 39,
+      "posted": 40,
       "postedAt": "2026-10-09T19:24:38-04:00",
       "source": "Greenhouse",
       "featured": false,
       "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
       "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
-      "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
-      "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
-      "sections": [
-        {
-          "title": "About the Customer Digital Experience Team",
-          "paras": [
-            "Customer Digital Experience sits within the technical arm of Mixpanel's Customer Success organization.",
-            "Our sharpest focus is the digital-only segment: thousands of companies with no proactive account coverage. Some have technical resources available to them, but that support is entirely reactive. It answers the ticket and solves the problem in front of it. Nobody is watching for the customer who implemented and then never built a report, or the account whose usage has been sliding for a month. Our job is to be proactive,, and everything we build should be as automated as possible, without a human initiating it.",
-            "Our programs run across the full customer base and are not one-size-fits-all. We build flows that branch and adapt by segment, tuning the content, timing, and channel for who's receiving them. An onboarding flow for a digital-only customer carries the whole experience; the version reaching an account with a dedicated team is tuned to complement what that team is already doing. Same underlying program, deliberately different execution, continuously optimized based on what each segment responds to."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "About the Role",
-          "paras": [
-            "As our Digital Adoption & Lifecycle Manager, you'll own the communications that drive adoption, retention, and expansion across Mixpanel's customer base, with our digital-only customers as the sharpest test of whether the programs work. You'll design lifecycle programs triggered by real behavior: a team that just implemented but hasn't built their first report, an account whose query volume dropped for three straight weeks, a power user hitting the edge of their current plan. Then you'll write the emails and in-product messages that move them forward.",
-            "This is a builder's role, not a maintainer's role. You'll define the segmentation, write the copy, set up the triggers, instrument the measurement, and then argue with the data about what to change.",
-            "It's also a deeply collaborative one. You'll work hand in hand with our Customer Success Digital Programs Manager, sharing a roadmap and dividing the work. You'll partner with Marketing on the overall email calendar so our lifecycle sends and their campaigns aren't competing for the same inbox. You'll support adoption initiatives coming out of Product, turning a launch into something customers actually try. And you'll take cues from customer-facing teams about what's landing and what isn't. Very little of this job happens alone."
-          ],
-          "bullets": []
-        },
-        {
-          "title": "Responsibilities",
-          "paras": [],
-          "bullets": [
-            "Build the lifecycle communication program end-to-end across onboarding, adoption, retention, and expansion, from strategy through copy, build, launch, and iteration",
-            "Create programs that serve the full customer base while working hardest for digital-only customers, and decide where messaging should differ for accounts with a dedicated team",
-            "Design behavior-based segmentation using product usage, health signals, lifecycle stage, and account attributes; define the triggers that decide who hears from us and when",
-            "Write clear, useful customer-facing copy across email, in-product messaging, and other digital channels that reflects Mixpanel's voice and gives customers a reason to act",
-            "Build and ship campaigns in tools like Customer.io, HubSpot, and Statisfy, including the audience logic, templates, and QA that keep them reliable",
-            "Partner with Marketing on the shared email calendar, coordinating timing, frequency, and audience overlap so customers get a coherent experience instead of three messages in one week",
-            "Support product-led adoption initiatives by translating launches and feature pushes into lifecycle moments that get customers to try the thing, and report back on whether they did",
-            "Keep our library of lifecycle messaging current as the product changes, retiring what's stale and rewriting what no longer matches reality"
-          ]
-        },
-        {
-          "title": "We're Looking For Someone Who Is:",
-          "paras": [],
-          "bullets": [
-            "Experienced in customer lifecycle communications, ideally in a B2B SaaS environment, focused on post-sale adoption, retention, and expansion rather than demand generation or pre-sales",
-            "An excellent writer who can be concise, specific, and useful to a technical audience",
-            "Hands-on with lifecycle and marketing automation platforms (Customer.io, HubSpot, Braze, Iterable, or similar); you build the campaign yourself, you don't hand off a brief",
-            "Fluent in product analytics (Mixpanel or similar) and comfortable pulling your own data to define segments and measure results",
-            "Familiar with customer success platforms (Statisfy, Gainsight, Totango, or similar) and how health signals and customer data feed scaled programming",
-            "Strong at segmentation, able to reason about cohorts, behavioral triggers, and audience overlap, and knows when a segment is too small to matter",
-            "Data-driven in practice, not just in principle; forms a hypothesis, measures the result, and changes course based on what the data actually says",
-            "Comfortable being measured on business outcomes, not open rates alone. You've directly contributed to metrics like GRR, NRR, activation rate, and time to first value."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "greenhouse:mixpanel:8268370",
-      "title": "Digital Adoption & Lifecycle Manager (Customer Success)",
-      "company": "Mixpanel",
-      "companySite": "https://mixpanel.com",
-      "industry": "Product analytics",
-      "family": "Customer Success",
-      "seniority": "Mid",
-      "segment": null,
-      "location": "Remote — US",
-      "mode": "Remote",
-      "min": 112000,
-      "max": 132000,
-      "variable": "+ equity + bonus",
-      "book": "",
-      "stack": [
-        "Gainsight",
-        "Totango",
-        "HubSpot"
-      ],
-      "posted": 39,
-      "postedAt": "2026-10-09T16:26:26-04:00",
-      "source": "Greenhouse",
-      "featured": false,
-      "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
-      "postingUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8268370",
       "blurb": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see…",
       "summary": "Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at mixpanel.com .",
       "sections": [
@@ -5187,7 +5378,7 @@
       "variable": "",
       "book": "12 customers",
       "stack": [],
-      "posted": 40,
+      "posted": 41,
       "postedAt": "2026-10-08T22:52:16.432+00:00",
       "source": "Ashby",
       "featured": false,
@@ -5258,7 +5449,7 @@
       "variable": "",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-10-07T14:53:57-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5319,7 +5510,7 @@
       "variable": "+ equity + bonus",
       "book": "",
       "stack": [],
-      "posted": 41,
+      "posted": 42,
       "postedAt": "2026-10-07T20:23:27-04:00",
       "source": "Greenhouse",
       "featured": false,
@@ -5356,6 +5547,79 @@
             "Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our blog post here ."
           ],
           "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "greenhouse:instacart:8257641",
+      "title": "Bilingual CX Specialist (French)",
+      "company": "Instacart",
+      "companySite": "https://www.instacart.com",
+      "industry": "Grocery delivery",
+      "family": "Customer Success",
+      "seniority": "Mid",
+      "segment": null,
+      "location": "Remote — US",
+      "mode": "Remote",
+      "min": null,
+      "max": null,
+      "variable": "",
+      "book": "",
+      "stack": [
+        "Salesforce",
+        "Zendesk"
+      ],
+      "posted": 44,
+      "postedAt": "2026-10-05T18:35:23-04:00",
+      "source": "Greenhouse",
+      "featured": false,
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8257641",
+      "postingUrl": "https://instacart.careers/job/?gh_jid=8257641",
+      "blurb": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless…",
+      "summary": "At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.",
+      "sections": [
+        {
+          "title": "Instacart is a Flex First team",
+          "paras": [
+            "There’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "Overview",
+          "paras": [
+            "The Customer Experience (CX) team sits at the center of Instacart’s support ecosystem, serving our diverse community of consumers, shoppers, retailers, and advertisers through both direct support and scalable solutions. We partner closely with cross-functional teams across Product, Engineering, and Operations to surface insights from the front line, reduce friction in the customer journey, and shape future roadmaps.",
+            "We deliver empathetic, high-quality support through a blend of data-driven, operational excellence. By focusing on clear communication, critical thinking, and continuous improvement, we ensure that every customer interaction not only resolves the immediate issue but also consistently enhances the overall Instacart experience."
+          ],
+          "bullets": []
+        },
+        {
+          "title": "About the Job",
+          "paras": [],
+          "bullets": [
+            "Handle live customer contacts (phone, chat, and/or email) for up to 100% of your scheduled time, consistently delivering clear, empathetic, and efficient support.",
+            "Navigate and execute complex workflows using established tools, policies, and knowledge base content to resolve a wide range of order and account issues.",
+            "Resolve edge cases by carefully following documented procedures, seeking guidance when needed, and escalating to the appropriate teams when issues fall outside standard paths.",
+            "Conduct thorough investigations into customer issues—reviewing account history, order details, and prior interactions—to ensure accurate and fair outcomes.",
+            "Create internal transfer tickets and document cases with clear, detailed notes so downstream teams have the context they need to resolve issues efficiently.",
+            "Proactively identify patterns, pain points, and process gaps in day-to-day work, and provide concrete suggestions and recommendations to supervisors and pillar leadership.",
+            "Act as a positive team player and informal leader by modeling best practices, sharing tips and insights with peers, and contributing to a supportive, inclusive team environment.",
+            "Surface emerging issues and operational challenges (such as tooling bugs, policy ambiguities, or contact spikes) to leadership quickly and with clear examples, helping the team respond and adapt in real time."
+          ]
+        },
+        {
+          "title": "Minimum qualifications",
+          "paras": [],
+          "bullets": [
+            "High school diploma or equivalent (some college or specialized training a plus)",
+            "1+ year in a customer-facing role (support, retail, hospitality, call center, etc.) with a track record of strong service",
+            "Fluency in French, both spoken and written",
+            "Comfort handling live contacts for most of the day (phone, chat, and/or email) in a fast-paced, metrics-driven environment",
+            "Exceptional written and verbal communication skills, including clear documentation of cases and transfers, attention to detail and ability to follow established workflows",
+            "Problem-solving mindset with the ability to investigate issues, interpret account/order details, and make sound judgments within policy",
+            "Emotional intelligence and resilience when dealing with upset or frustrated customers and complex situations",
+            "Basic technical proficiency (navigating multiple systems, CRM tools, browser-based applications, and common productivity tools like Google Workspace)"
+          ]
         }
       ]
     }
