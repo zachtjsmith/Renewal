@@ -473,23 +473,33 @@ const US_STATES = {
   wyoming: "WY", "district of columbia": "DC",
 };
 
+/* Taking "Hybrid" or "US" out of "New York (Hybrid)" or "Remote (US)" can leave
+   an empty "()" behind; drop it, and any dash or comma left dangling. */
+function dropEmptyBrackets(v) {
+  return v.replace(/\(\s*[,\s\-–—]*\)/g, "").replace(/\s{2,}/g, " ").replace(/^[,\s\-–—]+|[,\s\-–—]+$/g, "").trim();
+}
+
 export function cleanLocation(raw, isRemoteFlag) {
   let s = htmlToText(raw || "").replace(/\s*\|\s*/g, ", ").trim();
   if (!s) return isRemoteFlag ? "Remote — US" : "Location not listed";
 
   const remote = /\bremote\b|\bwork from home\b|\bwfh\b|\bdistributed\b|\banywhere\b/i.test(s) || isRemoteFlag;
   s = s.replace(/\b(remote|hybrid|on-?site|in-?office)\b[\s,\-–—]*/gi, "").trim();
-  s = s.replace(/^[,\s\-–—]+|[,\s\-–—]+$/g, "");
+  // Bullets and semicolons separate places; taking the mode words out can leave
+  // "Denver, CO - ; New York, NY -" or a lone ";". Tidy each place, drop empty ones.
+  s = s.replace(/[•·]/g, ";").split(";").map((x) => x.replace(/^[,\s\-–—]+|[,\s\-–—]+$/g, "").trim()).filter(Boolean).join("; ");
+  s = dropEmptyBrackets(s.replace(/^[,\s\-–—]+|[,\s\-–—]+$/g, ""));
 
   // Trim long multi-city strings to the first two.
   const parts = s.split(/\s*(?:;|,(?=\s*[A-Z][a-z]))\s*/).filter(Boolean);
-  if (parts.length > 3) s = parts.slice(0, 2).join(", ") + " + more";
+  // Joined with "; " so a city named like a state ("New York") isn't shortened to "NY" below.
+  if (parts.length > 3) s = parts.slice(0, 2).join("; ") + " + more";
 
   for (const [name, abbr] of Object.entries(US_STATES)) {
     const re = new RegExp(`,\\s*${name}\\b`, "i");
     if (re.test(s)) s = s.replace(re, ", " + abbr);
   }
-  s = s.replace(/,?\s*(United States|USA|US)\b/i, "").replace(/[,\s]+$/, "");
+  s = dropEmptyBrackets(s.replace(/,?\s*(United States|USA|US)\b/i, "").replace(/[,\s]+$/, ""));
 
   if (!s) return remote ? "Remote — US" : "Location not listed";
   return remote ? `Remote — ${s}` : s;

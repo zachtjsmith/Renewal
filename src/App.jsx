@@ -104,7 +104,7 @@ const formspreeBody = ({ contactEmail, ...details }) => ({
 
 const C = {
   paper: "#EDF1EF", surface: "#FFFFFF", ink: "#0E1A15", body: "#38453F",
-  muted: "#6B7A73", rule: "#D5DEDA", ruleSoft: "#E7ECEA",
+  muted: "#5E6D66", rule: "#D5DEDA", ruleSoft: "#E7ECEA",
   signal: "#0B6E4F", signalSoft: "#E2EFE9", flag: "#8A6104", flagSoft: "#FAF0D9",
   flagTint: "#FDF7E8", flagLine: "#E3C47C", flagTag: "#F6E3B3", flagInk: "#664700", // featured placements
 };
@@ -422,9 +422,14 @@ const RESOURCE_GROUPS = [
     { kind: "Guide", len: "9 min read", title: "Explaining a layoff in an interview", desc: "Three framings, and the one that stops the follow-up question." } ] },
 ];
 
+/* The two rail slots on the job board. Until a slot sells, the board shows
+   "Hiring now" (upper) and "New this week" (lower) in its place. When one
+   sells: set sold to true, put the advertiser's 300 × 250 picture in /public
+   (for example public/ads/acme.png), and fill in image ("/ads/acme.png"),
+   href (where a click goes) and alt (what the picture says). */
 const AD_SLOTS = [
-  { id: "rail-a", label: "Board rail, upper", size: "300 × 250", price: "$299 / month", sold: false },
-  { id: "rail-b", label: "Board rail, lower", size: "300 × 250", price: "$199 / month", sold: false },
+  { id: "rail-a", label: "Board rail, upper", size: "300 × 250", price: "$299 / month", sold: false, image: "", href: "", alt: "" },
+  { id: "rail-b", label: "Board rail, lower", size: "300 × 250", price: "$199 / month", sold: false, image: "", href: "", alt: "" },
 ];
 
 /* Featured listings are bought on Gumroad. The Featured listing card and the
@@ -448,6 +453,34 @@ const NUMBER_WORDS = ["No", "One", "Two", "Three", "Four", "Five"];
 /* --- helpers ------------------------------------------------------------- */
 const money = (n) => "$" + Math.round(n / 1000) + "k";
 const ago = (d) => (d === 0 ? "today" : d === 1 ? "yesterday" : d + " days ago");
+/* --- board polish (21 November 2026) --------------------------------------- */
+/* Pay bars share one scale, so ranges compare at a glance. A range past either
+   end is drawn at the edge; the numbers beside the bar stay exact. */
+const PAY_SCALE = [40000, 320000];
+const payPct = (n) => Math.max(0, Math.min(100, ((n - PAY_SCALE[0]) / (PAY_SCALE[1] - PAY_SCALE[0])) * 100));
+/* The "Customer success roles" quick pick: every type except the roles around it. */
+const CS_FAMILIES = ["Customer Success", "Account Management", "Technical Account Management", "Onboarding", "Renewals", "CS Operations", "Leadership"];
+const isRemoteJob = (j) => (j.modes || [j.mode]).includes("Remote");
+const isFreshJob = (j) => j.posted != null && j.posted <= 7;
+const hasPayRange = (j) => j.min != null && j.max != null;
+/* Some locations arrive with leftovers once "Hybrid" or "US" is taken out:
+   "Remote — ()", "New York, NY •", "Denver, CO - ; Austin, TX". The collector now
+   cleans these at the source; this tidies anything already on the board. */
+const cleanLoc = (v) => String(v || "").replace(/[•·]/g, ";").split(";")
+  .map((x) => x.replace(/\(\s*[,\-–—\s]*\)/g, "").replace(/\s+[\-–—]\s*(?=,)/g, "").replace(/\s+[\-–—]\s+(?=\+)/g, " ").replace(/\s{2,}/g, " ").replace(/^[,\s\-–—]+|[,\s\-–—]+$/g, "").trim())
+  .filter(Boolean).join("; ");
+/* "Refreshed 3 hours ago", from the time the board was built. */
+const sinceText = (iso) => {
+  const t = Date.parse(iso);
+  if (!isFinite(t)) return "";
+  const h = Math.max(0, Math.floor((Date.now() - t) / 36e5));
+  if (h < 1) return "under an hour ago";
+  if (h < 24) return `${h} hour${h === 1 ? "" : "s"} ago`;
+  const d = Math.floor(h / 24);
+  return d === 1 ? "yesterday" : `${d} days ago`;
+};
+const fmtNum = (n) => Number(n || 0).toLocaleString("en-US");
+
 const markColors = ["#0B6E4F", "#1F4E6B", "#6B3F5E", "#5A4A21", "#2F4858", "#6B3A2E"];
 const markFor = (name) => markColors[String(name).length % markColors.length];
 const hasBook = (b) => b && b !== "Not listed" && b !== "—";
@@ -494,11 +527,11 @@ function Mark({ name, size = 40 }) {
   return <div style={{ width: size, height: size, flex: "0 0 auto", background: markFor(name), color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 700, fontSize: size * 0.42, borderRadius: 3, letterSpacing: "-0.02em" }}>{String(name).slice(0, 2).toUpperCase()}</div>;
 }
 
-function Button({ children, href, onClick, kind = "primary", wide }) {
+function Button({ children, href, onClick, kind = "primary", wide, className }) {
   const s0 = { primary: { bg: C.signal, fg: "#fff", bd: C.signal }, dark: { bg: C.ink, fg: "#fff", bd: C.ink }, ghost: { bg: "transparent", fg: C.ink, bd: C.rule } }[kind];
   const s = { background: s0.bg, color: s0.fg, border: "1px solid " + s0.bd, borderRadius: 5, padding: "10px 18px", fontSize: 14, fontWeight: 600, fontFamily: FONT, cursor: "pointer", textDecoration: "none", display: wide ? "block" : "inline-block", textAlign: "center", width: wide ? "100%" : "auto" };
-  if (href) return <a href={href} target="_blank" rel="noopener noreferrer" onClick={onClick} style={s}>{children}</a>;
-  return <button onClick={onClick} style={s}>{children}</button>;
+  if (href) return <a href={href} target="_blank" rel="noopener noreferrer" onClick={onClick} className={className} style={s}>{children}</a>;
+  return <button onClick={onClick} className={className} style={s}>{children}</button>;
 }
 
 function PageHead({ title, sub }) {
@@ -633,12 +666,16 @@ function JobRow({ job, open, toggle, last }) {
   const isNew = job.posted <= 2;
   const edge = job.featured ? C.flag : isNew ? C.signal : "transparent";
   const hasPay = job.min != null && job.max != null;
+  const isToday = job.posted != null && job.posted <= 1;
+  const loc = cleanLoc(job.location) || "Location not listed";
+  // "Remote" next to "Remote" says it twice; show the place only when it adds something.
+  const showLoc = loc.toLowerCase() !== String(job.mode || "").toLowerCase();
   const hasSections = job.sections && job.sections.length > 0;
 
   return (
-    <article style={{ background: job.featured ? C.flagTint : C.surface, borderBottom: job.featured ? (last ? "none" : "1px solid " + C.flagLine) : "1px solid " + C.ruleSoft, borderLeft: "3px solid " + edge }}>
+    <article className={"job-row" + (job.featured ? " is-featured" : "")} style={{ background: job.featured ? C.flagTint : C.surface, borderBottom: job.featured ? (last ? "none" : "1px solid " + C.flagLine) : "1px solid " + C.ruleSoft, borderLeft: "3px solid " + edge }}>
       <button onClick={toggle} aria-expanded={open} style={{ width: "100%", background: "none", border: "none", textAlign: "left", padding: "18px 20px", cursor: "pointer", fontFamily: FONT, display: "block" }}>
-        <div style={{ display: "flex", gap: 15, alignItems: "flex-start" }}>
+        <div className="job-head" style={{ display: "flex", gap: 15, alignItems: "flex-start" }}>
           <Mark name={job.company} />
           <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ display: "flex", alignItems: "baseline", gap: 9, flexWrap: "wrap" }}>
@@ -651,31 +688,34 @@ function JobRow({ job, open, toggle, last }) {
             </p>
             <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 10 }}>
               {/* location and mode are always shown */}
-              <Tag>{job.location}</Tag>
+              {showLoc && <Tag>{loc}</Tag>}
               <Tag>{job.mode}</Tag>
               {/* these three only when the posting stated them */}
               {job.segment && <Tag>{job.segment}</Tag>}
               {job.book && <Tag>Book: {job.book}</Tag>}
             </div>
           </div>
-          <div style={{ textAlign: "right", flex: "0 0 auto", paddingLeft: 8 }}>
+          <div className="job-pay" style={{ textAlign: "right", flex: "0 0 auto", paddingLeft: 8 }}>
             {hasPay ? (
               <>
                 <div style={{ fontSize: 20, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em", fontVariantNumeric: "tabular-nums", whiteSpace: "nowrap" }}>
                   {job.min === job.max ? money(job.min) : `${money(job.min)}–${money(job.max)}`}
                 </div>
                 {job.variable ? <div style={{ fontSize: 12.5, color: C.muted, marginTop: 3, whiteSpace: "nowrap" }}>{job.variable}</div> : null}
+                <div className="payband" aria-hidden="true" title={`Published range, on a ${money(PAY_SCALE[0])}–${money(PAY_SCALE[1])} scale`}>
+                  <i style={{ left: payPct(job.min) + "%", width: Math.max(2.5, payPct(job.max) - payPct(job.min)) + "%" }} />
+                </div>
               </>
             ) : (
-              <div style={{ fontSize: 13.5, color: C.muted, whiteSpace: "nowrap", paddingTop: 3 }}>See job listing</div>
+              <div className="job-nopay" style={{ fontSize: 13.5, color: C.muted, whiteSpace: "nowrap", paddingTop: 3 }}>See job listing</div>
             )}
-            <div style={{ fontSize: 12.5, color: C.muted, marginTop: 10, whiteSpace: "nowrap" }}>{ago(job.posted)}</div>
+            <div className="job-ago" style={{ fontSize: 12.5, color: isToday ? C.signal : C.muted, fontWeight: isToday ? 600 : 400, marginTop: 10, whiteSpace: "nowrap" }}>{isToday && <span className="fresh-dot" aria-hidden="true" />}{ago(job.posted)}</div>
           </div>
         </div>
       </button>
 
       {open && (
-        <div style={{ padding: "4px 20px 24px 75px", borderTop: "1px dashed " + C.ruleSoft, marginTop: -1 }}>
+        <div className="job-details" style={{ padding: "4px 20px 24px 75px", borderTop: "1px dashed " + C.ruleSoft, marginTop: -1 }}>
           {/* the employer's own words, at readable length */}
           {job.summary && job.summary.split("\n\n").map((para, i) => (
             <p key={i} style={{ fontSize: 15.5, color: C.body, lineHeight: 1.65, maxWidth: "72ch", margin: i === 0 ? "18px 0 0" : "12px 0 0" }}>{para}</p>
@@ -709,7 +749,7 @@ function JobRow({ job, open, toggle, last }) {
           )}
 
           <div style={{ marginTop: 26, display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
-            <Button href={job.applyUrl} onClick={() => track("Apply", applyData(job))}>Apply for this role</Button>
+            <Button href={job.applyUrl} onClick={() => track("Apply", applyData(job))} className="btn-apply">Apply for this role<svg className="nudge" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h13M12.5 6.5 18 12l-5.5 5.5" stroke="currentColor" strokeWidth="2.4" fill="none" strokeLinecap="round" strokeLinejoin="round" /></svg></Button>
             {job.companySite && <Button href={job.companySite} kind="ghost">Company site</Button>}
           </div>
           <p style={{ fontSize: 13, color: C.muted, margin: "12px 0 0", lineHeight: 1.5 }}>
@@ -722,15 +762,18 @@ function JobRow({ job, open, toggle, last }) {
 }
 
 /* --- rail ---------------------------------------------------------------- */
-function AdUnit({ slot, setTab }) {
-  return (
-    <div style={{ background: C.flagSoft, border: "1px dashed #DCC98E", borderRadius: 6, padding: 20, textAlign: "center" }}>
-      <div style={{ fontSize: 12.5, color: C.flag, fontWeight: 600 }}>Available ad space</div>
-      <div style={{ fontSize: 15, color: C.ink, fontWeight: 600, margin: "8px 0 4px" }}>{slot.size}</div>
-      <p style={{ fontSize: 13.5, color: C.body, lineHeight: 1.5, margin: "0 0 14px" }}>Reaches customer success people actively changing jobs.</p>
-      <Button kind="dark" onClick={() => { track("Rate card click", { slot: slot.label }); setTab("advertise"); }} wide>See the rate card</Button>
-    </div>
-  );
+/* A rail slot shows its ad once it's sold and has a picture and a link (set them
+   in AD_SLOTS). Until then the board puts something useful there instead. */
+function RailSlot({ slot, children }) {
+  if (slot && slot.sold && slot.image && slot.href) {
+    return (
+      <a href={slot.href} target="_blank" rel="noopener sponsored" onClick={() => track("Ad click", { slot: slot.id })} style={{ display: "block", textDecoration: "none" }}>
+        <div style={{ fontSize: 11, fontWeight: 650, letterSpacing: ".08em", textTransform: "uppercase", color: C.muted, marginBottom: 6 }}>Sponsored</div>
+        <img src={slot.image} alt={slot.alt || "Sponsored"} width="300" height="250" style={{ display: "block", width: "100%", height: "auto", borderRadius: 6, border: "1px solid " + C.rule }} />
+      </a>
+    );
+  }
+  return children;
 }
 
 function RailNewsletter({ onSub, subbed }) {
@@ -784,7 +827,7 @@ function Pager({ page, pageCount, setPage, total }) {
         <div style={{ marginTop: 3 }}>
           {nums.map((n, i) => (
             <span key={n}>
-              {i > 0 && nums[i - 1] !== n - 1 && <span style={{ color: C.rule, padding: "0 2px" }}>…</span>}
+              {i > 0 && nums[i - 1] !== n - 1 && <span aria-hidden="true" style={{ color: C.muted, padding: "0 2px" }}>…</span>}
               <button onClick={() => setPage(n)} style={numStyle(n === page)} aria-current={n === page ? "page" : undefined}>{n}</button>
             </span>
           ))}
@@ -802,6 +845,11 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
   const [mode, setMode] = useState(fromLink.mode || "Any");
   const [segment, setSegment] = useState("Any");
   const [minPay, setMinPay] = useState(0);
+  const [payOnly, setPayOnly] = useState(false);
+  const [newOnly, setNewOnly] = useState(false);
+  const [csOnly, setCsOnly] = useState(false);
+  const [company, setCompany] = useState(null);
+  const [moreFilters, setMoreFilters] = useState(false);
   const [openId, setOpenId] = useState(null);
   const [sort, setSort] = useState("newest");
   const [page, setPage] = useState(1);
@@ -824,21 +872,28 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
     [jobs]
   );
 
-  const filtered = useMemo(() => {
+  /* One test for every filter, so the list and the quick-pick counts always agree. */
+  const terms = useMemo(() => normalizeText(q).split(" ").filter(Boolean), [q]);
+  const picked = { family, mode, segment, minPay, payOnly, newOnly, csOnly, company };
+  const matches = (x, f) => {
+    const j = x.job;
+    if (f.company && j.company !== f.company) return false;
+    if (f.family !== "All roles" && j.family !== f.family) return false;
+    if (f.mode !== "Any" && !(j.modes || [j.mode]).includes(f.mode)) return false;
+    if (f.segment !== "Any" && j.segment !== f.segment) return false;
+    // A pay floor excludes roles with no published range — you asked to
+    // filter on a number they didn't give.
+    if (f.minPay > 0 && (j.max == null || j.max < f.minPay)) return false;
+    if (f.payOnly && !hasPayRange(j)) return false;
+    if (f.newOnly && !isFreshJob(j)) return false;
+    if (f.csOnly && !CS_FAMILIES.includes(j.family)) return false;
     // Every word must appear somewhere. "remote renewals" = remote AND renewals.
-    const terms = normalizeText(q).split(" ").filter(Boolean);
+    return terms.every((t) => x.hay.includes(t));
+  };
+  const age = (j) => (j.posted == null ? Infinity : j.posted);
 
-    const list = indexed
-      .filter(({ job: j, hay }) => {
-        if (family !== "All roles" && j.family !== family) return false;
-        if (mode !== "Any" && j.mode !== mode) return false;
-        if (segment !== "Any" && j.segment !== segment) return false;
-        // A pay floor excludes roles with no published range — you asked to
-        // filter on a number they didn't give.
-        if (minPay > 0 && (j.max == null || j.max < minPay)) return false;
-        return terms.every((t) => hay.includes(t));
-      })
-      .map((x) => x.job);
+  const filtered = useMemo(() => {
+    const list = indexed.filter((x) => matches(x, picked)).map((x) => x.job);
 
     list.sort((a, b) => {
       // Paid placements always lead, in every sort. Among them, the one
@@ -852,13 +907,27 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
       if (sort === "pay") {
         // Roles with no published salary sort last rather than as zero.
         if ((a.max == null) !== (b.max == null)) return a.max == null ? 1 : -1;
-        if (a.max == null) return a.posted - b.posted;
+        if (a.max == null) return age(a) - age(b);
         return b.max - a.max;
       }
-      return a.posted - b.posted;
+      return age(a) - age(b);
     });
     return list;
-  }, [indexed, q, family, mode, segment, minPay, sort]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [indexed, terms, family, mode, segment, minPay, sort, payOnly, newOnly, csOnly, company]);
+
+  /* How many roles each quick pick would show, given everything else picked. */
+  const pickCounts = useMemo(() => {
+    const count = (over) => indexed.reduce((n, x) => n + (matches(x, { ...picked, ...over }) ? 1 : 0), 0);
+    return {
+      remote: count({ mode: "Remote" }),
+      pay: count({ payOnly: true }),
+      fresh: count({ newOnly: true }),
+      cs: count({ csOnly: true, family: CS_FAMILIES.includes(family) ? family : "All roles" }),
+      ent: count({ segment: "Enterprise" }),
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [indexed, terms, family, mode, segment, minPay, payOnly, newOnly, csOnly, company]);
 
   const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const safePage = Math.min(page, pageCount);
@@ -867,7 +936,7 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
   const listRows = visible.filter((j) => !j.featured);
 
   // Changing a filter should land you on page 1, not page 7 of a shorter list.
-  useEffect(() => { setPage(1); setOpenId(null); }, [q, family, mode, segment, minPay, sort]);
+  useEffect(() => { setPage(1); setOpenId(null); }, [q, family, mode, segment, minPay, sort, payOnly, newOnly, csOnly, company]);
 
   const goToPage = (n) => {
     setPage(n);
@@ -880,7 +949,32 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
     }
   };
 
-  const reset = () => { setQ(""); setFamily("All roles"); setMode("Any"); setSegment("Any"); setMinPay(0); };
+  const reset = () => { setQ(""); setFamily("All roles"); setMode("Any"); setSegment("Any"); setMinPay(0); setPayOnly(false); setNewOnly(false); setCsOnly(false); setCompany(null); };
+
+  /* Whole-board numbers for the stats row and the rail. */
+  const board = useMemo(() => {
+    const byCompany = {};
+    let remote = 0, paid = 0, fresh = 0;
+    for (const j of jobs) {
+      if (isRemoteJob(j)) remote++;
+      if (hasPayRange(j)) paid++;
+      if (isFreshJob(j)) fresh++;
+      byCompany[j.company] = (byCompany[j.company] || 0) + 1;
+    }
+    const top = Object.entries(byCompany).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 5);
+    return { total: jobs.length, remote, paidPct: jobs.length ? Math.round((paid / jobs.length) * 100) : 0, fresh, top };
+  }, [jobs]);
+  const showList = () => {
+    if (listTop.current) listTop.current.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  };
+  const extraActive = (mode !== "Any") + (segment !== "Any") + (minPay > 0) + (sort !== "newest");
+  const picks = [
+    { label: "Remote", on: mode === "Remote", n: pickCounts.remote, toggle: () => setMode(mode === "Remote" ? "Any" : "Remote") },
+    { label: "Pay shown", on: payOnly, n: pickCounts.pay, toggle: () => setPayOnly(!payOnly) },
+    { label: "New this week", on: newOnly, n: pickCounts.fresh, toggle: () => setNewOnly(!newOnly) },
+    { label: "Customer success roles", on: csOnly, n: pickCounts.cs, toggle: () => { if (!csOnly && !CS_FAMILIES.includes(family)) setFamily("All roles"); setCsOnly(!csOnly); } },
+    { label: "Enterprise", on: segment === "Enterprise", n: pickCounts.ent, toggle: () => setSegment(segment === "Enterprise" ? "Any" : "Enterprise") },
+  ];
   // Role types with at least one live role (plus the one picked), with counts.
   const familyCounts = useMemo(() => {
     const c = {};
@@ -892,7 +986,20 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
 
   return (
     <>
-      <div style={{ marginBottom: 22 }}>
+      <div style={{ marginBottom: 22, position: "relative" }}>
+        <svg className="hero-art" width="230" height="230" viewBox="0 0 240 240" aria-hidden="true" focusable="false">
+          <defs>
+            <marker id="loop-tip" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+              <path d="M1.5 1.5 L8 5 L1.5 8.5" fill="none" stroke={C.signal} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+            </marker>
+          </defs>
+          <g fill="none" stroke={C.signal} strokeWidth="2.5" strokeLinecap="round">
+            <path d="M120 20 A100 100 0 1 1 33.4 70" opacity=".22" markerEnd="url(#loop-tip)" />
+            <path d="M190 120 A70 70 0 1 1 155 59.4" opacity=".38" markerEnd="url(#loop-tip)" />
+            <path d="M120 160 A40 40 0 1 1 154.6 140" opacity=".6" markerEnd="url(#loop-tip)" />
+          </g>
+          <rect x="112" y="112" width="16" height="16" rx="4" fill={C.signal} />
+        </svg>
         <h1 style={{ fontSize: 34, fontWeight: 800, letterSpacing: "-0.035em", color: C.ink, margin: 0, lineHeight: 1.1, maxWidth: "20ch" }}>{BRAND.line}</h1>
         {/* The sentence is already full length while the board loads (a grey
             placeholder stands in for the count), so nothing below it jumps. */}
@@ -904,6 +1011,14 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
           Salary, book size and tooling are shown only where the employer published them — nothing on this board is estimated.{" "}
           <TabLink to="about" setTab={setTab} style={{ color: C.signal, fontWeight: 600, textDecoration: "underline", textUnderlineOffset: 2 }}>How we pick roles</TabLink>
         </p>
+        <div className="pulse">
+          <span className="pulse-item"><b>{feed.loading ? "–" : fmtNum(board.total)}</b> live roles</span>
+          <span className="pulse-item"><b>{feed.loading ? "–" : fmtNum(board.remote)}</b> remote</span>
+          <span className="pulse-item"><b>{feed.loading ? "–" : board.paidPct + "%"}</b> show pay</span>
+          {!feed.loading && feed.generatedAt && sinceText(feed.generatedAt) && (
+            <span className="pulse-item live"><span className="live-dot" aria-hidden="true" />Refreshed {sinceText(feed.generatedAt)}</span>
+          )}
+        </div>
         {feed.sample && !feed.loading && (
           <p style={{ margin: "10px 0 0", fontSize: 13.5, color: C.flag, background: C.flagSoft, border: "1px solid #EADFBC", borderRadius: 5, padding: "9px 12px", display: "inline-block" }}>
             Showing sample listings — run <code>npm run ingest</code> to generate jobs.json with live roles.
@@ -913,27 +1028,46 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
 
       <div style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 14, marginBottom: 16 }}>
         <div style={{ display: "flex", gap: 9, flexWrap: "wrap" }}>
-          <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search title, company, or tool" style={{ flex: "1 1 240px", padding: "9px 12px", border: "1px solid " + C.rule, borderRadius: 5, fontSize: 14, fontFamily: FONT, color: C.ink }} />
-          <select aria-label="Role type" value={family} onChange={(e) => setFamily(e.target.value)} style={selectStyle}>
+          <input value={q} onChange={(e) => setQ(e.target.value)} className="filters-search" aria-label="Search roles by title, company or tool" placeholder="Search title, company, or tool" style={{ flex: "1 1 240px", padding: "9px 12px", border: "1px solid " + C.rule, borderRadius: 5, fontSize: 14, fontFamily: FONT, color: C.ink }} />
+          <select aria-label="Role type" className="filters-role" value={family} onChange={(e) => { const v = e.target.value; setFamily(v); if (v !== "All roles" && !CS_FAMILIES.includes(v)) setCsOnly(false); }} style={selectStyle}>
             {roleOptions.map((f) => (
               <option key={f} value={f}>
                 {f}{feed.loading ? "" : ` (${f === "All roles" ? jobs.length : familyCounts[f] || 0})`}
               </option>
             ))}
           </select>
-          <select aria-label="Work mode" value={mode} onChange={(e) => setMode(e.target.value)} style={selectStyle}>{["Any", "Remote", "Hybrid", "Onsite"].map((o) => <option key={o}>{o}</option>)}</select>
-          <select aria-label="Segment" value={segment} onChange={(e) => setSegment(e.target.value)} style={selectStyle}>{["Any", "Enterprise", "Mid-Market", "SMB"].map((o) => <option key={o}>{o}</option>)}</select>
+          <button type="button" className="filters-toggle" aria-expanded={moreFilters} onClick={() => setMoreFilters(!moreFilters)}>
+            {moreFilters ? "Fewer filters" : "More filters" + (extraActive ? ` (${extraActive})` : "")}
+          </button>
+          <div className={"filters-extra" + (moreFilters ? " open" : "")}>
+          <select aria-label="Work mode" value={mode} onChange={(e) => setMode(e.target.value)} style={selectStyle}>{["Any", "Remote", "Hybrid", "Onsite"].map((o) => <option key={o} value={o}>{o === "Any" ? "Any work mode" : o}</option>)}</select>
+          <select aria-label="Segment" value={segment} onChange={(e) => setSegment(e.target.value)} style={selectStyle}>{["Any", "Enterprise", "Mid-Market", "SMB"].map((o) => <option key={o} value={o}>{o === "Any" ? "Any segment" : o}</option>)}</select>
           <select aria-label="Minimum base pay" value={minPay} onChange={(e) => setMinPay(Number(e.target.value))} style={selectStyle}>
-            <option value={0}>Any base</option><option value={80000}>$80k+</option><option value={100000}>$100k+</option><option value={130000}>$130k+</option><option value={160000}>$160k+</option>
+            <option value={0}>Any base pay</option><option value={80000}>$80k+</option><option value={100000}>$100k+</option><option value={130000}>$130k+</option><option value={160000}>$160k+</option>
           </select>
           <select aria-label="Sort" value={sort} onChange={(e) => setSort(e.target.value)} style={selectStyle}>
             <option value="newest">Newest first</option><option value="pay">Highest pay</option>
           </select>
+          </div>
+        </div>
+        <div className="chips" role="group" aria-label="Quick picks">
+          <span className="chips-label">Quick picks</span>
+          {company && (
+            <button type="button" className="chip on" onClick={() => setCompany(null)} aria-label={`Showing ${company} only. Show every company`}>
+              {company}<span className="chip-n" aria-hidden="true">×</span>
+            </button>
+          )}
+          {picks.map((p) => (
+            <button key={p.label} type="button" className={"chip" + (p.on ? " on" : "")} aria-pressed={p.on} disabled={!feed.loading && !p.on && p.n === 0} onClick={p.toggle}>
+              {p.label} {!feed.loading && <span className="chip-n">{fmtNum(p.n)}</span>}
+            </button>
+          ))}
         </div>
       </div>
 
       <div style={{ display: "flex", gap: 26, alignItems: "flex-start" }}>
         <div style={{ flex: 1, minWidth: 0 }}>
+          <h2 className="sr-only">Open roles</h2>
           <div ref={listTop} style={{ scrollMarginTop: 78, display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 9, paddingLeft: 2 }}>
             <span style={{ fontSize: 13.5, color: C.muted }}>
               {feed.loading
@@ -989,14 +1123,36 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
 
         <aside className="board-rail" style={{ width: 300, flex: "0 0 300px" }}>
           <div style={{ display: "grid", gap: 16, position: "sticky", top: 82 }}>
-            <AdUnit slot={AD_SLOTS[0]} setTab={setTab} />
+            <RailSlot slot={AD_SLOTS[0]}>
+              <div className="rail-card">
+                <h4 className="rail-title">Hiring now</h4>
+                <p className="rail-text">Most open roles on the board today.</p>
+                <div className="hire-list">
+                  {feed.loading
+                    ? [0, 1, 2, 3, 4].map((i) => <div key={i} className="hire-skel" />)
+                    : board.top.map(([name, n]) => (
+                      <button key={name} type="button" className={"hire-row" + (company === name ? " on" : "")} aria-pressed={company === name} aria-label={`${name}: ${fmtNum(n)} open ${n === 1 ? "role" : "roles"}`} onClick={() => { setCompany(company === name ? null : name); showList(); }}>
+                        <Mark name={name} size={30} /><span className="hire-name">{name}</span><b>{fmtNum(n)}</b>
+                      </button>
+                    ))}
+                </div>
+              </div>
+            </RailSlot>
             {SHOW_JOBS_NEWSLETTER_BOX && <RailNewsletter onSub={onSub} subbed={subbed} />}
             <div style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 20 }}>
               <h4 style={{ margin: 0, fontSize: 16, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em" }}>Walk in with the deck already built</h4>
               <p style={{ fontSize: 13.5, color: C.body, lineHeight: 1.55, margin: "8px 0 14px" }}>QBR decks, health score models and renewal trackers. Built by a CSM who had to use them.</p>
               <Button kind="ghost" onClick={() => setTab("templates")} wide>Browse templates</Button>
             </div>
-            <AdUnit slot={AD_SLOTS[1]} setTab={setTab} />
+            <RailSlot slot={AD_SLOTS[1]}>
+              <div className="rail-card rail-dark">
+                <div className="rail-kicker">New this week</div>
+                <div className="rail-big">{feed.loading ? "–" : fmtNum(board.fresh)}</div>
+                <p className="rail-text">{board.fresh === 1 ? "role" : "roles"} posted in the last 7 days, each straight from the employer.</p>
+                <button type="button" className="rail-cta" disabled={feed.loading || board.fresh === 0} onClick={() => { setNewOnly(true); showList(); }}>Show this week's roles</button>
+              </div>
+            </RailSlot>
+            <button type="button" className="rail-ad-link" onClick={() => { track("Rate card click", { slot: "rail-link" }); setTab("advertise"); }}>Advertise on Renewal</button>
           </div>
         </aside>
       </div>
@@ -1153,7 +1309,6 @@ function TemplatesPage() {
 
       <p style={{ fontSize: 13.5, color: C.muted, marginTop: 22, maxWidth: "72ch", lineHeight: 1.6 }}>
         Every file is editable and yours to keep. Checkout, downloads and refunds are handled by Gumroad.
-        Set your vendor name once in <code>SHOP.vendor</code> and every button on this page follows.
       </p>
     </div>
   );
@@ -1539,7 +1694,7 @@ function AdvertisePage() {
       <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))", marginBottom: 40 }}>
         {AD_OFFERS.map((p) => (
           <div key={p.name} style={{ background: C.surface, border: "1px solid " + C.rule, borderRadius: 6, padding: 22, display: "flex", flexDirection: "column" }}>
-            <h3 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em" }}>{p.name}</h3>
+            <h2 style={{ margin: 0, fontSize: 17, fontWeight: 700, color: C.ink, letterSpacing: "-0.02em" }}>{p.name}</h2>
             <div style={{ margin: "10px 0 0", display: "flex", alignItems: "baseline", gap: 7 }}>
               <span style={{ fontSize: 27, fontWeight: 800, color: C.ink, letterSpacing: "-0.03em", fontVariantNumeric: "tabular-nums" }}>{p.price}</span>
               <span style={{ fontSize: 13.5, color: C.muted }}>{p.unit}</span>
@@ -1971,6 +2126,76 @@ export default function App() {
         input:focus, select:focus { outline: 2px solid ${C.signal}; outline-offset: 0; }
         a { color: inherit; }
         code { font-size: 0.92em; background: rgba(0,0,0,.06); padding: 1px 5px; border-radius: 3px; }
+        /* --- board polish (21 November 2026) --- */
+        .filters-extra { display: contents; }
+        .filters-toggle { display: none; }
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+        .hero-art { position: absolute; right: 6px; top: -16px; display: none; pointer-events: none; }
+        @media (min-width: 1024px) { .hero-art { display: block; } }
+        .pulse { display: flex; gap: 9px; flex-wrap: wrap; margin-top: 18px; }
+        .pulse-item { background: ${C.surface}; border: 1px solid ${C.rule}; border-radius: 10px; padding: 8px 14px; display: inline-flex; align-items: baseline; gap: 6px; font-size: 13.5px; color: ${C.body}; white-space: nowrap; }
+        .pulse-item b { font-size: 20px; font-weight: 800; letter-spacing: -0.03em; color: ${C.signal}; font-variant-numeric: tabular-nums; }
+        .pulse-item.live { align-items: center; color: ${C.muted}; background: transparent; border-style: dashed; }
+        .live-dot { width: 8px; height: 8px; border-radius: 50%; background: ${C.signal}; margin-right: 2px; animation: livepulse 2.4s ease-out infinite; }
+        @keyframes livepulse { 0% { box-shadow: 0 0 0 0 rgba(11,110,79,.45); } 70% { box-shadow: 0 0 0 8px rgba(11,110,79,0); } 100% { box-shadow: 0 0 0 0 rgba(11,110,79,0); } }
+        .chips { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 12px; padding-top: 12px; border-top: 1px dashed ${C.ruleSoft}; }
+        .chips-label { font-size: 11.5px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: ${C.muted}; margin-right: 2px; }
+        .chip { font-family: inherit; font-size: 13px; font-weight: 600; color: ${C.ink}; background: ${C.paper}; border: 1px solid ${C.rule}; border-radius: 999px; padding: 6px 12px; cursor: pointer; display: inline-flex; gap: 7px; align-items: center; transition: background-color .15s, border-color .15s, color .15s; }
+        .chip .chip-n { font-weight: 500; color: ${C.muted}; font-variant-numeric: tabular-nums; }
+        .chip.on { background: ${C.signal}; border-color: ${C.signal}; color: #fff; }
+        .chip.on .chip-n { color: rgba(255,255,255,.85); }
+        .chip:disabled { opacity: .45; cursor: default; }
+        .job-row { transition: background-color .15s; }
+        .payband { position: relative; width: 118px; height: 6px; border-radius: 3px; background: ${C.ruleSoft}; margin: 8px 0 0 auto; overflow: hidden; }
+        .payband i { position: absolute; top: 0; bottom: 0; border-radius: 3px; background: ${C.signal}; }
+        .fresh-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: ${C.signal}; margin-right: 6px; vertical-align: 1px; }
+        .job-details { animation: reveal .2s ease-out; }
+        @keyframes reveal { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+        .btn-apply .nudge { display: inline-block; margin-left: 7px; vertical-align: -3px; transition: transform .15s; }
+        .rail-card { background: ${C.surface}; border: 1px solid ${C.rule}; border-radius: 6px; padding: 20px; }
+        .rail-title { margin: 0; font-size: 16px; font-weight: 700; color: ${C.ink}; letter-spacing: -0.02em; }
+        .rail-text { font-size: 13.5px; color: ${C.body}; line-height: 1.5; margin: 6px 0 12px; }
+        .hire-list { display: grid; gap: 2px; }
+        .hire-row { display: flex; align-items: center; gap: 11px; width: 100%; background: none; border: 1px solid transparent; padding: 6px 6px; border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 14px; color: ${C.ink}; text-align: left; }
+        .hire-row.on { background: ${C.signalSoft}; border-color: #CBE2D8; }
+        .hire-name { flex: 1; min-width: 0; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .hire-row b { font-size: 12.5px; color: ${C.signal}; background: ${C.signalSoft}; border-radius: 999px; padding: 2px 9px; font-variant-numeric: tabular-nums; }
+        .hire-skel { height: 30px; margin: 6px; border-radius: 4px; background: ${C.ruleSoft}; }
+        .rail-dark { background: ${C.ink}; border-color: ${C.ink}; color: #fff; }
+        .rail-dark .rail-text { color: #C3D0CA; margin-top: 0; margin-bottom: 14px; }
+        .rail-kicker { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #52C79B; }
+        .rail-big { font-size: 44px; font-weight: 800; letter-spacing: -0.04em; line-height: 1.05; margin: 6px 0 4px; font-variant-numeric: tabular-nums; }
+        .rail-cta { width: 100%; background: #52C79B; color: ${C.ink}; border: none; border-radius: 5px; padding: 10px 14px; font-family: inherit; font-size: 14px; font-weight: 700; cursor: pointer; }
+        .rail-cta:disabled { opacity: .5; cursor: default; }
+        .rail-ad-link { justify-self: start; background: none; border: none; padding: 0 2px; font-family: inherit; font-size: 12.5px; color: ${C.muted}; text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
+        @media (hover: hover) {
+          .chip:hover:not(:disabled):not(.on) { border-color: ${C.signal}; }
+          .job-row:not(.is-featured):hover { background-color: #F7FAF8 !important; }
+          .btn-apply:hover .nudge { transform: translateX(3px); }
+          .hire-row:hover:not(.on) { background: ${C.paper}; }
+          .rail-ad-link:hover { color: ${C.ink}; }
+        }
+        @media (max-width: 640px) {
+          /* phones: the stats and quick picks scroll sideways in one line each, so the first role stays high */
+          .pulse { flex-wrap: nowrap; overflow-x: auto; gap: 6px; margin: 14px -20px 0; padding: 0 20px 2px; scrollbar-width: none; }
+          .pulse::-webkit-scrollbar, .chips::-webkit-scrollbar { display: none; }
+          .pulse-item { flex: none; padding: 6px 11px; font-size: 12.5px; }
+          .pulse-item b { font-size: 16px; }
+          .chips { flex-wrap: nowrap; overflow-x: auto; margin: 10px -14px 0; padding: 10px 14px 2px; scrollbar-width: none; }
+          .chips-label { display: none; }
+          .chip { flex: none; }
+          .job-head { flex-wrap: wrap; }
+          .job-pay { flex: 1 0 100% !important; text-align: left !important; padding-left: 55px !important; margin-top: 2px; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; }
+          .job-pay .payband { margin: 0 !important; }
+          .job-pay .job-ago, .job-pay .job-nopay { margin-top: 0 !important; padding-top: 0 !important; }
+          .job-details { padding-left: 20px !important; }
+          /* phones: work mode, segment, base pay and sort fold behind "More filters" */
+          .filters-search { flex: 1 1 100% !important; }
+          .filters-role { flex: 1 1 0%; min-width: 0; }
+          .filters-extra { display: none; }
+          .filters-extra.open { display: flex; flex-wrap: wrap; gap: 9px; width: 100%; }
+          .filters-toggle { display: inline-block; padding: 9px 12px; border: 1px solid ${C.rule}; border-radius: 5px; background: ${C.paper}; color: ${C.ink}; font-family: inherit; font-size: 13.5px; font-weight: 600; cursor: pointer; }
+        }
         @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
       `}</style>
       <Header tab={tab} setTab={setTab} />
