@@ -80,3 +80,50 @@ export const COMPANIES = [
 export function withExtra(extra = []) {
   return [...COMPANIES, ...extra];
 }
+
+/* ============================================================================
+   The open-market list
+   ----------------------------------------------------------------------------
+   20,493 companies across six ATSes, from a public MIT-licensed dataset — see
+   ingest/data/NOTICE.md for provenance and licence. Loaded alongside the
+   curated list above. Where a company appears in both, the curated entry wins,
+   because it carries an industry and a homepage the open list doesn't.
+   ========================================================================== */
+
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const OPEN_LIST = path.join(path.dirname(fileURLToPath(import.meta.url)), "data", "companies-open.csv");
+
+export function loadOpenCompanies() {
+  let text;
+  try { text = fs.readFileSync(OPEN_LIST, "utf8"); } catch { return []; }
+  const rows = text.split(/\r?\n/).slice(1).filter(Boolean);
+  const out = [];
+  for (const line of rows) {
+    // name may contain commas and quotes; ats and slug never do
+    const m = line.match(/^([a-z]+),([^,]+),(.*)$/);
+    if (!m) continue;
+    let name = m[3];
+    if (name.startsWith('"') && name.endsWith('"')) name = name.slice(1, -1).replace(/""/g, '"');
+    out.push({ ats: m[1], token: m[2], name: name || m[2], industry: "", open: true });
+  }
+  return out;
+}
+
+/**
+ * Every board to sweep: curated first, then the open list, one entry per
+ * ats+slug.
+ */
+export function allCompanies({ curatedOnly = false } = {}) {
+  const seen = new Map();
+  for (const c of COMPANIES) seen.set(`${c.ats}:${c.token.toLowerCase()}`, c);
+  if (!curatedOnly) {
+    for (const c of loadOpenCompanies()) {
+      const k = `${c.ats}:${c.token.toLowerCase()}`;
+      if (!seen.has(k)) seen.set(k, c);
+    }
+  }
+  return [...seen.values()];
+}

@@ -29,6 +29,8 @@ export const DROP = {
 
    For the four ATSes we know the URL grammar, so we can check it exactly.  */
 const ATS_POSTING_SHAPE = [
+  { host: /bamboohr\.com$/i, path: /^\/careers\/\d+/i },
+  { host: /breezy\.hr$/i, path: /^\/p\/[^/]+/i },
   // boards.greenhouse.io/acme/jobs/4567890   (job-boards.greenhouse.io too)
   { host: /greenhouse\.io$/i, path: /^\/[^/]+\/jobs\/\d+/i },
   // jobs.lever.co/acme/2f8c…-uuid  (optionally /apply)
@@ -125,6 +127,13 @@ const GEO_BLOCK = new RegExp(
 /* Explicit US/Canada markers override a block — "Remote (US or UK)" stays. */
 const GEO_RESCUE = /\b(US|U\.S\.|USA|United States|Canada|Remote\s*[-—–(]?\s*US)\b/i;
 
+const US_CA = /^(us|usa|u\.s\.?|united states|united states of america|ca|can|canada)$/i;
+
+export function isForeignLocation(text) {
+  const t = String(text || "");
+  return GEO_BLOCK.test(t) && !GEO_RESCUE.test(t);
+}
+
 /**
  * @param {object} raw      one posting from an adapter
  * @param {object} company  the registry entry it came from
@@ -133,7 +142,7 @@ const GEO_RESCUE = /\b(US|U\.S\.|USA|United States|Canada|Remote\s*[-—–(]?\s
  */
 export function normalize(raw, company, opts = {}) {
   const {
-    maxAgeDays = 45,
+    maxAgeDays = 180,
     requireSalary = false,   // salary is shown when present, not a gate
     geoFilter = true,
   } = opts;
@@ -160,8 +169,12 @@ export function normalize(raw, company, opts = {}) {
 
   /* 4. geography — location is always shown, even when it's just a city */
   const location = cleanLocation(raw.locationRaw, raw.remoteFlag);
-  if (geoFilter && GEO_BLOCK.test(raw.locationRaw || location) && !GEO_RESCUE.test(raw.locationRaw || "")) {
-    return { drop: DROP.BAD_GEO };
+  if (geoFilter) {
+    // A structured country code is the strongest signal we get. The open
+    // company list is global, so without this a German company's Berlin
+    // and Stuttgart roles would reach a US board.
+    if (raw.country && !US_CA.test(String(raw.country).trim())) return { drop: DROP.BAD_GEO };
+    if (isForeignLocation(raw.locationRaw || location)) return { drop: DROP.BAD_GEO };
   }
 
   /* 5. salary — structured first, text second, null if the posting is silent.
@@ -182,20 +195,19 @@ export function normalize(raw, company, opts = {}) {
   const job = {
     id: `${company.ats}:${company.token}:${raw.externalId}`,
     title,
-    company: company.name,
+    company: raw.companyName || company.name,
     companySite: company.site || homepageOf(postingUrl),
     industry: company.industry || "",
     family: verdict.family,
     seniority: seniority(title),
     segment: seg,                                  // may be null
     location,                                      // always present
-    mode: workMode(raw.locationRaw, text, raw.remoteFlag),
+    mode: raw.workplace || workMode(raw.locationRaw, text, raw.remoteFlag),
     min: pay ? pay.min : null,                     // may be null
     max: pay ? pay.max : null,
     variable: pay ? parseVariable(text) : "",      // no variable without a base
     book,                                          // may be ""
     stack,                                         // may be []
-    posted,
     postedAt: raw.postedAt || new Date().toISOString(),
     source: SOURCE_LABEL[company.ats] || company.ats,
     featured: false,
@@ -209,25 +221,5 @@ export function normalize(raw, company, opts = {}) {
   return { job };
 }
 
-/* --- dedupe -------------------------------------------------------------- *
-   Companies repost, and some run two ATSes during a migration. Key on
-   company + normalised title + location, keep the freshest.                */
-
-const noise = /\b(senior|sr|junior|jr|staff|principal|lead|i{1,3}|iv|v|\d+)\b/gi;
-
-function key(job) {
-  const t = job.title.toLowerCase().replace(noise, "").replace(/[^a-z]/g, "");
-  const c = job.company.toLowerCase().replace(/[^a-z]/g, "");
-  const l = job.location.toLowerCase().replace(/[^a-z]/g, "").slice(0, 12);
-  return `${c}|${t}|${l}`;
-}
-
-export function dedupe(jobs) {
-  const map = new Map();
-  for (const j of jobs) {
-    const k = key(j);
-    const prev = map.get(k);
-    if (!prev || j.posted < prev.posted) map.set(k, j);
-  }
-  return [...map.values()];
-}
+/* Dedupe lives in ./dedupe.js. Re-exported so older imports keep working. */
+export { dedupe } from "./dedupe.js";

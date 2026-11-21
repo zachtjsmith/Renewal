@@ -13,7 +13,9 @@ import {
   cleanLocation, extractDetail,
 } from "./lib/parse.js";
 import { classify, segment } from "./lib/classify.js";
-import { normalize, dedupe, isDeepLink, applyLinkQuality, homepageOf } from "./lib/normalize.js";
+import { normalize, isDeepLink, applyLinkQuality, homepageOf } from "./lib/normalize.js";
+import { dedupe, titleKey, companyKey, urlKey, displayTitle } from "./lib/dedupe.js";
+import { mightMatch, INCLUDE } from "./lib/classify.js";
 
 let pass = 0, fail = 0;
 const failures = [];
@@ -65,33 +67,13 @@ for (const [title, family] of [
   ["CSM - Mid Market", "Customer Success"],
   ["Client Success Lead", "Customer Success"],
   ["Strategic Account Manager", "Account Management"],
-  ["Technical Account Manager", "Technical Account Management"],
-  ["Senior TAM, Enterprise", "Technical Account Management"],
-  ["Director, Technical Account Management", "Technical Account Management"],
+  ["Technical Account Manager", (INCLUDE.technicalAccountManagement ? "Technical Account Management" : "Account Management")],
   ["Renewals Manager", "Renewals"],
   ["Customer Onboarding Specialist", "Onboarding"],
   ["Implementation Consultant", "Onboarding"],
   ["Customer Success Operations Manager", "CS Operations"],
   ["Director of Customer Success", "Leadership"],
   ["VP, Customer Experience", "Leadership"],
-  // the roles around customer success, added 19 November 2026
-  ["Customer Success Operations Specialist", "CS Operations"],
-  ["Solutions Consultant", "Solutions & Sales Engineering"],
-  ["Senior Sales Engineer", "Solutions & Sales Engineering"],
-  ["Solutions Engineer, Enterprise", "Solutions & Sales Engineering"],
-  ["Pre-Sales Consultant", "Solutions & Sales Engineering"],
-  ["Solutions Engineering Manager", "Solutions & Sales Engineering"],
-  ["Head of Presales", "Solutions & Sales Engineering"],
-  ["Product Marketing Manager", "Product Marketing"],
-  ["Director of Product Marketing", "Product Marketing"],
-  ["Product Manager", "Product Management"],
-  ["Senior Product Manager - Customer Success", "Product Management"],
-  ["Group Product Manager, Payments", "Product Management"],
-  ["VP of Product", "Product Management"],
-  ["Product Owner", "Product Management"],
-  ["Product Specialist", "Product Specialist"],
-  ["Senior Product Expert", "Product Specialist"],
-  ["Director of Customer Success, Product-Led Growth", "Leadership"],
 ]) {
   const v = classify({ title });
   ok(`keep "${title}" → ${family}`, v.keep && v.family === family, v.keep ? `got ${v.family}` : `dropped: ${v.reason}`);
@@ -100,33 +82,228 @@ for (const [title, family] of [
 console.log("── classify: reject ──");
 for (const title of [
   "Software Engineer, Customer Success Platform",
-  "Account Executive, Enterprise",
-  "Sales Development Representative",
   "Customer Support Specialist",
   "Technical Support Engineer",
   "UX Designer, Customer Experience",
   "Customer Success Manager (Intern)",
   "Recruiter, Customer Success Team",
-  // next to the new role types, but not them
-  "Engineering Manager, Solutions",
-  "Software Engineering Manager",
-  "Product Designer",
-  "Head of Product Design",
-  "Product Analyst",
-  "Product Support Specialist",
-  "Director, Product Support",
-  "Product Engineer",
-  "Marketing Manager",
-  "Customer Marketing Manager",
-  "Program Manager",
-  "Sales Consultant",
-  "Product Sales Specialist",
-  "Support Engineer",
-  "Software Engineer, Product",
-  "Solutions Architect",
-  "Product Manager Intern",
 ]) {
   ok(`reject "${title}"`, !classify({ title }).keep, "wrongly kept");
+}
+
+console.log("── classify: the roles around customer success (19 November 2026) ──");
+for (const [title, family, dial] of [
+  ["Senior TAM, Enterprise", "Technical Account Management", "technicalAccountManagement"],
+  ["Director, Technical Account Management", "Technical Account Management", "technicalAccountManagement"],
+  ["Solutions Consultant", "Solutions & Sales Engineering", "solutionsEngineering"],
+  ["Senior Sales Engineer", "Solutions & Sales Engineering", "solutionsEngineering"],
+  ["Solutions Engineer, Enterprise", "Solutions & Sales Engineering", "solutionsEngineering"],
+  ["Pre-Sales Consultant", "Solutions & Sales Engineering", "solutionsEngineering"],
+  ["Solutions Engineering Manager", "Solutions & Sales Engineering", "solutionsEngineering"],
+  ["Head of Presales", "Solutions & Sales Engineering", "solutionsEngineering"],
+  ["Product Marketing Manager", "Product Marketing", "productMarketing"],
+  ["Director of Product Marketing", "Product Marketing", "productMarketing"],
+  ["Product Manager", "Product Management", "productManagement"],
+  ["Senior Product Manager - Customer Success", "Product Management", "productManagement"],
+  ["Product Manager, Customer Success", "Product Management", "productManagement"],
+  ["VP of Product", "Product Management", "productManagement"],
+  ["Product Owner", "Product Management", "productManagement"],
+  ["Product Specialist", "Product Specialist", "productSpecialists"],
+  ["Senior Product Expert", "Product Specialist", "productSpecialists"],
+]) {
+  const v = classify({ title });
+  if (INCLUDE[dial]) ok(`keep "${title}" → ${family}`, v.keep && v.family === family, v.keep ? `got ${v.family}` : `dropped: ${v.reason}`);
+  else if (dial === "technicalAccountManagement" && /technical account/i.test(title)) ok(`"${title}" back under Account Management`, v.keep && v.family === "Account Management", v.keep ? `got ${v.family}` : `dropped: ${v.reason}`);
+  else if (dial === "technicalAccountManagement") ok(`dial off: "${title}" (abbreviation only) stays off`, !v.keep, `wrongly kept as ${v.family}`);
+  else ok(`dial off: "${title}" stays off the board`, !v.keep, `wrongly kept as ${v.family}`);
+}
+ok("Customer Success Operations Specialist → CS Operations", classify({ title: "Customer Success Operations Specialist" }).family === "CS Operations");
+ok("Director of Customer Success, Product-Led Growth → Leadership", classify({ title: "Director of Customer Success, Product-Led Growth" }).family === "Leadership");
+for (const title of [
+  "Engineering Manager, Solutions", "Software Engineering Manager", "Product Designer", "Head of Product Design",
+  "Product Analyst", "Product Support Specialist", "Director, Product Support", "Product Engineer",
+  "Marketing Manager", "Program Manager", "Sales Consultant", "Product Sales Specialist",
+  "Software Engineer, Product", "Solutions Architect", "Product Manager Intern",
+]) {
+  ok(`reject "${title}"`, !classify({ title }).keep, "wrongly kept");
+}
+
+console.log("── classify: titles added on request ──");
+for (const [title, family] of [
+  ["Customer Success Manager/Representative", "Customer Success"],
+  ["Customer Success Operations", "CS Operations"],
+  ["Customer Success Specialist", "Customer Success"],
+  ["Customer Success Representative", "Customer Success"],
+  ["Client Success Manager", "Customer Success"],
+  ["Client Services Manager", "Customer Success"],
+  ["Client Services Coordinator", "Customer Success"],
+  ["Director of Client Services", "Leadership"],
+  ["Technical Account Manager", (INCLUDE.technicalAccountManagement ? "Technical Account Management" : "Account Management")],
+  ["Strategic Account Manager", "Account Management"],
+]) {
+  const v = classify({ title });
+  ok(`keep "${title}" → ${family}`, v.keep && v.family === family, v.keep ? `got ${v.family}` : `dropped: ${v.reason}`);
+}
+
+console.log("── classify: industry-specific success titles ──");
+for (const [title, family] of [
+  ["Merchant Success Manager", "Customer Success"],
+  ["Partner Success Manager", "Customer Success"],
+  ["Member Success Manager", "Customer Success"],
+  ["Seller Success Manager", "Customer Success"],
+  ["Provider Success Manager", "Customer Success"],
+  ["Client Outcomes Manager", "Customer Success"],
+  ["Customer Experience Manager", "Customer Success"],
+  ["Customer Adoption Manager", "Customer Success"],
+  ["Customer Enablement Manager", "Customer Success"],
+  ["Value Consultant", "Customer Success"],
+  ["Value Realization Manager", "Customer Success"],
+  ["Technical Success Manager", "Customer Success"],
+  ["CX Manager", "Customer Success"],
+  ["Customer Advocate", "Customer Success"],
+  ["Partner Manager", "Account Management"],
+  ["Channel Account Manager", "Account Management"],
+  ["Client Partner", "Account Management"],
+  ["Customer Relationship Manager", "Account Management"],
+  ["Implementation Consultant", "Onboarding"],
+  ["Deployment Manager", "Onboarding"],
+  ["Professional Services Consultant", "Onboarding"],
+  ["Retention Manager", "Renewals"],
+  ["Subscription Manager", "Renewals"],
+  ["Chief Customer Officer", "Leadership"],
+  ["Head of Customer Success", "Leadership"],
+  ["SVP, Client Experience", "Leadership"],
+]) {
+  const v = classify({ title });
+  ok(`keep "${title}" → ${family}`, v.keep && v.family === family, v.keep ? `got ${v.family}` : `dropped: ${v.reason}`);
+}
+
+console.log("── classify: the wider net must not leak ──");
+for (const title of [
+  "Customer Service Representative",
+  "Customer Care Representative",
+  "Support Engineer",
+  "Help Desk Technician",
+  "Technical Support Tier 2",
+  "Customer Marketing Manager",
+  "Contract Customer Success Manager",
+  "Accounts Receivable Specialist",
+]) {
+  ok(`reject "${title}"`, !classify({ title }).keep, "wrongly kept");
+}
+
+console.log("── classify: exclusions beat the department fallback ──");
+for (const title of ["Customer Service Representative", "Customer Support Specialist", "Software Engineer, Customer Success Platform"]) {
+  const v = classify({ title, department: "Customer Success" });
+  ok(`  "${title}" still dropped inside a CS department`, !v.keep, v.keep ? `wrongly kept as ${v.family}` : "");
+}
+
+console.log("── classify: Sales & BD and account-lead titles ──");
+for (const [title, family] of [
+  ["Business Development Representative", "Sales & BD"],
+  ["Sales Development Representative", "Sales & BD"],
+  ["Senior BDR", "Sales & BD"],
+  ["SDR", "Sales & BD"],
+  ["Business Development Manager", "Sales & BD"],
+  ["Director of Business Development", "Sales & BD"],
+  ["Account Development Representative", "Sales & BD"],
+  ["Account Lead", "Account Management"],
+  ["Accounts Director", "Account Management"],
+  ["Key Account Manager", "Account Management"],
+  ["Director of Accounts", "Leadership"],
+  ["Head of Key Accounts", "Leadership"],
+]) {
+  const v = classify({ title });
+  if (family === "Sales & BD" && !INCLUDE.businessDevelopment) {
+    ok(`"${title}" stays out while Sales & BD is off`, !v.keep, `kept as ${v.family}`);
+  } else {
+    ok(`keep "${title}" → ${family}`, v.keep && v.family === family, v.keep ? `got ${v.family}` : `dropped: ${v.reason}`);
+  }
+}
+console.log("── classify: support leadership in, front line out ──");
+for (const title of [
+  "Customer Support Manager", "Director of Customer Support", "Head of Support",
+  "Customer Service Manager", "Service Delivery Manager", "VP, Global Support",
+  "Support Operations Manager", "Manager, Technical Support", "Customer Care Manager",
+]) {
+  const v = classify({ title });
+  if (INCLUDE.supportLeadership) ok(`keep "${title}" → Support & Service`, v.keep && v.family === "Support & Service", v.keep ? `got ${v.family}` : `dropped: ${v.reason}`);
+  else ok(`"${title}" stays out while support leadership is off`, !v.keep, `kept as ${v.family}`);
+}
+for (const title of [
+  "Customer Support Specialist", "Technical Support Engineer", "Support Agent",
+  "Tier 2 Support Analyst", "Customer Service Representative", "Help Desk Technician",
+]) ok(`front line stays out: "${title}"`, !classify({ title }).keep, "wrongly kept");
+eq("CS leadership unaffected", classify({ title: "Director of Customer Success" }).family, "Leadership");
+eq("Client Services unaffected", classify({ title: "Director of Client Services" }).family, "Leadership");
+
+console.log("── classify: the core board, every level ──");
+for (const [title, family] of [
+  ["Associate Customer Success Manager", "Customer Success"],
+  ["Junior Customer Success Manager", "Customer Success"],
+  ["Customer Success Manager II", "Customer Success"],
+  ["Senior Customer Success Manager", "Customer Success"],
+  ["Staff Customer Success Manager", "Customer Success"],
+  ["Principal Customer Success Manager", "Customer Success"],
+  ["Client Success Associate", "Customer Success"],
+  ["Client Success Manager", "Customer Success"],
+  ["Senior Client Success Manager", "Customer Success"],
+  ["Client Success Lead", "Customer Success"],
+  ["Junior Account Manager", "Account Management"],
+  ["Associate Account Manager", "Account Management"],
+  ["Account Manager II", "Account Management"],
+  ["Senior Account Manager", "Account Management"],
+  ["Strategic Account Manager", "Account Management"],
+  ["Principal Account Manager", "Account Management"],
+  ["Director of Customer Success", "Leadership"],
+  ["VP of Customer Success", "Leadership"],
+  ["Director of Client Success", "Leadership"],
+  ["Head of Client Success", "Leadership"],
+  ["Director of Account Management", "Leadership"],
+  ["VP of Account Management", "Leadership"],
+  ["Head of Account Management", "Leadership"],
+  ["Chief Customer Officer", "Leadership"],
+]) {
+  const v = classify({ title });
+  ok(`core: "${title}" → ${family}`, v.keep && v.family === family, v.keep ? `got ${v.family}` : `dropped: ${v.reason}`);
+}
+
+console.log("── classify: acronym and evergreen traps ──");
+for (const title of [
+  "MDR Analyst", "LDR Nurse", "ADR Specialist", "Director of Accounting",
+  "General Application - Customer Success", "Future Opportunities: Account Manager",
+  "Customer Success Manager - Talent Pool",
+]) ok(`reject "${title}"`, !classify({ title }).keep, "wrongly kept");
+ok("Account Executive follows its dial", classify({ title: "Account Executive" }).keep === INCLUDE.accountExecutives);
+ok("BDR follows the businessDevelopment dial", classify({ title: "Sales Development Representative" }).keep === INCLUDE.businessDevelopment);
+
+console.log("── title-first pre-filter ──");
+ok("fetch a CSM", mightMatch("Customer Success Manager"));
+ok("fetch a gated generic title (department decides)", mightMatch("Project Coordinator"));
+ok("skip an excluded title", !mightMatch("Senior Software Engineer"));
+ok("skip an evergreen post", !mightMatch("General Application"));
+
+console.log("── classify: generic titles need a CS department ──");
+for (const [title, dept, shouldKeep, family] of [
+  ["Project Coordinator", "Customer Success", true, "Onboarding"],
+  ["Project Coordinator", "Client Services", true, "Onboarding"],
+  ["Marketing Coordinator", "Customer Success", true, "Customer Success"],
+  ["Project Coordinator", "Engineering", false, null],
+  ["Project Coordinator", "Construction", false, null],
+  ["Marketing Coordinator", "Marketing", false, null],
+  ["Project Coordinator", "", false, null],
+  ["Marketing Coordinator", "", false, null],
+  ["Engagement Manager", "Client Services", true, "Onboarding"],
+  ["Engagement Manager", "Consulting", false, null],
+  ["Solutions Consultant", "Customer Success", INCLUDE.solutionsEngineering, INCLUDE.solutionsEngineering ? "Solutions & Sales Engineering" : null],
+  ["Solutions Consultant", "Sales", INCLUDE.solutionsEngineering, INCLUDE.solutionsEngineering ? "Solutions & Sales Engineering" : null],
+  ["Revenue Operations Analyst", "Customer Success", true, "CS Operations"],
+  ["Revenue Operations Analyst", "Finance", false, null],
+]) {
+  const v = classify({ title, department: dept });
+  const label = `${title} in "${dept || "no department"}"`;
+  if (shouldKeep) ok(`  keep: ${label} → ${family}`, v.keep && v.family === family, v.keep ? `got ${v.family}` : v.reason);
+  else ok(`  drop: ${label}`, !v.keep, v.keep ? `wrongly kept as ${v.family}` : "");
 }
 
 /* ========================================================================== */
@@ -280,6 +457,19 @@ console.log("── a silent posting keeps its silence ──");
   }
 }
 
+console.log("── structured country and workplace ──");
+{
+  const de = normalize({ ...GH_RAW, locationRaw: "Stuttgart", country: "DE", remoteFlag: false }, company);
+  ok("German role caught by country code alone", de.drop === "outside covered geography", de.drop || "kept");
+  const gr = normalize({ ...GH_RAW, locationRaw: "Thessaloniki", country: "Greece", remoteFlag: false }, company);
+  ok("Greek role caught by country name alone", gr.drop === "outside covered geography", gr.drop || "kept");
+  ok("US country code kept", !!normalize({ ...GH_RAW, country: "US" }, company).job);
+  ok("Canada kept", !!normalize({ ...GH_RAW, locationRaw: "Toronto, ON", country: "CA" }, company).job);
+  const hyb = normalize({ ...GH_RAW, locationRaw: "Boston, MA", remoteFlag: true, workplace: "Hybrid" }, company);
+  eq("explicit workplace beats a remote flag", hyb.job && hyb.job.mode, "Hybrid");
+  ok("no 'days ago' stored (keeps nightly diffs small)", !("posted" in normalize(GH_RAW, company).job));
+}
+
 console.log("── bad apply links are dropped ──");
 {
   const home = normalize({ ...GH_RAW, applyUrl: "https://acme.com", postingUrl: "https://acme.com" }, company);
@@ -295,8 +485,9 @@ console.log("── strict mode still available ──");
   ok("default keeps them", !!normalize(bare, company).job);
 }
 
-console.log("── stale postings dropped ──");
-ok("120-day-old dropped", normalize({ ...GH_RAW, postedAt: new Date(Date.now() - 120 * 86400000).toISOString() }, company).drop === "older than max age");
+console.log("── freshness ──");
+ok("120-day-old kept (ATS feeds only list open roles)", !!normalize({ ...GH_RAW, postedAt: new Date(Date.now() - 120 * 86400000).toISOString() }, company).job);
+ok("200-day-old dropped", normalize({ ...GH_RAW, postedAt: new Date(Date.now() - 200 * 86400000).toISOString() }, company).drop === "older than max age");
 
 console.log("── geography ──");
 for (const [loc, shouldDrop] of [
@@ -309,12 +500,54 @@ for (const [loc, shouldDrop] of [
   ok(`  "${loc}"`, (r.drop === "outside covered geography") === shouldDrop, r.drop || "kept");
 }
 
-console.log("── dedupe ──");
+console.log("── dedupe: what IS a duplicate ──");
 {
-  const out = dedupe([{ ...job, id: "a", posted: 9 }, { ...job, id: "b", posted: 2, title: "Customer Success Manager" }]);
-  ok("collapses senior/non-senior duplicate", out.length === 1, `got ${out.length}`);
-  ok("keeps the fresher one", out[0].posted === 2);
+  const desc = "Own a book of forty mid-market accounts through renewal. Run quarterly business reviews with executive stakeholders. Build health scores that predict churn.";
+  let n = 0;
+  const J = (o) => ({ company: "Northloop", title: "Customer Success Manager", location: "Remote — US", mode: "Remote",
+    applyUrl: `https://boards.greenhouse.io/n/jobs/${++n}`, postedAt: "2026-09-10", min: null, max: null,
+    summary: desc, sections: [], source: "Greenhouse", ...o });
+
+  let r = dedupe([J({ applyUrl: "https://boards.greenhouse.io/n/jobs/1" }), J({ applyUrl: "https://boards.greenhouse.io/n/jobs/1", company: "Northloop, Inc.", title: "CSM" })]);
+  eq("same apply URL, differently spelled → 1", r.jobs.length, 1);
+
+  r = dedupe([J({ postedAt: "2026-09-01" }), J({ postedAt: "2026-09-15", source: "Lever" })]);
+  eq("same company + title + location → 1", r.jobs.length, 1);
+  eq("  keeps the most recent date", r.jobs[0].postedAt, "2026-09-15");
+
+  r = dedupe([
+    J({ location: "New York, NY", mode: "Hybrid", title: "Customer Success Manager - New York", min: 140000, max: 160000 }),
+    J({ location: "Remote — US", mode: "Remote", title: "Customer Success Manager (Remote)", min: 120000, max: 140000 }),
+    J({ location: "Austin, TX", mode: "Onsite", title: "Customer Success Manager - Austin" }),
+  ]);
+  eq("one role in 3 cities → 1 listing", r.jobs.length, 1);
+  eq("  title loses the city", r.jobs[0].title, "Customer Success Manager");
+  eq("  keeps all 3 locations", r.jobs[0].locations.length, 3);
+  eq("  each location keeps its own apply link", new Set(r.jobs[0].variants.map((v) => v.applyUrl)).size, 3);
+  eq("  remote listed first", r.jobs[0].variants[0].mode, "Remote");
+  eq("  pay spans only published ranges", [r.jobs[0].min, r.jobs[0].max], [120000, 160000]);
+  eq("  flags that pay varies", r.jobs[0].payVaries, true);
+  eq("  filterable by every mode", [...r.jobs[0].modes].sort(), ["Hybrid", "Onsite", "Remote"]);
+
+  console.log("── dedupe: what is NOT a duplicate ──");
+  eq("Senior CSM and CSM stay separate", dedupe([J({}), J({ title: "Senior Customer Success Manager" })]).jobs.length, 2);
+  eq("same title, different job stays separate", dedupe([J({ location: "New York, NY" }),
+    J({ location: "Austin, TX", summary: "Support a pooled book of SMB customers through lifecycle email, webinars and in-app campaigns. Volume role with digital programs." })]).jobs.length, 2);
+  eq("same title at different companies stays separate", dedupe([J({}), J({ company: "Parcelay" })]).jobs.length, 2);
+  eq("Enterprise and SMB variants stay separate", dedupe([
+    J({ title: "Customer Success Manager - Enterprise", location: "New York, NY" }),
+    J({ title: "Customer Success Manager - SMB", location: "New York, NY" })]).jobs.length, 2);
 }
+
+console.log("── dedupe: normalisers ──");
+eq("remote suffix stripped", titleKey("Customer Success Manager - Remote (US)"), "customer success manager");
+eq("segment kept", titleKey("Customer Success Manager - Enterprise"), "customer success manager enterprise");
+eq("seniority kept", titleKey("Senior Customer Success Manager"), "senior customer success manager");
+eq("Sr. expands", titleKey("Sr. CSM"), "senior customer success manager");
+eq("legal suffix ignored", companyKey("Figma, Inc."), companyKey("figma"));
+eq("Lever apply URL == posting URL", urlKey("https://jobs.lever.co/a/x-1/apply"), urlKey("https://jobs.lever.co/a/x-1/"));
+eq("display title keeps segment", displayTitle("Customer Success Manager - Enterprise"), "Customer Success Manager - Enterprise");
+eq("display title drops place", displayTitle("Senior CSM - Remote (US)"), "Senior CSM");
 
 /* ========================================================================== */
 console.log(`\n${"─".repeat(60)}`);

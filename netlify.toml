@@ -29,6 +29,12 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
+# The 64 detail files must always match the jobs.json they came from.
+[[headers]]
+  for = "/jobs/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
 [[headers]]
   for = "/content.json"
   [headers.values]

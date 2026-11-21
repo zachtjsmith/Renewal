@@ -5,11 +5,8 @@
 
      1. EXCLUDE_TITLE    other functions that happen to contain our keywords.
                          Runs first and always wins.
-     2. FAMILY_RULES     titles that are unambiguously customer success, or one
-                         of the roles around it the board also lists (TAMs,
-                         solutions and sales engineers, product managers,
-                         product marketers, product specialists). First match
-                         wins, so the order of families matters.
+     2. FAMILY_RULES     titles that are unambiguously customer success.
+                         First match wins, so the order of families matters.
      3. DEPARTMENT_GATED generic titles that only count when the posting says
                          they sit in a customer-facing org.
 
@@ -19,6 +16,36 @@
    naive keyword match, which is why exclusions run before inclusions.
    ========================================================================== */
 
+/* --- configuration -------------------------------------------------------
+   How wide the board casts its net. The launch setting is CORE customer
+   success only: all three dials off. Each one adds a family of roles when
+   switched on; the matching filter chip appears on the site by itself.     */
+export const INCLUDE = {
+  // BDR, SDR, Business Development Manager and the rest of that ladder. The
+  // entry rung many CSMs start on, and a common pivot after a layoff.
+  businessDevelopment: false,
+
+  // Account Executives. The single biggest volume lever — every SaaS company
+  // hires AEs — and the furthest role from customer success.
+  accountExecutives: false,
+
+  // Support and service LEADERSHIP: Support Manager, Director of Customer
+  // Service, Service Delivery Manager. Front-line support stays out — the
+  // ticket-queue roles are a different job and a different board.
+  supportLeadership: false,
+
+  // The roles around customer success, added 19 November 2026. Each is its
+  // own role type on the site. Across thousands of companies, product
+  // management is by far the biggest: switch a dial off if it crowds out the
+  // customer success roles. TAM off puts TAMs back under Account Management;
+  // the others, when off, are left off the board as before.
+  technicalAccountManagement: true,
+  solutionsEngineering: true,
+  productManagement: true,
+  productMarketing: true,
+  productSpecialists: true,
+};
+
 /* --- 1. hard exclusions: checked first, on the TITLE only ----------------- */
 
 const EXCLUDE_TITLE = [
@@ -26,13 +53,14 @@ const EXCLUDE_TITLE = [
   /\b(software|staff|senior staff|principal|backend|front-?end|full-?stack|platform|data|ml|qa|test|security|devops|site reliability|sre|support)\s+engineer\b/i,
   // engineering managers stay out; sales and solutions engineering managers are listed
   /\b(?<!(?:sales|solutions?|pre-?sales|presales)\s)engineer(ing)?\s+(manager|lead|director)\b/i,
-  // product managers and product marketers are listed (see FAMILY_RULES); other managers of these kinds are not
+  // product managers and product marketers have their own dials below; other managers of these kinds are not listed
   /\b(program|project|(?<!(?:sales|solutions?|pre-?sales|presales)\s)engineering|(?<!product\s)marketing|brand|content|community|social|events?)\s+manager\b/i,
   /\b(ux|ui|product|graphic|visual|web)\s+designer\b/i,
   /\bproduct\s+design\b/i,
   /\b(data|business|financial|research|marketing|security|systems|product)\s+analyst\b/i,
-  /\baccount executive\b/i,
-  /\b(sdr|bdr|sales development|business development)\b/i,
+  // Sales roles, unless switched on in INCLUDE above.
+  !INCLUDE.accountExecutives && /\baccount executive\b/i,
+  !INCLUDE.businessDevelopment && /\b(sdr|bdr|sales development|business development)\b/i,
   /\b(?<!pre-?)sales\s+(rep|representative|manager|director|lead|associate|specialist|consultant)\b/i,
   /\brecruiter\b|\btalent\b|\bpeople partner\b|\bhr business partner\b/i,
   /\b(accounting|accounts payable|accounts receivable|payroll|bookkeep)/i,
@@ -40,16 +68,23 @@ const EXCLUDE_TITLE = [
   // support and call-centre roles — adjacent, but a different job and a
   // different board. Note "customer service" is excluded while "client
   // services" is kept: in SaaS they mean genuinely different functions.
-  /\b(technical support|customer support|product support|support)\s+(engineer|specialist|representative|rep|agent|advisor|analyst|associate|coordinator|manager|lead|supervisor)\b/i,
-  /\bcustomer service\s+(representative|rep|agent|associate|advisor|advocate|specialist|coordinator|manager|supervisor|lead|director|trainee|assistant)\b/i,
+  INCLUDE.supportLeadership
+    ? /\b(technical support|customer support|product support|support)\s+(engineer|specialist|representative|rep|agent|advisor|analyst|associate|coordinator)\b/i
+    : /\b(technical support|customer support|product support|support)\s+(engineer|specialist|representative|rep|agent|advisor|analyst|associate|coordinator|manager|lead|supervisor)\b/i,
+  INCLUDE.supportLeadership
+    ? /\bcustomer service\s+(representative|rep|agent|associate|advisor|advocate|specialist|coordinator|trainee|assistant)\b/i
+    : /\bcustomer service\s+(representative|rep|agent|associate|advisor|advocate|specialist|coordinator|manager|supervisor|lead|director|trainee|assistant)\b/i,
   /\bcustomer care\s+(representative|rep|agent|associate|advisor|specialist|coordinator)\b/i,
   /\b(patient|member) services?\s+(representative|rep|coordinator|assistant)\b/i,
   /\bhelp ?desk\b|\bservice desk\b|\bcall cent(er|re)\b|\bcontact cent(er|re)\b/i,
   /\b(tier|level)\s*[123]\b/i,
 
+  // evergreen "pipeline" postings: no actual opening behind them
+  /\b(talent (pool|community|network|pipeline)|general application|open application|future (opportunit|opening|role)|expression of interest|evergreen|join our talent|always hiring)/i,
+
   // not the kind of employment this board lists
   /\bintern(ship)?\b|\bco-?op\b|\bapprentice\b|\bcontract(or)?\b|\bfreelance\b|\btemp(orary)?\b|\bvolunteer\b|\bfellow(ship)?\b/i,
-];
+].filter(Boolean);
 
 /* --- 2. inclusions, most specific family first --------------------------- *
    Order matters: "Customer Success Operations Manager" must reach CS
@@ -59,9 +94,12 @@ const FAMILY_RULES = [
   /* The roles around customer success, added 19 November 2026. They come
      first because "Product Manager, Onboarding" is a product job and
      "Solutions Engineer, Customer Success" a pre-sales one: the job title
-     beats the team it serves.                                               */
+     beats the team it serves. dropWhenOff: with the dial off, these titles
+     stay off the board instead of falling through to another role type.    */
   {
     family: "Product Marketing",
+    enabled: INCLUDE.productMarketing,
+    dropWhenOff: true,
     patterns: [
       /\bproduct marketing\b/i,
       /\bpmm\b/i,
@@ -69,6 +107,8 @@ const FAMILY_RULES = [
   },
   {
     family: "Product Management",
+    enabled: INCLUDE.productManagement,
+    dropWhenOff: true,
     patterns: [
       /\bproduct\s+(manager|management|owner|lead)\b/i,
       // product leadership, only when "product" ends the title or a clause:
@@ -79,12 +119,16 @@ const FAMILY_RULES = [
   },
   {
     family: "Product Specialist",
+    enabled: INCLUDE.productSpecialists,
+    dropWhenOff: true,
     patterns: [
       /\bproduct\s+(specialist|expert)s?\b/i,
     ],
   },
   {
     family: "Solutions & Sales Engineering",
+    enabled: INCLUDE.solutionsEngineering,
+    dropWhenOff: true,
     patterns: [
       /\b(sales|solutions?|pre-?sales|presales)\s+engineer(ing|s)?\b/i,
       /\bsolutions?\s+consult(ant|ants|ing)\b/i,
@@ -123,6 +167,20 @@ const FAMILY_RULES = [
     ],
   },
   {
+    family: "Support & Service",
+    enabled: INCLUDE.supportLeadership,
+    patterns: [
+      // Every pattern demands a leadership noun. "Support Specialist" and
+      // "Support Engineer" never reach here — they are excluded above.
+      /\b(technical |customer |product |client |global |member )?support\s+(manager|lead|supervisor|director|head)\b/i,
+      /\b(customer|client)\s+(service|care)\s+(manager|supervisor|director|lead|head)\b/i,
+      /\b(director|head|vp|svp|vice president|chief)\s*,?\s*(of\s+)?(global\s+|technical\s+|customer\s+|client\s+)?(support|customer service|customer care|service delivery|technical services)\b/i,
+      /\bservice delivery\s+(manager|lead|director|head)\b/i,
+      /\bsupport operations\s+(manager|lead|director)\b/i,
+      /\bmanager,?\s+(of\s+)?(technical |customer |global )?support\b/i,
+    ],
+  },
+  {
     family: "Leadership",
     // A bare "Lead" is deliberately NOT here. In CS, "Client Success Lead" is
     // usually a senior individual contributor, not a people manager — only
@@ -137,10 +195,32 @@ const FAMILY_RULES = [
       /\b(senior )?manager,?\s+(of\s+)?(customer|client|merchant|partner)\s*(success|experience|services?|operations|outcomes?)\b/i,
       /\b(customer|client) success\s+(manager of managers|senior manager)\b/i,
       /\bdirector,?\s+(of\s+)?(account management|renewals?|onboarding|implementation)\b/i,
+      /\b(director|head|vp|svp|vice president)\s+(of\s+)?(key\s+|client\s+|strategic\s+)?accounts\b/i,
+      /\b(vp|svp|vice president)\s*,?\s*(of\s+)?(global\s+)?account management\b/i,
     ],
   },
   {
+    family: "Sales & BD",
+    enabled: INCLUDE.businessDevelopment,
+    patterns: [
+      // Spelled-out forms only for the rarer ladders. Bare "MDR", "LDR" and
+      // "ADR" are deliberately NOT matched: they also mean Managed Detection
+      // & Response (security), Labor & Delivery (nursing) and American
+      // Depositary Receipt (finance).
+      /\b(business|sales|market|lead|account|growth|partner(ship)?s?|inbound|outbound|enterprise)\s+development\s+(representative|rep|associate|manager|executive|specialist|lead|director|coordinator|consultant)\b/i,
+      /\b(sdr|bdr)\b/i,
+      /\bbusiness development\b/i,
+      /\bsales development\b/i,
+    ],
+  },
+  {
+    family: "Sales & BD",
+    enabled: INCLUDE.accountExecutives,
+    patterns: [/\baccount executive\b/i],
+  },
+  {
     family: "Technical Account Management",
+    enabled: INCLUDE.technicalAccountManagement,
     patterns: [
       /\btechnical account (manager|management|lead|director|specialist|partner)s?\b/i,
       /\bTAMs?\b/, // capitals only: "tam" inside other words or names stays out
@@ -154,6 +234,8 @@ const FAMILY_RULES = [
       /\b(client|customer|partner)\s+(relations|relationship)\s+(manager|specialist|lead|director)\b/i,
       /\b(partner|channel|alliance)\s+manager\b/i,   // NB: not 'Partner Success Manager' — that's CS
       /\bbook of business manager\b/i,
+      /\baccounts\s+(director|lead)\b/i,
+      /\b(key|client|strategic|global|named)\s+accounts?\s+(lead|director|manager)\b/i,
     ],
   },
   {
@@ -213,17 +295,13 @@ const DEPARTMENT_GATED = [
     patterns: [
       /\bmarketing\s+coordinator\b/i,
       /\b(engagement|relationship|account|client|customer)\s+coordinator\b/i,
-      /\bcoordinator\b/i,
-      /\bassociate\b/i,
-      /\bspecialist\b/i,
-      /\banalyst\b/i,
     ],
   },
 ];
 
 /* Departments that make a generic title count as customer success. */
 const CS_DEPARTMENT =
-  /\b(customer success|client success|client services?|customer experience|account management|post-?sales|renewals?|customer operations|professional services|customer care|customer engagement|merchant success|partner success|member success|revenue|go-?to-?market|gtm)\b/i;
+  /\b(customer success|client success|client services?|customer experience|account management|post-?sales|renewals?|customer operations|professional services|customer care|customer engagement|merchant success|partner success|member success)\b/i;
 
 /* --- seniority ----------------------------------------------------------- */
 
@@ -284,6 +362,10 @@ export function classify({ title, department = "", text = "" }) {
   }
 
   for (const rule of FAMILY_RULES) {
+    if (rule.enabled === false) {
+      if (rule.dropWhenOff && rule.patterns.some((p) => p.test(t))) return { keep: false, reason: "role type switched off: " + rule.family };
+      continue;
+    }
     if (rule.patterns.some((p) => p.test(t))) {
       return { keep: true, family: rule.family, reason: "title match" };
     }
@@ -307,6 +389,7 @@ export function classify({ title, department = "", text = "" }) {
     /\b(customer|client|account|success|renewal|onboarding|adoption|retention|merchant|member|partner|subscriber)\b/i.test(t);
   if (deptIsCS && titleIsCustomerFacing) {
     for (const rule of FAMILY_RULES) {
+      if (rule.enabled === false) continue;
       if (rule.patterns.some((p) => p.test(t + " " + dept))) {
         return { keep: true, family: rule.family, reason: "department + title" };
       }
@@ -315,4 +398,22 @@ export function classify({ title, department = "", text = "" }) {
   }
 
   return { keep: false, reason: "no CS signal" };
+}
+
+
+/**
+ * Could this title possibly end up on the board?
+ *
+ * Used BEFORE fetching a posting's full description, so boards with hundreds
+ * of engineering roles cost one small request instead of hundreds of large
+ * ones. Errs on the side of fetching: a false "maybe" costs one request, a
+ * false "no" loses a real job.
+ */
+export function mightMatch(title) {
+  const t = String(title || "");
+  const v = classify({ title: t });
+  if (v.keep) return true;
+  if (v.reason && v.reason.startsWith("excluded")) return false;
+  if (DEPARTMENT_GATED.some((r) => r.patterns.some((p) => p.test(t)))) return true;
+  return /\b(customer|client|account|success|renewal|onboarding|adoption|retention|merchant|member|partner|subscriber)\b/i.test(t);
 }

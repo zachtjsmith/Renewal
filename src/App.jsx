@@ -86,6 +86,29 @@ function applyFeatured(jobs, file) {
     });
   return [...added, ...pinned];
 }
+
+/* Descriptions and apply links live in 64 small files beside jobs.json, and
+   load only when someone opens a listing. That keeps the board itself light
+   at tens of thousands of roles. Each file is fetched at most once a visit. */
+const shardUrl = (s) => `/jobs/d-${String(s).padStart(2, "0")}.json`;
+const shardCache = new Map();
+function loadShard(s) {
+  if (!shardCache.has(s)) {
+    const p = fetch(shardUrl(s))
+      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json(); })
+      .catch((e) => { shardCache.delete(s); throw e; }); // so "Try again" really retries
+    shardCache.set(s, p);
+  }
+  return shardCache.get(s);
+}
+/* Older jobs.json files, and the sample board, carry details inline. */
+const hasInlineDetail = (job) => Boolean(job.applyUrl || job.summary || job.sections);
+async function loadDetail(job) {
+  if (hasInlineDetail(job) || job.s == null) return job;
+  const shard = await loadShard(job.s);
+  if (!shard[job.id]) throw new Error("not in shard");
+  return { ...job, ...shard[job.id] };
+}
 const CONTENT_URL = "/content.json";
 
 /* Where submitted listings go: your Formspree form. Each submission is saved
@@ -110,13 +133,19 @@ const C = {
 };
 const FONT = "'Archivo', 'Helvetica Neue', Helvetica, Arial, sans-serif";
 
-const FAMILIES = [
-  "All roles",
+/* Role types, in the board's order. Core ones are always offered on the
+   free-listing form; the board's Role type dropdown shows any type with live
+   roles. Each has a dial in ingest/lib/classify.js. */
+const CORE_FAMILIES = [
   // customer success
   "Customer Success", "Account Management", "Technical Account Management", "Onboarding", "Renewals", "CS Operations", "Leadership",
   // the roles around it (added 19 November 2026)
   "Solutions & Sales Engineering", "Product Management", "Product Marketing", "Product Specialist",
 ];
+/* Off at launch; each appears (and is mentioned in the intro) only once the
+   board actually has roles in it. */
+const OPTIONAL_FAMILIES = ["Sales & BD", "Support & Service"];
+const FAMILIES = ["All roles", ...CORE_FAMILIES, ...OPTIONAL_FAMILIES];
 
 /* Links that open the board already filtered, for posts and messages:
    www.renewalcs.com/?role=tam, /?role=product-management&mode=remote,
@@ -134,6 +163,7 @@ const ROLE_SLUGS = {
   "product-management": "Product Management", pm: "Product Management",
   "product-marketing": "Product Marketing", pmm: "Product Marketing",
   "product-specialist": "Product Specialist",
+  sales: "Sales & BD", support: "Support & Service",
 };
 const MODE_SLUGS = { remote: "Remote", hybrid: "Hybrid", onsite: "Onsite", "on-site": "Onsite" };
 
@@ -452,7 +482,16 @@ const NUMBER_WORDS = ["No", "One", "Two", "Three", "Four", "Five"];
 
 /* --- helpers ------------------------------------------------------------- */
 const money = (n) => "$" + Math.round(n / 1000) + "k";
-const ago = (d) => (d === 0 ? "today" : d === 1 ? "yesterday" : d + " days ago");
+const ago = (d) => (d == null ? "" : d === 0 ? "today" : d === 1 ? "yesterday" : d + " days ago");
+/* jobs.json stores the posting date itself, not "3 days ago", so the file
+   doesn't change every night for every listing. The age is worked out here. */
+const daysSince = (iso) => {
+  const t = Date.parse(iso);
+  return Number.isNaN(t) ? null : Math.max(0, Math.floor((Date.now() - t) / 86400000));
+};
+const prepareJob = (j) => (j.postedAt ? { ...j, posted: daysSince(j.postedAt) } : j);
+/* "Remote or Hybrid", "Remote, Hybrid or Onsite" */
+const orList = (xs) => (xs.length < 2 ? xs[0] || "" : `${xs.slice(0, -1).join(", ")} or ${xs[xs.length - 1]}`);
 /* --- board polish (21 November 2026) --------------------------------------- */
 /* Pay bars share one scale, so ranges compare at a glance. A range past either
    end is drawn at the edge; the numbers beside the bar stay exact. */
@@ -663,18 +702,36 @@ function Header({ tab, setTab }) {
    a book size, a segment or a stack simply doesn't show those rows — the
    board never fills a gap with a guess. */
 function JobRow({ job, open, toggle, last }) {
-  const isNew = job.posted <= 2;
+  const isNew = job.posted != null && job.posted <= 2;
   const edge = job.featured ? C.flag : isNew ? C.signal : "transparent";
   const hasPay = job.min != null && job.max != null;
   const isToday = job.posted != null && job.posted <= 1;
   const loc = cleanLoc(job.location) || "Location not listed";
   // "Remote" next to "Remote" says it twice; show the place only when it adds something.
   const showLoc = loc.toLowerCase() !== String(job.mode || "").toLowerCase();
-  const hasSections = job.sections && job.sections.length > 0;
+  const multi = job.locations && job.locations.length > 1;
+
+  // The full posting loads the first time the row opens.
+  const [detail, setDetail] = useState(() => (hasInlineDetail(job) ? job : null));
+  const [failed, setFailed] = useState(false);
+  const [attempt, setAttempt] = useState(0);
+  useEffect(() => {
+    if (!open || detail) return;
+    let live = true;
+    setFailed(false);
+    loadDetail(job).then((d) => { if (live) setDetail(d); }).catch(() => { if (live) setFailed(true); });
+    return () => { live = false; };
+  }, [open, detail, job, attempt]);
+  // Start fetching on hover or focus, so opening feels instant.
+  const warm = () => { if (!detail && job.s != null) loadShard(job.s).catch(() => {}); };
+
+  const d = detail || job;
+  const hasSections = d.sections && d.sections.length > 0;
+  const variants = d.variants && d.variants.length > 1 ? d.variants : null;
 
   return (
     <article className={"job-row" + (job.featured ? " is-featured" : "")} style={{ background: job.featured ? C.flagTint : C.surface, borderBottom: job.featured ? (last ? "none" : "1px solid " + C.flagLine) : "1px solid " + C.ruleSoft, borderLeft: "3px solid " + edge }}>
-      <button onClick={toggle} aria-expanded={open} style={{ width: "100%", background: "none", border: "none", textAlign: "left", padding: "18px 20px", cursor: "pointer", fontFamily: FONT, display: "block" }}>
+      <button onClick={toggle} onPointerEnter={warm} onFocus={warm} aria-expanded={open} style={{ width: "100%", background: "none", border: "none", textAlign: "left", padding: "18px 20px", cursor: "pointer", fontFamily: FONT, display: "block" }}>
         <div className="job-head" style={{ display: "flex", gap: 15, alignItems: "flex-start" }}>
           <Mark name={job.company} />
           <div style={{ flex: 1, minWidth: 0 }}>
@@ -688,8 +745,8 @@ function JobRow({ job, open, toggle, last }) {
             </p>
             <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 10 }}>
               {/* location and mode are always shown */}
-              {showLoc && <Tag>{loc}</Tag>}
-              <Tag>{job.mode}</Tag>
+              {(multi || showLoc) && <Tag>{multi ? `${cleanLoc(job.locations[0])} + ${job.locations.length - 1} more` : loc}</Tag>}
+              <Tag>{job.modes && job.modes.length > 1 ? orList(job.modes) : job.mode}</Tag>
               {/* these three only when the posting stated them */}
               {job.segment && <Tag>{job.segment}</Tag>}
               {job.book && <Tag>Book: {job.book}</Tag>}
@@ -702,6 +759,7 @@ function JobRow({ job, open, toggle, last }) {
                   {job.min === job.max ? money(job.min) : `${money(job.min)}–${money(job.max)}`}
                 </div>
                 {job.variable ? <div style={{ fontSize: 12.5, color: C.muted, marginTop: 3, whiteSpace: "nowrap" }}>{job.variable}</div> : null}
+                {job.payVaries ? <div style={{ fontSize: 12.5, color: C.muted, marginTop: 3, whiteSpace: "nowrap" }}>Varies by location</div> : null}
                 <div className="payband" aria-hidden="true" title={`Published range, on a ${money(PAY_SCALE[0])}–${money(PAY_SCALE[1])} scale`}>
                   <i style={{ left: payPct(job.min) + "%", width: Math.max(2.5, payPct(job.max) - payPct(job.min)) + "%" }} />
                 </div>
@@ -709,52 +767,92 @@ function JobRow({ job, open, toggle, last }) {
             ) : (
               <div className="job-nopay" style={{ fontSize: 13.5, color: C.muted, whiteSpace: "nowrap", paddingTop: 3 }}>See job listing</div>
             )}
-            <div className="job-ago" style={{ fontSize: 12.5, color: isToday ? C.signal : C.muted, fontWeight: isToday ? 600 : 400, marginTop: 10, whiteSpace: "nowrap" }}>{isToday && <span className="fresh-dot" aria-hidden="true" />}{ago(job.posted)}</div>
+            {job.posted != null && <div className="job-ago" style={{ fontSize: 12.5, color: isToday ? C.signal : C.muted, fontWeight: isToday ? 600 : 400, marginTop: 10, whiteSpace: "nowrap" }}>{isToday && <span className="fresh-dot" aria-hidden="true" />}{ago(job.posted)}</div>}
           </div>
         </div>
       </button>
 
       {open && (
         <div className="job-details" style={{ padding: "4px 20px 24px 75px", borderTop: "1px dashed " + C.ruleSoft, marginTop: -1 }}>
-          {/* the employer's own words, at readable length */}
-          {job.summary && job.summary.split("\n\n").map((para, i) => (
-            <p key={i} style={{ fontSize: 15.5, color: C.body, lineHeight: 1.65, maxWidth: "72ch", margin: i === 0 ? "18px 0 0" : "12px 0 0" }}>{para}</p>
-          ))}
+          {!detail && !failed && (
+            <p style={{ fontSize: 14.5, color: C.muted, lineHeight: 1.6, margin: "18px 0 0" }}>Loading the full posting…</p>
+          )}
+          {!detail && failed && (
+            <div style={{ marginTop: 18 }}>
+              <p style={{ fontSize: 14.5, color: C.body, lineHeight: 1.6, margin: "0 0 12px", maxWidth: "72ch" }}>The full posting didn't load. Check your connection, then try again.</p>
+              <Button kind="ghost" onClick={() => setAttempt((n) => n + 1)}>Try again</Button>
+            </div>
+          )}
 
-          {/* the employer's own headings, not a template we imposed */}
-          {hasSections && (
-            <div style={{ marginTop: 24, display: "grid", gap: 22 }}>
-              {job.sections.map((sec, i) => (
-                <section key={i}>
-                  <h4 style={{ fontSize: 13.5, fontWeight: 650, color: C.ink, margin: "0 0 9px", letterSpacing: "-0.005em" }}>{sec.title}</h4>
-                  {sec.paras && sec.paras.map((para, k) => (
-                    <p key={k} style={{ fontSize: 14.5, color: C.body, lineHeight: 1.6, margin: "0 0 8px", maxWidth: "72ch" }}>{para}</p>
-                  ))}
-                  {sec.bullets && sec.bullets.length > 0 && (
-                    <ul style={{ margin: 0, paddingLeft: 17, color: C.body, fontSize: 14.5, lineHeight: 1.65 }}>
-                      {sec.bullets.map((b, k) => <li key={k} style={{ marginBottom: 5 }}>{b}</li>)}
-                    </ul>
-                  )}
-                </section>
+          {detail && (
+            <>
+              {/* the employer's own words, at readable length */}
+              {d.summary && d.summary.split("\n\n").map((para, i) => (
+                <p key={i} style={{ fontSize: 15.5, color: C.body, lineHeight: 1.65, maxWidth: "72ch", margin: i === 0 ? "18px 0 0" : "12px 0 0" }}>{para}</p>
               ))}
-            </div>
-          )}
 
-          {/* only when the posting actually named tools */}
-          {job.stack && job.stack.length > 0 && (
-            <div style={{ marginTop: 22 }}>
-              <h4 style={{ fontSize: 13.5, fontWeight: 650, color: C.ink, margin: "0 0 9px" }}>Tools named in the posting</h4>
-              <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{job.stack.map((t) => <Tag key={t}>{t}</Tag>)}</div>
-            </div>
-          )}
+              {/* the employer's own headings, not a template we imposed */}
+              {hasSections && (
+                <div style={{ marginTop: 24, display: "grid", gap: 22 }}>
+                  {d.sections.map((sec, i) => (
+                    <section key={i}>
+                      <h4 style={{ fontSize: 13.5, fontWeight: 650, color: C.ink, margin: "0 0 9px", letterSpacing: "-0.005em" }}>{sec.title}</h4>
+                      {sec.paras && sec.paras.map((para, k) => (
+                        <p key={k} style={{ fontSize: 14.5, color: C.body, lineHeight: 1.6, margin: "0 0 8px", maxWidth: "72ch" }}>{para}</p>
+                      ))}
+                      {sec.bullets && sec.bullets.length > 0 && (
+                        <ul style={{ margin: 0, paddingLeft: 17, color: C.body, fontSize: 14.5, lineHeight: 1.65 }}>
+                          {sec.bullets.map((b, k) => <li key={k} style={{ marginBottom: 5 }}>{b}</li>)}
+                        </ul>
+                      )}
+                    </section>
+                  ))}
+                </div>
+              )}
 
-          <div style={{ marginTop: 26, display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
-            <Button href={job.applyUrl} onClick={() => track("Apply", applyData(job))} className="btn-apply">Apply for this role<svg className="nudge" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h13M12.5 6.5 18 12l-5.5 5.5" stroke="currentColor" strokeWidth="2.4" fill="none" strokeLinecap="round" strokeLinejoin="round" /></svg></Button>
-            {job.companySite && <Button href={job.companySite} kind="ghost">Company site</Button>}
-          </div>
-          <p style={{ fontSize: 13, color: C.muted, margin: "12px 0 0", lineHeight: 1.5 }}>
-            Apply goes straight to this posting on {job.source}. {!hasPay && "This employer didn't publish a range — it'll be on their listing or worth asking early."}
-          </p>
+              {/* only when the posting actually named tools */}
+              {d.stack && d.stack.length > 0 && (
+                <div style={{ marginTop: 22 }}>
+                  <h4 style={{ fontSize: 13.5, fontWeight: 650, color: C.ink, margin: "0 0 9px" }}>Tools named in the posting</h4>
+                  <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>{d.stack.map((t) => <Tag key={t}>{t}</Tag>)}</div>
+                </div>
+              )}
+
+              {/* one role advertised in several places: each keeps its own posting */}
+              {variants && (
+                <div style={{ marginTop: 22 }}>
+                  <h4 style={{ fontSize: 13.5, fontWeight: 650, color: C.ink, margin: "0 0 9px" }}>Posted in {variants.length} locations</h4>
+                  <div style={{ borderTop: "1px solid " + C.ruleSoft, maxWidth: "72ch" }}>
+                    {variants.map((v) => (
+                      <div key={v.applyUrl} style={{ display: "flex", alignItems: "center", gap: 12, padding: "9px 0", borderBottom: "1px solid " + C.ruleSoft, fontSize: 14.5 }}>
+                        <div style={{ flex: 1, minWidth: 0 }}>
+                          <span style={{ color: C.ink, fontWeight: 500 }}>{v.location}</span>{" "}
+                          <span style={{ color: C.muted }}>{v.mode}</span>
+                          {/* per-location pay only when it differs; otherwise the headline already says it */}
+                          {d.payVaries && v.min != null && v.max != null && (
+                            <div style={{ color: C.body, fontVariantNumeric: "tabular-nums", marginTop: 3 }}>{v.min === v.max ? money(v.min) : `${money(v.min)}–${money(v.max)}`}</div>
+                          )}
+                        </div>
+                        <a href={v.applyUrl} target="_blank" rel="noopener noreferrer" onClick={() => track("Apply", { ...applyData(job), location: String(v.location || "") })} style={{ flex: "0 0 auto", color: C.signal, fontSize: 13.5, fontWeight: 600, textDecoration: "none" }}>Apply</a>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <div style={{ marginTop: 26, display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
+                {/* with several locations, the button opens the first one listed, as the note below says */}
+                <Button href={variants ? variants[0].applyUrl : d.applyUrl} onClick={() => track("Apply", applyData(job))} className="btn-apply">Apply for this role<svg className="nudge" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h13M12.5 6.5 18 12l-5.5 5.5" stroke="currentColor" strokeWidth="2.4" fill="none" strokeLinecap="round" strokeLinejoin="round" /></svg></Button>
+                {d.companySite && <Button href={d.companySite} kind="ghost">Company site</Button>}
+              </div>
+              <p style={{ fontSize: 13, color: C.muted, margin: "12px 0 0", lineHeight: 1.5 }}>
+                {variants
+                  ? `Each location is a separate posting on ${d.source}. The button opens ${variants[0].location}; the list above links to every location.`
+                  : `Apply goes straight to this posting on ${d.source}.`}{" "}
+                {!hasPay && "This employer didn't publish a range — it'll be on their listing or worth asking early."}
+              </p>
+            </>
+          )}
         </div>
       )}
     </article>
@@ -856,6 +954,14 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
   const listTop = useRef(null);
 
   const jobs = feed.jobs;
+  // Role types with at least one live role (plus the one picked), with counts.
+  const familyCounts = useMemo(() => {
+    const c = {};
+    for (const j of jobs) c[j.family] = (c[j.family] || 0) + 1;
+    return c;
+  }, [jobs]);
+  const roleOptions = FAMILIES.filter((f) => f === "All roles" || f === family || feed.loading || familyCounts[f]);
+  const extras = [familyCounts["Sales & BD"] && "sales", familyCounts["Support & Service"] && "support leadership"].filter(Boolean);
 
   /* Build a searchable blob once per job, not once per keystroke. Punctuation
      is flattened so "mid market" finds "Mid-Market" and "csm" finds "CSM -". */
@@ -863,7 +969,7 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
     () => jobs.map((j) => ({
       job: j,
       hay: normalizeText([
-        j.title, j.company, j.industry, j.location, j.mode, j.family,
+        j.title, j.company, j.industry, j.location, (j.locations || []).join(" "), j.mode, j.family,
         j.segment || "", j.book || "", (j.stack || []).join(" "),
         j.summary || "",
         (j.sections || []).map((sec) => `${sec.title} ${(sec.bullets || []).join(" ")} ${(sec.paras || []).join(" ")}`).join(" "),
@@ -975,13 +1081,6 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
     { label: "Customer success roles", on: csOnly, n: pickCounts.cs, toggle: () => { if (!csOnly && !CS_FAMILIES.includes(family)) setFamily("All roles"); setCsOnly(!csOnly); } },
     { label: "Enterprise", on: segment === "Enterprise", n: pickCounts.ent, toggle: () => setSegment(segment === "Enterprise" ? "Any" : "Enterprise") },
   ];
-  // Role types with at least one live role (plus the one picked), with counts.
-  const familyCounts = useMemo(() => {
-    const c = {};
-    for (const j of jobs) c[j.family] = (c[j.family] || 0) + 1;
-    return c;
-  }, [jobs]);
-  const roleOptions = FAMILIES.filter((f) => f === "All roles" || f === family || feed.loading || familyCounts[f]);
   const selectStyle = { padding: "9px 11px", border: "1px solid " + C.rule, borderRadius: 5, fontSize: 13.5, fontFamily: FONT, background: C.surface, color: C.ink, cursor: "pointer" };
 
   return (
@@ -1005,9 +1104,9 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
             placeholder stands in for the count), so nothing below it jumps. */}
         <p style={{ margin: "10px 0 0", fontSize: 15.5, color: C.body, maxWidth: "60ch", lineHeight: 1.55 }}>
           {feed.loading
-            ? <span aria-hidden="true" style={{ display: "inline-block", width: "2.2ch", height: "0.95em", verticalAlign: "-0.12em", background: C.ruleSoft, borderRadius: 3 }} />
-            : jobs.length}
-          {" open roles in customer success and the jobs around it, from account management and TAM to solutions engineering and product. "}
+            ? <span aria-hidden="true" style={{ display: "inline-block", width: "4.5ch", height: "0.95em", verticalAlign: "-0.12em", background: C.ruleSoft, borderRadius: 3 }} />
+            : jobs.length.toLocaleString()}
+          {` open roles in customer success and the jobs around it, from account management and TAM to solutions engineering and product${extras.length ? ", plus " + extras.join(" and ") : ""}. `}
           Salary, book size and tooling are shown only where the employer published them — nothing on this board is estimated.{" "}
           <TabLink to="about" setTab={setTab} style={{ color: C.signal, fontWeight: 600, textDecoration: "underline", textUnderlineOffset: 2 }}>How we pick roles</TabLink>
         </p>
@@ -1032,7 +1131,7 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
           <select aria-label="Role type" className="filters-role" value={family} onChange={(e) => { const v = e.target.value; setFamily(v); if (v !== "All roles" && !CS_FAMILIES.includes(v)) setCsOnly(false); }} style={selectStyle}>
             {roleOptions.map((f) => (
               <option key={f} value={f}>
-                {f}{feed.loading ? "" : ` (${f === "All roles" ? jobs.length : familyCounts[f] || 0})`}
+                {f}{feed.loading ? "" : ` (${f === "All roles" ? jobs.length.toLocaleString() : (familyCounts[f] || 0).toLocaleString()})`}
               </option>
             ))}
           </select>
@@ -1075,8 +1174,8 @@ function JobsPage({ setTab, onSub, subbed, feed }) {
                 : filtered.length === 0
                   ? "No roles"
                   : pageCount > 1
-                    ? `Showing ${(safePage - 1) * PAGE_SIZE + 1}–${Math.min(safePage * PAGE_SIZE, filtered.length)} of ${filtered.length} roles`
-                    : `${filtered.length} ${filtered.length === 1 ? "role" : "roles"}`}
+                    ? `Showing ${((safePage - 1) * PAGE_SIZE + 1).toLocaleString()}–${Math.min(safePage * PAGE_SIZE, filtered.length).toLocaleString()} of ${filtered.length.toLocaleString()} roles`
+                    : `${filtered.length.toLocaleString()} ${filtered.length === 1 ? "role" : "roles"}`}
               {feed.generatedAt && !feed.loading ? ` — updated ${new Date(feed.generatedAt).toLocaleDateString()}` : ""}
             </span>
             {filtered.length !== jobs.length && <button onClick={reset} style={{ background: "none", border: "none", color: C.signal, fontSize: 13.5, fontWeight: 600, cursor: "pointer", fontFamily: FONT, padding: 0 }}>Clear filters</button>}
@@ -1366,7 +1465,7 @@ function ResourcesPage({ setTab, groups }) {
 
 
 /* --- submit a listing ---------------------------------------------------- */
-const ROLE_TYPES = FAMILIES.filter((f) => f !== "All roles");
+
 
 const EMPTY_LISTING = {
   company: "", title: "", url: "", location: "", mode: "Remote",
@@ -1410,7 +1509,7 @@ function Field({ label, hint, error, children }) {
   );
 }
 
-function ListingForm({ onClose }) {
+function ListingForm({ onClose, roleTypes = CORE_FAMILIES }) {
   const [f, setF] = useState(EMPTY_LISTING);
   const [errors, setErrors] = useState({});
   const [state, setState] = useState("editing"); // editing | sending | sent | emailed
@@ -1538,7 +1637,7 @@ function ListingForm({ onClose }) {
         </Field>
         <Field label="Role type">
           <select value={f.family} onChange={set("family")} style={inputStyle(false)}>
-            {ROLE_TYPES.map((o) => <option key={o}>{o}</option>)}
+            {roleTypes.map((o) => <option key={o}>{o}</option>)}
           </select>
         </Field>
       </div>
@@ -1686,7 +1785,7 @@ function ContactReveal({ topic, dark = false }) {
 }
 
 /* --- advertise ----------------------------------------------------------- */
-function AdvertisePage() {
+function AdvertisePage({ roleTypes }) {
   const [showForm, setShowForm] = useState(false);
   return (
     <div>
@@ -1725,7 +1824,7 @@ function AdvertisePage() {
       </div>
       <div id="submit-listing" style={{ background: C.ink, borderRadius: 6, padding: showForm ? 4 : 30, color: "#fff" }}>
         {showForm ? (
-          <ListingForm onClose={() => setShowForm(false)} />
+          <ListingForm roleTypes={roleTypes} onClose={() => setShowForm(false)} />
         ) : (
           <>
             <h2 style={{ fontSize: 22, fontWeight: 700, letterSpacing: "-0.03em", margin: 0, color: "#fff" }}>Hiring a CS person?</h2>
@@ -2056,7 +2155,7 @@ export default function App() {
         if (!res.ok) throw new Error(String(res.status));
         const data = await res.json();
         if (!Array.isArray(data.jobs) || data.jobs.length === 0) throw new Error("empty feed");
-        if (live) setFeed({ jobs: applyFeatured(data.jobs, await featured), loading: false, sample: false, generatedAt: data.generatedAt || null });
+        if (live) setFeed({ jobs: applyFeatured(data.jobs.map(prepareJob), await featured), loading: false, sample: false, generatedAt: data.generatedAt || null });
       } catch {
         // No jobs.json yet (local preview, first deploy, or ingest hasn't run).
         // Show the sample board and say so, rather than an empty page.
@@ -2085,12 +2184,17 @@ export default function App() {
     return () => { live = false; };
   }, []);
 
+  const roleTypes = useMemo(
+    () => [...CORE_FAMILIES, ...OPTIONAL_FAMILIES.filter((f) => feed.jobs.some((j) => j.family === f))],
+    [feed.jobs]
+  );
+
   const pages = {
     jobs: <JobsPage key={"jobs-" + visit} setTab={setTab} onSub={() => { track("Newsletter signup"); setSubbed(true); }} subbed={subbed} feed={feed} />,
     newsletter: <NewsletterPage issues={content.issues} setTab={setTab} />,
     templates: <TemplatesPage />,
     resources: SHOW_FREE_RESOURCES ? <ResourcesPage setTab={setTab} groups={content.resources} /> : null,
-    advertise: <AdvertisePage />,
+    advertise: <AdvertisePage roleTypes={roleTypes} />,
     privacy: <PrivacyPage />,
     about: <AboutPage setTab={setTab} />,
   };
