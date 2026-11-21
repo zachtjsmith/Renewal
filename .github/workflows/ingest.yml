@@ -1,5 +1,8 @@
 name: Refresh job board
 
+# Runs every morning at 06:00 UTC, and on demand from the Actions tab.
+# The manual run is how you operate this site without installing anything:
+# Actions -> Refresh job board -> Run workflow.
 on:
   schedule:
     - cron: "0 6 * * *"
@@ -10,22 +13,27 @@ on:
         type: choice
         default: ingest
         options:
-          - ingest
-          - verify
-          - ingest-strict
+          - ingest          # fetch jobs and publish the board
+          - verify          # just check which company boards still work
+          - ingest-strict   # fetch, but drop roles with no published salary
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # A normal run takes 20-40 minutes at ~27,000 boards. The cap stops a
+    # stuck run from spending hours of your free Actions minutes.
+    timeout-minutes: 90
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "22"
 
+      # npm install, not npm ci — this repo ships without a lockfile so that
+      # it works on a clean clone and from the GitHub web editor.
       - name: Install
         run: npm install --no-audit --no-fund
 
@@ -45,16 +53,33 @@ jobs:
         if: inputs.mode == 'ingest-strict'
         run: npm run ingest -- --strict
 
+      # Catches a broken change before it reaches the live site.
       - name: Check the site still builds
         if: inputs.mode != 'verify'
         run: npm run build
+
+      # If tonight's run came back far smaller than the live board (a vendor
+      # outage, a network problem on the runner), don't overwrite good data.
+      # The run fails, GitHub emails you, and the site keeps yesterday's jobs.
+      - name: Refuse to publish a suspiciously small board
+        if: inputs.mode != 'verify'
+        run: |
+          NEW=$(node -p "const d=require('./public/jobs.json'); d.count ?? d.jobs.length")
+          OLD=$(git show HEAD:public/jobs.json 2>/dev/null | node -e "let s='';process.stdin.on('data',c=>s+=c).on('end',()=>{try{const d=JSON.parse(s);console.log(d.count ?? d.jobs.length)}catch{console.log(0)}})")
+          echo "Live board: $OLD listings. Tonight's run: $NEW listings."
+          if [ "$OLD" -gt 100 ] && [ $((NEW * 2)) -lt "$OLD" ]; then
+            echo "::error::Tonight's run found under half the listings of the live board. Not publishing; the site keeps yesterday's jobs."
+            exit 1
+          fi
 
       - name: Publish the new board
         if: inputs.mode != 'verify'
         run: |
           git config user.name  "renewal-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add public/jobs.json
+          # The index AND the 64 detail files. Without public/jobs/, listings
+          # would show on the board but none of them would open.
+          git add -A public/jobs.json public/jobs
           if git diff --staged --quiet; then
             echo "No change in listings today."
           else
